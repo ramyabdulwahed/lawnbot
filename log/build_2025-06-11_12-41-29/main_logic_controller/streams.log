@@ -1,0 +1,35 @@
+[2.950s] Invoking command in '/home/ramy_abdulwahed/41xx/build/main_logic_controller': AMENT_PREFIX_PATH=/home/ramy_abdulwahed/41xx/install/custom_explorer:${AMENT_PREFIX_PATH} PYTHONPATH=/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/custom_explorer:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/main_logic_controller/build --no-deps symlink_data
+[3.786s] running develop
+[4.297s] running egg_info
+[4.298s] writing main_logic_controller.egg-info/PKG-INFO
+[4.299s] writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+[4.300s] writing entry points to main_logic_controller.egg-info/entry_points.txt
+[4.300s] writing requirements to main_logic_controller.egg-info/requires.txt
+[4.301s] writing top-level names to main_logic_controller.egg-info/top_level.txt
+[4.308s] reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[4.312s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[4.317s] running build_ext
+[4.318s] Creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages/main-logic-controller.egg-link (link to .)
+[4.323s] Installing cmd_vel_bridge script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.323s] Installing cmd_vel_emulator script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.324s] Installing exploration_monitor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.325s] Installing light script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.326s] Installing main script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.327s] Installing motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.327s] Installing object_detector script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.327s] Installing odom_bridge script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.328s] Installing odom_controller_testing script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.328s] Installing path script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.328s] Installing picamera script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.328s] Installing pump script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.328s] Installing sim_motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.329s] Installing start_stop_wrapper script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.329s] Installing vid_streamer script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.329s] 
+[4.329s] Installed /home/ramy_abdulwahed/41xx/build/main_logic_controller
+[4.330s] running symlink_data
+[4.331s] symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/bestsofar1240.posegraph -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config
+[4.332s] symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/bestsofar1240.pgm -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config
+[4.333s] symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/bestsofar1240.data -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config
+[4.333s] symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/bestsofar1240.yaml -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config
+[4.435s] Invoked command in '/home/ramy_abdulwahed/41xx/build/main_logic_controller' returned '0': AMENT_PREFIX_PATH=/home/ramy_abdulwahed/41xx/install/custom_explorer:${AMENT_PREFIX_PATH} PYTHONPATH=/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/custom_explorer:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/main_logic_controller/build --no-deps symlink_data

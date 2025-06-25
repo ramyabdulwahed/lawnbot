@@ -1,0 +1,7 @@
+twist_mux:
+  ros__parameters:
+      locks: #here we configuring the locks interace
+        safety_stop: #we will do so using this topic
+          topic: safety_stop
+          timeout: 0.0
+          priority: 255

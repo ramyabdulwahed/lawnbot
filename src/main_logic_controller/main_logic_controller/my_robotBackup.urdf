@@ -1,0 +1,286 @@
+<!-- <?xml version="1.0"?> -->
+<robot name="my_robot">
+
+
+
+    <link name="world"/>
+
+
+  <!-- ======================= -->
+  <!-- BASE LINK -->
+  <!-- ======================= -->
+    <link name="base_link">
+        
+        <visual>
+            <geometry>
+                <box size= "0.4 0.3 0.2"/>
+            </geometry>
+
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
+
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size= "0.4 0.3 0.2"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <mass value="5.0"/>
+            <inertia ixx="0.1" ixy="0.0" ixz="0.0"
+               iyy="0.1" iyz="0.0"
+               izz="0.1"/>
+        </inertial>
+    
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="1.5 1 0" rpy="0 0 0"/>
+    </joint>
+
+
+
+
+    <!-- ======================= -->
+    <!-- LEFT TRACK (simulated) -->
+    <!-- ======================= -->
+
+    <link name="left_track">
+
+        <visual>
+
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+
+            <material name="grey">
+                <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+            
+            <origin xyz="0 0.15 0" rpy="1.5708 0 0"/>
+        </collision>
+
+        <inertial>
+         <mass value="1.0"/>
+          <inertia ixx="0.001" ixy="0.0" ixz="0.0"
+               iyy="0.001" iyz="0.0"
+               izz="0.001"/>
+
+        </inertial>
+
+    </link>
+
+    <!-- Attach left track to the body -->
+    <joint name="left_track_joint" type="continuous">
+    
+        <parent link ="base_link"/>
+        <child link="left_track"/>
+        <origin xyz="0 0.15 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+
+<!--This is saying: I want to be able to send a velocity command to this joint (command interface), 
+and also read its current velocity (state interface)." So now, ROS knows: 
+You want to control this joint’s speed And you want feedback about how fast it’s actually spinning-->
+  <ros2_control>
+    <command_interface name="velocity"/>
+    <state_interface name="velocity"/>
+  </ros2_control>
+    </joint>
+
+
+
+    <!-- ======================= -->
+    <!-- RIGHT TRACK (simulated) -->
+    <!-- ======================= -->
+
+    <link name="right_track">
+
+        <visual>
+
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+
+            <material name="grey">
+                <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+            
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        </collision>
+
+        <inertial>
+         <mass value="1.0"/>
+          <inertia ixx="0.001" ixy="0.0" ixz="0.0"
+               iyy="0.001" iyz="0.0"
+               izz="0.001"/>
+
+        </inertial>
+
+    </link>
+
+    <!-- Attach right track to the body -->
+    <joint name="right_track_joint" type="continuous">
+    
+        <parent link="base_link"/>
+        <child link="right_track"/>
+        <origin xyz="0 -0.15 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+
+<!--This is saying: I want to be able to send a velocity command to this joint (command interface), 
+and also read its current velocity (state interface)." So now, ROS knows: 
+You want to control this joint’s speed And you want feedback about how fast it’s actually spinning-->
+  <ros2_control>
+    <command_interface name="velocity"/>
+    <state_interface name="velocity"/>
+  </ros2_control>
+
+    </joint>
+
+    <!-- ======================= -->
+    <!-- LIDAR SENSOR (front)   -->
+    <!-- ======================= -->
+
+
+    <link name="lidar_link">
+
+        <visual>
+        <geometry>
+            <!-- We'll use a small cylinder to represent the LIDAR -->
+            <cylinder radius="0.04" length="0.02"/>
+        </geometry>
+        <!-- Rotate cylinder to stand upright: facing forward -->
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <material name="blue">
+            <color rgba="0.2 0.2 0.8 1.0"/>
+        </material>
+        </visual>
+
+        <collision>
+        <geometry>
+            <cylinder radius="0.04" length="0.02"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        </collision>
+
+        <inertial>
+        <!-- Light sensor, so very small mass and inertia -->
+        <mass value="0.1"/>
+        <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+                iyy="0.0001" iyz="0.0"
+                izz="0.0001"/>
+        </inertial>
+
+<gazebo>
+  <plugin name="gazebo_ros_laser_controller" filename="libgazebo_ros_ray_sensor.so">
+    <ros>
+      <namespace>/</namespace>
+    </ros>
+    <always_on>true</always_on>
+    <update_rate>20.0</update_rate>
+    <ray> <!--defines that this sensor uses laser rays-->
+      <scan>
+        <horizontal>
+          <samples>720</samples>         <!-- number of rays -->
+          <resolution>1.0</resolution>
+          <min_angle>-1.5708</min_angle> <!-- left most direction -->
+          <max_angle>1.5708</max_angle>  <!-- right most direction -->
+        </horizontal>
+      </scan>
+      <range> <!--how far can the laser see-->
+        <min>0.1</min>
+        <max>10.0</max>
+        <resolution>0.01</resolution>
+      </range>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.01</stddev>
+      </noise>
+    </ray>
+    <topicName>scan</topicName> <!-- ← tells Gazebo what ROS topic to publish-->
+    <frameName>lidar_link</frameName> <!-- the frame of the sensor-->
+  </plugin>
+</gazebo>
+
+
+    </link>
+    <!-- ============================== -->
+    <!-- FIXED JOINT: base_link → lidar -->
+    <!-- ============================== -->
+    <joint name="lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        <origin xyz="0.2 0 0.201" rpy="0 0 0"/> <!--rememeber we add half the shape itself to make sure it doesnt go in the base link box.
+        ex. here the cylinder has length 0.02 half of it is 0.01 so we add that-->
+    </joint>    
+
+
+
+
+
+<!--this means: This robot will use ros2_control to manage some of its joints (like wheels), so delegate joint control to ROS.
+This plugin: Loads the ROS 2 control manager Looks for a YAML config file that defines: 
+Which joints we want to control 
+Which interface (e.g., velocity) 
+What the topic names will be
+-->
+<!-- <gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+    <parameters>$(find main_logic_controller)/config/my_controllers.yaml</parameters>
+  </plugin>
+</gazebo> -->
+
+<!-- <ros2_control name="GazeboSystem" type="system">
+  <hardware>
+    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+  </hardware>
+
+  <joint name="left_track_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="right_track_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>
+    <state_interface name="velocity"/>
+  </joint>
+</ros2_control>
+
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+    <robot_param>robot_description</robot_param>
+    <robot_param_node>robot_state_publisher</robot_param_node>
+    <parameters>$(find main_logic_controller)/config/my_controllers.yaml</parameters>
+  </plugin>
+</gazebo> -->
+
+
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+</gazebo>
+</robot>
+  

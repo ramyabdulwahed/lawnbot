@@ -1,0 +1,29 @@
+[0.756s] Invoking command in '/home/ramy_abdulwahed/41xx/build/main_logic_controller': PYTHONPATH=/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/main_logic_controller/build --no-deps symlink_data
+[0.982s] running develop
+[1.103s] running egg_info
+[1.104s] writing main_logic_controller.egg-info/PKG-INFO
+[1.104s] writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+[1.104s] writing entry points to main_logic_controller.egg-info/entry_points.txt
+[1.104s] writing requirements to main_logic_controller.egg-info/requires.txt
+[1.104s] writing top-level names to main_logic_controller.egg-info/top_level.txt
+[1.106s] reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[1.107s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[1.109s] running build_ext
+[1.109s] Creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages/main-logic-controller.egg-link (link to .)
+[1.110s] Installing cmd_vel_bridge script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.110s] Installing cmd_vel_emulator script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.110s] Installing light script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.111s] Installing main script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.111s] Installing motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.111s] Installing object_detector script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.111s] Installing odom_bridge script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] Installing path script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] Installing picamera script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] Installing pump script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] Installing sim_motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] Installing start_stop_wrapper script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] Installing vid_streamer script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[1.112s] 
+[1.112s] Installed /home/ramy_abdulwahed/41xx/build/main_logic_controller
+[1.112s] running symlink_data
+[1.136s] Invoked command in '/home/ramy_abdulwahed/41xx/build/main_logic_controller' returned '0': PYTHONPATH=/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/main_logic_controller/build --no-deps symlink_data

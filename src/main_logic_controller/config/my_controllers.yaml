@@ -1,0 +1,79 @@
+#You’re telling ROS: “I want to control these two joints like motors. I'll send each of them a velocity (in rad/s), 
+#and you'll apply that to the robot in simulation. Also, publish joint states so I can see what's happening in RViz.
+# controller_manager:
+#   ros__parameters:
+#     update_rate: 30
+#     use_sim_time: true
+
+#     track_velocity_controller:
+#       type: velocity_controllers/JointGroupVelocityController
+
+#     joint_state_broadcaster:
+#       type: joint_state_broadcaster/JointStateBroadcaster
+
+# track_velocity_controller:
+#   ros__parameters:
+#     joints:
+#       - left_wheel_joint
+#       - right_wheel_joint
+#     interface_name: velocity
+
+# controller_manager:
+#   ros__parameters:
+#     update_rate: 30.0
+#     use_sim_time: true
+
+#     diff_drive_controller:
+#       type: diff_drive_controller/DiffDriveController
+
+#     joint_state_broadcaster:
+#       type: joint_state_broadcaster/JointStateBroadcaster
+
+# diff_drive_controller:
+#   ros__parameters:
+#     left_wheel_names: ["left_wheel_joint"]
+#     right_wheel_names: ["right_wheel_joint"]
+#     wheel_separation: 0.45   # You may need to measure this
+#     wheel_radius: 0.1        # Adjust to match your URDF
+#     base_frame_id: base_link
+#     odom_frame_id: odom
+#     publish_rate: 30.0
+#     enable_odom_tf: true     # <-- this publishes `odom → base_link`
+#     use_stamped_vel: false
+#     open_loop: false
+#     cmd_vel_timeout: 0.5
+
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+    use_sim_time: true
+
+    diff_cont:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+diff_cont:
+  ros__parameters:
+
+    publish_rate: 50.0
+    base_frame_id: base_link
+    left_wheel_names: ['left_wheel_joint']
+    right_wheel_names: ['right_wheel_joint']
+    wheel_separation: 0.35
+    wheel_radius: 0.05
+    #wheels_per_side: 1  # actually 2, but both are controlled by 1 signal
+    odom_frame_id: odom
+    # base_frame_id: base_link
+    #base_frame_id: base_link
+    #odom_frame_id: odom
+    #odom_topic: "/odom"
+    #cmd_vel_topic: "/cmd_vel"
+    enable_odom_tf: true    # CRITICAL FOR SLAM
+    use_stamped_vel: false  
+    #open_loop: false
+  #  cmd_vel_timeout: 0.5
+    #topic_command.unstamped: "/cmd_vel"  # Listen globally
+    #velocity_rolling_window_size: 10
+    #open_loop: true

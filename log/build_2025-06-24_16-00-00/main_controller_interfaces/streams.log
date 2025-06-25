@@ -1,0 +1,120 @@
+[0.271s] Invoking command in '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/custom_explorer:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ramy_abdulwahed/41xx/build/main_controller_interfaces -- -j16 -l16
+[0.496s] [  3%] Built target main_controller_interfaces__cpp
+[0.499s] [ 12%] Built target main_controller_interfaces__rosidl_generator_c
+[0.508s] [ 12%] Built target ament_cmake_python_symlink_main_controller_interfaces
+[0.532s] [ 22%] Built target main_controller_interfaces__rosidl_typesupport_introspection_cpp
+[0.532s] [ 32%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.532s] [ 41%] Built target main_controller_interfaces__rosidl_typesupport_c
+[0.532s] [ 51%] Built target main_controller_interfaces__rosidl_typesupport_cpp
+[0.532s] [ 61%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_c
+[0.532s] [ 70%] Built target main_controller_interfaces__rosidl_typesupport_introspection_c
+[0.555s] [ 70%] Built target main_controller_interfaces
+[0.578s] [ 74%] Built target main_controller_interfaces__py
+[0.605s] [ 80%] Built target main_controller_interfaces__rosidl_generator_py
+[0.631s] [ 93%] Built target main_controller_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.632s] [ 93%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.632s] [100%] Built target main_controller_interfaces__rosidl_typesupport_c__pyext
+[0.754s] running egg_info
+[0.754s] writing main_controller_interfaces.egg-info/PKG-INFO
+[0.755s] writing dependency_links to main_controller_interfaces.egg-info/dependency_links.txt
+[0.755s] writing top-level names to main_controller_interfaces.egg-info/top_level.txt
+[0.758s] reading manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'
+[0.759s] writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'
+[0.783s] [100%] Built target ament_cmake_python_build_main_controller_interfaces_egg
+[0.794s] Invoked command in '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/custom_explorer:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ramy_abdulwahed/41xx/build/main_controller_interfaces -- -j16 -l16
+[0.806s] Invoking command in '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/custom_explorer:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ramy_abdulwahed/41xx/build/main_controller_interfaces
+[0.814s] -- Install configuration: ""
+[0.817s] -- Execute custom install script
+[0.818s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/main_controller_interfaces
+[0.822s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__functions.h
+[0.822s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.h
+[0.823s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.h
+[0.823s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.h
+[0.823s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.824s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.sh
+[0.824s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.dsv
+[0.825s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
+[0.826s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.826s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
+[0.827s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.828s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__builder.hpp
+[0.828s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.hpp
+[0.828s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__traits.hpp
+[0.829s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.hpp
+[0.829s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.hpp
+[0.830s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.831s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.831s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.832s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp
+[0.833s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.sh
+[0.833s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.dsv
+[0.833s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.834s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.834s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.835s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.836s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/__init__.py
+[0.836s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c
+[0.837s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.837s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.838s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/libmain_controller_interfaces__rosidl_generator_py.so
+[0.838s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.839s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.839s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.840s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/__init__.py
+[0.841s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/_motor_data.py
+[0.841s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/_motor_data_s.c
+[0.842s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.842s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.843s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.844s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.idl
+[0.844s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.msg
+[0.845s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/package_run_dependencies/main_controller_interfaces
+[0.845s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/parent_prefix_path/main_controller_interfaces
+[0.846s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.sh
+[0.846s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.dsv
+[0.847s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.sh
+[0.847s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.dsv
+[0.847s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.bash
+[0.848s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.sh
+[0.849s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.zsh
+[0.849s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.dsv
+[0.849s] -- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/package.dsv
+[0.859s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/packages/main_controller_interfaces
+[0.860s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.861s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.861s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.861s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.862s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.862s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.863s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.863s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig.cmake
+[0.864s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig-version.cmake
+[0.865s] -- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/package.xml
+[0.867s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so
+[0.868s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.869s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so
+[0.870s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so
+[0.871s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.872s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.873s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so
+[0.913s] Listing '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces'...
+[0.914s] Listing '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg'...
+[0.921s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so
+[0.922s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport.cmake
+[0.922s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.923s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.924s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.925s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.925s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.925s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport.cmake
+[0.925s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.926s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cppExport.cmake
+[0.927s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.927s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.927s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.928s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.928s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport.cmake
+[0.928s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.929s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport.cmake
+[0.929s] -- Up-to-date: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.933s] Invoked command in '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/custom_explorer:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ramy_abdulwahed/41xx/build/main_controller_interfaces

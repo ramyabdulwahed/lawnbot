@@ -1,0 +1,17 @@
+[5.006s] Invoking command in '/home/ramy_abdulwahed/41xx/build/custom_explorer': PYTHONPATH=/home/ramy_abdulwahed/41xx/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/custom_explorer/build --no-deps symlink_data
+[6.456s] running develop
+[7.457s] running egg_info
+[7.462s] writing custom_explorer.egg-info/PKG-INFO
+[7.463s] writing dependency_links to custom_explorer.egg-info/dependency_links.txt
+[7.464s] writing entry points to custom_explorer.egg-info/entry_points.txt
+[7.464s] writing requirements to custom_explorer.egg-info/requires.txt
+[7.465s] writing top-level names to custom_explorer.egg-info/top_level.txt
+[7.474s] reading manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[7.486s] writing manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[7.492s] running build_ext
+[7.493s] Creating /home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages/custom-explorer.egg-link (link to .)
+[7.497s] Installing explorer script to /home/ramy_abdulwahed/41xx/install/custom_explorer/lib/custom_explorer
+[7.499s] 
+[7.499s] Installed /home/ramy_abdulwahed/41xx/build/custom_explorer
+[7.500s] running symlink_data
+[7.667s] Invoked command in '/home/ramy_abdulwahed/41xx/build/custom_explorer' returned '0': PYTHONPATH=/home/ramy_abdulwahed/41xx/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/custom_explorer/build --no-deps symlink_data

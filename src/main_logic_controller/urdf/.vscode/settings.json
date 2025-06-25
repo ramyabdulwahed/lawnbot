@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ramy_abdulwahed/41xx/build/main_logic_controller",
+        "/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages",
+        "/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ramy_abdulwahed/41xx/build/main_logic_controller",
+        "/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages",
+        "/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

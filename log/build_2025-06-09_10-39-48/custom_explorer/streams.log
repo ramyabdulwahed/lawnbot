@@ -1,0 +1,24 @@
+[0.854s] Invoking command in '/home/ramy_abdulwahed/41xx/build/custom_explorer': PYTHONPATH=/home/ramy_abdulwahed/41xx/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/custom_explorer/build --no-deps symlink_data
+[1.147s] running develop
+[1.313s] running egg_info
+[1.313s] creating custom_explorer.egg-info
+[1.313s] writing custom_explorer.egg-info/PKG-INFO
+[1.314s] writing dependency_links to custom_explorer.egg-info/dependency_links.txt
+[1.314s] writing entry points to custom_explorer.egg-info/entry_points.txt
+[1.314s] writing requirements to custom_explorer.egg-info/requires.txt
+[1.314s] writing top-level names to custom_explorer.egg-info/top_level.txt
+[1.314s] writing manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[1.316s] reading manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[1.316s] writing manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[1.318s] running build_ext
+[1.318s] Creating /home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages/custom-explorer.egg-link (link to .)
+[1.319s] Installing explorer script to /home/ramy_abdulwahed/41xx/install/custom_explorer/lib/custom_explorer
+[1.320s] 
+[1.320s] Installed /home/ramy_abdulwahed/41xx/build/custom_explorer
+[1.320s] running symlink_data
+[1.320s] creating /home/ramy_abdulwahed/41xx/install/custom_explorer/share/ament_index
+[1.320s] creating /home/ramy_abdulwahed/41xx/install/custom_explorer/share/ament_index/resource_index
+[1.321s] creating /home/ramy_abdulwahed/41xx/install/custom_explorer/share/ament_index/resource_index/packages
+[1.321s] symbolically linking /home/ramy_abdulwahed/41xx/build/custom_explorer/resource/custom_explorer -> /home/ramy_abdulwahed/41xx/install/custom_explorer/share/ament_index/resource_index/packages
+[1.322s] symbolically linking /home/ramy_abdulwahed/41xx/build/custom_explorer/package.xml -> /home/ramy_abdulwahed/41xx/install/custom_explorer/share/custom_explorer
+[1.363s] Invoked command in '/home/ramy_abdulwahed/41xx/build/custom_explorer' returned '0': PYTHONPATH=/home/ramy_abdulwahed/41xx/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/custom_explorer/build --no-deps symlink_data

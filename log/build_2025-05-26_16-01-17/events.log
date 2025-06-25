@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.001660] (main_controller_interfaces) JobQueued: {'identifier': 'main_controller_interfaces', 'dependencies': OrderedDict()}
+[0.002326] (main_logic_controller) JobQueued: {'identifier': 'main_logic_controller', 'dependencies': OrderedDict()}
+[0.002447] (main_controller_interfaces) JobStarted: {'identifier': 'main_controller_interfaces'}
+[0.036117] (main_logic_controller) JobStarted: {'identifier': 'main_logic_controller'}
+[0.062073] (main_controller_interfaces) JobProgress: {'identifier': 'main_controller_interfaces', 'progress': 'cmake'}
+[0.067210] (main_controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ramy_abdulwahed/41xx/src/main_controller_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ramy_abdulwahed/41xx/install/main_controller_interfaces'], 'cwd': '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ramy_abdulwahed'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ramy_abdulwahed'), ('OLDPWD', '/home/ramy_abdulwahed'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/jazzy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install:/home/ramy_abdulwahed/best_roswc/install:/home/ramy_abdulwahed/best_roswc/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ramy_abdulwahed'), ('NAME', 'Ramy'), ('WSL_INTEROP', '/run/WSL/67330_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ramy_abdulwahed/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/ramia/AppData/Local/heroku/bin:/mnt/c/Program Files/Perforce/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ramia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/ramia/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin:/mnt/c/ProgramData/ramia/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Ollama:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '37fa4b41-6057-4c1e-aa8a-9eccfbe8192d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ramy_abdulwahed/41xx/build/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098405] (-) TimerEvent: {}
+[0.199130] (-) TimerEvent: {}
+[0.300077] (-) TimerEvent: {}
+[0.400951] (-) TimerEvent: {}
+[0.501562] (-) TimerEvent: {}
+[0.602312] (-) TimerEvent: {}
+[0.703491] (-) TimerEvent: {}
+[0.804140] (-) TimerEvent: {}
+[0.905431] (-) TimerEvent: {}
+[1.007510] (-) TimerEvent: {}
+[1.108365] (-) TimerEvent: {}
+[1.209052] (-) TimerEvent: {}
+[1.310302] (-) TimerEvent: {}
+[1.411521] (-) TimerEvent: {}
+[1.512428] (-) TimerEvent: {}
+[1.613329] (-) TimerEvent: {}
+[1.714442] (-) TimerEvent: {}
+[1.815538] (-) TimerEvent: {}
+[1.916208] (-) TimerEvent: {}
+[2.016767] (-) TimerEvent: {}
+[2.117502] (-) TimerEvent: {}
+[2.218316] (-) TimerEvent: {}
+[2.318966] (-) TimerEvent: {}
+[2.419718] (-) TimerEvent: {}
+[2.526005] (-) TimerEvent: {}
+[2.626749] (-) TimerEvent: {}
+[2.727697] (-) TimerEvent: {}
+[2.831248] (-) TimerEvent: {}
+[2.932162] (-) TimerEvent: {}
+[3.033054] (-) TimerEvent: {}
+[3.133906] (-) TimerEvent: {}
+[3.234739] (-) TimerEvent: {}
+[3.335554] (-) TimerEvent: {}
+[3.388340] (main_controller_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.435804] (-) TimerEvent: {}
+[3.536774] (-) TimerEvent: {}
+[3.637565] (-) TimerEvent: {}
+[3.738346] (-) TimerEvent: {}
+[3.839545] (-) TimerEvent: {}
+[3.940309] (-) TimerEvent: {}
+[4.041145] (-) TimerEvent: {}
+[4.142166] (-) TimerEvent: {}
+[4.242906] (-) TimerEvent: {}
+[4.344909] (-) TimerEvent: {}
+[4.445592] (-) TimerEvent: {}
+[4.546649] (-) TimerEvent: {}
+[4.647504] (-) TimerEvent: {}
+[4.702711] (main_logic_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ramy_abdulwahed/41xx/build/main_logic_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ramy_abdulwahed/41xx/build/main_logic_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ramy_abdulwahed', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/ramy_abdulwahed', 'OLDPWD': '/home/ramy_abdulwahed', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ramy_abdulwahed/41xx/install:/home/ramy_abdulwahed/best_roswc/install:/home/ramy_abdulwahed/best_roswc/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ramy_abdulwahed', 'NAME': 'Ramy', 'WSL_INTEROP': '/run/WSL/67330_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ramy_abdulwahed/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/ramia/AppData/Local/heroku/bin:/mnt/c/Program Files/Perforce/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ramia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/ramia/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin:/mnt/c/ProgramData/ramia/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Ollama:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'WT_SESSION': '37fa4b41-6057-4c1e-aa8a-9eccfbe8192d', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ramy_abdulwahed/41xx/build/main_logic_controller', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[4.748663] (-) TimerEvent: {}
+[4.849557] (-) TimerEvent: {}
+[4.950336] (-) TimerEvent: {}
+[5.051117] (-) TimerEvent: {}
+[5.152272] (-) TimerEvent: {}
+[5.252979] (-) TimerEvent: {}
+[5.354966] (main_controller_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.355460] (-) TimerEvent: {}
+[5.455816] (-) TimerEvent: {}
+[5.503696] (main_logic_controller) StdoutLine: {'line': b'running develop\n'}
+[5.556077] (-) TimerEvent: {}
+[5.657160] (-) TimerEvent: {}
+[5.758384] (-) TimerEvent: {}
+[5.859384] (-) TimerEvent: {}
+[5.960419] (-) TimerEvent: {}
+[6.056578] (main_logic_controller) StdoutLine: {'line': b'running egg_info\n'}
+[6.060479] (-) TimerEvent: {}
+[6.061174] (main_logic_controller) StdoutLine: {'line': b'creating main_logic_controller.egg-info\n'}
+[6.061886] (main_logic_controller) StdoutLine: {'line': b'writing main_logic_controller.egg-info/PKG-INFO\n'}
+[6.062265] (main_logic_controller) StdoutLine: {'line': b'writing dependency_links to main_logic_controller.egg-info/dependency_links.txt\n'}
+[6.063029] (main_logic_controller) StdoutLine: {'line': b'writing entry points to main_logic_controller.egg-info/entry_points.txt\n'}
+[6.063168] (main_logic_controller) StdoutLine: {'line': b'writing requirements to main_logic_controller.egg-info/requires.txt\n'}
+[6.063286] (main_logic_controller) StdoutLine: {'line': b'writing top-level names to main_logic_controller.egg-info/top_level.txt\n'}
+[6.063389] (main_logic_controller) StdoutLine: {'line': b"writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'\n"}
+[6.070786] (main_logic_controller) StdoutLine: {'line': b"reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'\n"}
+[6.073805] (main_logic_controller) StdoutLine: {'line': b"writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'\n"}
+[6.079469] (main_logic_controller) StdoutLine: {'line': b'running build_ext\n'}
+[6.080251] (main_logic_controller) StdoutLine: {'line': b'Creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages/main-logic-controller.egg-link (link to .)\n'}
+[6.084074] (main_logic_controller) StdoutLine: {'line': b'Installing cmd_vel_emulator script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.086162] (main_logic_controller) StdoutLine: {'line': b'Installing light script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.086962] (main_logic_controller) StdoutLine: {'line': b'Installing main script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.088002] (main_logic_controller) StdoutLine: {'line': b'Installing motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.088771] (main_logic_controller) StdoutLine: {'line': b'Installing object_detector script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.089876] (main_logic_controller) StdoutLine: {'line': b'Installing path script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.090217] (main_logic_controller) StdoutLine: {'line': b'Installing picamera script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.090847] (main_logic_controller) StdoutLine: {'line': b'Installing pump script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.091160] (main_logic_controller) StdoutLine: {'line': b'Installing sim_motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.091784] (main_logic_controller) StdoutLine: {'line': b'Installing start_stop_wrapper script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.092454] (main_logic_controller) StdoutLine: {'line': b'Installing vid_streamer script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller\n'}
+[6.093136] (main_logic_controller) StdoutLine: {'line': b'\n'}
+[6.093888] (main_logic_controller) StdoutLine: {'line': b'Installed /home/ramy_abdulwahed/41xx/build/main_logic_controller\n'}
+[6.094872] (main_logic_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[6.095631] (main_logic_controller) StdoutLine: {'line': b'creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/ament_index\n'}
+[6.096439] (main_logic_controller) StdoutLine: {'line': b'creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/ament_index/resource_index\n'}
+[6.096995] (main_logic_controller) StdoutLine: {'line': b'creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/ament_index/resource_index/packages\n'}
+[6.097440] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/resource/main_logic_controller -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/ament_index/resource_index/packages\n'}
+[6.097769] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/package.xml -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller\n'}
+[6.097954] (main_logic_controller) StdoutLine: {'line': b'creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[6.098170] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/launch/display.launch.py -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[6.098787] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/launch/sim_gazebo.launch.py -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[6.098988] (main_logic_controller) StdoutLine: {'line': b'creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[6.099158] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/urdf/my_robot copy.urdf -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[6.099320] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/urdf/my_robotOld.urdf -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[6.099478] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/urdf/my_robot.urdf -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[6.099619] (main_logic_controller) StdoutLine: {'line': b'creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config\n'}
+[6.100602] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/nav2_params.yaml -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config\n'}
+[6.100984] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/my_controllers.yaml -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config\n'}
+[6.101535] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/mapper_params_online_async.yaml -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config\n'}
+[6.160800] (-) TimerEvent: {}
+[6.210212] (main_logic_controller) CommandEnded: {'returncode': 0}
+[6.261283] (-) TimerEvent: {}
+[6.279615] (main_logic_controller) JobEnded: {'identifier': 'main_logic_controller', 'rc': 0}
+[6.361661] (-) TimerEvent: {}
+[6.462250] (-) TimerEvent: {}
+[6.562918] (-) TimerEvent: {}
+[6.577912] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.663072] (-) TimerEvent: {}
+[6.764179] (-) TimerEvent: {}
+[6.864900] (-) TimerEvent: {}
+[6.965620] (-) TimerEvent: {}
+[7.065347] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.065690] (-) TimerEvent: {}
+[7.081524] (main_controller_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.084627] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.088049] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.099207] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.165914] (-) TimerEvent: {}
+[7.266783] (-) TimerEvent: {}
+[7.368971] (-) TimerEvent: {}
+[7.471472] (-) TimerEvent: {}
+[7.572045] (-) TimerEvent: {}
+[7.589819] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.605626] (main_controller_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.606188] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.606922] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.647662] (main_controller_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.672222] (-) TimerEvent: {}
+[7.772799] (-) TimerEvent: {}
+[7.873956] (-) TimerEvent: {}
+[7.974659] (-) TimerEvent: {}
+[8.075290] (-) TimerEvent: {}
+[8.133878] (main_controller_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.175506] (-) TimerEvent: {}
+[8.276804] (-) TimerEvent: {}
+[8.317394] (main_controller_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.377160] (-) TimerEvent: {}
+[8.429516] (main_controller_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.444160] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.477452] (-) TimerEvent: {}
+[8.479741] (main_controller_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.577608] (-) TimerEvent: {}
+[8.678164] (-) TimerEvent: {}
+[8.779258] (-) TimerEvent: {}
+[8.879982] (-) TimerEvent: {}
+[8.980577] (-) TimerEvent: {}
+[9.056209] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.080784] (-) TimerEvent: {}
+[9.181451] (-) TimerEvent: {}
+[9.282036] (-) TimerEvent: {}
+[9.382539] (-) TimerEvent: {}
+[9.483111] (-) TimerEvent: {}
+[9.583582] (-) TimerEvent: {}
+[9.684144] (-) TimerEvent: {}
+[9.720515] (main_controller_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.784394] (-) TimerEvent: {}
+[9.885067] (-) TimerEvent: {}
+[9.985630] (-) TimerEvent: {}
+[10.086192] (-) TimerEvent: {}
+[10.109111] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.186355] (-) TimerEvent: {}
+[10.286890] (-) TimerEvent: {}
+[10.387491] (-) TimerEvent: {}
+[10.488078] (-) TimerEvent: {}
+[10.588466] (-) TimerEvent: {}
+[10.645293] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.688627] (-) TimerEvent: {}
+[10.789226] (-) TimerEvent: {}
+[10.890035] (-) TimerEvent: {}
+[10.990874] (-) TimerEvent: {}
+[11.058775] (main_controller_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.063373] (main_controller_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.090974] (-) TimerEvent: {}
+[11.191582] (-) TimerEvent: {}
+[11.292394] (-) TimerEvent: {}
+[11.393139] (-) TimerEvent: {}
+[11.493738] (-) TimerEvent: {}
+[11.594922] (-) TimerEvent: {}
+[11.695459] (-) TimerEvent: {}
+[11.795878] (-) TimerEvent: {}
+[11.896475] (-) TimerEvent: {}
+[11.997397] (-) TimerEvent: {}
+[12.098038] (-) TimerEvent: {}
+[12.199083] (-) TimerEvent: {}
+[12.299727] (-) TimerEvent: {}
+[12.400579] (-) TimerEvent: {}
+[12.417192] (main_controller_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.417729] (main_controller_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.417922] (main_controller_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.418041] (main_controller_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[12.465577] (main_controller_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.500740] (-) TimerEvent: {}
+[12.601521] (-) TimerEvent: {}
+[12.684624] (main_controller_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.701609] (-) TimerEvent: {}
+[12.784263] (main_controller_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[12.802151] (-) TimerEvent: {}
+[12.828601] (main_controller_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ramy_abdulwahed/41xx/build/main_controller_interfaces\n'}
+[12.848679] (main_controller_interfaces) CommandEnded: {'returncode': 0}
+[12.852876] (main_controller_interfaces) JobProgress: {'identifier': 'main_controller_interfaces', 'progress': 'build'}
+[12.853877] (main_controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ramy_abdulwahed'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ramy_abdulwahed'), ('OLDPWD', '/home/ramy_abdulwahed'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/jazzy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install:/home/ramy_abdulwahed/best_roswc/install:/home/ramy_abdulwahed/best_roswc/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ramy_abdulwahed'), ('NAME', 'Ramy'), ('WSL_INTEROP', '/run/WSL/67330_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ramy_abdulwahed/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/ramia/AppData/Local/heroku/bin:/mnt/c/Program Files/Perforce/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ramia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/ramia/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin:/mnt/c/ProgramData/ramia/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Ollama:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '37fa4b41-6057-4c1e-aa8a-9eccfbe8192d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ramy_abdulwahed/41xx/build/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.902165] (-) TimerEvent: {}
+[12.923706] (main_controller_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.946216] (main_controller_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.957607] (main_controller_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_main_controller_interfaces\n'}
+[13.002443] (-) TimerEvent: {}
+[13.103675] (-) TimerEvent: {}
+[13.204211] (-) TimerEvent: {}
+[13.304942] (-) TimerEvent: {}
+[13.405863] (-) TimerEvent: {}
+[13.422728] (main_controller_interfaces) StdoutLine: {'line': b'[  6%] Built target main_controller_interfaces__cpp\n'}
+[13.444572] (main_controller_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.446594] (main_controller_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.447525] (main_controller_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.451737] (main_controller_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[13.453957] (main_controller_interfaces) StdoutLine: {'line': b'creating main_controller_interfaces.egg-info\n'}
+[13.455224] (main_controller_interfaces) StdoutLine: {'line': b'writing main_controller_interfaces.egg-info/PKG-INFO\n'}
+[13.456152] (main_controller_interfaces) StdoutLine: {'line': b'writing dependency_links to main_controller_interfaces.egg-info/dependency_links.txt\n'}
+[13.456670] (main_controller_interfaces) StdoutLine: {'line': b'writing top-level names to main_controller_interfaces.egg-info/top_level.txt\n'}
+[13.456877] (main_controller_interfaces) StdoutLine: {'line': b"writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'\n"}
+[13.459575] (main_controller_interfaces) StdoutLine: {'line': b"reading manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'\n"}
+[13.460398] (main_controller_interfaces) StdoutLine: {'line': b"writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'\n"}
+[13.470610] (main_controller_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__functions.c.o\x1b[0m\n'}
+[13.506170] (-) TimerEvent: {}
+[13.528098] (main_controller_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_main_controller_interfaces_egg\n'}
+[13.606309] (-) TimerEvent: {}
+[13.682240] (main_controller_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmain_controller_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[13.706490] (-) TimerEvent: {}
+[13.807066] (-) TimerEvent: {}
+[13.843229] (main_controller_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/main_controller_interfaces/msg/motor_data__type_support.cpp.o\x1b[0m\n'}
+[13.907379] (-) TimerEvent: {}
+[13.922800] (main_controller_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/main_controller_interfaces/msg/detail/motor_data__type_support.cpp.o\x1b[0m\n'}
+[13.966541] (main_controller_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/main_controller_interfaces/msg/detail/dds_fastrtps/motor_data__type_support.cpp.o\x1b[0m\n'}
+[14.007699] (-) TimerEvent: {}
+[14.025633] (main_controller_interfaces) StdoutLine: {'line': b'[ 32%] Built target main_controller_interfaces__rosidl_generator_c\n'}
+[14.045872] (main_controller_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.050985] (main_controller_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.086373] (main_controller_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.107992] (-) TimerEvent: {}
+[14.209725] (-) TimerEvent: {}
+[14.311086] (-) TimerEvent: {}
+[14.411915] (-) TimerEvent: {}
+[14.512647] (-) TimerEvent: {}
+[14.613126] (-) TimerEvent: {}
+[14.713715] (-) TimerEvent: {}
+[14.798105] (main_controller_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/main_controller_interfaces/msg/detail/motor_data__type_support.c.o\x1b[0m\n'}
+[14.813951] (-) TimerEvent: {}
+[14.828427] (main_controller_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/main_controller_interfaces/msg/detail/motor_data__type_support_c.cpp.o\x1b[0m\n'}
+[14.860691] (main_controller_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_controller_interfaces/msg/motor_data__type_support.cpp.o\x1b[0m\n'}
+[14.872626] (main_controller_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libmain_controller_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.892420] (main_controller_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.914188] (-) TimerEvent: {}
+[14.919619] (main_controller_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.014384] (-) TimerEvent: {}
+[15.115420] (-) TimerEvent: {}
+[15.143704] (main_controller_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.175311] (main_controller_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.215875] (-) TimerEvent: {}
+[15.252133] (main_controller_interfaces) StdoutLine: {'line': b'[ 67%] Built target main_controller_interfaces__rosidl_typesupport_introspection_c\n'}
+[15.285074] (main_controller_interfaces) StdoutLine: {'line': b'[ 67%] Built target main_controller_interfaces__rosidl_typesupport_cpp\n'}
+[15.316084] (main_controller_interfaces) StdoutLine: {'line': b'[ 67%] Built target main_controller_interfaces__rosidl_typesupport_c\n'}
+[15.316419] (-) TimerEvent: {}
+[15.417618] (-) TimerEvent: {}
+[15.509615] (main_controller_interfaces) StdoutLine: {'line': b'[ 67%] Built target main_controller_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[15.511976] (main_controller_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.517954] (-) TimerEvent: {}
+[15.547092] (main_controller_interfaces) StdoutLine: {'line': b'[ 70%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[15.618109] (-) TimerEvent: {}
+[15.719049] (-) TimerEvent: {}
+[15.820202] (-) TimerEvent: {}
+[15.921158] (-) TimerEvent: {}
+[15.958696] (main_controller_interfaces) StdoutLine: {'line': b'[ 70%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.986209] (main_controller_interfaces) StdoutLine: {'line': b'[ 70%] Built target main_controller_interfaces\n'}
+[16.013926] (main_controller_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.021291] (-) TimerEvent: {}
+[16.122025] (-) TimerEvent: {}
+[16.222762] (-) TimerEvent: {}
+[16.323282] (-) TimerEvent: {}
+[16.423856] (-) TimerEvent: {}
+[16.525026] (-) TimerEvent: {}
+[16.562845] (main_controller_interfaces) StdoutLine: {'line': b'[ 74%] Built target main_controller_interfaces__py\n'}
+[16.590797] (main_controller_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/main_controller_interfaces/msg/_motor_data_s.c.o\x1b[0m\n'}
+[16.625553] (-) TimerEvent: {}
+[16.726637] (-) TimerEvent: {}
+[16.827713] (-) TimerEvent: {}
+[16.928595] (-) TimerEvent: {}
+[16.991077] (main_controller_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/main_controller_interfaces/libmain_controller_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.028929] (-) TimerEvent: {}
+[17.129736] (-) TimerEvent: {}
+[17.230572] (-) TimerEvent: {}
+[17.331727] (-) TimerEvent: {}
+[17.383866] (main_controller_interfaces) StdoutLine: {'line': b'[ 80%] Built target main_controller_interfaces__rosidl_generator_py\n'}
+[17.431720] (main_controller_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.432232] (-) TimerEvent: {}
+[17.432629] (main_controller_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.435345] (main_controller_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.532595] (-) TimerEvent: {}
+[17.633814] (-) TimerEvent: {}
+[17.735086] (-) TimerEvent: {}
+[17.741750] (main_controller_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.748360] (main_controller_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.762734] (main_controller_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.835368] (-) TimerEvent: {}
+[17.936349] (-) TimerEvent: {}
+[18.037408] (-) TimerEvent: {}
+[18.138435] (-) TimerEvent: {}
+[18.148720] (main_controller_interfaces) StdoutLine: {'line': b'[100%] Built target main_controller_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.154113] (main_controller_interfaces) StdoutLine: {'line': b'[100%] Built target main_controller_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[18.238629] (-) TimerEvent: {}
+[18.255277] (main_controller_interfaces) StdoutLine: {'line': b'[100%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.286646] (main_controller_interfaces) CommandEnded: {'returncode': 0}
+[18.290985] (main_controller_interfaces) JobProgress: {'identifier': 'main_controller_interfaces', 'progress': 'install'}
+[18.309738] (main_controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces'], 'cwd': '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ramy_abdulwahed'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/ramy_abdulwahed'), ('OLDPWD', '/home/ramy_abdulwahed'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/jazzy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install:/home/ramy_abdulwahed/best_roswc/install:/home/ramy_abdulwahed/best_roswc/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ramy_abdulwahed'), ('NAME', 'Ramy'), ('WSL_INTEROP', '/run/WSL/67330_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ramy_abdulwahed/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.12.7-hotspot/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/ramia/AppData/Local/heroku/bin:/mnt/c/Program Files/Perforce/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/ramia/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ramia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/ramia/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin:/mnt/c/ProgramData/ramia/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/gitkraken/bin:/mnt/c/Users/ramia/AppData/Local/Programs/Ollama:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Users/ramia/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', '37fa4b41-6057-4c1e-aa8a-9eccfbe8192d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ramy_abdulwahed/41xx/build/main_controller_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ramy_abdulwahed/41xx/build/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[18.329436] (main_controller_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.331079] (main_controller_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.332377] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/main_controller_interfaces\n'}
+[18.339853] (-) TimerEvent: {}
+[18.353805] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__functions.h\n'}
+[18.370910] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.h\n'}
+[18.390400] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.h\n'}
+[18.412674] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.h\n'}
+[18.430389] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.440113] (-) TimerEvent: {}
+[18.450994] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.sh\n'}
+[18.470507] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.dsv\n'}
+[18.496594] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[18.518784] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.539838] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h\n'}
+[18.540196] (-) TimerEvent: {}
+[18.568478] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.593969] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__builder.hpp\n'}
+[18.609515] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.hpp\n'}
+[18.625652] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__traits.hpp\n'}
+[18.640452] (-) TimerEvent: {}
+[18.649500] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.hpp\n'}
+[18.670291] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.hpp\n'}
+[18.689550] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.713250] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.730532] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.740710] (-) TimerEvent: {}
+[18.757014] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.778228] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.sh\n'}
+[18.798896] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.dsv\n'}
+[18.828758] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.841030] (-) TimerEvent: {}
+[18.859152] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.890089] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.924801] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.941287] (-) TimerEvent: {}
+[18.964306] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/__init__.py\n'}
+[18.990745] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[19.021739] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.041498] (-) TimerEvent: {}
+[19.050917] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.088518] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/libmain_controller_interfaces__rosidl_generator_py.so\n'}
+[19.110797] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.141793] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.143748] (-) TimerEvent: {}
+[19.164278] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.189892] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/__init__.py\n'}
+[19.214811] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/_motor_data.py\n'}
+[19.235433] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/_motor_data_s.c\n'}
+[19.244079] (-) TimerEvent: {}
+[19.259289] (main_controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.260631] (main_controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.261039] (main_controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.261233] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.idl\n'}
+[19.291308] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.msg\n'}
+[19.316438] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/package_run_dependencies/main_controller_interfaces\n'}
+[19.336389] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/parent_prefix_path/main_controller_interfaces\n'}
+[19.344285] (-) TimerEvent: {}
+[19.354679] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.sh\n'}
+[19.378587] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.dsv\n'}
+[19.400393] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.sh\n'}
+[19.418471] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.dsv\n'}
+[19.436564] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.bash\n'}
+[19.444579] (-) TimerEvent: {}
+[19.452312] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.sh\n'}
+[19.472769] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.zsh\n'}
+[19.489947] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.dsv\n'}
+[19.512717] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/package.dsv\n'}
+[19.529725] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/ament_index/resource_index/packages/main_controller_interfaces\n'}
+[19.545041] (-) TimerEvent: {}
+[19.547272] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[19.566298] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.584120] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.598187] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.619659] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.636571] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.645139] (-) TimerEvent: {}
+[19.657074] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.677652] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig.cmake\n'}
+[19.699977] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig-version.cmake\n'}
+[19.724511] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/package.xml\n'}
+[19.742262] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so\n'}
+[19.744117] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so" to ""\n'}
+[19.745882] (-) TimerEvent: {}
+[19.746509] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[19.747389] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.753970] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[19.754609] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.754994] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so\n'}
+[19.755375] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[19.755669] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.756437] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.756878] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[19.757259] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.757717] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so\n'}
+[19.758187] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[19.846504] (-) TimerEvent: {}
+[19.880576] (main_controller_interfaces) StdoutLine: {'line': b"Listing '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces'...\n"}
+[19.880967] (main_controller_interfaces) StdoutLine: {'line': b"Compiling '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/__init__.py'...\n"}
+[19.881084] (main_controller_interfaces) StdoutLine: {'line': b"Listing '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg'...\n"}
+[19.881172] (main_controller_interfaces) StdoutLine: {'line': b"Compiling '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/__init__.py'...\n"}
+[19.881253] (main_controller_interfaces) StdoutLine: {'line': b"Compiling '/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages/main_controller_interfaces/msg/_motor_data.py'...\n"}
+[19.899562] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so\n'}
+[19.900722] (main_controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so" to ""\n'}
+[19.901503] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport.cmake\n'}
+[19.902405] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.902654] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.903672] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.905856] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.907648] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.908694] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[19.908858] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.909411] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cppExport.cmake\n'}
+[19.909857] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.910087] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.910186] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.910297] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.910384] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[19.910651] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.910752] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport.cmake\n'}
+[19.910846] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/ramy_abdulwahed/41xx/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.917889] (main_controller_interfaces) CommandEnded: {'returncode': 0}
+[19.949233] (-) TimerEvent: {}
+[19.986261] (main_controller_interfaces) JobEnded: {'identifier': 'main_controller_interfaces', 'rc': 0}
+[19.990522] (-) EventReactorShutdown: {}

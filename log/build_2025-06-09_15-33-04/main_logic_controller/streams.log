@@ -1,0 +1,32 @@
+[2.867s] Invoking command in '/home/ramy_abdulwahed/41xx/build/main_logic_controller': AMENT_PREFIX_PATH=/home/ramy_abdulwahed/41xx/install/custom_explorer:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/opt/ros/humble PYTHONPATH=/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/custom_explorer:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/main_logic_controller/build --no-deps symlink_data
+[3.796s] running develop
+[4.219s] running egg_info
+[4.220s] writing main_logic_controller.egg-info/PKG-INFO
+[4.221s] writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+[4.222s] writing entry points to main_logic_controller.egg-info/entry_points.txt
+[4.223s] writing requirements to main_logic_controller.egg-info/requires.txt
+[4.225s] writing top-level names to main_logic_controller.egg-info/top_level.txt
+[4.232s] reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[4.239s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[4.244s] running build_ext
+[4.245s] Creating /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages/main-logic-controller.egg-link (link to .)
+[4.251s] Installing cmd_vel_bridge script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.252s] Installing cmd_vel_emulator script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.252s] Installing exploration_monitor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.253s] Installing light script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.254s] Installing main script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.254s] Installing motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.254s] Installing object_detector script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.254s] Installing odom_bridge script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.255s] Installing odom_controller_testing script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.256s] Installing path script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.257s] Installing picamera script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.257s] Installing pump script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.260s] Installing sim_motor script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.260s] Installing start_stop_wrapper script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.261s] Installing vid_streamer script to /home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/main_logic_controller
+[4.261s] 
+[4.261s] Installed /home/ramy_abdulwahed/41xx/build/main_logic_controller
+[4.262s] running symlink_data
+[4.262s] symbolically linking /home/ramy_abdulwahed/41xx/build/main_logic_controller/config/bestmap1000.yaml -> /home/ramy_abdulwahed/41xx/install/main_logic_controller/share/main_logic_controller/config
+[4.357s] Invoked command in '/home/ramy_abdulwahed/41xx/build/main_logic_controller' returned '0': AMENT_PREFIX_PATH=/home/ramy_abdulwahed/41xx/install/custom_explorer:/home/ramy_abdulwahed/41xx/install/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller:/home/ramy_abdulwahed/best_roswc/install/my_robot_bringup_demo:/opt/ros/humble PYTHONPATH=/home/ramy_abdulwahed/41xx/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/custom_explorer:/home/ramy_abdulwahed/41xx/install/custom_explorer/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/build/main_logic_controller:/home/ramy_abdulwahed/41xx/install/main_logic_controller/lib/python3.10/site-packages:/home/ramy_abdulwahed/41xx/install/main_controller_interfaces/local/lib/python3.10/dist-packages:/home/ramy_abdulwahed/best_roswc/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ramy_abdulwahed/41xx/build/main_logic_controller/build --no-deps symlink_data

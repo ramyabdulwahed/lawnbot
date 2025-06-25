@@ -1,0 +1,12 @@
+[console_scripts]
+cmd_vel_emulator = main_logic_controller.cmd_vel_emulator:main
+light = main_logic_controller.light_controller:main
+main = main_logic_controller.41xx_main_logic_controller:main
+motor = main_logic_controller.motor_controller:main
+object_detector = main_logic_controller.object_detector:main
+path = main_logic_controller.path_publisher:main
+picamera = main_logic_controller.picamera_controller:main
+pump = main_logic_controller.pump_controller:main
+start_stop_wrapper = main_logic_controller.start_stop_wrapper:main
+vid_streamer = main_logic_controller.vid_streamer:main
+

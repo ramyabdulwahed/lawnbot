@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "main_controller_interfaces__py",
+		"source" : "/home/ramy_abdulwahed/41xx/build/main_controller_interfaces/main_controller_interfaces__py"
+	}
+}
