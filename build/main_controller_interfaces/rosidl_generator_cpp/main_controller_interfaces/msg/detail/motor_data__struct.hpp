@@ -2,6 +2,9 @@
 // with input from main_controller_interfaces:msg/MotorData.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "main_controller_interfaces/msg/motor_data.hpp"
+
+
 #ifndef MAIN_CONTROLLER_INTERFACES__MSG__DETAIL__MOTOR_DATA__STRUCT_HPP_
 #define MAIN_CONTROLLER_INTERFACES__MSG__DETAIL__MOTOR_DATA__STRUCT_HPP_
 

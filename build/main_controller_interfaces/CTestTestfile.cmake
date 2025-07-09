@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ramy_abdulwahed/41xx/src/main_controller_interfaces
-# Build directory: /home/ramy_abdulwahed/41xx/build/main_controller_interfaces
+# Source directory: /home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces
+# Build directory: /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

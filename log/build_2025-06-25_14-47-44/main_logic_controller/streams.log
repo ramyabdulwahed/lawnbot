@@ -1,0 +1,26 @@
+[2.227s] Invoking command in '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/install/custom_explorer:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build --no-deps symlink_data
+[3.998s] running develop
+[4.883s] running egg_info
+[4.936s] writing main_logic_controller.egg-info/PKG-INFO
+[4.936s] writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+[4.937s] writing entry points to main_logic_controller.egg-info/entry_points.txt
+[4.938s] writing requirements to main_logic_controller.egg-info/requires.txt
+[4.938s] writing top-level names to main_logic_controller.egg-info/top_level.txt
+[5.116s] reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[5.120s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[5.190s] running build_ext
+[5.193s] Creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main-logic-controller.egg-link (link to .)
+[5.193s] Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.193s] Installing light script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.193s] Installing main script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.193s] Installing motor script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.194s] Installing object_detector script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.194s] Installing path script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.194s] Installing picamera script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.194s] Installing pump script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.194s] Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.195s] Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[5.195s] 
+[5.195s] Installed /home/lawnbot/ROS2/lawnbot/build/main_logic_controller
+[5.195s] running symlink_data
+[5.494s] Invoked command in '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller' returned '0': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/install/custom_explorer:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build --no-deps symlink_data

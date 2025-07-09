@@ -1,0 +1,32 @@
+running develop
+Removing /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom-explorer.egg-link (link to .)
+running egg_info
+writing ../../build/custom_explorer/custom_explorer.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_explorer/custom_explorer.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_explorer/custom_explorer.egg-info/entry_points.txt
+writing requirements to ../../build/custom_explorer/custom_explorer.egg-info/requires.txt
+writing top-level names to ../../build/custom_explorer/custom_explorer.egg-info/top_level.txt
+reading manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build
+creating /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build/lib
+creating /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build/lib/custom_explorer
+copying custom_explorer/__init__.py -> /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build/lib/custom_explorer
+copying custom_explorer/explorer.py -> /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build/lib/custom_explorer
+running install
+running install_lib
+creating /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer
+copying /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build/lib/custom_explorer/__init__.py -> /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer
+copying /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build/lib/custom_explorer/explorer.py -> /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer/explorer.py to explorer.cpython-312.pyc
+running install_data
+copying resource/custom_explorer -> /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/ament_index/resource_index/packages
+copying package.xml -> /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer
+running install_egg_info
+Copying ../../build/custom_explorer/custom_explorer.egg-info to /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer-0.0.0-py3.12.egg-info
+running install_scripts
+Installing explorer script to /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/custom_explorer
+writing list of installed files to '/home/lawnbot/ROS2/lawnbot/build/custom_explorer/install.log'

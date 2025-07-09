@@ -88,7 +88,7 @@ main_controller_interfaces__msg__MotorData__copy(
 }
 
 main_controller_interfaces__msg__MotorData *
-main_controller_interfaces__msg__MotorData__create()
+main_controller_interfaces__msg__MotorData__create(void)
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   main_controller_interfaces__msg__MotorData * msg = (main_controller_interfaces__msg__MotorData *)allocator.allocate(sizeof(main_controller_interfaces__msg__MotorData), allocator.state);

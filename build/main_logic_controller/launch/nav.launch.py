@@ -1,1 +1,1 @@
-/home/ramy_abdulwahed/41xx/src/main_logic_controller/launch/nav.launch.py
+/home/lawnbot/ROS2/lawnbot/src/main_logic_controller/launch/nav.launch.py

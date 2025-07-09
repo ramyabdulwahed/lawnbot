@@ -1,8 +1,8 @@
-# Install script for directory: /home/ramy_abdulwahed/41xx/build/main_controller_interfaces/main_controller_interfaces__py
+# Install script for directory: /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces/main_controller_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ramy_abdulwahed/41xx/install/main_controller_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

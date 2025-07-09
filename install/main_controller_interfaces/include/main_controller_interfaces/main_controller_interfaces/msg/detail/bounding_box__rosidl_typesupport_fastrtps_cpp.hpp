@@ -1,0 +1,1 @@
+/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces/rosidl_typesupport_fastrtps_cpp/main_controller_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp

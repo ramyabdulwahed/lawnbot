@@ -41,8 +41,8 @@ setup(
             #'cmd_vel_bridge = main_logic_controller.cmd_vel_bridge:main',
             #'odom_controller_testing = main_logic_controller.odom_controller_testing:main',
             #'exploration_monitor = main_logic_controller.exploration_monitor:main',
-
-
+            'odom_testing = main_logic_controller.odom_test:main',
+             'explorer = custom_explorer.explorer:main',
 
         ],
     },

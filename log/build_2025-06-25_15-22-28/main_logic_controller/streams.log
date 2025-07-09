@@ -1,0 +1,26 @@
+[1.687s] Invoking command in '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build --no-deps symlink_data
+[2.196s] running develop
+[2.529s] running egg_info
+[2.560s] writing main_logic_controller.egg-info/PKG-INFO
+[2.560s] writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+[2.562s] writing entry points to main_logic_controller.egg-info/entry_points.txt
+[2.563s] writing requirements to main_logic_controller.egg-info/requires.txt
+[2.564s] writing top-level names to main_logic_controller.egg-info/top_level.txt
+[2.633s] reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[2.635s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[2.668s] running build_ext
+[2.668s] Creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main-logic-controller.egg-link (link to .)
+[2.669s] Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.670s] Installing light script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.670s] Installing main script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.670s] Installing motor script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.670s] Installing object_detector script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.670s] Installing path script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.671s] Installing picamera script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.671s] Installing pump script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.671s] Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.671s] Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+[2.672s] 
+[2.672s] Installed /home/lawnbot/ROS2/lawnbot/build/main_logic_controller
+[2.672s] running symlink_data
+[2.764s] Invoked command in '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller' returned '0': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build --no-deps symlink_data

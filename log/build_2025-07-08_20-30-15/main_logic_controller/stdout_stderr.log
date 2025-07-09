@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/main_logic_controller/main_logic_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/main_logic_controller/main_logic_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/main_logic_controller/main_logic_controller.egg-info/entry_points.txt
+writing requirements to ../../build/main_logic_controller/main_logic_controller.egg-info/requires.txt
+writing top-level names to ../../build/main_logic_controller/main_logic_controller.egg-info/top_level.txt
+reading manifest file '../../build/main_logic_controller/main_logic_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/main_logic_controller/main_logic_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/main_logic_controller/main_logic_controller.egg-info to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing explorer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing light script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing main script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing motor script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing object_detector script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing odom_testing script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing path script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing picamera script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing pump script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+writing list of installed files to '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/install.log'

@@ -41,6 +41,7 @@ static rosidl_typesupport_introspection_c__MessageMember main_controller_interfa
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -58,6 +59,7 @@ static rosidl_typesupport_introspection_c__MessageMember main_controller_interfa
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -75,6 +77,7 @@ static rosidl_typesupport_introspection_c__MessageMember main_controller_interfa
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -94,6 +97,7 @@ static const rosidl_typesupport_introspection_c__MessageMembers main_controller_
   "MotorData",  // message name
   3,  // number of fields
   sizeof(main_controller_interfaces__msg__MotorData),
+  false,  // has_any_key_member_
   main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_message_member_array,  // message members
   main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_init_function,  // function to initialize message memory (memory has to be allocated)
   main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_fini_function  // function to terminate message instance (will not free memory)
@@ -105,6 +109,9 @@ static rosidl_message_type_support_t main_controller_interfaces__msg__MotorData_
   0,
   &main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_message_members,
   get_message_typesupport_handle_function,
+  &main_controller_interfaces__msg__MotorData__get_type_hash,
+  &main_controller_interfaces__msg__MotorData__get_type_description,
+  &main_controller_interfaces__msg__MotorData__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_main_controller_interfaces

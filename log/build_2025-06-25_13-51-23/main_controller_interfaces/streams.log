@@ -1,0 +1,198 @@
+[0.371s] Invoking command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces
+[0.859s] -- The C compiler identification is GNU 13.3.0
+[1.268s] -- The CXX compiler identification is GNU 13.3.0
+[1.354s] -- Detecting C compiler ABI info
+[1.653s] -- Detecting C compiler ABI info - done
+[1.667s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.668s] -- Detecting C compile features
+[1.669s] -- Detecting C compile features - done
+[1.707s] -- Detecting CXX compiler ABI info
+[2.001s] -- Detecting CXX compiler ABI info - done
+[2.014s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.014s] -- Detecting CXX compile features
+[2.015s] -- Detecting CXX compile features - done
+[2.022s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.272s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.564s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.805s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.825s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.574s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.808s] -- Found PythonExtra: /usr/bin/python3  
+[6.594s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.675s] -- Configuring done (6.3s)
+[6.728s] -- Generating done (0.0s)
+[6.743s] -- Build files have been written to: /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces
+[6.757s] Invoked command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces
+[6.759s] Invoking command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces -- -j4 -l4
+[6.911s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.929s] [  2%] Built target ament_cmake_python_symlink_main_controller_interfaces
+[7.253s] [  2%] Built target main_controller_interfaces__rosidl_generator_type_description
+[7.289s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.331s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.331s] running egg_info
+[7.332s] creating main_controller_interfaces.egg-info
+[7.369s] writing main_controller_interfaces.egg-info/PKG-INFO
+[7.369s] writing dependency_links to main_controller_interfaces.egg-info/dependency_links.txt
+[7.369s] writing top-level names to main_controller_interfaces.egg-info/top_level.txt
+[7.370s] writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'
+[7.477s] reading manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'
+[7.477s] writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'
+[7.574s] [  8%] Built target ament_cmake_python_build_main_controller_interfaces_egg
+[7.800s] [ 14%] [32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__functions.c.o[0m
+[7.800s] [ 17%] [32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__type_support.c.o[0m
+[7.801s] [ 14%] [32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__description.c.o[0m
+[7.801s] [ 17%] Built target main_controller_interfaces__cpp
+[7.994s] [ 20%] [32m[1mLinking C shared library libmain_controller_interfaces__rosidl_generator_c.so[0m
+[8.112s] [ 20%] Built target main_controller_interfaces__rosidl_generator_c
+[8.154s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.154s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.154s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.154s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.665s] [ 35%] [32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_controller_interfaces/msg/motor_data__type_support.cpp.o[0m
+[8.670s] [ 38%] [32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/main_controller_interfaces/msg/motor_data__type_support.cpp.o[0m
+[8.730s] [ 41%] [32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/main_controller_interfaces/msg/detail/dds_fastrtps/motor_data__type_support.cpp.o[0m
+[8.737s] [ 44%] [32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/main_controller_interfaces/msg/detail/motor_data__type_support_c.cpp.o[0m
+[8.825s] [ 47%] [32m[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_c.so[0m
+[8.966s] [ 47%] Built target main_controller_interfaces__rosidl_typesupport_c
+[9.015s] [ 50%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.479s] [ 52%] [32m[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_cpp.so[0m
+[9.589s] [ 55%] [32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/main_controller_interfaces/msg/detail/motor_data__type_support.cpp.o[0m
+[9.620s] [ 55%] Built target main_controller_interfaces__rosidl_typesupport_cpp
+[9.668s] [ 58%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.830s] [ 61%] [32m[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.840s] [ 64%] [32m[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.122s] [ 64%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.133s] [ 64%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_c
+[10.246s] [ 67%] [32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/main_controller_interfaces/msg/detail/motor_data__type_support.c.o[0m
+[10.325s] [ 70%] [32m[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.349s] [ 73%] [32m[1mLinking C shared library libmain_controller_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.464s] [ 73%] Built target main_controller_interfaces__rosidl_typesupport_introspection_c
+[10.515s] [ 73%] Built target main_controller_interfaces__rosidl_typesupport_introspection_cpp
+[10.588s] [ 73%] Built target main_controller_interfaces
+[10.661s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.108s] [ 76%] Built target main_controller_interfaces__py
+[11.181s] [ 79%] [32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/main_controller_interfaces/msg/_motor_data_s.c.o[0m
+[11.486s] [ 82%] [32m[1mLinking C shared library libmain_controller_interfaces__rosidl_generator_py.so[0m
+[11.603s] [ 82%] Built target main_controller_interfaces__rosidl_generator_py
+[11.679s] [ 91%] [32mBuilding C object CMakeFiles/main_controller_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.679s] [ 91%] [32mBuilding C object CMakeFiles/main_controller_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.679s] [ 91%] [32mBuilding C object CMakeFiles/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.898s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so[0m
+[11.898s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.908s] [100%] [32m[1mLinking C shared module rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.997s] [100%] Built target main_controller_interfaces_s__rosidl_typesupport_c
+[12.000s] [100%] Built target main_controller_interfaces_s__rosidl_typesupport_introspection_c
+[12.012s] [100%] Built target main_controller_interfaces_s__rosidl_typesupport_fastrtps_c
+[12.040s] Invoked command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces -- -j4 -l4
+[12.062s] Invoking command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces
+[12.079s] -- Install configuration: ""
+[12.080s] -- Execute custom install script
+[12.080s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/main_controller_interfaces
+[12.101s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.json
+[12.123s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__functions.h
+[12.143s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.h
+[12.164s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.h
+[12.184s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.h
+[12.205s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.226s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.sh
+[12.246s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.dsv
+[12.267s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
+[12.288s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.309s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
+[12.329s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.350s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__builder.hpp
+[12.370s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.hpp
+[12.391s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__traits.hpp
+[12.411s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.hpp
+[12.432s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.hpp
+[12.452s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.473s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[12.493s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.514s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp
+[12.535s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.sh
+[12.556s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.dsv
+[12.576s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[12.597s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.617s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.637s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[12.658s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/__init__.py
+[12.679s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c
+[12.699s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.719s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.739s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so
+[12.760s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.780s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.801s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/__init__.py
+[12.822s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/_motor_data.py
+[12.843s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/_motor_data_s.c
+[12.864s] -- Up-to-date symlink: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.864s] -- Up-to-date symlink: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.865s] -- Up-to-date symlink: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so
+[12.865s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.idl
+[12.886s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.msg
+[12.907s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/package_run_dependencies/main_controller_interfaces
+[12.928s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/parent_prefix_path/main_controller_interfaces
+[12.949s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.sh
+[12.970s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.dsv
+[12.991s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.sh
+[13.012s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.dsv
+[13.032s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.bash
+[13.053s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.sh
+[13.074s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.zsh
+[13.094s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.dsv
+[13.115s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.dsv
+[13.136s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/packages/main_controller_interfaces
+[13.156s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.177s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.197s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.217s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.239s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.259s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.280s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.301s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig.cmake
+[13.321s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig-version.cmake
+[13.342s] -- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.xml
+[13.362s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so
+[13.363s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so" to ""
+[13.363s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.364s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.364s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so
+[13.365s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.365s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so
+[13.365s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so" to ""
+[13.365s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.366s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.366s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.367s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.367s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so
+[13.368s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.430s] Listing '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces'...
+[13.430s] Compiling '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/__init__.py'...
+[13.431s] Listing '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg'...
+[13.431s] Compiling '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/__init__.py'...
+[13.431s] Compiling '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/_motor_data.py'...
+[13.444s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so
+[13.445s] -- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so" to ""
+[13.445s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport.cmake
+[13.445s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport-noconfig.cmake
+[13.445s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.445s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.445s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.446s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.446s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport.cmake
+[13.446s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[13.446s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cppExport.cmake
+[13.446s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.447s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.447s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.447s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.447s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport.cmake
+[13.447s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[13.448s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport.cmake
+[13.448s] -- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[13.453s] Invoked command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces

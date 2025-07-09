@@ -182,6 +182,15 @@ def generate_launch_description():
     parameters=[{'use_sim_time': False}]  # Set use_sim_time to False for real robot operation
     )
 
+    explorer_node = Node(
+    package='custom_explorer',
+    executable='explorer',
+    name='explorer_node',
+    output='screen',
+    condition=IfCondition(use_slam),
+
+    )
+
 
     main_logic_controller = Node(
         package='main_logic_controller',
@@ -242,6 +251,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+                motor_controller,
         Nav2_translator,  #this is the node that translates cmd_vel messages to messages that the kanga motor controller can understand
         use_slam_arg,   #this is the argument to use slam or not
         #laser_driver, 
@@ -251,19 +261,20 @@ def generate_launch_description():
         nav2_launch_for_slam,  #this is the node that runs nav2 for slam
         robot_state_publisher_node,
         map_saver_node,  #this is the node that saves the map after exploration is done
-        rviz2,  #this is the node that runs rviz2
-        teleop_keyboard, 
+        #rviz2,  #this is the node that runs rviz2
+        #teleop_keyboard, 
 
         #these are the low level controllers that control the robot
-        main_logic_controller,
-        motor_controller,
-        light_controller,
-        pump_controller,
-        picamera_controller,
-        object_detector,
-        vid_streamer,
+        #main_logic_controller,
+        #motor_controller,
+        #light_controller,
+        #pump_controller,
+        #picamera_controller,
+        #object_detector,
+        #vid_streamer,
         start_stop,
-        handle_sigint
+        handle_sigint,
+        #explorer_node #this is the node that runs the explorer
     ])
 
 

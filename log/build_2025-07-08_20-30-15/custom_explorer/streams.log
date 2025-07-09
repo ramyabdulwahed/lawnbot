@@ -1,0 +1,21 @@
+[1.657s] Invoking command in '/home/lawnbot/ROS2/lawnbot/src/Autonomous-Explorer-and-Mapper-ros2-nav2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_explorer build --build-base /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build install --record /home/lawnbot/ROS2/lawnbot/build/custom_explorer/install.log --single-version-externally-managed install_data
+[2.075s] running egg_info
+[2.106s] writing ../../build/custom_explorer/custom_explorer.egg-info/PKG-INFO
+[2.107s] writing dependency_links to ../../build/custom_explorer/custom_explorer.egg-info/dependency_links.txt
+[2.108s] writing entry points to ../../build/custom_explorer/custom_explorer.egg-info/entry_points.txt
+[2.109s] writing requirements to ../../build/custom_explorer/custom_explorer.egg-info/requires.txt
+[2.109s] writing top-level names to ../../build/custom_explorer/custom_explorer.egg-info/top_level.txt
+[2.176s] reading manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+[2.177s] writing manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+[2.177s] running build
+[2.177s] running build_py
+[2.177s] running install
+[2.186s] running install_lib
+[2.219s] running install_data
+[2.219s] running install_egg_info
+[2.253s] removing '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer-0.0.0-py3.12.egg-info' (and everything under it)
+[2.253s] Copying ../../build/custom_explorer/custom_explorer.egg-info to /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom_explorer-0.0.0-py3.12.egg-info
+[2.254s] running install_scripts
+[2.496s] Installing explorer script to /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/custom_explorer
+[2.497s] writing list of installed files to '/home/lawnbot/ROS2/lawnbot/build/custom_explorer/install.log'
+[2.575s] Invoked command in '/home/lawnbot/ROS2/lawnbot/src/Autonomous-Explorer-and-Mapper-ros2-nav2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_explorer build --build-base /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build install --record /home/lawnbot/ROS2/lawnbot/build/custom_explorer/install.log --single-version-externally-managed install_data

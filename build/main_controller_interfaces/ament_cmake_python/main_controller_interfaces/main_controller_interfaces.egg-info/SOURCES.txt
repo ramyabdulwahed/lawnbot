@@ -5,4 +5,5 @@ main_controller_interfaces.egg-info/SOURCES.txt
 main_controller_interfaces.egg-info/dependency_links.txt
 main_controller_interfaces.egg-info/top_level.txt
 main_controller_interfaces/msg/__init__.py
+main_controller_interfaces/msg/_bounding_box.py
 main_controller_interfaces/msg/_motor_data.py

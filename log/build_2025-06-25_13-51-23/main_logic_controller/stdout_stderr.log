@@ -1,0 +1,70 @@
+running develop
+running egg_info
+creating main_logic_controller.egg-info
+writing main_logic_controller.egg-info/PKG-INFO
+writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+writing entry points to main_logic_controller.egg-info/entry_points.txt
+writing requirements to main_logic_controller.egg-info/requires.txt
+writing top-level names to main_logic_controller.egg-info/top_level.txt
+writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main-logic-controller.egg-link (link to .)
+Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing light script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing main script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing motor script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing object_detector script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing path script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing picamera script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing pump script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+
+Installed /home/lawnbot/ROS2/lawnbot/build/main_logic_controller
+running symlink_data
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index/packages
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/resource/main_logic_controller -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index/packages
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/package.xml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/nav.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/sim_gazebo.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/launch_file_demo.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/explorer.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/display.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/launch_robot.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/robot.urdf.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/inertial_macros.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robot copy 2.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robotOld.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robot copy.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/test.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robot.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestmap1000.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/my_controllers.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/twist_mux_topics.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mapper_params_online_async.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/nav2_params.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/41xxRobotRviz.rviz -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestmap1000.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/twist_mux_joy.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/twist_mux_locks.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config

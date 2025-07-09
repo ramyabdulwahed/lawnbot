@@ -1,0 +1,442 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (custom_explorer) JobQueued: {'identifier': 'custom_explorer', 'dependencies': OrderedDict()}
+[0.000526] (main_controller_interfaces) JobQueued: {'identifier': 'main_controller_interfaces', 'dependencies': OrderedDict()}
+[0.000554] (main_logic_controller) JobQueued: {'identifier': 'main_logic_controller', 'dependencies': OrderedDict({'custom_explorer': '/home/lawnbot/ROS2/lawnbot/install/custom_explorer'})}
+[0.001151] (custom_explorer) JobStarted: {'identifier': 'custom_explorer'}
+[0.011450] (main_controller_interfaces) JobStarted: {'identifier': 'main_controller_interfaces'}
+[0.099710] (-) TimerEvent: {}
+[0.200082] (-) TimerEvent: {}
+[0.300382] (-) TimerEvent: {}
+[0.379754] (main_controller_interfaces) JobProgress: {'identifier': 'main_controller_interfaces', 'progress': 'cmake'}
+[0.380575] (main_controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces'], 'cwd': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lawnbot', 'SSH_CLIENT': '10.12.240.197 48376 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib/aarch64-linux', 'HOME': '/home/lawnbot', 'OLDPWD': '/home/lawnbot/ROS2', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lawnbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LD_PRELOAD': '/usr/local/lib/aarch64-linux-gnu/libcamera.so.0.4:/usr/local/lib/aarch64-linux-gnu/libcamera-base.so.0.4:/usr/local/lib/aarch64-linux-gnu/libpisp.so.1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.12.240.197 48376 10.12.177.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.401922] (-) TimerEvent: {}
+[0.502281] (-) TimerEvent: {}
+[0.602625] (-) TimerEvent: {}
+[0.702965] (-) TimerEvent: {}
+[0.803295] (-) TimerEvent: {}
+[0.871045] (main_controller_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.903411] (-) TimerEvent: {}
+[1.003803] (-) TimerEvent: {}
+[1.104128] (-) TimerEvent: {}
+[1.204465] (-) TimerEvent: {}
+[1.279560] (main_controller_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.304613] (-) TimerEvent: {}
+[1.366225] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.391636] (custom_explorer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lawnbot/ROS2/lawnbot/build/custom_explorer/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lawnbot/ROS2/lawnbot/build/custom_explorer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lawnbot', 'SSH_CLIENT': '10.12.240.197 48376 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib/aarch64-linux', 'HOME': '/home/lawnbot', 'OLDPWD': '/home/lawnbot/ROS2', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lawnbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LD_PRELOAD': '/usr/local/lib/aarch64-linux-gnu/libcamera.so.0.4:/usr/local/lib/aarch64-linux-gnu/libcamera-base.so.0.4:/usr/local/lib/aarch64-linux-gnu/libpisp.so.1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lawnbot/ROS2/lawnbot/build/custom_explorer', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.12.240.197 48376 10.12.177.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.404749] (-) TimerEvent: {}
+[1.505142] (-) TimerEvent: {}
+[1.605510] (-) TimerEvent: {}
+[1.664376] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.678574] (main_controller_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.679562] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.680546] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.705637] (-) TimerEvent: {}
+[1.718729] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.805743] (-) TimerEvent: {}
+[1.906103] (-) TimerEvent: {}
+[1.946402] (custom_explorer) StdoutLine: {'line': b'running develop\n'}
+[2.006231] (-) TimerEvent: {}
+[2.013329] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.025638] (main_controller_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.026045] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.026720] (main_controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.034131] (main_controller_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.106359] (-) TimerEvent: {}
+[2.206732] (-) TimerEvent: {}
+[2.283464] (main_controller_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.284817] (custom_explorer) StdoutLine: {'line': b'running egg_info\n'}
+[2.285042] (custom_explorer) StdoutLine: {'line': b'creating custom_explorer.egg-info\n'}
+[2.306828] (-) TimerEvent: {}
+[2.316954] (custom_explorer) StdoutLine: {'line': b'writing custom_explorer.egg-info/PKG-INFO\n'}
+[2.317488] (custom_explorer) StdoutLine: {'line': b'writing dependency_links to custom_explorer.egg-info/dependency_links.txt\n'}
+[2.317783] (custom_explorer) StdoutLine: {'line': b'writing entry points to custom_explorer.egg-info/entry_points.txt\n'}
+[2.318008] (custom_explorer) StdoutLine: {'line': b'writing requirements to custom_explorer.egg-info/requires.txt\n'}
+[2.318200] (custom_explorer) StdoutLine: {'line': b'writing top-level names to custom_explorer.egg-info/top_level.txt\n'}
+[2.318409] (custom_explorer) StdoutLine: {'line': b"writing manifest file 'custom_explorer.egg-info/SOURCES.txt'\n"}
+[2.383796] (custom_explorer) StdoutLine: {'line': b"reading manifest file 'custom_explorer.egg-info/SOURCES.txt'\n"}
+[2.384675] (custom_explorer) StdoutLine: {'line': b"writing manifest file 'custom_explorer.egg-info/SOURCES.txt'\n"}
+[2.406957] (-) TimerEvent: {}
+[2.421730] (custom_explorer) StdoutLine: {'line': b'running build_ext\n'}
+[2.422071] (custom_explorer) StdoutLine: {'line': b'Creating /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom-explorer.egg-link (link to .)\n'}
+[2.423137] (custom_explorer) StdoutLine: {'line': b'Installing explorer script to /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/custom_explorer\n'}
+[2.423782] (custom_explorer) StdoutLine: {'line': b'\n'}
+[2.423937] (custom_explorer) StdoutLine: {'line': b'Installed /home/lawnbot/ROS2/lawnbot/build/custom_explorer\n'}
+[2.424083] (custom_explorer) StdoutLine: {'line': b'running symlink_data\n'}
+[2.424249] (custom_explorer) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/ament_index\n'}
+[2.424410] (custom_explorer) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/ament_index/resource_index\n'}
+[2.424503] (custom_explorer) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/ament_index/resource_index/packages\n'}
+[2.425290] (custom_explorer) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/custom_explorer/resource/custom_explorer -> /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/ament_index/resource_index/packages\n'}
+[2.425469] (custom_explorer) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/custom_explorer/package.xml -> /home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer\n'}
+[2.428313] (main_controller_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.507098] (-) TimerEvent: {}
+[2.528724] (custom_explorer) CommandEnded: {'returncode': 0}
+[2.542499] (custom_explorer) JobEnded: {'identifier': 'custom_explorer', 'rc': 0}
+[2.543329] (main_logic_controller) JobStarted: {'identifier': 'main_logic_controller'}
+[2.575662] (main_controller_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.607181] (-) TimerEvent: {}
+[2.615119] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.707298] (-) TimerEvent: {}
+[2.728811] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.807388] (-) TimerEvent: {}
+[2.817042] (main_controller_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.907546] (-) TimerEvent: {}
+[3.007932] (-) TimerEvent: {}
+[3.108288] (-) TimerEvent: {}
+[3.208623] (-) TimerEvent: {}
+[3.308961] (-) TimerEvent: {}
+[3.409321] (-) TimerEvent: {}
+[3.509714] (-) TimerEvent: {}
+[3.610136] (-) TimerEvent: {}
+[3.710517] (-) TimerEvent: {}
+[3.810867] (-) TimerEvent: {}
+[3.836642] (main_controller_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.910993] (-) TimerEvent: {}
+[4.011406] (-) TimerEvent: {}
+[4.030967] (main_logic_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lawnbot', 'SSH_CLIENT': '10.12.240.197 48376 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib/aarch64-linux', 'HOME': '/home/lawnbot', 'OLDPWD': '/home/lawnbot/ROS2', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lawnbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LD_PRELOAD': '/usr/local/lib/aarch64-linux-gnu/libcamera.so.0.4:/usr/local/lib/aarch64-linux-gnu/libcamera-base.so.0.4:/usr/local/lib/aarch64-linux-gnu/libpisp.so.1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.12.240.197 48376 10.12.177.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.111506] (-) TimerEvent: {}
+[4.211839] (-) TimerEvent: {}
+[4.312166] (-) TimerEvent: {}
+[4.412493] (-) TimerEvent: {}
+[4.512861] (-) TimerEvent: {}
+[4.578394] (main_logic_controller) StdoutLine: {'line': b'running develop\n'}
+[4.606108] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.612956] (-) TimerEvent: {}
+[4.713294] (-) TimerEvent: {}
+[4.813666] (-) TimerEvent: {}
+[4.914026] (-) TimerEvent: {}
+[4.918296] (main_logic_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.918578] (main_logic_controller) StdoutLine: {'line': b'creating main_logic_controller.egg-info\n'}
+[4.950264] (main_logic_controller) StdoutLine: {'line': b'writing main_logic_controller.egg-info/PKG-INFO\n'}
+[4.950785] (main_logic_controller) StdoutLine: {'line': b'writing dependency_links to main_logic_controller.egg-info/dependency_links.txt\n'}
+[4.951176] (main_logic_controller) StdoutLine: {'line': b'writing entry points to main_logic_controller.egg-info/entry_points.txt\n'}
+[4.951420] (main_logic_controller) StdoutLine: {'line': b'writing requirements to main_logic_controller.egg-info/requires.txt\n'}
+[4.951599] (main_logic_controller) StdoutLine: {'line': b'writing top-level names to main_logic_controller.egg-info/top_level.txt\n'}
+[4.951824] (main_logic_controller) StdoutLine: {'line': b"writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'\n"}
+[5.014120] (-) TimerEvent: {}
+[5.019127] (main_logic_controller) StdoutLine: {'line': b"reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'\n"}
+[5.020656] (main_logic_controller) StdoutLine: {'line': b"writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'\n"}
+[5.055516] (main_logic_controller) StdoutLine: {'line': b'running build_ext\n'}
+[5.055798] (main_logic_controller) StdoutLine: {'line': b'Creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main-logic-controller.egg-link (link to .)\n'}
+[5.056744] (main_logic_controller) StdoutLine: {'line': b'Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.057125] (main_logic_controller) StdoutLine: {'line': b'Installing light script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.057454] (main_logic_controller) StdoutLine: {'line': b'Installing main script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059118] (main_logic_controller) StdoutLine: {'line': b'Installing motor script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059340] (main_logic_controller) StdoutLine: {'line': b'Installing object_detector script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059475] (main_logic_controller) StdoutLine: {'line': b'Installing path script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059572] (main_logic_controller) StdoutLine: {'line': b'Installing picamera script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059661] (main_logic_controller) StdoutLine: {'line': b'Installing pump script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059748] (main_logic_controller) StdoutLine: {'line': b'Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059839] (main_logic_controller) StdoutLine: {'line': b'Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller\n'}
+[5.059922] (main_logic_controller) StdoutLine: {'line': b'\n'}
+[5.060008] (main_logic_controller) StdoutLine: {'line': b'Installed /home/lawnbot/ROS2/lawnbot/build/main_logic_controller\n'}
+[5.060091] (main_logic_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[5.060175] (main_logic_controller) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index\n'}
+[5.060259] (main_logic_controller) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index\n'}
+[5.060470] (main_logic_controller) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index/packages\n'}
+[5.060600] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/resource/main_logic_controller -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index/packages\n'}
+[5.060693] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/package.xml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller\n'}
+[5.060782] (main_logic_controller) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.060867] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/nav.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.061008] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/sim_gazebo.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.061116] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/launch_file_demo.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.061207] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/explorer.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.061349] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/display.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.061467] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/launch/launch_robot.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch\n'}
+[5.061556] (main_logic_controller) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.061642] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/robot.urdf.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.061769] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/inertial_macros.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.061859] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robot copy 2.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.061945] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robotOld.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.062032] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robot copy.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.062117] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/test.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.062202] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/urdf/my_robot.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf\n'}
+[5.062381] (main_logic_controller) StdoutLine: {'line': b'creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.062482] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.062584] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.062675] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestmap1000.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.062761] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.062849] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.062935] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063021] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063109] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/my_controllers.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063262] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/twist_mux_topics.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063408] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap1.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063504] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063594] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063684] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mapper_params_online_async.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063776] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar1240.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.063925] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064023] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/nav2_params.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064114] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/41xxRobotRviz.rviz -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064224] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestmap1000.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064385] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064496] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/twist_mux_joy.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064584] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/bestsofar.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064673] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/mymap11.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.064773] (main_logic_controller) StdoutLine: {'line': b'symbolically linking /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/config/twist_mux_locks.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config\n'}
+[5.114251] (-) TimerEvent: {}
+[5.183981] (main_logic_controller) CommandEnded: {'returncode': 0}
+[5.194413] (main_logic_controller) JobEnded: {'identifier': 'main_logic_controller', 'rc': 0}
+[5.214319] (-) TimerEvent: {}
+[5.314624] (-) TimerEvent: {}
+[5.414988] (-) TimerEvent: {}
+[5.515391] (-) TimerEvent: {}
+[5.580572] (main_controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.586244] (main_controller_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.615462] (-) TimerEvent: {}
+[5.715739] (-) TimerEvent: {}
+[5.816086] (-) TimerEvent: {}
+[5.819748] (main_controller_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.916204] (-) TimerEvent: {}
+[6.016592] (-) TimerEvent: {}
+[6.116980] (-) TimerEvent: {}
+[6.217324] (-) TimerEvent: {}
+[6.319315] (-) TimerEvent: {}
+[6.419655] (-) TimerEvent: {}
+[6.520045] (-) TimerEvent: {}
+[6.605520] (main_controller_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.620151] (-) TimerEvent: {}
+[6.687283] (main_controller_interfaces) StdoutLine: {'line': b'-- Configuring done (6.3s)\n'}
+[6.720304] (-) TimerEvent: {}
+[6.739484] (main_controller_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.754924] (main_controller_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces\n'}
+[6.768950] (main_controller_interfaces) CommandEnded: {'returncode': 0}
+[6.769633] (main_controller_interfaces) JobProgress: {'identifier': 'main_controller_interfaces', 'progress': 'build'}
+[6.770355] (main_controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lawnbot', 'SSH_CLIENT': '10.12.240.197 48376 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib/aarch64-linux', 'HOME': '/home/lawnbot', 'OLDPWD': '/home/lawnbot/ROS2', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lawnbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LD_PRELOAD': '/usr/local/lib/aarch64-linux-gnu/libcamera.so.0.4:/usr/local/lib/aarch64-linux-gnu/libcamera-base.so.0.4:/usr/local/lib/aarch64-linux-gnu/libpisp.so.1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.12.240.197 48376 10.12.177.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.820355] (-) TimerEvent: {}
+[6.920783] (-) TimerEvent: {}
+[6.923104] (main_controller_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.940980] (main_controller_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_main_controller_interfaces\n'}
+[7.020882] (-) TimerEvent: {}
+[7.121214] (-) TimerEvent: {}
+[7.221601] (-) TimerEvent: {}
+[7.265307] (main_controller_interfaces) StdoutLine: {'line': b'[  2%] Built target main_controller_interfaces__rosidl_generator_type_description\n'}
+[7.301031] (main_controller_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.321731] (-) TimerEvent: {}
+[7.342603] (main_controller_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.342911] (main_controller_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.343686] (main_controller_interfaces) StdoutLine: {'line': b'creating main_controller_interfaces.egg-info\n'}
+[7.380447] (main_controller_interfaces) StdoutLine: {'line': b'writing main_controller_interfaces.egg-info/PKG-INFO\n'}
+[7.380882] (main_controller_interfaces) StdoutLine: {'line': b'writing dependency_links to main_controller_interfaces.egg-info/dependency_links.txt\n'}
+[7.381246] (main_controller_interfaces) StdoutLine: {'line': b'writing top-level names to main_controller_interfaces.egg-info/top_level.txt\n'}
+[7.381523] (main_controller_interfaces) StdoutLine: {'line': b"writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'\n"}
+[7.421809] (-) TimerEvent: {}
+[7.488484] (main_controller_interfaces) StdoutLine: {'line': b"reading manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'\n"}
+[7.489298] (main_controller_interfaces) StdoutLine: {'line': b"writing manifest file 'main_controller_interfaces.egg-info/SOURCES.txt'\n"}
+[7.521938] (-) TimerEvent: {}
+[7.585416] (main_controller_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_main_controller_interfaces_egg\n'}
+[7.622036] (-) TimerEvent: {}
+[7.723211] (-) TimerEvent: {}
+[7.811760] (main_controller_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__functions.c.o\x1b[0m\n'}
+[7.812111] (main_controller_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__type_support.c.o\x1b[0m\n'}
+[7.812817] (main_controller_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__description.c.o\x1b[0m\n'}
+[7.813009] (main_controller_interfaces) StdoutLine: {'line': b'[ 17%] Built target main_controller_interfaces__cpp\n'}
+[7.823480] (-) TimerEvent: {}
+[7.923944] (-) TimerEvent: {}
+[8.005442] (main_controller_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmain_controller_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.024030] (-) TimerEvent: {}
+[8.123969] (main_controller_interfaces) StdoutLine: {'line': b'[ 20%] Built target main_controller_interfaces__rosidl_generator_c\n'}
+[8.124286] (-) TimerEvent: {}
+[8.165557] (main_controller_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.165971] (main_controller_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.166172] (main_controller_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.166328] (main_controller_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.225371] (-) TimerEvent: {}
+[8.328543] (-) TimerEvent: {}
+[8.428947] (-) TimerEvent: {}
+[8.529382] (-) TimerEvent: {}
+[8.629909] (-) TimerEvent: {}
+[8.677213] (main_controller_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/main_controller_interfaces/msg/motor_data__type_support.cpp.o\x1b[0m\n'}
+[8.681918] (main_controller_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/main_controller_interfaces/msg/motor_data__type_support.cpp.o\x1b[0m\n'}
+[8.730066] (-) TimerEvent: {}
+[8.741829] (main_controller_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/main_controller_interfaces/msg/detail/dds_fastrtps/motor_data__type_support.cpp.o\x1b[0m\n'}
+[8.748369] (main_controller_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/main_controller_interfaces/msg/detail/motor_data__type_support_c.cpp.o\x1b[0m\n'}
+[8.830203] (-) TimerEvent: {}
+[8.837123] (main_controller_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.930372] (-) TimerEvent: {}
+[8.977396] (main_controller_interfaces) StdoutLine: {'line': b'[ 47%] Built target main_controller_interfaces__rosidl_typesupport_c\n'}
+[9.026484] (main_controller_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.031409] (-) TimerEvent: {}
+[9.131864] (-) TimerEvent: {}
+[9.235602] (-) TimerEvent: {}
+[9.336260] (-) TimerEvent: {}
+[9.437003] (-) TimerEvent: {}
+[9.490476] (main_controller_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.539440] (-) TimerEvent: {}
+[9.600415] (main_controller_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/main_controller_interfaces/msg/detail/motor_data__type_support.cpp.o\x1b[0m\n'}
+[9.631815] (main_controller_interfaces) StdoutLine: {'line': b'[ 55%] Built target main_controller_interfaces__rosidl_typesupport_cpp\n'}
+[9.639580] (-) TimerEvent: {}
+[9.679537] (main_controller_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.739702] (-) TimerEvent: {}
+[9.841379] (-) TimerEvent: {}
+[9.841902] (main_controller_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.851493] (main_controller_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.940392] (-) TimerEvent: {}
+[10.040896] (-) TimerEvent: {}
+[10.133536] (main_controller_interfaces) StdoutLine: {'line': b'[ 64%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.141033] (-) TimerEvent: {}
+[10.144389] (main_controller_interfaces) StdoutLine: {'line': b'[ 64%] Built target main_controller_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.241155] (-) TimerEvent: {}
+[10.257466] (main_controller_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/main_controller_interfaces/msg/detail/motor_data__type_support.c.o\x1b[0m\n'}
+[10.337128] (main_controller_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.341346] (-) TimerEvent: {}
+[10.360978] (main_controller_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library libmain_controller_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.441472] (-) TimerEvent: {}
+[10.475333] (main_controller_interfaces) StdoutLine: {'line': b'[ 73%] Built target main_controller_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.526685] (main_controller_interfaces) StdoutLine: {'line': b'[ 73%] Built target main_controller_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.541568] (-) TimerEvent: {}
+[10.600058] (main_controller_interfaces) StdoutLine: {'line': b'[ 73%] Built target main_controller_interfaces\n'}
+[10.641683] (-) TimerEvent: {}
+[10.673136] (main_controller_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.741782] (-) TimerEvent: {}
+[10.842089] (-) TimerEvent: {}
+[10.942399] (-) TimerEvent: {}
+[11.042705] (-) TimerEvent: {}
+[11.119922] (main_controller_interfaces) StdoutLine: {'line': b'[ 76%] Built target main_controller_interfaces__py\n'}
+[11.142835] (-) TimerEvent: {}
+[11.192992] (main_controller_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/main_controller_interfaces/msg/_motor_data_s.c.o\x1b[0m\n'}
+[11.242940] (-) TimerEvent: {}
+[11.343349] (-) TimerEvent: {}
+[11.443718] (-) TimerEvent: {}
+[11.497868] (main_controller_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmain_controller_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.543841] (-) TimerEvent: {}
+[11.614697] (main_controller_interfaces) StdoutLine: {'line': b'[ 82%] Built target main_controller_interfaces__rosidl_generator_py\n'}
+[11.644083] (-) TimerEvent: {}
+[11.690394] (main_controller_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.690724] (main_controller_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.690888] (main_controller_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.744184] (-) TimerEvent: {}
+[11.847563] (-) TimerEvent: {}
+[11.909639] (main_controller_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.909984] (main_controller_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.919493] (main_controller_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.947731] (-) TimerEvent: {}
+[12.008693] (main_controller_interfaces) StdoutLine: {'line': b'[100%] Built target main_controller_interfaces_s__rosidl_typesupport_c\n'}
+[12.012160] (main_controller_interfaces) StdoutLine: {'line': b'[100%] Built target main_controller_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[12.023926] (main_controller_interfaces) StdoutLine: {'line': b'[100%] Built target main_controller_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.047842] (-) TimerEvent: {}
+[12.052345] (main_controller_interfaces) CommandEnded: {'returncode': 0}
+[12.053139] (main_controller_interfaces) JobProgress: {'identifier': 'main_controller_interfaces', 'progress': 'install'}
+[12.073703] (main_controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces'], 'cwd': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lawnbot', 'SSH_CLIENT': '10.12.240.197 48376 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib/aarch64-linux', 'HOME': '/home/lawnbot', 'OLDPWD': '/home/lawnbot/ROS2', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lawnbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LD_PRELOAD': '/usr/local/lib/aarch64-linux-gnu/libcamera.so.0.4:/usr/local/lib/aarch64-linux-gnu/libcamera-base.so.0.4:/usr/local/lib/aarch64-linux-gnu/libpisp.so.1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.12.240.197 48376 10.12.177.240 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.090890] (main_controller_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.091707] (main_controller_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.092207] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/main_controller_interfaces\n'}
+[12.113247] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.json\n'}
+[12.134441] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__functions.h\n'}
+[12.147923] (-) TimerEvent: {}
+[12.155342] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.h\n'}
+[12.175810] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.h\n'}
+[12.196330] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.h\n'}
+[12.217304] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.238332] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.sh\n'}
+[12.248015] (-) TimerEvent: {}
+[12.258350] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/library_path.dsv\n'}
+[12.279167] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[12.299919] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.320803] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h\n'}
+[12.341046] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.348095] (-) TimerEvent: {}
+[12.362026] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__builder.hpp\n'}
+[12.382311] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__struct.hpp\n'}
+[12.402469] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__traits.hpp\n'}
+[12.423043] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__type_support.hpp\n'}
+[12.443763] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/motor_data.hpp\n'}
+[12.448178] (-) TimerEvent: {}
+[12.463807] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.484450] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.504816] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.526124] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/include/main_controller_interfaces/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.546585] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.sh\n'}
+[12.548249] (-) TimerEvent: {}
+[12.567678] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/pythonpath.dsv\n'}
+[12.588211] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.608591] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.628599] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.648357] (-) TimerEvent: {}
+[12.648737] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.670303] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/__init__.py\n'}
+[12.690905] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.710902] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.731310] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.748459] (-) TimerEvent: {}
+[12.751249] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.771417] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.791980] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.813209] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/__init__.py\n'}
+[12.834188] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/_motor_data.py\n'}
+[12.848543] (-) TimerEvent: {}
+[12.855301] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/_motor_data_s.c\n'}
+[12.875858] (main_controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.876176] (main_controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.876526] (main_controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.876744] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.idl\n'}
+[12.897659] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/msg/MotorData.msg\n'}
+[12.918998] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/package_run_dependencies/main_controller_interfaces\n'}
+[12.939839] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/parent_prefix_path/main_controller_interfaces\n'}
+[12.948626] (-) TimerEvent: {}
+[12.961011] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.sh\n'}
+[12.981935] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.002440] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.sh\n'}
+[13.023512] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/environment/path.dsv\n'}
+[13.043531] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.bash\n'}
+[13.048709] (-) TimerEvent: {}
+[13.064667] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.sh\n'}
+[13.085645] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.zsh\n'}
+[13.105959] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/local_setup.dsv\n'}
+[13.126772] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.dsv\n'}
+[13.147445] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/ament_index/resource_index/packages/main_controller_interfaces\n'}
+[13.148815] (-) TimerEvent: {}
+[13.168379] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.188796] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.209162] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.229219] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.248918] (-) TimerEvent: {}
+[13.250587] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.271012] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.291758] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.312429] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig.cmake\n'}
+[13.332867] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfacesConfig-version.cmake\n'}
+[13.349014] (-) TimerEvent: {}
+[13.353513] (main_controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.xml\n'}
+[13.373905] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so\n'}
+[13.374772] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.375011] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.375610] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.375770] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.376458] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.376613] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so\n'}
+[13.377216] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.377467] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.378067] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.378241] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.378931] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.379104] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.379748] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.442105] (main_controller_interfaces) StdoutLine: {'line': b"Listing '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces'...\n"}
+[13.442412] (main_controller_interfaces) StdoutLine: {'line': b"Compiling '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/__init__.py'...\n"}
+[13.442530] (main_controller_interfaces) StdoutLine: {'line': b"Listing '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg'...\n"}
+[13.442629] (main_controller_interfaces) StdoutLine: {'line': b"Compiling '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/__init__.py'...\n"}
+[13.442724] (main_controller_interfaces) StdoutLine: {'line': b"Compiling '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages/main_controller_interfaces/msg/_motor_data.py'...\n"}
+[13.449096] (-) TimerEvent: {}
+[13.455816] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so\n'}
+[13.456575] (main_controller_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/libmain_controller_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.456813] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.456936] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.457102] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.457290] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.457489] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.457674] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.457863] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.458043] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.458241] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.458478] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.458651] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.458853] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.459034] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.459253] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.459467] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/main_controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.459674] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.459867] (main_controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/cmake/export_main_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.463948] (main_controller_interfaces) CommandEnded: {'returncode': 0}
+[13.487503] (main_controller_interfaces) JobEnded: {'identifier': 'main_controller_interfaces', 'rc': 0}
+[13.488436] (-) EventReactorShutdown: {}

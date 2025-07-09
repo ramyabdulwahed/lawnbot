@@ -1,0 +1,1 @@
+/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces/rosidl_generator_cpp/main_controller_interfaces/msg/detail/bounding_box__type_support.hpp

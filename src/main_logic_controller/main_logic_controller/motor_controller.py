@@ -47,14 +47,15 @@ ODOM_TIMER_PERIOD = 0.05  # 20 Hz → smooth updates
 
 ################################## serial communication function ##################################333
 
-
+def send_motor_command(ser, command):
+    ser.write(command.encode('utf-8') + b'\r')
 def send_command(ser, command):
     """
     Sends a command to the Kangaroo motion controller via serial
     - Adds carriage return '\r' (required by Kangaroo)
     - Waits briefly and reads back the response
     """
-    ser.write(command.encode('utf-8') + b'\r\n')
+    ser.write(command.encode('utf-8') + b'\r')
     time.sleep(0.1) #give kangaroo some time to process the command and respond
     response = ser.read(ser.in_waiting).decode('utf-8') #reads whatever bytes are currently waiting in the serial buffer. decode it into a string
     #ser.in_waiting tells us how many bytes are there in the buffer. ex.mailbox
@@ -73,7 +74,7 @@ def setup_serial():
     print("Connected to Kangaroo on /dev/ttyAMA0")
 
     #Initialization commands
-    start_commands = ["1,start", "2,start", "1,p0", "2,p0"] #these say in order: 1. start drive channel, start the turn channel, reset drive position to 0, reset turn position to 0.
+    start_commands = ["1,start", "2,start"] #these say in order: 1. start drive channel, start the turn channel, reset drive position to 0, reset turn position to 0.
     for command in start_commands:
         response = send_command(ser, command) #we are sending the commands one by one and reading back the response
         print(f"Response for '{command}': {response}")
@@ -88,6 +89,7 @@ def setup_serial():
 class MotorController(Node):
     def __init__(self):
         super().__init__('motor_controller')
+        self.get_logger().info("Motor Controller Node called")
 
         self.subscription = self.create_subscription(
         MotorData,
@@ -130,6 +132,8 @@ class MotorController(Node):
         self.last_ticks_left_wheel_drive = 0
         self.last_ticks_right_wheel_drive = 0
         self.wheel_separation = 0.366 #TO BE CHANGED - distance between the two wheels in meters
+
+        self.get_logger().info("Motor Controller Node initialized")
 
     #check if motion is complete - will be called by the function below
 
@@ -177,10 +181,11 @@ class MotorController(Node):
         """
         #formatting and checking the message
         #command = f'{msg.op_code},pi{msg.position}s{msg.speed}'
-        command = f'{msg.op_code},s{msg.speed}'
+        command = f'{msg.op_code},S{msg.speed}'
         self.get_logger().info(f'Sending to Serial: {command}')
 
-        response = send_command(self.ser, command)
+        #response = send_command(self.ser, command)
+        send_motor_command(self.ser, command)  # Send the command to Kangaroo
         #print(f"Response: {response}")
         print ("response sent!")
 
@@ -188,8 +193,8 @@ class MotorController(Node):
         """
         Sends commands to stop both motors
         """
-        send_command(self.ser, "1,s0")
-        send_command(self.ser, "2,s0")
+        send_command(self.ser, "1,S0")
+        send_command(self.ser, "2,S0")
         self.get_logger().info('Stopping motors')
 
 
@@ -201,8 +206,8 @@ class MotorController(Node):
 
     def stop_motor_callback(self, request, response):
         self.stop()
-        self.timer.cancel()  # Stop checking for completion
-        self.motion_complete_publisher_.publish(Bool(data=False))  # Notify that it's not moving
+        #self.timer.cancel()  # Stop checking for completion
+        #self.motion_complete_publisher_.publish(Bool(data=False))  # Notify that it's not moving
         return Empty.Response()
     
     def start_motor_callback(self, request, response):

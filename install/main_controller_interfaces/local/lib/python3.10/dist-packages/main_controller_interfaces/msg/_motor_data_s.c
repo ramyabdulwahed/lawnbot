@@ -1,1 +1,0 @@
-/home/ramy_abdulwahed/41xx/build/main_controller_interfaces/rosidl_generator_py/main_controller_interfaces/msg/_motor_data_s.c

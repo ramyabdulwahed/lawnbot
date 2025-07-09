@@ -9,11 +9,23 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "main_controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "main_controller_interfaces/msg/detail/motor_data__struct.h"
+#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
+bool cdr_serialize_main_controller_interfaces__msg__MotorData(
+  const main_controller_interfaces__msg__MotorData * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
+bool cdr_deserialize_main_controller_interfaces__msg__MotorData(
+  eprosima::fastcdr::Cdr &,
+  main_controller_interfaces__msg__MotorData * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
 size_t get_serialized_size_main_controller_interfaces__msg__MotorData(
@@ -22,6 +34,22 @@ size_t get_serialized_size_main_controller_interfaces__msg__MotorData(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
 size_t max_serialized_size_main_controller_interfaces__msg__MotorData(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
+bool cdr_serialize_key_main_controller_interfaces__msg__MotorData(
+  const main_controller_interfaces__msg__MotorData * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
+size_t get_serialized_size_key_main_controller_interfaces__msg__MotorData(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_main_controller_interfaces
+size_t max_serialized_size_key_main_controller_interfaces__msg__MotorData(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

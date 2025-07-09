@@ -1,0 +1,110 @@
+running develop
+Removing /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main-logic-controller.egg-link (link to .)
+running egg_info
+writing ../../build/main_logic_controller/main_logic_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/main_logic_controller/main_logic_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/main_logic_controller/main_logic_controller.egg-info/entry_points.txt
+writing requirements to ../../build/main_logic_controller/main_logic_controller.egg-info/requires.txt
+writing top-level names to ../../build/main_logic_controller/main_logic_controller.egg-info/top_level.txt
+reading manifest file '../../build/main_logic_controller/main_logic_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/main_logic_controller/main_logic_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/motor_controller_testing.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/cmd_vel_bridge.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/__init__.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/odom_bridge.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/object_detector.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/light_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/path_publisher.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/odom_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/pump_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/main_logic_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/exploration_monitor.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/motor_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/start_stop_wrapper.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/twist_relay.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/picamera_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/cmd_vel_emulator.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/odom_controller_testing.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/SimMotorController.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/41xx_main_logic_controller.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+copying /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build/lib/main_logic_controller/kangaroo_test.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/motor_controller_testing.py to motor_controller_testing.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/cmd_vel_bridge.py to cmd_vel_bridge.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/odom_bridge.py to odom_bridge.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/object_detector.py to object_detector.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/light_controller.py to light_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/path_publisher.py to path_publisher.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/odom_controller.py to odom_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/pump_controller.py to pump_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/main_logic_controller.py to main_logic_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/exploration_monitor.py to exploration_monitor.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/motor_controller.py to motor_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/start_stop_wrapper.py to start_stop_wrapper.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/twist_relay.py to twist_relay.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/picamera_controller.py to picamera_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/cmd_vel_emulator.py to cmd_vel_emulator.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/odom_controller_testing.py to odom_controller_testing.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/SimMotorController.py to SimMotorController.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/41xx_main_logic_controller.py to 41xx_main_logic_controller.cpython-312.pyc
+byte-compiling /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller/kangaroo_test.py to kangaroo_test.cpython-312.pyc
+running install_data
+copying resource/main_logic_controller -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller
+copying launch/nav.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+copying launch/sim_gazebo.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+copying launch/launch_file_demo.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+copying launch/explorer.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+copying launch/display.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+copying launch/launch_robot.launch.py -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/launch
+copying urdf/robot.urdf.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying urdf/inertial_macros.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying urdf/my_robot copy 2.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying urdf/my_robotOld.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying urdf/my_robot copy.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying urdf/test.xacro -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying urdf/my_robot.urdf -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/urdf
+copying config/mymap1.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestsofar1240.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestmap1000.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap1.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap11.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap11.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap1.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/my_controllers.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/twist_mux_topics.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap1.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestsofar1240.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestsofar1240.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mapper_params_online_async.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestsofar1240.data -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap11.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/nav2_params.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/41xxRobotRviz.rviz -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestmap1000.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestsofar.pgm -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/twist_mux_joy.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/nav2_paramsFIRSTVERSION.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/bestsofar.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/mymap11.posegraph -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+copying config/twist_mux_locks.yaml -> /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/config
+running install_egg_info
+Copying ../../build/main_logic_controller/main_logic_controller.egg-info to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages/main_logic_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing explorer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing light script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing main script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing motor script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing object_detector script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing path script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing picamera script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing pump script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller
+writing list of installed files to '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/install.log'
