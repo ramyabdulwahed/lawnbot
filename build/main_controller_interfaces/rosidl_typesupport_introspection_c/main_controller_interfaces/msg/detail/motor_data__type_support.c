@@ -12,10 +12,6 @@
 #include "main_controller_interfaces/msg/detail/motor_data__struct.h"
 
 
-// Include directives for member types
-// Member `op_code`
-#include "rosidl_runtime_c/string_functions.h"
-
 #ifdef __cplusplus
 extern "C"
 {
@@ -35,17 +31,17 @@ void main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspectio
   main_controller_interfaces__msg__MotorData__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_message_member_array[2] = {
   {
-    "op_code",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    "left_speed",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(main_controller_interfaces__msg__MotorData, op_code),  // bytes offset in struct
+    offsetof(main_controller_interfaces__msg__MotorData, left_speed),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -55,7 +51,7 @@ static rosidl_typesupport_introspection_c__MessageMember main_controller_interfa
     NULL  // resize(index) function pointer
   },
   {
-    "position",  // name
+    "right_speed",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
@@ -63,25 +59,7 @@ static rosidl_typesupport_introspection_c__MessageMember main_controller_interfa
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(main_controller_interfaces__msg__MotorData, position),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "speed",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is key
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(main_controller_interfaces__msg__MotorData, speed),  // bytes offset in struct
+    offsetof(main_controller_interfaces__msg__MotorData, right_speed),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -95,7 +73,7 @@ static rosidl_typesupport_introspection_c__MessageMember main_controller_interfa
 static const rosidl_typesupport_introspection_c__MessageMembers main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_message_members = {
   "main_controller_interfaces__msg",  // message namespace
   "MotorData",  // message name
-  3,  // number of fields
+  2,  // number of fields
   sizeof(main_controller_interfaces__msg__MotorData),
   false,  // has_any_key_member_
   main_controller_interfaces__msg__MotorData__rosidl_typesupport_introspection_c__MotorData_message_member_array,  // message members

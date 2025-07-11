@@ -41,52 +41,41 @@ struct MotorData_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->op_code = "";
-      this->position = 0l;
-      this->speed = 0l;
+      this->left_speed = 0l;
+      this->right_speed = 0l;
     }
   }
 
   explicit MotorData_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : op_code(_alloc)
   {
+    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->op_code = "";
-      this->position = 0l;
-      this->speed = 0l;
+      this->left_speed = 0l;
+      this->right_speed = 0l;
     }
   }
 
   // field types and members
-  using _op_code_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
-  _op_code_type op_code;
-  using _position_type =
+  using _left_speed_type =
     int32_t;
-  _position_type position;
-  using _speed_type =
+  _left_speed_type left_speed;
+  using _right_speed_type =
     int32_t;
-  _speed_type speed;
+  _right_speed_type right_speed;
 
   // setters for named parameter idiom
-  Type & set__op_code(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
-  {
-    this->op_code = _arg;
-    return *this;
-  }
-  Type & set__position(
+  Type & set__left_speed(
     const int32_t & _arg)
   {
-    this->position = _arg;
+    this->left_speed = _arg;
     return *this;
   }
-  Type & set__speed(
+  Type & set__right_speed(
     const int32_t & _arg)
   {
-    this->speed = _arg;
+    this->right_speed = _arg;
     return *this;
   }
 
@@ -132,13 +121,10 @@ struct MotorData_
   // comparison operators
   bool operator==(const MotorData_ & other) const
   {
-    if (this->op_code != other.op_code) {
+    if (this->left_speed != other.left_speed) {
       return false;
     }
-    if (this->position != other.position) {
-      return false;
-    }
-    if (this->speed != other.speed) {
+    if (this->right_speed != other.right_speed) {
       return false;
     }
     return true;

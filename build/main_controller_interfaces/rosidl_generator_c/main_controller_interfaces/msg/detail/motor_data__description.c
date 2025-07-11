@@ -11,10 +11,10 @@ main_controller_interfaces__msg__MotorData__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xe7, 0xa5, 0xc3, 0x42, 0xcc, 0xec, 0xa7, 0x0b,
-      0x60, 0x98, 0x75, 0x16, 0x67, 0x87, 0xfc, 0x7d,
-      0xd6, 0x74, 0x95, 0x08, 0xf3, 0x04, 0x4c, 0x7c,
-      0x71, 0x68, 0xfa, 0x60, 0x6e, 0x77, 0x55, 0xa1,
+      0x08, 0xbb, 0x78, 0x00, 0x0b, 0x16, 0xe4, 0xd1,
+      0x27, 0x46, 0xc4, 0x75, 0x2b, 0xde, 0xdb, 0xfd,
+      0xac, 0x3f, 0x14, 0x70, 0x31, 0xb8, 0x75, 0xa9,
+      0x20, 0xce, 0xa6, 0xb2, 0x78, 0xe8, 0x3c, 0xcb,
     }};
   return &hash;
 }
@@ -31,23 +31,12 @@ main_controller_interfaces__msg__MotorData__get_type_hash(
 static char main_controller_interfaces__msg__MotorData__TYPE_NAME[] = "main_controller_interfaces/msg/MotorData";
 
 // Define type names, field names, and default values
-static char main_controller_interfaces__msg__MotorData__FIELD_NAME__op_code[] = "op_code";
-static char main_controller_interfaces__msg__MotorData__FIELD_NAME__position[] = "position";
-static char main_controller_interfaces__msg__MotorData__FIELD_NAME__speed[] = "speed";
+static char main_controller_interfaces__msg__MotorData__FIELD_NAME__left_speed[] = "left_speed";
+static char main_controller_interfaces__msg__MotorData__FIELD_NAME__right_speed[] = "right_speed";
 
 static rosidl_runtime_c__type_description__Field main_controller_interfaces__msg__MotorData__FIELDS[] = {
   {
-    {main_controller_interfaces__msg__MotorData__FIELD_NAME__op_code, 7, 7},
-    {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_STRING,
-      0,
-      0,
-      {NULL, 0, 0},
-    },
-    {NULL, 0, 0},
-  },
-  {
-    {main_controller_interfaces__msg__MotorData__FIELD_NAME__position, 8, 8},
+    {main_controller_interfaces__msg__MotorData__FIELD_NAME__left_speed, 10, 10},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32,
       0,
@@ -57,7 +46,7 @@ static rosidl_runtime_c__type_description__Field main_controller_interfaces__msg
     {NULL, 0, 0},
   },
   {
-    {main_controller_interfaces__msg__MotorData__FIELD_NAME__speed, 5, 5},
+    {main_controller_interfaces__msg__MotorData__FIELD_NAME__right_speed, 11, 11},
     {
       rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_INT32,
       0,
@@ -77,7 +66,7 @@ main_controller_interfaces__msg__MotorData__get_type_description(
   static const rosidl_runtime_c__type_description__TypeDescription description = {
     {
       {main_controller_interfaces__msg__MotorData__TYPE_NAME, 40, 40},
-      {main_controller_interfaces__msg__MotorData__FIELDS, 3, 3},
+      {main_controller_interfaces__msg__MotorData__FIELDS, 2, 2},
     },
     {NULL, 0, 0},
   };
@@ -88,9 +77,8 @@ main_controller_interfaces__msg__MotorData__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
-  "string op_code\n"
-  "int32 position\n"
-  "int32 speed";
+  "int32 left_speed\n"
+  "int32 right_speed";
 
 static char msg_encoding[] = "msg";
 
@@ -104,7 +92,7 @@ main_controller_interfaces__msg__MotorData__get_individual_type_description_sour
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {main_controller_interfaces__msg__MotorData__TYPE_NAME, 40, 40},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 42, 42},
+    {toplevel_type_raw_source, 35, 35},
   };
   return &source;
 }

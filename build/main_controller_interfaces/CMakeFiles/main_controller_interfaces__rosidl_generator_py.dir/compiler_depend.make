@@ -306,7 +306,6 @@ CMakeFiles/main_controller_interfaces__rosidl_generator_py.dir/rosidl_generator_
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
@@ -562,8 +561,6 @@ CMakeFiles/main_controller_interfaces__rosidl_generator_py.dir/rosidl_generator_
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
 
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__functions.h:
 

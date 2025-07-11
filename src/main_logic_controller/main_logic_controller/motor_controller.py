@@ -135,6 +135,8 @@ class MotorController(Node):
 
         self.get_logger().info("Motor Controller Node initialized")
 
+        self.paused = False  # Flag to control whether the motor_callback to process commands or not
+
     #check if motion is complete - will be called by the function below
 
     #i commented this out because it is not used with nav2
@@ -179,20 +181,30 @@ class MotorController(Node):
         - S: speed
         Example: D,PI1000S200
         """
-        #formatting and checking the message
-        #command = f'{msg.op_code},pi{msg.position}s{msg.speed}'
-        command = f'{msg.op_code},S{msg.speed}'
-        self.get_logger().info(f'Sending to Serial: {command}')
+    
+        if self.paused:
+            self.get_logger().debug('Paused: not sending motor commands.')
+            return
+        #the below is for the old motorData format
+#        command = f'{msg.op_code},S{msg.speed}'
+#        self.get_logger().info(f'Sending to Serial: {command}')
 
-        #response = send_command(self.ser, command)
-        send_motor_command(self.ser, command)  # Send the command to Kangaroo
-        #print(f"Response: {response}")
+        command_left_wheel = f'1,S{msg.left_speed}'  # Left wheel command
+        command_right_wheel = f'2,S{msg.right_speed}'  # Right wheel command
+        self.get_logger().info(f'Sending to serial: {command_left_wheel}, {command_right_wheel}')
+
+        #send_motor_command(self.ser, command)  # Send the command to Kangaroo
+
+        send_motor_command(self.ser, command_left_wheel)  # Send left wheel command
+        send_motor_command(self.ser, command_right_wheel)  # Send right wheel command
+
         print ("response sent!")
 
     def stop(self):
         """
         Sends commands to stop both motors
         """
+        self.paused = True  # Set the flag to stop processing commands
         send_command(self.ser, "1,S0")
         send_command(self.ser, "2,S0")
         self.get_logger().info('Stopping motors')
@@ -211,7 +223,9 @@ class MotorController(Node):
         return Empty.Response()
     
     def start_motor_callback(self, request, response):
-        self.timer.reset()  # Start/resume completion checker
+        #self.timer.reset()  # Start/resume completion checker
+        self.paused = False  # Allow processing commands again
+        self.get_logger().info('Resuming motor commands')
         return Empty.Response()
     
 

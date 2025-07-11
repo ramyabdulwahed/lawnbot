@@ -304,7 +304,6 @@ CMakeFiles/main_controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
@@ -724,8 +723,6 @@ rosidl_generator_c/main_controller_interfaces/msg/detail/bounding_box__struct.h:
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
 

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
+#include "main_controller_interfaces/msg/detail/bounding_box__struct.h"
 #include "main_controller_interfaces/msg/detail/bounding_box__functions.h"
 #include "main_controller_interfaces/msg/detail/bounding_box__type_support.h"
-#include "main_controller_interfaces/msg/detail/bounding_box__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

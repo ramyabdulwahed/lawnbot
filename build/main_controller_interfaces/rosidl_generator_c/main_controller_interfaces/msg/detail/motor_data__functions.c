@@ -11,23 +11,14 @@
 #include "rcutils/allocator.h"
 
 
-// Include directives for member types
-// Member `op_code`
-#include "rosidl_runtime_c/string_functions.h"
-
 bool
 main_controller_interfaces__msg__MotorData__init(main_controller_interfaces__msg__MotorData * msg)
 {
   if (!msg) {
     return false;
   }
-  // op_code
-  if (!rosidl_runtime_c__String__init(&msg->op_code)) {
-    main_controller_interfaces__msg__MotorData__fini(msg);
-    return false;
-  }
-  // position
-  // speed
+  // left_speed
+  // right_speed
   return true;
 }
 
@@ -37,10 +28,8 @@ main_controller_interfaces__msg__MotorData__fini(main_controller_interfaces__msg
   if (!msg) {
     return;
   }
-  // op_code
-  rosidl_runtime_c__String__fini(&msg->op_code);
-  // position
-  // speed
+  // left_speed
+  // right_speed
 }
 
 bool
@@ -49,18 +38,12 @@ main_controller_interfaces__msg__MotorData__are_equal(const main_controller_inte
   if (!lhs || !rhs) {
     return false;
   }
-  // op_code
-  if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->op_code), &(rhs->op_code)))
-  {
+  // left_speed
+  if (lhs->left_speed != rhs->left_speed) {
     return false;
   }
-  // position
-  if (lhs->position != rhs->position) {
-    return false;
-  }
-  // speed
-  if (lhs->speed != rhs->speed) {
+  // right_speed
+  if (lhs->right_speed != rhs->right_speed) {
     return false;
   }
   return true;
@@ -74,16 +57,10 @@ main_controller_interfaces__msg__MotorData__copy(
   if (!input || !output) {
     return false;
   }
-  // op_code
-  if (!rosidl_runtime_c__String__copy(
-      &(input->op_code), &(output->op_code)))
-  {
-    return false;
-  }
-  // position
-  output->position = input->position;
-  // speed
-  output->speed = input->speed;
+  // left_speed
+  output->left_speed = input->left_speed;
+  // right_speed
+  output->right_speed = input->right_speed;
   return true;
 }
 

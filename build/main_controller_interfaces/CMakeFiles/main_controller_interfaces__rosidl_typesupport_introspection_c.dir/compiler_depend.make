@@ -100,7 +100,6 @@ CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_c.dir/ro
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
@@ -236,8 +235,6 @@ rosidl_typesupport_introspection_c/main_controller_interfaces/msg/detail/boundin
 rosidl_typesupport_introspection_c/main_controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h:
 
 /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 rosidl_typesupport_introspection_c/main_controller_interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h:
 

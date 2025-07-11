@@ -62,22 +62,19 @@ class MotorData(metaclass=Metaclass_MotorData):
     """Message class 'MotorData'."""
 
     __slots__ = [
-        '_op_code',
-        '_position',
-        '_speed',
+        '_left_speed',
+        '_right_speed',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'op_code': 'string',
-        'position': 'int32',
-        'speed': 'int32',
+        'left_speed': 'int32',
+        'right_speed': 'int32',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
-        rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
@@ -91,9 +88,8 @@ class MotorData(metaclass=Metaclass_MotorData):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.op_code = kwargs.get('op_code', str())
-        self.position = kwargs.get('position', int())
-        self.speed = kwargs.get('speed', int())
+        self.left_speed = kwargs.get('left_speed', int())
+        self.right_speed = kwargs.get('right_speed', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -125,11 +121,9 @@ class MotorData(metaclass=Metaclass_MotorData):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.op_code != other.op_code:
+        if self.left_speed != other.left_speed:
             return False
-        if self.position != other.position:
-            return False
-        if self.speed != other.speed:
+        if self.right_speed != other.right_speed:
             return False
         return True
 
@@ -139,44 +133,31 @@ class MotorData(metaclass=Metaclass_MotorData):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def op_code(self):
-        """Message field 'op_code'."""
-        return self._op_code
+    def left_speed(self):
+        """Message field 'left_speed'."""
+        return self._left_speed
 
-    @op_code.setter
-    def op_code(self, value):
-        if self._check_fields:
-            assert \
-                isinstance(value, str), \
-                "The 'op_code' field must be of type 'str'"
-        self._op_code = value
-
-    @builtins.property
-    def position(self):
-        """Message field 'position'."""
-        return self._position
-
-    @position.setter
-    def position(self, value):
+    @left_speed.setter
+    def left_speed(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, int), \
-                "The 'position' field must be of type 'int'"
+                "The 'left_speed' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'position' field must be an integer in [-2147483648, 2147483647]"
-        self._position = value
+                "The 'left_speed' field must be an integer in [-2147483648, 2147483647]"
+        self._left_speed = value
 
     @builtins.property
-    def speed(self):
-        """Message field 'speed'."""
-        return self._speed
+    def right_speed(self):
+        """Message field 'right_speed'."""
+        return self._right_speed
 
-    @speed.setter
-    def speed(self, value):
+    @right_speed.setter
+    def right_speed(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, int), \
-                "The 'speed' field must be of type 'int'"
+                "The 'right_speed' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'speed' field must be an integer in [-2147483648, 2147483647]"
-        self._speed = value
+                "The 'right_speed' field must be an integer in [-2147483648, 2147483647]"
+        self._right_speed = value

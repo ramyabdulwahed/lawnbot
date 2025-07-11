@@ -6,11 +6,9 @@
 module main_controller_interfaces {
   module msg {
     struct MotorData {
-      string op_code;
+      int32 left_speed;
 
-      int32 position;
-
-      int32 speed;
+      int32 right_speed;
     };
   };
 };

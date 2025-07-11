@@ -24,15 +24,15 @@ namespace msg
 namespace builder
 {
 
-class Init_MotorData_speed
+class Init_MotorData_right_speed
 {
 public:
-  explicit Init_MotorData_speed(::main_controller_interfaces::msg::MotorData & msg)
+  explicit Init_MotorData_right_speed(::main_controller_interfaces::msg::MotorData & msg)
   : msg_(msg)
   {}
-  ::main_controller_interfaces::msg::MotorData speed(::main_controller_interfaces::msg::MotorData::_speed_type arg)
+  ::main_controller_interfaces::msg::MotorData right_speed(::main_controller_interfaces::msg::MotorData::_right_speed_type arg)
   {
-    msg_.speed = std::move(arg);
+    msg_.right_speed = std::move(arg);
     return std::move(msg_);
   }
 
@@ -40,32 +40,16 @@ private:
   ::main_controller_interfaces::msg::MotorData msg_;
 };
 
-class Init_MotorData_position
+class Init_MotorData_left_speed
 {
 public:
-  explicit Init_MotorData_position(::main_controller_interfaces::msg::MotorData & msg)
-  : msg_(msg)
-  {}
-  Init_MotorData_speed position(::main_controller_interfaces::msg::MotorData::_position_type arg)
-  {
-    msg_.position = std::move(arg);
-    return Init_MotorData_speed(msg_);
-  }
-
-private:
-  ::main_controller_interfaces::msg::MotorData msg_;
-};
-
-class Init_MotorData_op_code
-{
-public:
-  Init_MotorData_op_code()
+  Init_MotorData_left_speed()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_MotorData_position op_code(::main_controller_interfaces::msg::MotorData::_op_code_type arg)
+  Init_MotorData_right_speed left_speed(::main_controller_interfaces::msg::MotorData::_left_speed_type arg)
   {
-    msg_.op_code = std::move(arg);
-    return Init_MotorData_position(msg_);
+    msg_.left_speed = std::move(arg);
+    return Init_MotorData_right_speed(msg_);
   }
 
 private:
@@ -83,7 +67,7 @@ template<>
 inline
 auto build<::main_controller_interfaces::msg::MotorData>()
 {
-  return main_controller_interfaces::msg::builder::Init_MotorData_op_code();
+  return main_controller_interfaces::msg::builder::Init_MotorData_left_speed();
 }
 
 }  // namespace main_controller_interfaces

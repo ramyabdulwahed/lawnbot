@@ -36,8 +36,6 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/string.h"  // op_code
-#include "rosidl_runtime_c/string_functions.h"  // op_code
 
 // forward declare type support functions
 
@@ -50,28 +48,14 @@ bool cdr_serialize_main_controller_interfaces__msg__MotorData(
   const main_controller_interfaces__msg__MotorData * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: op_code
+  // Field name: left_speed
   {
-    const rosidl_runtime_c__String * str = &ros_message->op_code;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
+    cdr << ros_message->left_speed;
   }
 
-  // Field name: position
+  // Field name: right_speed
   {
-    cdr << ros_message->position;
-  }
-
-  // Field name: speed
-  {
-    cdr << ros_message->speed;
+    cdr << ros_message->right_speed;
   }
 
   return true;
@@ -82,30 +66,14 @@ bool cdr_deserialize_main_controller_interfaces__msg__MotorData(
   eprosima::fastcdr::Cdr & cdr,
   main_controller_interfaces__msg__MotorData * ros_message)
 {
-  // Field name: op_code
+  // Field name: left_speed
   {
-    std::string tmp;
-    cdr >> tmp;
-    if (!ros_message->op_code.data) {
-      rosidl_runtime_c__String__init(&ros_message->op_code);
-    }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->op_code,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'op_code'\n");
-      return false;
-    }
+    cdr >> ros_message->left_speed;
   }
 
-  // Field name: position
+  // Field name: right_speed
   {
-    cdr >> ros_message->position;
-  }
-
-  // Field name: speed
-  {
-    cdr >> ros_message->speed;
+    cdr >> ros_message->right_speed;
   }
 
   return true;
@@ -126,21 +94,16 @@ size_t get_serialized_size_main_controller_interfaces__msg__MotorData(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: op_code
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->op_code.size + 1);
-
-  // Field name: position
+  // Field name: left_speed
   {
-    size_t item_size = sizeof(ros_message->position);
+    size_t item_size = sizeof(ros_message->left_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
-  // Field name: speed
+  // Field name: right_speed
   {
-    size_t item_size = sizeof(ros_message->speed);
+    size_t item_size = sizeof(ros_message->right_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -167,19 +130,7 @@ size_t max_serialized_size_main_controller_interfaces__msg__MotorData(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: op_code
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: position
+  // Field name: left_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -187,7 +138,7 @@ size_t max_serialized_size_main_controller_interfaces__msg__MotorData(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Field name: speed
+  // Field name: right_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -204,7 +155,7 @@ size_t max_serialized_size_main_controller_interfaces__msg__MotorData(
     using DataType = main_controller_interfaces__msg__MotorData;
     is_plain =
       (
-      offsetof(DataType, speed) +
+      offsetof(DataType, right_speed) +
       last_member_size
       ) == ret_val;
   }
@@ -216,28 +167,14 @@ bool cdr_serialize_key_main_controller_interfaces__msg__MotorData(
   const main_controller_interfaces__msg__MotorData * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: op_code
+  // Field name: left_speed
   {
-    const rosidl_runtime_c__String * str = &ros_message->op_code;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
+    cdr << ros_message->left_speed;
   }
 
-  // Field name: position
+  // Field name: right_speed
   {
-    cdr << ros_message->position;
-  }
-
-  // Field name: speed
-  {
-    cdr << ros_message->speed;
+    cdr << ros_message->right_speed;
   }
 
   return true;
@@ -258,21 +195,16 @@ size_t get_serialized_size_key_main_controller_interfaces__msg__MotorData(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: op_code
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->op_code.size + 1);
-
-  // Field name: position
+  // Field name: left_speed
   {
-    size_t item_size = sizeof(ros_message->position);
+    size_t item_size = sizeof(ros_message->left_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
-  // Field name: speed
+  // Field name: right_speed
   {
-    size_t item_size = sizeof(ros_message->speed);
+    size_t item_size = sizeof(ros_message->right_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -297,19 +229,7 @@ size_t max_serialized_size_key_main_controller_interfaces__msg__MotorData(
 
   full_bounded = true;
   is_plain = true;
-  // Field name: op_code
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: position
+  // Field name: left_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -317,7 +237,7 @@ size_t max_serialized_size_key_main_controller_interfaces__msg__MotorData(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Field name: speed
+  // Field name: right_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -333,7 +253,7 @@ size_t max_serialized_size_key_main_controller_interfaces__msg__MotorData(
     using DataType = main_controller_interfaces__msg__MotorData;
     is_plain =
       (
-      offsetof(DataType, speed) +
+      offsetof(DataType, right_speed) +
       last_member_size
       ) == ret_val;
   }

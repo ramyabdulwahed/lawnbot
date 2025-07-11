@@ -19,16 +19,11 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'op_code'
-#include "rosidl_runtime_c/string.h"
-
 /// Struct defined in msg/MotorData in the package main_controller_interfaces.
 typedef struct main_controller_interfaces__msg__MotorData
 {
-  rosidl_runtime_c__String op_code;
-  int32_t position;
-  int32_t speed;
+  int32_t left_speed;
+  int32_t right_speed;
 } main_controller_interfaces__msg__MotorData;
 
 // Struct for a sequence of main_controller_interfaces__msg__MotorData.

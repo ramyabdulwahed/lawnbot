@@ -36,14 +36,11 @@ cdr_serialize(
   const main_controller_interfaces::msg::MotorData & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: op_code
-  cdr << ros_message.op_code;
+  // Member: left_speed
+  cdr << ros_message.left_speed;
 
-  // Member: position
-  cdr << ros_message.position;
-
-  // Member: speed
-  cdr << ros_message.speed;
+  // Member: right_speed
+  cdr << ros_message.right_speed;
 
   return true;
 }
@@ -54,14 +51,11 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   main_controller_interfaces::msg::MotorData & ros_message)
 {
-  // Member: op_code
-  cdr >> ros_message.op_code;
+  // Member: left_speed
+  cdr >> ros_message.left_speed;
 
-  // Member: position
-  cdr >> ros_message.position;
-
-  // Member: speed
-  cdr >> ros_message.speed;
+  // Member: right_speed
+  cdr >> ros_message.right_speed;
 
   return true;
 }
@@ -80,21 +74,16 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: op_code
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.op_code.size() + 1);
-
-  // Member: position
+  // Member: left_speed
   {
-    size_t item_size = sizeof(ros_message.position);
+    size_t item_size = sizeof(ros_message.left_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
-  // Member: speed
+  // Member: right_speed
   {
-    size_t item_size = sizeof(ros_message.speed);
+    size_t item_size = sizeof(ros_message.right_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -122,25 +111,14 @@ max_serialized_size_MotorData(
   full_bounded = true;
   is_plain = true;
 
-  // Member: op_code
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-  // Member: position
+  // Member: left_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // Member: speed
+  // Member: right_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -156,7 +134,7 @@ max_serialized_size_MotorData(
     using DataType = main_controller_interfaces::msg::MotorData;
     is_plain =
       (
-      offsetof(DataType, speed) +
+      offsetof(DataType, right_speed) +
       last_member_size
       ) == ret_val;
   }
@@ -170,14 +148,11 @@ cdr_serialize_key(
   const main_controller_interfaces::msg::MotorData & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: op_code
-  cdr << ros_message.op_code;
+  // Member: left_speed
+  cdr << ros_message.left_speed;
 
-  // Member: position
-  cdr << ros_message.position;
-
-  // Member: speed
-  cdr << ros_message.speed;
+  // Member: right_speed
+  cdr << ros_message.right_speed;
 
   return true;
 }
@@ -195,21 +170,16 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: op_code
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.op_code.size() + 1);
-
-  // Member: position
+  // Member: left_speed
   {
-    size_t item_size = sizeof(ros_message.position);
+    size_t item_size = sizeof(ros_message.left_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
-  // Member: speed
+  // Member: right_speed
   {
-    size_t item_size = sizeof(ros_message.speed);
+    size_t item_size = sizeof(ros_message.right_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -236,19 +206,7 @@ max_serialized_size_key_MotorData(
   full_bounded = true;
   is_plain = true;
 
-  // Member: op_code
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: position
+  // Member: left_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -256,7 +214,7 @@ max_serialized_size_key_MotorData(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: speed
+  // Member: right_speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -272,7 +230,7 @@ max_serialized_size_key_MotorData(
     using DataType = main_controller_interfaces::msg::MotorData;
     is_plain =
       (
-      offsetof(DataType, speed) +
+      offsetof(DataType, right_speed) +
       last_member_size
       ) == ret_val;
   }

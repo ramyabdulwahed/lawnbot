@@ -73,5 +73,4 @@ CMakeFiles/main_controller_interfaces__rosidl_typesupport_introspection_c.dir/ro
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces/rosidl_generator_c/main_controller_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__struct.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+ /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces/rosidl_generator_c/main_controller_interfaces/msg/detail/motor_data__struct.h

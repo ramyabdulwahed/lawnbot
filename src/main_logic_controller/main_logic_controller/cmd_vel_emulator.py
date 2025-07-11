@@ -131,11 +131,13 @@ class CmdVelEmulator(Node):
         # motor_msg_right.position = 0
         # motor_msg_right.speed = speed_ticks_right
         # self.motor_pub.publish(motor_msg_right)
-        self.motor_pub.publish(MotorData(op_code='1', position=0, speed=speed_ticks_left))  # Example of a second command
 
-        # self.motor_pub.publish(motor_msg_left)
-        self.motor_pub.publish(MotorData(op_code='2', position=0, speed=speed_ticks_right))  # Example of a second command
-        #self.path_publisher.publish(motor_msg_right)  
+
+        self.motor_pub.publish(MotorData(left_speed=speed_ticks_left, right_speed=speed_ticks_right))  # Publish both speeds in one message
+        
+        #the below is for the old motorData format
+#->        self.motor_pub.publish(MotorData(op_code='1', position=0, speed=speed_ticks_left))  # Example of a second command
+#->        self.motor_pub.publish(MotorData(op_code='2', position=0, speed=speed_ticks_right))  # Example of a second command
         self.get_logger().info(f'Published Left: {speed_ticks_left}, Right: {speed_ticks_right}')
 
 

@@ -28,24 +28,17 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: op_code
+  // member: left_speed
   {
-    out << "op_code: ";
-    rosidl_generator_traits::value_to_yaml(msg.op_code, out);
+    out << "left_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.left_speed, out);
     out << ", ";
   }
 
-  // member: position
+  // member: right_speed
   {
-    out << "position: ";
-    rosidl_generator_traits::value_to_yaml(msg.position, out);
-    out << ", ";
-  }
-
-  // member: speed
-  {
-    out << "speed: ";
-    rosidl_generator_traits::value_to_yaml(msg.speed, out);
+    out << "right_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.right_speed, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -54,33 +47,23 @@ inline void to_block_style_yaml(
   const MotorData & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: op_code
+  // member: left_speed
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "op_code: ";
-    rosidl_generator_traits::value_to_yaml(msg.op_code, out);
+    out << "left_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.left_speed, out);
     out << "\n";
   }
 
-  // member: position
+  // member: right_speed
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "position: ";
-    rosidl_generator_traits::value_to_yaml(msg.position, out);
-    out << "\n";
-  }
-
-  // member: speed
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "speed: ";
-    rosidl_generator_traits::value_to_yaml(msg.speed, out);
+    out << "right_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.right_speed, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -131,11 +114,11 @@ inline const char * name<main_controller_interfaces::msg::MotorData>()
 
 template<>
 struct has_fixed_size<main_controller_interfaces::msg::MotorData>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct has_bounded_size<main_controller_interfaces::msg::MotorData>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct is_message<main_controller_interfaces::msg::MotorData>

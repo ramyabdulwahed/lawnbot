@@ -16,9 +16,6 @@
 #include "main_controller_interfaces/msg/detail/motor_data__struct.h"
 #include "main_controller_interfaces/msg/detail/motor_data__functions.h"
 
-#include "rosidl_runtime_c/string.h"
-#include "rosidl_runtime_c/string_functions.h"
-
 
 ROSIDL_GENERATOR_C_EXPORT
 bool main_controller_interfaces__msg__motor_data__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -53,37 +50,22 @@ bool main_controller_interfaces__msg__motor_data__convert_from_py(PyObject * _py
     assert(strncmp("main_controller_interfaces.msg._motor_data.MotorData", full_classname_dest, 52) == 0);
   }
   main_controller_interfaces__msg__MotorData * ros_message = _ros_message;
-  {  // op_code
-    PyObject * field = PyObject_GetAttrString(_pymsg, "op_code");
-    if (!field) {
-      return false;
-    }
-    assert(PyUnicode_Check(field));
-    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
-    if (!encoded_field) {
-      Py_DECREF(field);
-      return false;
-    }
-    rosidl_runtime_c__String__assign(&ros_message->op_code, PyBytes_AS_STRING(encoded_field));
-    Py_DECREF(encoded_field);
-    Py_DECREF(field);
-  }
-  {  // position
-    PyObject * field = PyObject_GetAttrString(_pymsg, "position");
+  {  // left_speed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "left_speed");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->position = (int32_t)PyLong_AsLong(field);
+    ros_message->left_speed = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
-  {  // speed
-    PyObject * field = PyObject_GetAttrString(_pymsg, "speed");
+  {  // right_speed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "right_speed");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->speed = (int32_t)PyLong_AsLong(field);
+    ros_message->right_speed = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -108,39 +90,22 @@ PyObject * main_controller_interfaces__msg__motor_data__convert_to_py(void * raw
     }
   }
   main_controller_interfaces__msg__MotorData * ros_message = (main_controller_interfaces__msg__MotorData *)raw_ros_message;
-  {  // op_code
+  {  // left_speed
     PyObject * field = NULL;
-    field = PyUnicode_DecodeUTF8(
-      ros_message->op_code.data,
-      strlen(ros_message->op_code.data),
-      "replace");
-    if (!field) {
-      return NULL;
-    }
+    field = PyLong_FromLong(ros_message->left_speed);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "op_code", field);
+      int rc = PyObject_SetAttrString(_pymessage, "left_speed", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // position
+  {  // right_speed
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->position);
+    field = PyLong_FromLong(ros_message->right_speed);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "position", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // speed
-    PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->speed);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "speed", field);
+      int rc = PyObject_SetAttrString(_pymessage, "right_speed", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

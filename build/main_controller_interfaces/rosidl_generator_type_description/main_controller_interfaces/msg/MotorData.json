@@ -4,17 +4,7 @@
       "type_name": "main_controller_interfaces/msg/MotorData",
       "fields": [
         {
-          "name": "op_code",
-          "type": {
-            "type_id": 17,
-            "capacity": 0,
-            "string_capacity": 0,
-            "nested_type_name": ""
-          },
-          "default_value": ""
-        },
-        {
-          "name": "position",
+          "name": "left_speed",
           "type": {
             "type_id": 6,
             "capacity": 0,
@@ -24,7 +14,7 @@
           "default_value": ""
         },
         {
-          "name": "speed",
+          "name": "right_speed",
           "type": {
             "type_id": 6,
             "capacity": 0,
@@ -40,7 +30,7 @@
   "type_hashes": [
     {
       "type_name": "main_controller_interfaces/msg/MotorData",
-      "hash_string": "RIHS01_e7a5c342cceca70b609875166787fc7dd6749508f3044c7c7168fa606e7755a1"
+      "hash_string": "RIHS01_08bb78000b16e4d12746c4752bdedbfdac3f147031b875a920cea6b278e83ccb"
     }
   ]
 }
