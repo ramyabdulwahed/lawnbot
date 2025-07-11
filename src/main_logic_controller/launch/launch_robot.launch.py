@@ -75,16 +75,13 @@ def generate_launch_description():
     )
 
     #laser node driver 
-    laser_driver = Node(
-            package='rplidar_ros',
-            executable='rplidar_composition',
-            output='screen',
-            # parameters=[{
-            #     'serial_port': '/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0',
-            #     'frame_id': 'laser_frame',
-            #     'angle_compensate': True,
-            #     'scan_mode': 'Standard'
-            # }]
+    sllidar_package = get_package_share_directory('sllidar_ros2')
+    sllidar_launch_file = os.path.join(sllidar_package, 'launch', 'view_sllidar_a1_launch.py')
+    laser_driver = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(sllidar_launch_file),
+        launch_arguments={
+            "frame_id": "laser_frame",
+        }.items(),
     )
 
     #############################################################
@@ -251,7 +248,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-                motor_controller,
+        motor_controller,
         Nav2_translator,  #this is the node that translates cmd_vel messages to messages that the kanga motor controller can understand
         use_slam_arg,   #this is the argument to use slam or not
         #laser_driver, 
@@ -261,6 +258,7 @@ def generate_launch_description():
         nav2_launch_for_slam,  #this is the node that runs nav2 for slam
         robot_state_publisher_node,
         map_saver_node,  #this is the node that saves the map after exploration is done
+#        laser_driver,  #this is the node that runs the laser driver
         #rviz2,  #this is the node that runs rviz2
         #teleop_keyboard, 
 
