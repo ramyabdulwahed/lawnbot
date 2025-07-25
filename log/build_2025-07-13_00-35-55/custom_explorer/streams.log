@@ -1,0 +1,17 @@
+[2.108s] Invoking command in '/home/lawnbot/ROS2/lawnbot/build/custom_explorer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build --no-deps symlink_data
+[2.618s] running develop
+[2.951s] running egg_info
+[2.982s] writing custom_explorer.egg-info/PKG-INFO
+[2.983s] writing dependency_links to custom_explorer.egg-info/dependency_links.txt
+[2.984s] writing entry points to custom_explorer.egg-info/entry_points.txt
+[2.985s] writing requirements to custom_explorer.egg-info/requires.txt
+[2.985s] writing top-level names to custom_explorer.egg-info/top_level.txt
+[3.051s] reading manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[3.053s] writing manifest file 'custom_explorer.egg-info/SOURCES.txt'
+[3.086s] running build_ext
+[3.086s] Creating /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages/custom-explorer.egg-link (link to .)
+[3.087s] Installing explorer script to /home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/custom_explorer
+[3.087s] 
+[3.088s] Installed /home/lawnbot/ROS2/lawnbot/build/custom_explorer
+[3.088s] running symlink_data
+[3.186s] Invoked command in '/home/lawnbot/ROS2/lawnbot/build/custom_explorer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build --no-deps symlink_data

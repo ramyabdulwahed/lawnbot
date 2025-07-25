@@ -1,0 +1,261 @@
+[INFO] [launch]: All log files can be found below /home/lawnbot/.ros/log/2025-07-12-11-17-26-338813-lawnbot-pi-6695
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [motor-1]: process started with pid [6715]
+[INFO] [cmd_vel_emulator-2]: process started with pid [6716]
+[INFO] [async_slam_toolbox_node-3]: process started with pid [6717]
+[INFO] [controller_server-4]: process started with pid [6718]
+[INFO] [smoother_server-5]: process started with pid [6719]
+[INFO] [planner_server-6]: process started with pid [6720]
+[INFO] [behavior_server-7]: process started with pid [6721]
+[INFO] [bt_navigator-8]: process started with pid [6722]
+[INFO] [waypoint_follower-9]: process started with pid [6723]
+[INFO] [velocity_smoother-10]: process started with pid [6724]
+[INFO] [collision_monitor-11]: process started with pid [6725]
+[INFO] [opennav_docking-12]: process started with pid [6726]
+[INFO] [lifecycle_manager-13]: process started with pid [6727]
+[INFO] [robot_state_publisher-14]: process started with pid [6728]
+[INFO] [map_saver_server-15]: process started with pid [6729]
+[INFO] [start_stop_wrapper-16]: process started with pid [6730]
+[robot_state_publisher-14] [INFO] [1752333448.542191910] [robot_state_publisher]: Robot initialized
+[velocity_smoother-10] [INFO] [1752333448.688358114] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-13] [INFO] [1752333448.702035207] [lifecycle_manager_navigation]: Creating
+[async_slam_toolbox_node-3] [INFO] [1752333448.709974207] [slam_toolbox]: Node using stack size 40000000
+[bt_navigator-8] [INFO] [1752333448.761923725] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1752333448.791192262] [bt_navigator]: Creating
+[planner_server-6] [INFO] [1752333448.797038929] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[async_slam_toolbox_node-3] [INFO] [1752333448.799794373] [slam_toolbox]: Configuring
+[opennav_docking-12] [INFO] [1752333448.823931151] [docking_server]: 
+[opennav_docking-12] 	docking_server lifecycle node launched. 
+[opennav_docking-12] 	Waiting on external lifecycle transitions to activate
+[opennav_docking-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-12] [INFO] [1752333448.824163299] [docking_server]: Creating docking_server
+[planner_server-6] [INFO] [1752333448.824350484] [planner_server]: Creating
+[controller_server-4] [INFO] [1752333448.840543781] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-13] [INFO] [1752333448.885592318] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[controller_server-4] [INFO] [1752333448.970269151] [controller_server]: Creating controller server
+[async_slam_toolbox_node-3] [INFO] [1752333448.972206429] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-3] [INFO] [1752333448.990363225] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[smoother_server-5] [INFO] [1752333449.003320873] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1752333449.018111336] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1752333449.019204706] [waypoint_follower]: Creating
+[collision_monitor-11] [INFO] [1752333449.019960855] [collision_monitor]: 
+[collision_monitor-11] 	collision_monitor lifecycle node launched. 
+[collision_monitor-11] 	Waiting on external lifecycle transitions to activate
+[collision_monitor-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-15] [INFO] [1752333449.027682280] [map_saver_server]: 
+[map_saver_server-15] 	map_saver_server lifecycle node launched. 
+[map_saver_server-15] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-15] [INFO] [1752333449.027964466] [map_saver_server]: Creating
+[smoother_server-5] [INFO] [1752333449.050944743] [smoother_server]: Creating smoother server
+[behavior_server-7] [INFO] [1752333449.051837503] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752333449.244211040] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-13] [INFO] [1752333449.246303577] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-13] [INFO] [1752333449.246391688] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[planner_server-6] [INFO] [1752333449.259716465] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1752333449.341559058] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1752333449.342637021] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1752333449.359441077] [controller_server]: Configuring controller interface
+[controller_server-4] [INFO] [1752333449.359499243] [controller_server]: getting progress checker plugins..
+[controller_server-4] [INFO] [1752333449.360204910] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1752333449.361998910] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-4] [INFO] [1752333449.362164558] [local_costmap.local_costmap]: Configuring
+[controller_server-4] [INFO] [1752333449.421815465] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+[controller_server-4] [INFO] [1752333449.471363669] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[async_slam_toolbox_node-3] [INFO] [1752333449.490591651] [slam_toolbox]: Activating
+[controller_server-4] [INFO] [1752333449.659993669] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-4] [INFO] [1752333449.660078262] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1752333449.667733317] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1752333449.785508076] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1752333449.789504465] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-4] [INFO] [1752333449.795890836] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1752333449.800679373] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1752333449.828470002] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-4] [INFO] [1752333449.839654243] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-4] [INFO] [1752333449.906087113] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-4] [INFO] [1752333449.909268058] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.909663150] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-4] [INFO] [1752333449.918013706] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.918342354] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-4] [INFO] [1752333449.918651447] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.918843502] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-4] [INFO] [1752333449.924968613] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.927886187] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-4] [INFO] [1752333449.928607632] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.928796650] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-4] [INFO] [1752333449.929178835] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.929350558] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-4] [INFO] [1752333449.929651947] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752333449.929690039] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-13] [INFO] [1752333450.018007298] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752333450.018731039] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1752333450.091444872] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1752333450.108175632] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-13] [INFO] [1752333450.140893132] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1752333450.142261095] [planner_server]: Configuring
+[planner_server-6] [INFO] [1752333450.142334354] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1752333450.241938020] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1752333450.266000132] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1752333450.318402872] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1752333450.318479706] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752333450.333977780] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-6] [INFO] [1752333450.355831557] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752333450.355906039] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [ERROR] [1752333450.358159780] [global_costmap.global_costmap]: Failed to initialize costmap plugin inflation_layer! parameter 'inflation_layer.inflation_radius' has invalid type: Wrong parameter type, parameter {inflation_layer.inflation_radius} is of type {double}, setting it to {integer} is not allowed..
+[planner_server-6] [INFO] [1752333450.369855317] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-6] [INFO] [1752333450.369956835] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752333450.370948761] [planner_server]: Planner Server has GridBased  planners available.
+[motor-1] [INFO] [1752333450.602621557] [motor_controller]: Motor Controller Node called
+[lifecycle_manager-13] [INFO] [1752333450.852750613] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752333450.853223816] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1752333450.873036020] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-7] [INFO] [1752333450.876576742] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[behavior_server-7] [INFO] [1752333450.878701520] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[behavior_server-7] [INFO] [1752333450.881233131] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[behavior_server-7] [INFO] [1752333450.885566409] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-7] [INFO] [1752333450.906149353] [behavior_server]: Configuring spin
+[behavior_server-7] [INFO] [1752333450.957963316] [behavior_server]: Configuring backup
+[behavior_server-7] [INFO] [1752333450.983202409] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1752333451.017263427] [behavior_server]: Configuring assisted_teleop
+[behavior_server-7] [INFO] [1752333451.044516372] [behavior_server]: Configuring wait
+[lifecycle_manager-13] [INFO] [1752333451.062030983] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752333451.062587594] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-13] [INFO] [1752333451.092742094] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752333451.099545113] [collision_monitor]: Configuring
+[collision_monitor-11] [INFO] [1752333451.135447853] [collision_monitor]: [scan]: Creating Scan
+[collision_monitor-11] [INFO] [1752333451.143688964] [collision_monitor]: [FootprintApproach]: Creating Polygon
+[collision_monitor-11] [INFO] [1752333451.144154409] [collision_monitor]: [FootprintApproach]: Polygon points are not defined. Using dynamic subscription instead.
+[collision_monitor-11] [INFO] [1752333451.145436390] [collision_monitor]: [FootprintApproach]: Making footprint subscriber on /local_costmap/published_footprint topic
+[lifecycle_manager-13] [INFO] [1752333451.174993835] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752333451.175475187] [bt_navigator]: Configuring
+[bt_navigator-8] [INFO] [1752333451.193308242] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[bt_navigator-8] [INFO] [1752333451.386352372] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[lifecycle_manager-13] [INFO] [1752333451.455331594] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752333451.455988464] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1752333451.532533057] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-13] [INFO] [1752333451.534716242] [lifecycle_manager_navigation]: [34m[1mConfiguring docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752333451.535252964] [docking_server]: Configuring docking_server
+[opennav_docking-12] [INFO] [1752333451.535318168] [docking_server]: Controller frequency set to 50.0000Hz
+[opennav_docking-12] [INFO] [1752333451.610987742] [docking_server]: Created charging dock plugin simple_charging_dock of type opennav_docking::SimpleChargingDock
+[cmd_vel_emulator-2] [INFO] [1752333451.615802260] [cmd_emulator]: Motor stop service not available, waiting again...
+[opennav_docking-12] [WARN] [1752333451.630501038] [docking_server]: Dock database filepath nor dock parameters set. Docking actions can only be executed specifying the dock pose via the action request. Or update the dock database via the reload_database service.
+[opennav_docking-12] [INFO] [1752333451.630575983] [docking_server]: Docking Server has 1 dock types and 0 dock instances available.
+[async_slam_toolbox_node-3] [INFO] [1752333451.632682242] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333450.161 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752333451.636989797] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1752333451.637409057] [controller_server]: Activating
+[controller_server-4] [INFO] [1752333451.637465168] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1752333451.637482538] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1752333451.637544816] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752333451.754139557] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333451.497 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333451.889280927] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333451.631 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333452.012020612] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333451.754 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752333452.138926464] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752333452.152782612] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333451.889 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333452.269928686] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.012 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333452.407358612] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.148 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333452.527891297] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.270 for reason 'discarding message because the queue is full'
+[cmd_vel_emulator-2] [INFO] [1752333452.620510445] [cmd_emulator]: Motor stop service not available, waiting again...
+[controller_server-4] [INFO] [1752333452.637599649] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752333452.662772741] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.406 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333452.787398389] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.528 for reason 'discarding message because the queue is full'
+[motor-1] [INFO] [1752333452.842729186] [motor_controller]: Motor Controller Node initialized
+[cmd_vel_emulator-2] [INFO] [1752333452.872031704] [cmd_emulator]: CmdVel Emulator initialized
+[async_slam_toolbox_node-3] [INFO] [1752333452.920918778] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.663 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333453.043949982] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.786 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752333453.137800889] [local_costmap.local_costmap]: start
+[async_slam_toolbox_node-3] [INFO] [1752333453.179030167] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333452.921 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752333453.301726167] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333453.044 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [WARN] [1752333453.302470482] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (12.0 m)
+[async_slam_toolbox_node-3] Registering sensor: [Custom Described Lidar]
+[controller_server-4] [INFO] [1752333453.341895556] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752333453.457289870] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752333453.457371296] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752333453.463101000] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1752333453.463179315] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[controller_server-4] [INFO] [1752333453.479549204] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752333453.044 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752333453.561568907] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333453.302 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752333453.575646778] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752333453.575724611] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1752333453.576259296] [planner_server]: Activating
+[planner_server-6] [WARN] [1752333453.576307018] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+[planner_server-6] [ERROR] [1752333453.576320852] [global_costmap.global_costmap]: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+[lifecycle_manager-13] [ERROR] [1752333453.576810500] [lifecycle_manager_navigation]: Failed to change state for node: planner_server
+[lifecycle_manager-13] [ERROR] [1752333453.576880037] [lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.
+[controller_server-4] [INFO] [1752333453.738286574] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752333453.302 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752333454.581117129] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 55 X 38 at 0.050000 m/pix
+[async_slam_toolbox_node-3] [INFO] [1752333546.854599518] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752333546.523 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1752333546.950231148] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752333546.523 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[bt_navigator-8] [INFO] [1752333551.863385830] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333556.862066309] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333561.862447639] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333566.863708969] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333571.861813800] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333576.862529315] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333581.862292053] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333586.862286828] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333591.861963269] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333596.861906563] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333601.862646615] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333606.862111131] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333611.861731257] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333616.862837736] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333621.862414566] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333626.862359211] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333631.862482968] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333636.862301539] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333641.862435462] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333646.862418422] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333651.863218882] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333656.862478749] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333661.862601635] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333666.861993984] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333671.861780888] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333676.863428941] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333681.862139568] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333686.862181046] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333691.862876043] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333696.862298003] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333701.863143982] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333706.862936997] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333711.862368994] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333716.861760473] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333721.863634247] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333726.862402263] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333731.861783056] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333736.862297090] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333741.862280736] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333746.862671307] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333751.861587933] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333756.862977597] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333761.862334816] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333766.862160628] [bt_navigator]: Action server is inactive. Rejecting the goal.
+[bt_navigator-8] [INFO] [1752333771.862559884] [bt_navigator]: Action server is inactive. Rejecting the goal.
+                                                                                                                                                                                                                                                                                                                                          

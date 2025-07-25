@@ -56,9 +56,10 @@ def send_command(ser, command):
     - Waits briefly and reads back the response
     """
     ser.write(command.encode('utf-8') + b'\r')
-    time.sleep(0.1) #give kangaroo some time to process the command and respond
-    response = ser.read(ser.in_waiting).decode('utf-8') #reads whatever bytes are currently waiting in the serial buffer. decode it into a string
+    #time.sleep(0.1) #give kangaroo some time to process the command and respond
+    #response = ser.read(ser.in_waiting).decode('utf-8') #reads whatever bytes are currently waiting in the serial buffer. decode it into a string
     #ser.in_waiting tells us how many bytes are there in the buffer. ex.mailbox
+    response = ser.readline().decode('utf-8').strip()
     return response
 
 
@@ -95,8 +96,16 @@ class MotorController(Node):
         MotorData,
         'motor_output',               # Listens to motor commands here
         self.motor_output_callback,   # Handles the message
-        10
+        1
         )
+        self.latest_left_speed = 0
+        self.latest_right_speed = 0
+
+#        self.motor_command_timer = self.create_timer(
+#    0.05,  # 20 Hz
+#    self.send_latest_motor_command
+#        )
+
 
         self.ser = setup_serial()  # Connect to the Kangaroo via UART
         self.motion_complete_publisher_ = self.create_publisher(
@@ -131,7 +140,7 @@ class MotorController(Node):
         self.theta = 0.0
         self.last_ticks_left_wheel_drive = 0
         self.last_ticks_right_wheel_drive = 0
-        self.wheel_separation = 0.366 #TO BE CHANGED - distance between the two wheels in meters
+        self.wheel_separation = 0.425 #TO BE CHANGED - distance between the two wheels in meters
 
         self.get_logger().info("Motor Controller Node initialized")
 
@@ -171,6 +180,21 @@ class MotorController(Node):
 
 
     #Listens to movement commands from the logic node and sends them to Kangaroo.
+    def send_latest_motor_command(self):
+       #if self.paused:
+       #  return
+
+         command_left = f'1,S{self.latest_left_speed}'
+         command_right = f'2,S{self.latest_right_speed}'
+         #self.get_logger().info(f'Sending to serial: {command_left}, {command_right}')
+
+         if self.latest_left_speed == 0 and self.latest_right_speed == 0:
+           return
+####         self.get_logger().info(f'Sending to serial: {command_left}, {command_right}')
+         send_motor_command(self.ser, command_left)
+         send_motor_command(self.ser, command_right)
+
+
 
     def motor_output_callback(self, msg):
         """
@@ -182,23 +206,36 @@ class MotorController(Node):
         Example: D,PI1000S200
         """
     
+#        if self.paused:
+#            self.get_logger().debug('Paused: not sending motor commands.')
+#            return
+
+#        command_left_wheel = f'1,S{msg.left_speed}'  # Left wheel command
+#        command_right_wheel = f'2,S{msg.right_speed}'  # Right wheel command
+#        self.get_logger().info(f'Sending to serial: {command_left_wheel}, {command_right_wheel}')
+
+
+#        send_motor_command(self.ser, command_left_wheel)  # Send left wheel command
+#        send_motor_command(self.ser, command_right_wheel)  # Send right wheel command
+
+#        print ("response sent!")
         if self.paused:
-            self.get_logger().debug('Paused: not sending motor commands.')
-            return
-        #the below is for the old motorData format
-#        command = f'{msg.op_code},S{msg.speed}'
-#        self.get_logger().info(f'Sending to Serial: {command}')
+          self.get_logger().debug('Paused: not sending motor commands.')
+          return
 
-        command_left_wheel = f'1,S{msg.left_speed}'  # Left wheel command
-        command_right_wheel = f'2,S{msg.right_speed}'  # Right wheel command
-        self.get_logger().info(f'Sending to serial: {command_left_wheel}, {command_right_wheel}')
+        self.latest_left_speed = msg.left_speed
+        self.latest_right_speed = msg.right_speed
 
-        #send_motor_command(self.ser, command)  # Send the command to Kangaroo
+        command_left = f'1,S{self.latest_left_speed}'
+        command_right = f'2,S{self.latest_right_speed}'
+         #self.get_logger().info(f'Sending to serial: {command_left}, {command_right}')
 
-        send_motor_command(self.ser, command_left_wheel)  # Send left wheel command
-        send_motor_command(self.ser, command_right_wheel)  # Send right wheel command
+        if self.latest_left_speed == 0 and self.latest_right_speed == 0:
+          return
+        self.get_logger().info(f'Sending to serial: {command_left}, {command_right}')
+        send_motor_command(self.ser, command_left)
+        send_motor_command(self.ser, command_right)
 
-        print ("response sent!")
 
     def stop(self):
         """
@@ -250,6 +287,7 @@ class MotorController(Node):
 
         """
         left_wheel_motor = send_command(self.ser, "1,getp")
+    #    self.get_logger().warn(f"recevied: {left_wheel_motor}")
 
         '''
         what the code below does:
@@ -323,7 +361,7 @@ class MotorController(Node):
         odom_msg = Odometry()
         odom_msg.header.stamp = self.get_clock().now().to_msg() #when this odom was computed
         odom_msg.header.frame_id = 'odom'        # Frame "odom" is the world frame
-        odom_msg.child_frame_id = 'base_link'    # Robot's base frame
+        odom_msg.child_frame_id = 'base_link' #'base_footprint' #'base_link'    # Robot's base frame
 
         #a pose contains position and orientation
         #point position #x y z
@@ -341,6 +379,13 @@ class MotorController(Node):
         odom_msg.twist.twist.linear.x = ((delta_distance_left + delta_distance_right) / 2.0) / ODOM_TIMER_PERIOD
         odom_msg.twist.twist.angular.z = ((delta_distance_right - delta_distance_left) / self.wheel_separation) / ODOM_TIMER_PERIOD
 
+####        self.get_logger().info(
+####        f"L:{delta_left_wheel_drive} R:{delta_right_wheel_drive} "
+####        f"Δd={delta_distance:.4f} Δθ={math.degrees(delta_theta):.1f}° "
+####   f"v={odom_msg.twist.twist.linear.x:.3f} m/s "
+####        f"w={math.degrees(odom_msg.twist.twist.angular.z):.1f}°/s"
+####       )
+
         self.odom_pub.publish(odom_msg)
 
         # === STEP 5 — Publish TF transform ===
@@ -349,7 +394,7 @@ class MotorController(Node):
         #the below is saying: At this time, base_link exists relative to odom at the pose we are about to set.
         t.header.stamp = self.get_clock().now().to_msg()
         t.header.frame_id = 'odom'
-        t.child_frame_id = 'base_link'
+        t.child_frame_id = 'base_link' #'base_footprint'
 
         t.transform.translation.x = self.x
         t.transform.translation.y = self.y

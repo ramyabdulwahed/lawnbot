@@ -1,0 +1,259 @@
+[0.163s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.163s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3cb7530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3bd2690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3bd2690>>)[0m
+[0.211s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.212s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.212s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.212s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.212s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.212s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.212s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/lawnbot/ROS2/lawnbot'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ignore'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ignore_ament_install'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['colcon_pkg']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'colcon_pkg'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['colcon_meta']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'colcon_meta'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['ros']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ros'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/Autonomous-Explorer-and-Mapper-ros2-nav2' with type 'ros.ament_python' and name 'custom_explorer'[0m
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) ignored
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) ignored
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extension 'ignore'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) ignored
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extension 'ignore'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extension 'ignore_ament_install'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extensions ['colcon_pkg']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extension 'colcon_pkg'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extensions ['colcon_meta']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extension 'colcon_meta'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extensions ['ros']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_controller_interfaces) by extension 'ros'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/main_controller_interfaces' with type 'ros.ament_cmake' and name 'main_controller_interfaces'[0m
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extension 'ignore'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extension 'ignore_ament_install'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extensions ['colcon_pkg']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extension 'colcon_pkg'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extensions ['colcon_meta']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extension 'colcon_meta'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extensions ['ros']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller) by extension 'ros'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/main_logic_controller' with type 'ros.ament_python' and name 'main_logic_controller'[0m
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'ignore'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'ignore_ament_install'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extensions ['colcon_pkg']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'colcon_pkg'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extensions ['colcon_meta']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'colcon_meta'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'ros'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extensions ['cmake', 'python']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'cmake'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'python'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extensions ['python_setup_py']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/main_logic_controller_interfaces) by extension 'python_setup_py'
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_args' from command line to 'None'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_target' from command line to 'None'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'custom_explorer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'custom_explorer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lawnbot/ROS2/lawnbot/build/custom_explorer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lawnbot/ROS2/lawnbot/install/custom_explorer', 'merge_install': False, 'path': '/home/lawnbot/ROS2/lawnbot/src/Autonomous-Explorer-and-Mapper-ros2-nav2', 'symlink_install': True, 'test_result_base': None}[0m
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_controller_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'main_controller_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces', 'merge_install': False, 'path': '/home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'cmake_args' from command line to 'None'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'cmake_target' from command line to 'None'
+[0.281s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main_logic_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'main_logic_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller', 'merge_install': False, 'path': '/home/lawnbot/ROS2/lawnbot/src/main_logic_controller', 'symlink_install': True, 'test_result_base': None}[0m
+[0.282s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.283s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.284s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/lawnbot/ROS2/lawnbot/src/Autonomous-Explorer-and-Mapper-ros2-nav2' with build type 'ament_python'
+[0.284s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_explorer', 'ament_prefix_path')
+[0.286s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.286s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/hook/ament_prefix_path.dsv'
+[0.287s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/hook/ament_prefix_path.sh'
+[0.288s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.297s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces' with build type 'ament_cmake'
+[0.297s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/lawnbot/ROS2/lawnbot/src/main_controller_interfaces'
+[0.298s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.671s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/lawnbot/ROS2/lawnbot/src/Autonomous-Explorer-and-Mapper-ros2-nav2'
+[0.672s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.685s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lawnbot/ROS2/install/lawnbot_ros2:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces -- -j4 -l4[0m
+[1.737s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lawnbot/ROS2/install/lawnbot_ros2:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces -- -j4 -l4[0m
+[1.760s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lawnbot/ROS2/install/lawnbot_ros2:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces[0m
+[1.926s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(main_controller_interfaces)
+[1.927s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lawnbot/ROS2/install/lawnbot_ros2:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lawnbot/ROS2/lawnbot/build/main_controller_interfaces[0m
+[1.934s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces' for CMake module files
+[1.935s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces' for CMake config files
+[1.936s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_controller_interfaces', 'cmake_prefix_path')
+[1.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/cmake_prefix_path.dsv'
+[1.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/cmake_prefix_path.sh'
+[1.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib'
+[1.939s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_controller_interfaces', 'ld_library_path_lib')
+[1.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/ld_library_path_lib.dsv'
+[1.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/ld_library_path_lib.sh'
+[1.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/bin'
+[1.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/pkgconfig/main_controller_interfaces.pc'
+[1.942s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages'
+[1.942s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_controller_interfaces', 'pythonpath')
+[1.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/pythonpath.dsv'
+[1.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/pythonpath.sh'
+[1.944s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/bin'
+[1.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.dsv'
+[1.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.sh'
+[1.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.bash'
+[1.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.zsh'
+[1.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/colcon-core/packages/main_controller_interfaces)
+[1.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(main_controller_interfaces)
+[1.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces' for CMake module files
+[1.952s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces' for CMake config files
+[1.953s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_controller_interfaces', 'cmake_prefix_path')
+[1.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/cmake_prefix_path.dsv'
+[1.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/cmake_prefix_path.sh'
+[1.956s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib'
+[1.956s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_controller_interfaces', 'ld_library_path_lib')
+[1.956s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/ld_library_path_lib.dsv'
+[1.957s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/ld_library_path_lib.sh'
+[1.958s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/bin'
+[1.958s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/pkgconfig/main_controller_interfaces.pc'
+[1.959s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages'
+[1.959s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_controller_interfaces', 'pythonpath')
+[1.959s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/pythonpath.dsv'
+[1.960s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/hook/pythonpath.sh'
+[1.962s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/bin'
+[1.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.dsv'
+[1.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.sh'
+[1.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.bash'
+[1.965s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/main_controller_interfaces/package.zsh'
+[1.967s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/share/colcon-core/packages/main_controller_interfaces)
+[1.976s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lawnbot/ROS2/lawnbot/build/custom_explorer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build --no-deps symlink_data[0m
+[3.047s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_explorer', 'pythonpath_develop')
+[3.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/build/custom_explorer/share/custom_explorer/hook/pythonpath_develop.dsv'
+[3.048s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lawnbot/ROS2/lawnbot/build/custom_explorer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/custom_explorer/build --no-deps symlink_data[0m
+[3.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/build/custom_explorer/share/custom_explorer/hook/pythonpath_develop.sh'
+[3.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer' for CMake module files
+[3.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer' for CMake config files
+[3.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib'
+[3.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/bin'
+[3.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/pkgconfig/custom_explorer.pc'
+[3.053s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages'
+[3.053s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('custom_explorer', 'pythonpath')
+[3.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/hook/pythonpath.dsv'
+[3.054s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/hook/pythonpath.sh'
+[3.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/bin'
+[3.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(custom_explorer)
+[3.056s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/package.dsv'
+[3.057s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/package.sh'
+[3.059s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/package.bash'
+[3.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/custom_explorer/package.zsh'
+[3.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lawnbot/ROS2/lawnbot/install/custom_explorer/share/colcon-core/packages/custom_explorer)
+[3.064s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/lawnbot/ROS2/lawnbot/src/main_logic_controller' with build type 'ament_python'
+[3.064s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_logic_controller', 'ament_prefix_path')
+[3.064s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/hook/ament_prefix_path.dsv'
+[3.065s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/hook/ament_prefix_path.sh'
+[3.066s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.459s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/lawnbot/ROS2/lawnbot/src/main_logic_controller'
+[3.459s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.469s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/install/sllidar_ros2:/home/lawnbot/ROS2/install/lawnbot_ros2:/home/lawnbot/ROS2/install/custom_message:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:/home/lawnbot/ROS2/install/lawnbot_ros2/lib/python3.12/site-packages:/home/lawnbot/ROS2/install/custom_message/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build --no-deps symlink_data[0m
+[5.567s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_logic_controller', 'pythonpath_develop')
+[5.567s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/share/main_logic_controller/hook/pythonpath_develop.dsv'
+[5.568s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller' returned '0': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/install/custom_explorer:/home/lawnbot/ROS2/install/sllidar_ros2:/home/lawnbot/ROS2/install/lawnbot_ros2:/home/lawnbot/ROS2/install/custom_message:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/install/custom_explorer/lib/python3.12/site-packages:/home/lawnbot/ROS2/install/lawnbot_ros2/lib/python3.12/site-packages:/home/lawnbot/ROS2/install/custom_message/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/build/main_logic_controller:/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/install/main_controller_interfaces/lib/python3.12/site-packages:/home/lawnbot/ROS2/src/lawnbot_ros2/install/lawnbot_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/lawnbot/Downloads/my_venv/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/build/main_logic_controller/build --no-deps symlink_data[0m
+[5.568s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/share/main_logic_controller/hook/pythonpath_develop.sh'
+[5.570s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller' for CMake module files
+[5.571s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller' for CMake config files
+[5.572s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib'
+[5.573s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/bin'
+[5.573s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/pkgconfig/main_logic_controller.pc'
+[5.573s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/python3.12/site-packages'
+[5.573s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main_logic_controller', 'pythonpath')
+[5.573s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/hook/pythonpath.dsv'
+[5.574s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/hook/pythonpath.sh'
+[5.575s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/bin'
+[5.575s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(main_logic_controller)
+[5.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/package.dsv'
+[5.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/package.sh'
+[5.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/package.bash'
+[5.580s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/main_logic_controller/package.zsh'
+[5.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/share/colcon-core/packages/main_logic_controller)
+[5.582s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[5.583s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[5.583s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[5.583s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[5.592s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.592s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.592s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[5.610s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[5.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lawnbot/ROS2/lawnbot/install/local_setup.sh'
+[5.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/lawnbot/ROS2/lawnbot/install/_local_setup_util_sh.py'
+[5.614s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lawnbot/ROS2/lawnbot/install/setup.sh'
+[5.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lawnbot/ROS2/lawnbot/install/local_setup.bash'
+[5.617s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lawnbot/ROS2/lawnbot/install/setup.bash'
+[5.619s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lawnbot/ROS2/lawnbot/install/local_setup.zsh'
+[5.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lawnbot/ROS2/lawnbot/install/setup.zsh'

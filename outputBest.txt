@@ -1,0 +1,1123 @@
+[INFO] [launch]: All log files can be found below /home/lawnbot/.ros/log/2025-07-12-16-01-43-925398-lawnbot-pi-10799
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [motor-1]: process started with pid [10819]
+[INFO] [cmd_vel_emulator-2]: process started with pid [10820]
+[INFO] [async_slam_toolbox_node-3]: process started with pid [10821]
+[INFO] [controller_server-4]: process started with pid [10822]
+[INFO] [smoother_server-5]: process started with pid [10823]
+[INFO] [planner_server-6]: process started with pid [10824]
+[INFO] [behavior_server-7]: process started with pid [10825]
+[INFO] [bt_navigator-8]: process started with pid [10826]
+[INFO] [waypoint_follower-9]: process started with pid [10827]
+[INFO] [velocity_smoother-10]: process started with pid [10828]
+[INFO] [collision_monitor-11]: process started with pid [10829]
+[INFO] [opennav_docking-12]: process started with pid [10830]
+[INFO] [lifecycle_manager-13]: process started with pid [10831]
+[INFO] [robot_state_publisher-14]: process started with pid [10832]
+[INFO] [map_saver_server-15]: process started with pid [10833]
+[INFO] [start_stop_wrapper-16]: process started with pid [10834]
+[async_slam_toolbox_node-3] [INFO] [1752350505.487389090] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-3] [INFO] [1752350505.570965108] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-3] [INFO] [1752350505.593438793] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-3] [INFO] [1752350505.628721849] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[robot_state_publisher-14] [INFO] [1752350505.713212867] [robot_state_publisher]: Robot initialized
+[controller_server-4] [INFO] [1752350505.736439775] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1752350505.750636571] [controller_server]: Creating controller server
+[INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+[async_slam_toolbox_node-3] [INFO] [1752350505.852358015] [slam_toolbox]: Activating
+[controller_server-4] [INFO] [1752350505.931737071] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1752350505.951694423] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-13] [INFO] [1752350506.066730441] [lifecycle_manager_navigation]: Creating
+[smoother_server-5] [INFO] [1752350506.089014645] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-5] [INFO] [1752350506.094207497] [smoother_server]: Creating smoother server
+[lifecycle_manager-13] [INFO] [1752350506.102236626] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[async_slam_toolbox_node-3] [INFO] [1752350506.246594015] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350505.918 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752350506.341425330] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.041 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350506.548598589] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.337 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[collision_monitor-11] [INFO] [1752350506.590084867] [collision_monitor]: 
+[collision_monitor-11] 	collision_monitor lifecycle node launched. 
+[collision_monitor-11] 	Waiting on external lifecycle transitions to activate
+[collision_monitor-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[velocity_smoother-10] [INFO] [1752350506.770814200] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-12] [INFO] [1752350506.839236644] [docking_server]: 
+[opennav_docking-12] 	docking_server lifecycle node launched. 
+[opennav_docking-12] 	Waiting on external lifecycle transitions to activate
+[opennav_docking-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-12] [INFO] [1752350506.839515996] [docking_server]: Creating docking_server
+[waypoint_follower-9] [INFO] [1752350506.902589755] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1752350506.910705237] [waypoint_follower]: Creating
+[bt_navigator-8] [INFO] [1752350506.978449700] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1752350506.993939829] [bt_navigator]: Creating
+[map_saver_server-15] [INFO] [1752350507.024714663] [map_saver_server]: 
+[map_saver_server-15] 	map_saver_server lifecycle node launched. 
+[map_saver_server-15] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-15] [INFO] [1752350507.025038218] [map_saver_server]: Creating
+[behavior_server-7] [INFO] [1752350507.037568015] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752350507.061338718] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752350507.070185107] [planner_server]: Creating
+[lifecycle_manager-13] [INFO] [1752350507.118291126] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-13] [INFO] [1752350507.118394200] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[planner_server-6] [INFO] [1752350507.150730126] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752350507.151842292] [global_costmap.global_costmap]: Creating Costmap
+[async_slam_toolbox_node-3] [INFO] [1752350507.165428478] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.338 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350507.166627033] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.434 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350507.171090237] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.569 for reason 'discarding message because the queue is full'
+[motor-1] [INFO] [1752350507.458615588] [motor_controller]: Motor Controller Node called
+[async_slam_toolbox_node-3] [INFO] [1752350507.526124274] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.692 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350507.529761681] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350506.827 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752350507.537454181] [controller_server]: Configuring controller interface
+[controller_server-4] [INFO] [1752350507.537518940] [controller_server]: getting progress checker plugins..
+[controller_server-4] [INFO] [1752350507.537776514] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1752350507.537908514] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-4] [INFO] [1752350507.542616848] [local_costmap.local_costmap]: Configuring
+[controller_server-4] [INFO] [1752350507.582893662] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-4] [INFO] [1752350507.590895218] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[async_slam_toolbox_node-3] [INFO] [1752350507.613966977] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350507.526 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752350507.619086496] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-4] [INFO] [1752350507.619161570] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1752350507.620417514] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1752350507.671053255] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1752350507.673021181] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-4] [INFO] [1752350507.675047199] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1752350507.676575440] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1752350507.681525774] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-4] [INFO] [1752350507.683358996] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-4] [INFO] [1752350507.713398348] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-4] [INFO] [1752350507.714227236] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.714474681] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-4] [INFO] [1752350507.715078755] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.715251718] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-4] [INFO] [1752350507.715524274] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.715688236] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-4] [INFO] [1752350507.716875607] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.717208366] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-4] [INFO] [1752350507.718056959] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.718431051] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-4] [INFO] [1752350507.719029662] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.719362033] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-4] [INFO] [1752350507.720003959] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752350507.720058181] [controller_server]: Controller Server has FollowPath  controllers available.
+[async_slam_toolbox_node-3] [INFO] [1752350507.736967792] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350507.528 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752350507.745972366] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752350507.746408107] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1752350507.832936292] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1752350507.833789885] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[async_slam_toolbox_node-3] [INFO] [1752350507.871064773] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350507.613 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752350507.871362662] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1752350507.873100440] [planner_server]: Configuring
+[planner_server-6] [INFO] [1752350507.873185403] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1752350507.900358903] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1752350507.907253329] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1752350507.912428792] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1752350507.912494773] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752350507.914603533] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-6] [INFO] [1752350507.925658440] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752350507.925724125] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [INFO] [1752350507.927558792] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[async_slam_toolbox_node-3] [INFO] [1752350507.995727829] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350507.737 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1752350508.000186218] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-6] [INFO] [1752350508.000263607] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752350508.001533125] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-13] [INFO] [1752350508.032801347] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752350508.033383125] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1752350508.055290829] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-7] [INFO] [1752350508.057611403] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[behavior_server-7] [INFO] [1752350508.059732940] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[behavior_server-7] [INFO] [1752350508.061820662] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[behavior_server-7] [INFO] [1752350508.065900273] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-7] [INFO] [1752350508.115796533] [behavior_server]: Configuring spin
+[async_slam_toolbox_node-3] [INFO] [1752350508.129646366] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350507.871 for reason 'discarding message because the queue is full'
+[behavior_server-7] [INFO] [1752350508.140597607] [behavior_server]: Configuring backup
+[behavior_server-7] [INFO] [1752350508.167679755] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1752350508.197766625] [behavior_server]: Configuring assisted_teleop
+[cmd_vel_emulator-2] [INFO] [1752350508.200753144] [cmd_emulator]: Motor stop service not available, waiting again...
+[behavior_server-7] [INFO] [1752350508.219471403] [behavior_server]: Configuring wait
+[lifecycle_manager-13] [INFO] [1752350508.237378477] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752350508.238078551] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-13] [INFO] [1752350508.251504255] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752350508.252193421] [collision_monitor]: Configuring
+[async_slam_toolbox_node-3] [INFO] [1752350508.264222644] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350507.994 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [INFO] [1752350508.289142199] [collision_monitor]: [scan]: Creating Scan
+[collision_monitor-11] [INFO] [1752350508.296770977] [collision_monitor]: [FootprintApproach]: Creating Polygon
+[collision_monitor-11] [INFO] [1752350508.297048292] [collision_monitor]: [FootprintApproach]: Polygon points are not defined. Using dynamic subscription instead.
+[collision_monitor-11] [INFO] [1752350508.297764829] [collision_monitor]: [FootprintApproach]: Making footprint subscriber on /local_costmap/published_footprint topic
+[lifecycle_manager-13] [INFO] [1752350508.335372829] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752350508.335938421] [bt_navigator]: Configuring
+[bt_navigator-8] [INFO] [1752350508.359484569] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[async_slam_toolbox_node-3] [INFO] [1752350508.390016125] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.129 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350508.523179014] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.265 for reason 'discarding message because the queue is full'
+[bt_navigator-8] [INFO] [1752350508.562159125] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[lifecycle_manager-13] [INFO] [1752350508.629805680] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752350508.630630717] [waypoint_follower]: Configuring
+[async_slam_toolbox_node-3] [INFO] [1752350508.657776291] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.387 for reason 'discarding message because the queue is full'
+[waypoint_follower-9] [INFO] [1752350508.705033514] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-13] [INFO] [1752350508.707265532] [lifecycle_manager_navigation]: [34m[1mConfiguring docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752350508.707813125] [docking_server]: Configuring docking_server
+[opennav_docking-12] [INFO] [1752350508.707876014] [docking_server]: Controller frequency set to 50.0000Hz
+[async_slam_toolbox_node-3] [INFO] [1752350508.780247458] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.523 for reason 'discarding message because the queue is full'
+[opennav_docking-12] [INFO] [1752350508.789458088] [docking_server]: Created charging dock plugin simple_charging_dock of type opennav_docking::SimpleChargingDock
+[opennav_docking-12] [WARN] [1752350508.801777736] [docking_server]: Dock database filepath nor dock parameters set. Docking actions can only be executed specifying the dock pose via the action request. Or update the dock database via the reload_database service.
+[opennav_docking-12] [INFO] [1752350508.801861458] [docking_server]: Docking Server has 1 dock types and 0 dock instances available.
+[lifecycle_manager-13] [INFO] [1752350508.808564847] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1752350508.809156458] [controller_server]: Activating
+[controller_server-4] [INFO] [1752350508.809211773] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1752350508.809226236] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1752350508.809286828] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752350508.914931384] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.658 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350509.037831199] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.780 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350509.172887680] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350508.915 for reason 'discarding message because the queue is full'
+[cmd_vel_emulator-2] [INFO] [1752350509.203589236] [cmd_emulator]: Motor stop service not available, waiting again...
+[async_slam_toolbox_node-3] [INFO] [1752350509.295821624] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.038 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752350509.309355476] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752350509.430784032] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.173 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350509.553720884] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.296 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350509.688833124] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.431 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752350509.809338328] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752350509.811702902] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.554 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350509.946813846] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.689 for reason 'discarding message because the queue is full'
+[motor-1] [INFO] [1752350510.003920476] [motor_controller]: Motor Controller Node initialized
+[async_slam_toolbox_node-3] [INFO] [1752350510.069623865] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.812 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350510.204860309] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350509.947 for reason 'discarding message because the queue is full'
+[cmd_vel_emulator-2] [INFO] [1752350510.205962939] [cmd_emulator]: CmdVel Emulator initialized
+[controller_server-4] [INFO] [1752350510.309491753] [local_costmap.local_costmap]: start
+[async_slam_toolbox_node-3] [INFO] [1752350510.327710272] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350510.070 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752350510.462666309] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350510.205 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [WARN] [1752350510.463349957] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (12.0 m)
+[async_slam_toolbox_node-3] Registering sensor: [Custom Described Lidar]
+[controller_server-4] [INFO] [1752350510.513041383] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1752350510.628541290] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752350510.205 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[lifecycle_manager-13] [INFO] [1752350510.628671050] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752350510.628729938] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752350510.629541327] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1752350510.629610364] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[async_slam_toolbox_node-3] [INFO] [1752350510.721621864] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350510.463 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752350510.742174809] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752350510.742238679] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1752350510.742681809] [planner_server]: Activating
+[planner_server-6] [INFO] [1752350510.742740790] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1752350510.742761012] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1752350510.743005253] [global_costmap.global_costmap]: start
+[controller_server-4] [INFO] [1752350510.885749457] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752350510.463 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752350511.039665197] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 66 X 68 at 0.050000 m/pix
+[planner_server-6] [INFO] [1752350511.746320697] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752350511.750093845] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350511.866495104] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752350511.866567401] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752350511.867273641] [behavior_server]: Activating
+[behavior_server-7] [INFO] [1752350511.867321882] [behavior_server]: Activating spin
+[behavior_server-7] [INFO] [1752350511.867346049] [behavior_server]: Activating backup
+[behavior_server-7] [INFO] [1752350511.867365290] [behavior_server]: Activating drive_on_heading
+[behavior_server-7] [INFO] [1752350511.867384493] [behavior_server]: Activating assisted_teleop
+[behavior_server-7] [INFO] [1752350511.867403901] [behavior_server]: Activating wait
+[behavior_server-7] [INFO] [1752350511.867431012] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350511.982064604] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752350511.982134549] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752350511.982746438] [velocity_smoother]: Activating
+[velocity_smoother-10] [INFO] [1752350511.982857882] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350512.097894086] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-13] [INFO] [1752350512.097975752] [lifecycle_manager_navigation]: [34m[1mActivating collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752350512.098553956] [collision_monitor]: Activating
+[collision_monitor-11] [INFO] [1752350512.098635401] [collision_monitor]: Creating bond (collision_monitor) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350512.219600789] [lifecycle_manager_navigation]: Server collision_monitor connected with bond.
+[lifecycle_manager-13] [INFO] [1752350512.219673678] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752350512.221610234] [bt_navigator]: Activating
+[bt_navigator-8] [INFO] [1752350512.506196808] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350512.620582419] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-13] [INFO] [1752350512.620665400] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752350512.621687197] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1752350512.621774604] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350512.746240400] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-13] [INFO] [1752350512.746315845] [lifecycle_manager_navigation]: [34m[1mActivating docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752350512.747124752] [docking_server]: Activating docking_server
+[opennav_docking-12] [INFO] [1752350512.790834919] [docking_server]: Creating bond (docking_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350512.899134678] [lifecycle_manager_navigation]: Server docking_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752350512.899213882] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-13] [INFO] [1752350512.899238215] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[bt_navigator-8] [INFO] [1752350602.854159235] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (-0.37, -0.89)
+[controller_server-4] [INFO] [1752350602.876280013] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1752350602.876364291] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-4] [WARN] [1752350602.876393772] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[cmd_vel_emulator-2] [INFO] [1752350603.106294124] [cmd_emulator]: Published Left: 184, Right: -184
+[cmd_vel_emulator-2] [INFO] [1752350603.206346013] [cmd_emulator]: Published Left: 184, Right: -184
+[cmd_vel_emulator-2] [INFO] [1752350603.306201013] [cmd_emulator]: Published Left: 554, Right: -554
+[cmd_vel_emulator-2] [INFO] [1752350603.406166402] [cmd_emulator]: Published Left: 554, Right: -554
+[motor-1] [INFO] [1752350603.480135068] [motor_controller]: Sending to serial: 1,S184, 2,S-184
+[cmd_vel_emulator-2] [INFO] [1752350603.506174476] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350603.606249735] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350603.683849605] [motor_controller]: Sending to serial: 1,S184, 2,S-184
+[cmd_vel_emulator-2] [INFO] [1752350603.706079901] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350603.806223735] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350603.888870235] [motor_controller]: Sending to serial: 1,S554, 2,S-554
+[cmd_vel_emulator-2] [INFO] [1752350603.906190901] [cmd_emulator]: Published Left: 1154, Right: -1154
+[controller_server-4] [INFO] [1752350603.926720920] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350604.006271383] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350604.092001827] [motor_controller]: Sending to serial: 1,S554, 2,S-554
+[cmd_vel_emulator-2] [INFO] [1752350604.106880012] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350604.206112901] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350604.295367994] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350604.307065605] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350604.406187697] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350604.498563068] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350604.506283642] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350604.606164012] [cmd_emulator]: Published Left: 1095, Right: -1095
+[motor-1] [INFO] [1752350604.702751327] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350604.706182956] [cmd_emulator]: Published Left: 1095, Right: -1095
+[cmd_vel_emulator-2] [INFO] [1752350604.806145216] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350604.906500716] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350604.906553919] [cmd_emulator]: Published Left: 1154, Right: -1154
+[controller_server-4] [INFO] [1752350604.926709401] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350605.006192012] [cmd_emulator]: Published Left: 1036, Right: -1036
+[cmd_vel_emulator-2] [INFO] [1752350605.106206123] [cmd_emulator]: Published Left: 1036, Right: -1036
+[motor-1] [INFO] [1752350605.109864901] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350605.206193086] [cmd_emulator]: Published Left: 482, Right: -482
+[cmd_vel_emulator-2] [INFO] [1752350605.306270882] [cmd_emulator]: Published Left: 482, Right: -482
+[motor-1] [INFO] [1752350605.313237863] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350605.406166438] [cmd_emulator]: Published Left: 29, Right: -29
+[cmd_vel_emulator-2] [INFO] [1752350605.506179012] [cmd_emulator]: Published Left: 29, Right: -29
+[collision_monitor-11] [ERROR] [1752350605.516367123] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350605.313825 but the latest data is at time 1752350605.311723, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350605.516476993] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[motor-1] [INFO] [1752350605.516771863] [motor_controller]: Sending to serial: 1,S1095, 2,S-1095
+[collision_monitor-11] [INFO] [1752350605.720666308] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350605.721496863] [motor_controller]: Sending to serial: 1,S1095, 2,S-1095
+[collision_monitor-11] [ERROR] [1752350605.923736363] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350605.721181 but the latest data is at time 1752350605.719648, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350605.923826252] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[motor-1] [INFO] [1752350605.925505345] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[controller_server-4] [INFO] [1752350605.976717956] [controller_server]: Passing new path to controller.
+[collision_monitor-11] [ERROR] [1752350606.127204585] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350605.924338 but the latest data is at time 1752350605.924069, when looking up transform from frame [odom] to frame [base_link]
+[motor-1] [INFO] [1752350606.129730937] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[collision_monitor-11] [INFO] [1752350606.138401326] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350606.335832733] [motor_controller]: Sending to serial: 1,S1036, 2,S-1036
+[motor-1] [INFO] [1752350606.542679215] [motor_controller]: Sending to serial: 1,S1036, 2,S-1036
+[motor-1] [INFO] [1752350606.745746252] [motor_controller]: Sending to serial: 1,S482, 2,S-482
+[motor-1] [INFO] [1752350606.949220214] [motor_controller]: Sending to serial: 1,S482, 2,S-482
+[controller_server-4] [INFO] [1752350606.976718455] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350607.152150603] [motor_controller]: Sending to serial: 1,S29, 2,S-29
+[motor-1] [INFO] [1752350607.355654066] [motor_controller]: Sending to serial: 1,S29, 2,S-29
+[bt_navigator-8] [INFO] [1752350607.854683992] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350607.855160510] [bt_navigator]: Begin navigating from current location (-0.01, -0.02) to (-0.42, -0.84)
+[controller_server-4] [INFO] [1752350608.026716677] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350608.806129584] [cmd_emulator]: Published Left: 68, Right: -15
+[cmd_vel_emulator-2] [INFO] [1752350608.906164917] [cmd_emulator]: Published Left: 68, Right: -15
+[controller_server-4] [INFO] [1752350609.026714361] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350609.175630491] [motor_controller]: Sending to serial: 1,S68, 2,S-15
+[cmd_vel_emulator-2] [INFO] [1752350609.206109083] [cmd_emulator]: Published Left: 136, Right: -31
+[cmd_vel_emulator-2] [INFO] [1752350609.306258065] [cmd_emulator]: Published Left: 136, Right: -31
+[motor-1] [INFO] [1752350609.379390065] [motor_controller]: Sending to serial: 1,S68, 2,S-15
+[cmd_vel_emulator-2] [INFO] [1752350609.406116639] [cmd_emulator]: Published Left: 136, Right: -31
+[cmd_vel_emulator-2] [INFO] [1752350609.506179454] [cmd_emulator]: Published Left: 136, Right: -31
+[motor-1] [INFO] [1752350609.582873287] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[cmd_vel_emulator-2] [INFO] [1752350609.606194102] [cmd_emulator]: Published Left: 136, Right: -31
+[cmd_vel_emulator-2] [INFO] [1752350609.706269194] [cmd_emulator]: Published Left: 136, Right: -31
+[motor-1] [INFO] [1752350609.787616787] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[cmd_vel_emulator-2] [INFO] [1752350609.806162676] [cmd_emulator]: Published Left: 136, Right: -31
+[cmd_vel_emulator-2] [INFO] [1752350609.906160342] [cmd_emulator]: Published Left: 136, Right: -31
+[motor-1] [INFO] [1752350609.990716213] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[cmd_vel_emulator-2] [INFO] [1752350610.006056379] [cmd_emulator]: Published Left: 136, Right: -31
+[controller_server-4] [INFO] [1752350610.076755101] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350610.106079157] [cmd_emulator]: Published Left: 136, Right: -31
+[motor-1] [INFO] [1752350610.195033268] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[cmd_vel_emulator-2] [INFO] [1752350610.206075768] [cmd_emulator]: Published Left: 136, Right: -31
+[cmd_vel_emulator-2] [INFO] [1752350610.306129620] [cmd_emulator]: Published Left: 136, Right: -31
+[motor-1] [INFO] [1752350610.397789583] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[motor-1] [INFO] [1752350610.602187508] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[motor-1] [INFO] [1752350610.805293268] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[motor-1] [INFO] [1752350611.008210842] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[controller_server-4] [INFO] [1752350611.076713638] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350611.211552619] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[motor-1] [INFO] [1752350611.414682971] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[motor-1] [INFO] [1752350611.619607989] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[motor-1] [INFO] [1752350611.823375323] [motor_controller]: Sending to serial: 1,S136, 2,S-31
+[controller_server-4] [INFO] [1752350612.126716619] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350612.864689877] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350612.865189044] [bt_navigator]: Begin navigating from current location (-0.03, -0.03) to (-0.47, -0.79)
+[controller_server-4] [ERROR] [1752350612.876836952] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350612.877025470] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752350612.894988340] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752350612.896464970] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1752350613.146982285] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350614.146876451] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350615.196768765] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350616.196767061] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350617.247217153] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350617.854712134] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350617.855277819] [bt_navigator]: Begin navigating from current location (-0.08, -0.04) to (-0.57, -0.69)
+[controller_server-4] [INFO] [1752350618.246802652] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350619.296770985] [controller_server]: Passing new path to controller.
+[collision_monitor-11] [INFO] [1752350619.305222374] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752350619.407459374] [cmd_emulator]: Published Left: 336, Right: 2054
+[cmd_vel_emulator-2] [INFO] [1752350619.506436929] [cmd_emulator]: Published Left: 336, Right: 2054
+[cmd_vel_emulator-2] [INFO] [1752350619.606243281] [cmd_emulator]: Published Left: 277, Right: 2113
+[cmd_vel_emulator-2] [INFO] [1752350619.706343633] [cmd_emulator]: Published Left: 277, Right: 2113
+[motor-1] [INFO] [1752350619.710716781] [motor_controller]: Sending to serial: 1,S336, 2,S2054
+[cmd_vel_emulator-2] [INFO] [1752350619.806584373] [cmd_emulator]: Published Left: 392, Right: 1873
+[cmd_vel_emulator-2] [INFO] [1752350619.906439114] [cmd_emulator]: Published Left: 392, Right: 1873
+[motor-1] [INFO] [1752350619.913460725] [motor_controller]: Sending to serial: 1,S336, 2,S2054
+[cmd_vel_emulator-2] [INFO] [1752350620.006351040] [cmd_emulator]: Published Left: 333, Right: 1932
+[cmd_vel_emulator-2] [INFO] [1752350620.106499595] [cmd_emulator]: Published Left: 333, Right: 1932
+[motor-1] [INFO] [1752350620.117312188] [motor_controller]: Sending to serial: 1,S277, 2,S2113
+[cmd_vel_emulator-2] [INFO] [1752350620.206405984] [cmd_emulator]: Published Left: 273, Right: 1991
+[controller_server-4] [INFO] [1752350620.296762077] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350620.306362855] [cmd_emulator]: Published Left: 273, Right: 1991
+[motor-1] [INFO] [1752350620.320276003] [motor_controller]: Sending to serial: 1,S277, 2,S2113
+[cmd_vel_emulator-2] [INFO] [1752350620.406394169] [cmd_emulator]: Published Left: 455, Right: 1936
+[cmd_vel_emulator-2] [INFO] [1752350620.506324836] [cmd_emulator]: Published Left: 455, Right: 1936
+[motor-1] [INFO] [1752350620.523597206] [motor_controller]: Sending to serial: 1,S392, 2,S1873
+[cmd_vel_emulator-2] [INFO] [1752350620.606339299] [cmd_emulator]: Published Left: 451, Right: 1813
+[cmd_vel_emulator-2] [INFO] [1752350620.706437836] [cmd_emulator]: Published Left: 451, Right: 1813
+[motor-1] [INFO] [1752350620.727409502] [motor_controller]: Sending to serial: 1,S392, 2,S1873
+[cmd_vel_emulator-2] [INFO] [1752350620.806416169] [cmd_emulator]: Published Left: 214, Right: 2050
+[cmd_vel_emulator-2] [INFO] [1752350620.907123410] [cmd_emulator]: Published Left: 214, Right: 2050
+[motor-1] [INFO] [1752350620.930994076] [motor_controller]: Sending to serial: 1,S333, 2,S1932
+[cmd_vel_emulator-2] [INFO] [1752350621.006321465] [cmd_emulator]: Published Left: 336, Right: 2054
+[cmd_vel_emulator-2] [INFO] [1752350621.106456669] [cmd_emulator]: Published Left: 336, Right: 2054
+[motor-1] [INFO] [1752350621.134402391] [motor_controller]: Sending to serial: 1,S273, 2,S1991
+[cmd_vel_emulator-2] [INFO] [1752350621.206482410] [cmd_emulator]: Published Left: 392, Right: 1873
+[cmd_vel_emulator-2] [INFO] [1752350621.306437928] [cmd_emulator]: Published Left: 392, Right: 1873
+[motor-1] [INFO] [1752350621.337253021] [motor_controller]: Sending to serial: 1,S455, 2,S1936
+[controller_server-4] [INFO] [1752350621.347140632] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350621.406501261] [cmd_emulator]: Published Left: 151, Right: 1987
+[cmd_vel_emulator-2] [INFO] [1752350621.506278595] [cmd_emulator]: Published Left: 151, Right: 1987
+[motor-1] [INFO] [1752350621.541129206] [motor_controller]: Sending to serial: 1,S451, 2,S1813
+[cmd_vel_emulator-2] [INFO] [1752350621.606359317] [cmd_emulator]: Published Left: 88, Right: 1924
+[cmd_vel_emulator-2] [INFO] [1752350621.706391372] [cmd_emulator]: Published Left: 88, Right: 1924
+[motor-1] [INFO] [1752350621.744540243] [motor_controller]: Sending to serial: 1,S214, 2,S2050
+[cmd_vel_emulator-2] [INFO] [1752350621.806402891] [cmd_emulator]: Published Left: 203, Right: 1684
+[cmd_vel_emulator-2] [INFO] [1752350621.906550891] [cmd_emulator]: Published Left: 203, Right: 1684
+[motor-1] [INFO] [1752350621.947799150] [motor_controller]: Sending to serial: 1,S336, 2,S2054
+[cmd_vel_emulator-2] [INFO] [1752350622.006373724] [cmd_emulator]: Published Left: 259, Right: 1502
+[cmd_vel_emulator-2] [INFO] [1752350622.106252983] [cmd_emulator]: Published Left: 259, Right: 1502
+[motor-1] [INFO] [1752350622.151320168] [motor_controller]: Sending to serial: 1,S392, 2,S1873
+[cmd_vel_emulator-2] [INFO] [1752350622.206300483] [cmd_emulator]: Published Left: -288, Right: 1547
+[cmd_vel_emulator-2] [INFO] [1752350622.306310261] [cmd_emulator]: Published Left: -288, Right: 1547
+[controller_server-4] [INFO] [1752350622.347050039] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350622.355362168] [motor_controller]: Sending to serial: 1,S151, 2,S1987
+[cmd_vel_emulator-2] [INFO] [1752350622.406508353] [cmd_emulator]: Published Left: -340, Right: 1850
+[cmd_vel_emulator-2] [INFO] [1752350622.506302557] [cmd_emulator]: Published Left: -340, Right: 1850
+[motor-1] [INFO] [1752350622.558637409] [motor_controller]: Sending to serial: 1,S88, 2,S1924
+[cmd_vel_emulator-2] [INFO] [1752350622.606451205] [cmd_emulator]: Published Left: 213, Right: 1296
+[cmd_vel_emulator-2] [INFO] [1752350622.706329668] [cmd_emulator]: Published Left: 213, Right: 1296
+[motor-1] [INFO] [1752350622.762643094] [motor_controller]: Sending to serial: 1,S203, 2,S1684
+[cmd_vel_emulator-2] [INFO] [1752350622.806286353] [cmd_emulator]: Published Left: -229, Right: 1488
+[bt_navigator-8] [INFO] [1752350622.854694853] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350622.855185631] [bt_navigator]: Begin navigating from current location (-0.45, -0.13) to (-0.72, -0.59)
+[cmd_vel_emulator-2] [INFO] [1752350622.906421168] [cmd_emulator]: Published Left: -229, Right: 1488
+[controller_server-4] [ERROR] [1752350622.947247168] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350622.947431668] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752350622.965375631] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[motor-1] [INFO] [1752350622.965803427] [motor_controller]: Sending to serial: 1,S259, 2,S1502
+[planner_server-6] [INFO] [1752350622.967414353] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[cmd_vel_emulator-2] [INFO] [1752350623.006310668] [cmd_emulator]: Published Left: -303, Right: 1058
+[cmd_vel_emulator-2] [INFO] [1752350623.106267538] [cmd_emulator]: Published Left: -303, Right: 1058
+[motor-1] [INFO] [1752350623.169456094] [motor_controller]: Sending to serial: 1,S-288, 2,S1547
+[cmd_vel_emulator-2] [INFO] [1752350623.206244205] [cmd_emulator]: Published Left: 299, Right: 832
+[cmd_vel_emulator-2] [INFO] [1752350623.306315742] [cmd_emulator]: Published Left: 299, Right: 832
+[motor-1] [INFO] [1752350623.372744890] [motor_controller]: Sending to serial: 1,S-340, 2,S1850
+[motor-1] [INFO] [1752350623.576276927] [motor_controller]: Sending to serial: 1,S-340, 2,S1850
+[planner_server-6] [WARN] [1752350623.749401260] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.2815 Hz
+[controller_server-4] [INFO] [1752350623.765130130] [controller_server]: Received a goal, begin computing control effort.
+[motor-1] [INFO] [1752350623.779614223] [motor_controller]: Sending to serial: 1,S213, 2,S1296
+[motor-1] [INFO] [1752350623.983680778] [motor_controller]: Sending to serial: 1,S213, 2,S1296
+[cmd_vel_emulator-2] [INFO] [1752350624.006284797] [cmd_emulator]: Published Left: 188, Right: 188
+[cmd_vel_emulator-2] [INFO] [1752350624.106268556] [cmd_emulator]: Published Left: 188, Right: 188
+[motor-1] [INFO] [1752350624.186586186] [motor_controller]: Sending to serial: 1,S-229, 2,S1488
+[cmd_vel_emulator-2] [INFO] [1752350624.206267371] [cmd_emulator]: Published Left: 188, Right: 188
+[cmd_vel_emulator-2] [INFO] [1752350624.306275519] [cmd_emulator]: Published Left: 188, Right: 188
+[motor-1] [INFO] [1752350624.389314519] [motor_controller]: Sending to serial: 1,S-229, 2,S1488
+[cmd_vel_emulator-2] [INFO] [1752350624.406145130] [cmd_emulator]: Published Left: 251, Right: 251
+[cmd_vel_emulator-2] [INFO] [1752350624.506194945] [cmd_emulator]: Published Left: 251, Right: 251
+[motor-1] [INFO] [1752350624.593005741] [motor_controller]: Sending to serial: 1,S-303, 2,S1058
+[cmd_vel_emulator-2] [INFO] [1752350624.606150278] [cmd_emulator]: Published Left: 503, Right: -503
+[cmd_vel_emulator-2] [INFO] [1752350624.706318889] [cmd_emulator]: Published Left: 503, Right: -503
+[motor-1] [INFO] [1752350624.796112352] [motor_controller]: Sending to serial: 1,S299, 2,S832
+[cmd_vel_emulator-2] [INFO] [1752350624.806182648] [cmd_emulator]: Published Left: 681, Right: -681
+[controller_server-4] [INFO] [1752350624.815425630] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350624.906147611] [cmd_emulator]: Published Left: 681, Right: -681
+[motor-1] [INFO] [1752350624.999175815] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[cmd_vel_emulator-2] [INFO] [1752350625.006073185] [cmd_emulator]: Published Left: 125, Right: 125
+[cmd_vel_emulator-2] [INFO] [1752350625.106317092] [cmd_emulator]: Published Left: 125, Right: 125
+[motor-1] [INFO] [1752350625.203158074] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[cmd_vel_emulator-2] [INFO] [1752350625.206195222] [cmd_emulator]: Published Left: 125, Right: 125
+[cmd_vel_emulator-2] [INFO] [1752350625.306191018] [cmd_emulator]: Published Left: -148, Right: 148
+[motor-1] [INFO] [1752350625.406299074] [motor_controller]: Sending to serial: 1,S251, 2,S251
+[cmd_vel_emulator-2] [INFO] [1752350625.406375537] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752350625.506291463] [cmd_emulator]: Published Left: -88, Right: 88
+[cmd_vel_emulator-2] [INFO] [1752350625.606178648] [cmd_emulator]: Published Left: -88, Right: 88
+[motor-1] [INFO] [1752350625.610090814] [motor_controller]: Sending to serial: 1,S503, 2,S-503
+[collision_monitor-11] [INFO] [1752350625.615568870] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350625.813754592] [motor_controller]: Sending to serial: 1,S681, 2,S-681
+[controller_server-4] [ERROR] [1752350625.829209240] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350625.829376777] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752350625.829400444] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752350625.830138388] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[controller_server-4] [INFO] [1752350625.865427444] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752350625.880432833] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350625.880519555] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752350625.880532573] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752350625.881282351] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350625.929592796] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350625.929673018] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752350625.929695592] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752350625.930357259] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350625.979249962] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350625.979319110] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752350625.979335110] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752350625.979930907] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[motor-1] [INFO] [1752350626.018744647] [motor_controller]: Sending to serial: 1,S681, 2,S-681
+[controller_server-4] [ERROR] [1752350626.030029796] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350626.030097147] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752350626.030110462] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752350626.030668314] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350626.079552184] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350626.079624962] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752350626.079637147] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752350626.080232814] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350626.080364092] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1752350626.080647333] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752350626.094838073] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752350626.095879036] [controller_server]: Received a goal, begin computing control effort.
+[motor-1] [INFO] [1752350626.223336851] [motor_controller]: Sending to serial: 1,S125, 2,S125
+[collision_monitor-11] [INFO] [1752350626.228401332] [collision_monitor]: Robot to continue normal operation
+[motor-1] [INFO] [1752350626.427126055] [motor_controller]: Sending to serial: 1,S125, 2,S125
+[collision_monitor-11] [INFO] [1752350626.432059832] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350626.630114036] [motor_controller]: Sending to serial: 1,S125, 2,S125
+[planner_server-6] [INFO] [1752350626.743242536] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 66 X 68 at 0.050000 m/pix
+[motor-1] [INFO] [1752350626.833912036] [motor_controller]: Sending to serial: 1,S-148, 2,S148
+[controller_server-4] [INFO] [1752350626.846143036] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350627.037790091] [motor_controller]: Sending to serial: 1,S-148, 2,S148
+[motor-1] [INFO] [1752350627.241805165] [motor_controller]: Sending to serial: 1,S-88, 2,S88
+[motor-1] [INFO] [1752350627.444822221] [motor_controller]: Sending to serial: 1,S-88, 2,S88
+[bt_navigator-8] [INFO] [1752350627.855566776] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350627.855827461] [bt_navigator]: Begin navigating from current location (-0.50, -0.42) to (-0.24, -0.99)
+[controller_server-4] [INFO] [1752350627.896147591] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350628.896139016] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350629.946147386] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350630.946145552] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350631.996147033] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350632.854754088] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350632.855472088] [bt_navigator]: Begin navigating from current location (-0.50, -0.42) to (-0.99, -0.39)
+[controller_server-4] [INFO] [1752350632.996146310] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350634.046142809] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350635.046158161] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350636.046140678] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752350636.146224364] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350636.146401771] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752350636.165596327] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1752350636.166093438] [behavior_server]: Turning 1.57 for spin behavior.
+[bt_navigator-8] [INFO] [1752350637.854542696] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350637.854841363] [bt_navigator]: Begin navigating from current location (-0.50, -0.42) to (-0.04, -1.14)
+[collision_monitor-11] [INFO] [1752350638.569557362] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752350638.606137992] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350638.706129732] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350638.806228751] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350638.906105732] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350638.969057677] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350639.006248010] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350639.106189454] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350639.172222621] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350639.206388251] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350639.306218417] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350639.376518214] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350639.406220343] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350639.506151639] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350639.579560899] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350639.606111973] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350639.706159713] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350639.783055084] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350639.806165213] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350639.906225250] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350639.987350880] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350640.006053658] [cmd_emulator]: Published Left: -1154, Right: 1154
+[cmd_vel_emulator-2] [INFO] [1752350640.106205935] [cmd_emulator]: Published Left: -1154, Right: 1154
+[motor-1] [INFO] [1752350640.190402250] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[collision_monitor-11] [INFO] [1752350640.199411620] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350640.394288398] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[collision_monitor-11] [ERROR] [1752350640.596609157] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350640.393678 but the latest data is at time 1752350640.392220, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350640.596710398] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[motor-1] [INFO] [1752350640.600785509] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[collision_monitor-11] [ERROR] [1752350640.800274731] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350640.597335 but the latest data is at time 1752350640.597224, when looking up transform from frame [odom] to frame [base_link]
+[motor-1] [INFO] [1752350640.804263768] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[collision_monitor-11] [INFO] [1752350640.811158972] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350641.007464953] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[behavior_server-7] [INFO] [1752350641.066419990] [behavior_server]: spin completed successfully
+[controller_server-4] [INFO] [1752350641.105152694] [controller_server]: Received a goal, begin computing control effort.
+[motor-1] [INFO] [1752350641.210590731] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[motor-1] [INFO] [1752350641.414477083] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[motor-1] [INFO] [1752350641.619117286] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[collision_monitor-11] [INFO] [1752350641.622387379] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752350641.706308545] [cmd_emulator]: Published Left: -325, Right: 325
+[cmd_vel_emulator-2] [INFO] [1752350641.807287953] [cmd_emulator]: Published Left: -325, Right: 325
+[motor-1] [INFO] [1752350641.822791712] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350641.907249249] [cmd_emulator]: Published Left: 228, Right: -228
+[cmd_vel_emulator-2] [INFO] [1752350642.006294471] [cmd_emulator]: Published Left: 228, Right: -228
+[motor-1] [INFO] [1752350642.025737490] [motor_controller]: Sending to serial: 1,S-1154, 2,S1154
+[cmd_vel_emulator-2] [INFO] [1752350642.106294249] [cmd_emulator]: Published Left: 967, Right: -967
+[controller_server-4] [INFO] [1752350642.155494638] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350642.206276712] [cmd_emulator]: Published Left: 967, Right: -967
+[motor-1] [INFO] [1752350642.228587323] [motor_controller]: Sending to serial: 1,S-325, 2,S325
+[cmd_vel_emulator-2] [INFO] [1752350642.306333823] [cmd_emulator]: Published Left: 598, Right: -598
+[cmd_vel_emulator-2] [INFO] [1752350642.406254286] [cmd_emulator]: Published Left: 598, Right: -598
+[motor-1] [INFO] [1752350642.431614341] [motor_controller]: Sending to serial: 1,S-325, 2,S325
+[cmd_vel_emulator-2] [INFO] [1752350642.506278175] [cmd_emulator]: Published Left: 207, Right: -207
+[cmd_vel_emulator-2] [INFO] [1752350642.606343693] [cmd_emulator]: Published Left: 207, Right: -207
+[motor-1] [INFO] [1752350642.634699230] [motor_controller]: Sending to serial: 1,S228, 2,S-228
+[cmd_vel_emulator-2] [INFO] [1752350642.706359008] [cmd_emulator]: Published Left: 148, Right: -148
+[cmd_vel_emulator-2] [INFO] [1752350642.806371749] [cmd_emulator]: Published Left: 148, Right: -148
+[motor-1] [INFO] [1752350642.838551804] [motor_controller]: Sending to serial: 1,S228, 2,S-228
+[bt_navigator-8] [INFO] [1752350642.854813100] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350642.855125841] [bt_navigator]: Begin navigating from current location (-0.49, -0.42) to (0.01, -1.19)
+[cmd_vel_emulator-2] [INFO] [1752350642.906333804] [cmd_emulator]: Published Left: 887, Right: -887
+[cmd_vel_emulator-2] [INFO] [1752350643.007218174] [cmd_emulator]: Published Left: 887, Right: -887
+[motor-1] [INFO] [1752350643.044189415] [motor_controller]: Sending to serial: 1,S967, 2,S-967
+[cmd_vel_emulator-2] [INFO] [1752350643.106292656] [cmd_emulator]: Published Left: 148, Right: -148
+[controller_server-4] [INFO] [1752350643.155489193] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350643.206212063] [cmd_emulator]: Published Left: 148, Right: -148
+[collision_monitor-11] [ERROR] [1752350643.247348674] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350643.044303 but the latest data is at time 1752350643.042623, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350643.247484100] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[motor-1] [INFO] [1752350643.249433359] [motor_controller]: Sending to serial: 1,S598, 2,S-598
+[collision_monitor-11] [INFO] [1752350643.258812433] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752350643.306344878] [cmd_emulator]: Published Left: -133, Right: 133
+[cmd_vel_emulator-2] [INFO] [1752350643.406329674] [cmd_emulator]: Published Left: -133, Right: 133
+[motor-1] [INFO] [1752350643.453164341] [motor_controller]: Sending to serial: 1,S207, 2,S-207
+[cmd_vel_emulator-2] [INFO] [1752350643.506231267] [cmd_emulator]: Published Left: 50, Right: -50
+[cmd_vel_emulator-2] [INFO] [1752350643.606355489] [cmd_emulator]: Published Left: 50, Right: -50
+[motor-1] [INFO] [1752350643.658182878] [motor_controller]: Sending to serial: 1,S148, 2,S-148
+[cmd_vel_emulator-2] [INFO] [1752350643.706210563] [cmd_emulator]: Published Left: 605, Right: -605
+[cmd_vel_emulator-2] [INFO] [1752350643.806274192] [cmd_emulator]: Published Left: 605, Right: -605
+[motor-1] [INFO] [1752350643.862231785] [motor_controller]: Sending to serial: 1,S887, 2,S-887
+[cmd_vel_emulator-2] [INFO] [1752350643.906308618] [cmd_emulator]: Published Left: 977, Right: -977
+[cmd_vel_emulator-2] [INFO] [1752350644.007009433] [cmd_emulator]: Published Left: 977, Right: -977
+[motor-1] [INFO] [1752350644.065535951] [motor_controller]: Sending to serial: 1,S148, 2,S-148
+[cmd_vel_emulator-2] [INFO] [1752350644.106250896] [cmd_emulator]: Published Left: 1154, Right: -1154
+[controller_server-4] [INFO] [1752350644.205499674] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350644.206439414] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350644.269762877] [motor_controller]: Sending to serial: 1,S-133, 2,S133
+[cmd_vel_emulator-2] [INFO] [1752350644.306314414] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350644.406303655] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350644.473523729] [motor_controller]: Sending to serial: 1,S50, 2,S-50
+[cmd_vel_emulator-2] [INFO] [1752350644.506327599] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350644.606333636] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350644.677530081] [motor_controller]: Sending to serial: 1,S605, 2,S-605
+[cmd_vel_emulator-2] [INFO] [1752350644.706196896] [cmd_emulator]: Published Left: 1095, Right: -1095
+[cmd_vel_emulator-2] [INFO] [1752350644.806270655] [cmd_emulator]: Published Left: 1095, Right: -1095
+[motor-1] [INFO] [1752350644.880324618] [motor_controller]: Sending to serial: 1,S977, 2,S-977
+[collision_monitor-11] [INFO] [1752350644.884540784] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350645.084112377] [motor_controller]: Sending to serial: 1,S977, 2,S-977
+[controller_server-4] [INFO] [1752350645.205490877] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350645.287110377] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[motor-1] [INFO] [1752350645.490199321] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[motor-1] [INFO] [1752350645.693542228] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[motor-1] [INFO] [1752350645.896767524] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[motor-1] [INFO] [1752350646.099867413] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[controller_server-4] [INFO] [1752350646.255513117] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350646.304431839] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[motor-1] [INFO] [1752350646.507829635] [motor_controller]: Sending to serial: 1,S1095, 2,S-1095
+[motor-1] [INFO] [1752350646.711834950] [motor_controller]: Sending to serial: 1,S1095, 2,S-1095
+[controller_server-4] [INFO] [1752350647.255498061] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350647.854687783] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350647.855233986] [bt_navigator]: Begin navigating from current location (-0.47, -0.41) to (-1.24, -0.19)
+[controller_server-4] [INFO] [1752350648.305498579] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350649.305468059] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350650.006261115] [cmd_emulator]: Published Left: 604, Right: 549
+[cmd_vel_emulator-2] [INFO] [1752350650.106295948] [cmd_emulator]: Published Left: 604, Right: 549
+[cmd_vel_emulator-2] [INFO] [1752350650.206243911] [cmd_emulator]: Published Left: 604, Right: 549
+[cmd_vel_emulator-2] [INFO] [1752350650.306260670] [cmd_emulator]: Published Left: 604, Right: 549
+[motor-1] [INFO] [1752350650.352648485] [motor_controller]: Sending to serial: 1,S604, 2,S549
+[controller_server-4] [INFO] [1752350650.355869077] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350650.556700337] [motor_controller]: Sending to serial: 1,S604, 2,S549
+[collision_monitor-11] [INFO] [1752350650.559799688] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752350650.606214225] [cmd_emulator]: Published Left: 281, Right: 222
+[cmd_vel_emulator-2] [INFO] [1752350650.706258781] [cmd_emulator]: Published Left: 281, Right: 222
+[motor-1] [INFO] [1752350650.760177485] [motor_controller]: Sending to serial: 1,S604, 2,S549
+[cmd_vel_emulator-2] [INFO] [1752350650.806331170] [cmd_emulator]: Published Left: 188, Right: 188
+[cmd_vel_emulator-2] [INFO] [1752350650.906343762] [cmd_emulator]: Published Left: 188, Right: 188
+[motor-1] [INFO] [1752350650.964639503] [motor_controller]: Sending to serial: 1,S604, 2,S549
+[cmd_vel_emulator-2] [INFO] [1752350651.006265299] [cmd_emulator]: Published Left: 473, Right: 533
+[controller_server-4] [ERROR] [1752350651.105599299] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350651.105783670] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[cmd_vel_emulator-2] [INFO] [1752350651.106406077] [cmd_emulator]: Published Left: 473, Right: 533
+[controller_server-4] [INFO] [1752350651.124841132] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752350651.125892929] [controller_server]: Received a goal, begin computing control effort.
+[motor-1] [INFO] [1752350651.168579373] [motor_controller]: Sending to serial: 1,S281, 2,S222
+[cmd_vel_emulator-2] [INFO] [1752350651.206346836] [cmd_emulator]: Published Left: 650, Right: -398
+[cmd_vel_emulator-2] [INFO] [1752350651.306356077] [cmd_emulator]: Published Left: 650, Right: -398
+[controller_server-4] [WARN] [1752350651.332101558] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.8555 Hz.
+[motor-1] [INFO] [1752350651.371739651] [motor_controller]: Sending to serial: 1,S281, 2,S222
+[controller_server-4] [INFO] [1752350651.395754021] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350651.406594762] [cmd_emulator]: Published Left: 155, Right: -155
+[cmd_vel_emulator-2] [INFO] [1752350651.506139669] [cmd_emulator]: Published Left: 155, Right: -155
+[motor-1] [INFO] [1752350651.575916151] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[cmd_vel_emulator-2] [INFO] [1752350651.606012743] [cmd_emulator]: Published Left: 88, Right: -88
+[cmd_vel_emulator-2] [INFO] [1752350651.706008391] [cmd_emulator]: Published Left: 88, Right: -88
+[motor-1] [INFO] [1752350651.779342447] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[cmd_vel_emulator-2] [INFO] [1752350651.806133262] [cmd_emulator]: Published Left: 148, Right: -148
+[cmd_vel_emulator-2] [INFO] [1752350651.906013336] [cmd_emulator]: Published Left: 148, Right: -148
+[motor-1] [INFO] [1752350651.982718058] [motor_controller]: Sending to serial: 1,S473, 2,S533
+[cmd_vel_emulator-2] [INFO] [1752350652.006020817] [cmd_emulator]: Published Left: 887, Right: -887
+[cmd_vel_emulator-2] [INFO] [1752350652.106032354] [cmd_emulator]: Published Left: 887, Right: -887
+[motor-1] [INFO] [1752350652.187576224] [motor_controller]: Sending to serial: 1,S650, 2,S-398
+[cmd_vel_emulator-2] [INFO] [1752350652.206088410] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350652.306124169] [cmd_emulator]: Published Left: 1154, Right: -1154
+[controller_server-4] [INFO] [1752350652.382189539] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350652.390655502] [motor_controller]: Sending to serial: 1,S155, 2,S-155
+[cmd_vel_emulator-2] [INFO] [1752350652.406073613] [cmd_emulator]: Published Left: 1154, Right: -1154
+[controller_server-4] [ERROR] [1752350652.448019687] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350652.448105132] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752350652.448652521] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350652.498112780] [DWBLocalPlanner]: No valid trajectories out of 819! 
+[controller_server-4] [ERROR] [1752350652.498195595] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752350652.498925613] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 819! 
+[cmd_vel_emulator-2] [INFO] [1752350652.506017613] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350652.594131169] [motor_controller]: Sending to serial: 1,S88, 2,S-88
+[cmd_vel_emulator-2] [INFO] [1752350652.606011669] [cmd_emulator]: Published Left: 600, Right: -600
+[cmd_vel_emulator-2] [INFO] [1752350652.706014835] [cmd_emulator]: Published Left: 600, Right: -600
+[motor-1] [INFO] [1752350652.797816446] [motor_controller]: Sending to serial: 1,S148, 2,S-148
+[cmd_vel_emulator-2] [INFO] [1752350652.806492224] [cmd_emulator]: Published Left: -138, Right: 138
+[bt_navigator-8] [INFO] [1752350652.854693520] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350652.854983928] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.21, -1.34)
+[cmd_vel_emulator-2] [INFO] [1752350652.905980224] [cmd_emulator]: Published Left: -138, Right: 138
+[motor-1] [INFO] [1752350653.001364020] [motor_controller]: Sending to serial: 1,S887, 2,S-887
+[cmd_vel_emulator-2] [INFO] [1752350653.005975465] [cmd_emulator]: Published Left: -138, Right: 138
+[cmd_vel_emulator-2] [INFO] [1752350653.106058224] [cmd_emulator]: Published Left: 230, Right: -230
+[motor-1] [INFO] [1752350653.204054890] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350653.206001539] [cmd_emulator]: Published Left: 230, Right: -230
+[cmd_vel_emulator-2] [INFO] [1752350653.306012779] [cmd_emulator]: Published Left: 970, Right: -970
+[cmd_vel_emulator-2] [INFO] [1752350653.406184890] [cmd_emulator]: Published Left: 970, Right: -970
+[motor-1] [INFO] [1752350653.406975872] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[controller_server-4] [INFO] [1752350653.432186927] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350653.506108427] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350653.606093483] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350653.610759872] [motor_controller]: Sending to serial: 1,S600, 2,S-600
+[cmd_vel_emulator-2] [INFO] [1752350653.706023298] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350653.806072057] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350653.813800094] [motor_controller]: Sending to serial: 1,S-138, 2,S138
+[cmd_vel_emulator-2] [INFO] [1752350653.906074797] [cmd_emulator]: Published Left: 600, Right: -600
+[cmd_vel_emulator-2] [INFO] [1752350654.006006112] [cmd_emulator]: Published Left: 600, Right: -600
+[motor-1] [INFO] [1752350654.017079371] [motor_controller]: Sending to serial: 1,S230, 2,S-230
+[cmd_vel_emulator-2] [INFO] [1752350654.106014631] [cmd_emulator]: Published Left: -88, Right: 88
+[cmd_vel_emulator-2] [INFO] [1752350654.206134482] [cmd_emulator]: Published Left: -88, Right: 88
+[motor-1] [INFO] [1752350654.220225464] [motor_controller]: Sending to serial: 1,S970, 2,S-970
+[cmd_vel_emulator-2] [INFO] [1752350654.306030260] [cmd_emulator]: Published Left: -88, Right: 88
+[cmd_vel_emulator-2] [INFO] [1752350654.406085797] [cmd_emulator]: Published Left: -88, Right: 88
+[motor-1] [INFO] [1752350654.423663834] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[controller_server-4] [INFO] [1752350654.432185427] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350654.506005334] [cmd_emulator]: Published Left: 103, Right: -103
+[cmd_vel_emulator-2] [INFO] [1752350654.606224630] [cmd_emulator]: Published Left: 103, Right: -103
+[motor-1] [INFO] [1752350654.627018741] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350654.706107834] [cmd_emulator]: Published Left: 842, Right: -842
+[cmd_vel_emulator-2] [INFO] [1752350654.806001556] [cmd_emulator]: Published Left: 842, Right: -842
+[motor-1] [INFO] [1752350654.830104760] [motor_controller]: Sending to serial: 1,S600, 2,S-600
+[cmd_vel_emulator-2] [INFO] [1752350654.906065297] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752350655.006063112] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752350655.033600575] [motor_controller]: Sending to serial: 1,S-88, 2,S88
+[cmd_vel_emulator-2] [INFO] [1752350655.106110667] [cmd_emulator]: Published Left: 415, Right: -415
+[cmd_vel_emulator-2] [INFO] [1752350655.205972408] [cmd_emulator]: Published Left: 415, Right: -415
+[motor-1] [INFO] [1752350655.236821426] [motor_controller]: Sending to serial: 1,S-88, 2,S88
+[cmd_vel_emulator-2] [INFO] [1752350655.306076186] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350655.406031260] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350655.441304741] [motor_controller]: Sending to serial: 1,S103, 2,S-103
+[controller_server-4] [INFO] [1752350655.482188130] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350655.506017463] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350655.606079296] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350655.645213056] [motor_controller]: Sending to serial: 1,S842, 2,S-842
+[cmd_vel_emulator-2] [INFO] [1752350655.706014519] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752350655.806028907] [cmd_emulator]: Published Left: -207, Right: 207
+[motor-1] [INFO] [1752350655.848473593] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752350655.906027167] [cmd_emulator]: Published Left: 347, Right: -347
+[cmd_vel_emulator-2] [INFO] [1752350656.006158185] [cmd_emulator]: Published Left: 347, Right: -347
+[motor-1] [INFO] [1752350656.051769185] [motor_controller]: Sending to serial: 1,S415, 2,S-415
+[cmd_vel_emulator-2] [INFO] [1752350656.106115463] [cmd_emulator]: Published Left: 1086, Right: -1086
+[cmd_vel_emulator-2] [INFO] [1752350656.206093092] [cmd_emulator]: Published Left: 1086, Right: -1086
+[motor-1] [INFO] [1752350656.254905833] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752350656.305995148] [cmd_emulator]: Published Left: 1095, Right: -1095
+[cmd_vel_emulator-2] [INFO] [1752350656.406036389] [cmd_emulator]: Published Left: 1095, Right: -1095
+[motor-1] [INFO] [1752350656.458191777] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[controller_server-4] [INFO] [1752350656.482183870] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350656.506188740] [cmd_emulator]: Published Left: 541, Right: -541
+[cmd_vel_emulator-2] [INFO] [1752350656.606063926] [cmd_emulator]: Published Left: 541, Right: -541
+[motor-1] [INFO] [1752350656.661508111] [motor_controller]: Sending to serial: 1,S-207, 2,S207
+[cmd_vel_emulator-2] [INFO] [1752350656.706068907] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350656.806015333] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350656.865180203] [motor_controller]: Sending to serial: 1,S347, 2,S-347
+[cmd_vel_emulator-2] [INFO] [1752350656.906067592] [cmd_emulator]: Published Left: 503, Right: -503
+[cmd_vel_emulator-2] [INFO] [1752350657.006207185] [cmd_emulator]: Published Left: 503, Right: -503
+[motor-1] [INFO] [1752350657.069505425] [motor_controller]: Sending to serial: 1,S1086, 2,S-1086
+[cmd_vel_emulator-2] [INFO] [1752350657.106055407] [cmd_emulator]: Published Left: 918, Right: -918
+[cmd_vel_emulator-2] [INFO] [1752350657.206160073] [cmd_emulator]: Published Left: 918, Right: -918
+[motor-1] [INFO] [1752350657.272510221] [motor_controller]: Sending to serial: 1,S1095, 2,S-1095
+[cmd_vel_emulator-2] [INFO] [1752350657.306051407] [cmd_emulator]: Published Left: 977, Right: -977
+[cmd_vel_emulator-2] [INFO] [1752350657.406018092] [cmd_emulator]: Published Left: 977, Right: -977
+[motor-1] [INFO] [1752350657.475682425] [motor_controller]: Sending to serial: 1,S541, 2,S-541
+[cmd_vel_emulator-2] [INFO] [1752350657.506078592] [cmd_emulator]: Published Left: 977, Right: -977
+[controller_server-4] [INFO] [1752350657.532187240] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350657.605980555] [cmd_emulator]: Published Left: 977, Right: -977
+[motor-1] [INFO] [1752350657.679368110] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752350657.706124629] [cmd_emulator]: Published Left: 621, Right: -621
+[cmd_vel_emulator-2] [INFO] [1752350657.806005554] [cmd_emulator]: Published Left: 621, Right: -621
+[bt_navigator-8] [INFO] [1752350657.854853277] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350657.855498147] [bt_navigator]: Begin navigating from current location (-0.61, -0.47) to (0.26, -1.39)
+[motor-1] [INFO] [1752350657.883214054] [motor_controller]: Sending to serial: 1,S503, 2,S-503
+[cmd_vel_emulator-2] [INFO] [1752350657.906004203] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350658.006006147] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350658.086625758] [motor_controller]: Sending to serial: 1,S918, 2,S-918
+[cmd_vel_emulator-2] [INFO] [1752350658.106162091] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350658.206056943] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350658.290205684] [motor_controller]: Sending to serial: 1,S977, 2,S-977
+[cmd_vel_emulator-2] [INFO] [1752350658.305839350] [cmd_emulator]: Published Left: -768, Right: 768
+[cmd_vel_emulator-2] [INFO] [1752350658.406115313] [cmd_emulator]: Published Left: -768, Right: 768
+[motor-1] [INFO] [1752350658.493977517] [motor_controller]: Sending to serial: 1,S977, 2,S-977
+[cmd_vel_emulator-2] [INFO] [1752350658.506109110] [cmd_emulator]: Published Left: -399, Right: 399
+[controller_server-4] [INFO] [1752350658.532185943] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350658.606054443] [cmd_emulator]: Published Left: -399, Right: 399
+[motor-1] [INFO] [1752350658.697805850] [motor_controller]: Sending to serial: 1,S621, 2,S-621
+[cmd_vel_emulator-2] [INFO] [1752350658.706039072] [cmd_emulator]: Published Left: -399, Right: 399
+[cmd_vel_emulator-2] [INFO] [1752350658.806133720] [cmd_emulator]: Published Left: 29, Right: -29
+[motor-1] [INFO] [1752350658.901315628] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752350658.906169517] [cmd_emulator]: Published Left: 29, Right: -29
+[cmd_vel_emulator-2] [INFO] [1752350659.006019202] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350659.104157405] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752350659.106677794] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350659.206130035] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752350659.306203868] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752350659.307047368] [motor_controller]: Sending to serial: 1,S-768, 2,S768
+[collision_monitor-11] [INFO] [1752350659.308059054] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[motor-1] [INFO] [1752350659.511092813] [motor_controller]: Sending to serial: 1,S-399, 2,S399
+[controller_server-4] [INFO] [1752350659.582187739] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752350659.714269887] [motor_controller]: Sending to serial: 1,S-399, 2,S399
+[motor-1] [INFO] [1752350659.918193701] [motor_controller]: Sending to serial: 1,S-399, 2,S399
+[motor-1] [INFO] [1752350660.121553127] [motor_controller]: Sending to serial: 1,S29, 2,S-29
+[motor-1] [INFO] [1752350660.325055127] [motor_controller]: Sending to serial: 1,S29, 2,S-29
+[cmd_vel_emulator-2] [INFO] [1752350660.406027312] [cmd_emulator]: Published Left: 51, Right: -51
+[cmd_vel_emulator-2] [INFO] [1752350660.506047145] [cmd_emulator]: Published Left: 51, Right: -51
+[motor-1] [INFO] [1752350660.528167368] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[collision_monitor-11] [INFO] [1752350660.530675960] [collision_monitor]: Robot to continue normal operation
+[controller_server-4] [INFO] [1752350660.582189627] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752350660.606110979] [cmd_emulator]: Published Left: 918, Right: -918
+[cmd_vel_emulator-2] [INFO] [1752350660.706104016] [cmd_emulator]: Published Left: 918, Right: -918
+[motor-1] [INFO] [1752350660.731759775] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752350660.806091460] [cmd_emulator]: Published Left: 740, Right: -740
+[cmd_vel_emulator-2] [INFO] [1752350660.906106738] [cmd_emulator]: Published Left: 740, Right: -740
+[motor-1] [INFO] [1752350660.936501830] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752350661.006144590] [cmd_emulator]: Published Left: 325, Right: -325
+[cmd_vel_emulator-2] [INFO] [1752350661.106116941] [cmd_emulator]: Published Left: 325, Right: -325
+[motor-1] [INFO] [1752350661.140069552] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[collision_monitor-11] [INFO] [1752350661.144876738] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[cmd_vel_emulator-2] [INFO] [1752350661.206047608] [cmd_emulator]: Published Left: 64, Right: -64
+[cmd_vel_emulator-2] [INFO] [1752350661.306013515] [cmd_emulator]: Published Left: 64, Right: -64
+[controller_server-4] [ERROR] [1752350661.332274423] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350661.332449108] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[motor-1] [INFO] [1752350661.344173386] [motor_controller]: Sending to serial: 1,S51, 2,S-51
+[behavior_server-7] [INFO] [1752350661.345504441] [behavior_server]: Running wait
+[cmd_vel_emulator-2] [INFO] [1752350661.406128478] [cmd_emulator]: Published Left: 32, Right: -32
+[cmd_vel_emulator-2] [INFO] [1752350661.506217497] [cmd_emulator]: Published Left: 32, Right: -32
+[motor-1] [INFO] [1752350661.547398608] [motor_controller]: Sending to serial: 1,S918, 2,S-918
+[cmd_vel_emulator-2] [INFO] [1752350661.606235960] [cmd_emulator]: Published Left: 33, Right: -33
+[cmd_vel_emulator-2] [INFO] [1752350661.706121811] [cmd_emulator]: Published Left: 33, Right: -33
+[motor-1] [INFO] [1752350661.750998182] [motor_controller]: Sending to serial: 1,S740, 2,S-740
+[collision_monitor-11] [INFO] [1752350661.756649330] [collision_monitor]: Robot to continue normal operation
+[motor-1] [INFO] [1752350661.954147311] [motor_controller]: Sending to serial: 1,S740, 2,S-740
+[motor-1] [INFO] [1752350662.157423330] [motor_controller]: Sending to serial: 1,S325, 2,S-325
+[motor-1] [INFO] [1752350662.361156663] [motor_controller]: Sending to serial: 1,S325, 2,S-325
+[motor-1] [INFO] [1752350662.564301311] [motor_controller]: Sending to serial: 1,S64, 2,S-64
+[motor-1] [INFO] [1752350662.767662626] [motor_controller]: Sending to serial: 1,S64, 2,S-64
+[bt_navigator-8] [INFO] [1752350662.854562274] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350662.854885274] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.06, -0.89)
+[motor-1] [INFO] [1752350662.971124792] [motor_controller]: Sending to serial: 1,S32, 2,S-32
+[motor-1] [INFO] [1752350663.174303088] [motor_controller]: Sending to serial: 1,S32, 2,S-32
+[motor-1] [INFO] [1752350663.378055144] [motor_controller]: Sending to serial: 1,S33, 2,S-33
+[motor-1] [INFO] [1752350663.581322495] [motor_controller]: Sending to serial: 1,S33, 2,S-33
+[behavior_server-7] [INFO] [1752350666.345756568] [behavior_server]: wait completed successfully
+[controller_server-4] [INFO] [1752350666.385089216] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1752350666.400263086] [controller_server]: Reached the goal!
+[bt_navigator-8] [INFO] [1752350666.424700216] [bt_navigator]: Goal succeeded
+[bt_navigator-8] [INFO] [1752350667.855240789] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (-0.04, -0.74)
+[controller_server-4] [INFO] [1752350667.857197215] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1752350667.869174956] [controller_server]: Reached the goal!
+[bt_navigator-8] [INFO] [1752350667.895748660] [bt_navigator]: Goal succeeded
+[bt_navigator-8] [INFO] [1752350672.854094360] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.11, -0.94)
+[controller_server-4] [INFO] [1752350672.864856879] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1752350672.878147231] [controller_server]: Reached the goal!
+[bt_navigator-8] [INFO] [1752350672.904543508] [bt_navigator]: Goal succeeded
+[bt_navigator-8] [INFO] [1752350677.854813598] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.01, -0.79)
+[controller_server-4] [INFO] [1752350677.865556950] [controller_server]: Received a goal, begin computing control effort.
+[collision_monitor-11] [INFO] [1752350677.944017913] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[controller_server-4] [INFO] [1752350678.915802542] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350679.965816041] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350680.966168874] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350681.965800670] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350682.855547317] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350682.855883484] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.06, -0.84)
+[controller_server-4] [INFO] [1752350683.015812613] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350684.015805372] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350685.015805594] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350686.065802408] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350687.065845241] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350687.855316685] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350687.855596574] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (-0.14, -0.59)
+[controller_server-4] [ERROR] [1752350687.865864185] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350687.866066870] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752350687.885477129] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752350687.886610796] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1752350688.086930722] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350689.136930184] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350690.136933091] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350691.186931016] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350692.186934867] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350692.855688348] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350692.856060719] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (-0.09, -0.64)
+[controller_server-4] [INFO] [1752350693.236929144] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350694.236930292] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350695.286929032] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350696.286928772] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350697.336931494] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350697.855524086] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350697.855800197] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (-0.04, -0.69)
+[controller_server-4] [ERROR] [1752350697.937025790] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350697.937201642] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752350697.955465864] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1752350697.956375216] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[collision_monitor-11] [INFO] [1752350698.358233586] [collision_monitor]: Robot to continue normal operation
+[planner_server-6] [WARN] [1752350698.747816586] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.2654 Hz
+[controller_server-4] [INFO] [1752350698.765632326] [controller_server]: Received a goal, begin computing control effort.
+[collision_monitor-11] [INFO] [1752350699.163385511] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[controller_server-4] [INFO] [1752350699.815923270] [controller_server]: Passing new path to controller.
+[collision_monitor-11] [ERROR] [1752350700.599715473] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350700.394758 but the latest data is at time 1752350700.380537, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350700.599805251] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[collision_monitor-11] [INFO] [1752350700.685788510] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[controller_server-4] [WARN] [1752350700.788934251] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.6092 Hz.
+[bt_navigator-8] [WARN] [1752350700.818484492] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[bt_navigator-8] [ERROR] [1752350700.853176195] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[controller_server-4] [INFO] [1752350700.870943103] [controller_server]: Cancellation was successful. Stopping the robot.
+[controller_server-4] [INFO] [1752350700.871042640] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-8] [WARN] [1752350700.979778343] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-8] [ERROR] [1752350700.981051418] [bt_navigator]: Goal failed
+[collision_monitor-11] [INFO] [1752350701.302389806] [collision_monitor]: Robot to continue normal operation
+[motor-1] [INFO] [1752350701.902579547] [motor_controller]: Stopping motors
+[collision_monitor-11] [ERROR] [1752350701.914712898] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350701.709605 but the latest data is at time 1752350701.700332, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350701.914836232] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[async_slam_toolbox_node-3] [INFO] [1752350702.040399324] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752350701.782 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [INFO] [1752350702.113892158] [collision_monitor]: Robot to continue normal operation
+[bt_navigator-8] [INFO] [1752350702.853705176] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.11, -0.89)
+[controller_server-4] [INFO] [1752350702.864509898] [controller_server]: Received a goal, begin computing control effort.
+[collision_monitor-11] [INFO] [1752350702.924026416] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[controller_server-4] [INFO] [1752350703.914820268] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350704.914859137] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350705.964787063] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350706.964786155] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350707.854211117] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350707.854658506] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.01, -0.74)
+[controller_server-4] [INFO] [1752350708.014850950] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350709.014786376] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350710.064786986] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350711.064788023] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350712.115366485] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350712.854205262] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350712.854637799] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.06, -0.79)
+[controller_server-4] [ERROR] [1752350712.864855614] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752350712.865060373] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752350712.884376540] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752350712.885494855] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1752350713.135768521] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350714.135765873] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350715.185767854] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350716.185773223] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350717.235768315] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [INFO] [1752350717.854422222] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752350717.854954222] [bt_navigator]: Begin navigating from current location (-0.61, -0.48) to (0.16, -0.94)
+[controller_server-4] [INFO] [1752350718.235766722] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350719.285767851] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350720.285774721] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752350721.335768591] [controller_server]: Passing new path to controller.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [launch.user]: Caught Ctrl+C, shutting down lawnbot gracefully!
+[map_saver_server-15] [INFO] [1752350721.480323683] [rclcpp]: signal_handler(signum=2)
+[map_saver_server-15] [INFO] [1752350721.480508054] [map_saver_server]: Running Nav2 LifecycleNode rcl preshutdown (map_saver_server)
+[map_saver_server-15] [INFO] [1752350721.480612183] [map_saver_server]: Destroying bond (map_saver_server) to lifecycle manager.
+[map_saver_server-15] [INFO] [1752350721.487496202] [map_saver_server]: Destroying
+[INFO] [map_saver_server-15]: process has finished cleanly [pid 10833]
+[INFO] [robot_state_publisher-14]: process has finished cleanly [pid 10832]
+[INFO] [velocity_smoother-10]: process has finished cleanly [pid 10828]
+[robot_state_publisher-14] [INFO] [1752350721.480323757] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1752350721.480352442] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1752350721.481971794] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-8] [INFO] [1752350721.482088165] [bt_navigator]: Deactivating
+[bt_navigator-8] [WARN] [1752350721.482125109] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[ERROR] [start_stop_wrapper-16]: process has died [pid 10834, exit code -2, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/start_stop_wrapper --ros-args -r __node:=start_stop_wrapper'].
+[lifecycle_manager-13] [INFO] [1752350721.480415072] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-13] [INFO] [1752350721.480538961] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-13] [INFO] [1752350721.480621202] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[opennav_docking-12] [INFO] [1752350721.480517665] [rclcpp]: signal_handler(signum=2)
+[opennav_docking-12] [INFO] [1752350721.482802146] [docking_server]: Running Nav2 LifecycleNode rcl preshutdown (docking_server)
+[opennav_docking-12] [INFO] [1752350721.482974405] [docking_server]: Deactivating docking_server
+[collision_monitor-11] [INFO] [1752350721.480594776] [rclcpp]: signal_handler(signum=2)
+[collision_monitor-11] [INFO] [1752350721.480742424] [collision_monitor]: Running Nav2 LifecycleNode rcl preshutdown (collision_monitor)
+[collision_monitor-11] [INFO] [1752350721.480868461] [collision_monitor]: Deactivating
+[collision_monitor-11] [INFO] [1752350721.480906757] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1752350721.480673220] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1752350721.480808794] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-9] [INFO] [1752350721.480932794] [waypoint_follower]: Deactivating
+[waypoint_follower-9] [INFO] [1752350721.481040905] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1752350721.481498609] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1752350721.481862683] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-10] [INFO] [1752350721.481999498] [velocity_smoother]: Deactivating
+[velocity_smoother-10] [INFO] [1752350721.482042961] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[smoother_server-5] [INFO] [1752350721.481587831] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1752350721.483523442] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-5] [INFO] [1752350721.484971591] [smoother_server]: Deactivating
+[smoother_server-5] [INFO] [1752350721.485039683] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[async_slam_toolbox_node-3] [INFO] [1752350721.481702331] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1752350721.481830553] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1752350721.484175461] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-7] [INFO] [1752350721.484312924] [behavior_server]: Deactivating
+[behavior_server-7] [INFO] [1752350721.484384387] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[start_stop_wrapper-16] Traceback (most recent call last):
+[start_stop_wrapper-16]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/start_stop_wrapper", line 33, in <module>
+[start_stop_wrapper-16]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'start_stop_wrapper')())
+[start_stop_wrapper-16]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/start_stop_wrapper.py", line 47, in main
+[start_stop_wrapper-16]     rclpy.spin(node)
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[start_stop_wrapper-16]     executor.spin_once()
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[start_stop_wrapper-16]     self._spin_once_impl(timeout_sec)
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 811, in _spin_once_impl
+[start_stop_wrapper-16]     handler, entity, node = self.wait_for_ready_callbacks(
+[start_stop_wrapper-16]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in wait_for_ready_callbacks
+[start_stop_wrapper-16]     return next(self._cb_iter)
+[start_stop_wrapper-16]            ^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+[start_stop_wrapper-16]     wait_set.wait(timeout_nsec)
+[start_stop_wrapper-16] KeyboardInterrupt
+[motor-1] [INFO] [1752350721.490627979] [motor_controller]: Caught Ctrl+C, shutting down...
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[motor-1] [INFO] [1752350721.710904127] [motor_controller]: Stopping motors
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[motor-1] [INFO] [1752350721.712605461] [motor_controller]: Stopped and closed serial connection
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[motor-1] Traceback (most recent call last):
+[motor-1]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/motor", line 33, in <module>
+[motor-1]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'motor')())
+[motor-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[motor-1]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/motor_controller.py", line 381, in main
+[motor-1]     rclpy.shutdown()
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[motor-1]     _shutdown(context=context)
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[motor-1]     context.shutdown()
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[motor-1]     self.__context.shutdown()
+[motor-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[controller_server-4] [INFO] [1752350721.491494535] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1752350721.491666350] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-4] [INFO] [1752350721.491816535] [controller_server]: Deactivating
+[controller_server-4] [WARN] [1752350721.491859535] [controller_server]: [follow_path] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[controller_server-4] [WARN] [1752350721.538145387] [controller_server]: [follow_path] [ActionServer] Stopping the thread per request.
+[controller_server-4] [INFO] [1752350721.538229998] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[controller_server-4] [INFO] [1752350721.538724683] [local_costmap.local_costmap]: Deactivating
+[controller_server-4] [INFO] [1752350721.714453090] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1752350721.737925535] [controller_server]: Cleaning up
+[controller_server-4] [INFO] [1752350721.738386294] [local_costmap.local_costmap]: Cleaning up
+[planner_server-6] [INFO] [1752350721.492119535] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1752350721.492199313] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-6] [INFO] [1752350721.492303479] [planner_server]: Deactivating
+[planner_server-6] [INFO] [1752350721.492359572] [global_costmap.global_costmap]: Deactivating
+[planner_server-6] [INFO] [1752350721.744458368] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752350721.744547739] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1752350721.772425794] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752350721.348 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752350721.795983405] [planner_server]: Cleaning up
+[planner_server-6] [INFO] [1752350722.209893794] [global_costmap.global_costmap]: Cleaning up
+[planner_server-6] [INFO] [1752350722.328195720] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752350722.328476572] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[bt_navigator-8] [ERROR] [1752350721.514965831] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[bt_navigator-8] [WARN] [1752350721.515178535] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-8] [INFO] [1752350721.515676591] [bt_navigator]: Goal canceled
+[bt_navigator-8] [WARN] [1752350721.515732405] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[bt_navigator-8] [INFO] [1752350721.516233794] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-8] [INFO] [1752350721.557324183] [bt_navigator]: Cleaning up
+[bt_navigator-8] Fatal glibc error: pthread_mutex_lock.c:94 (___pthread_mutex_lock): assertion failed: mutex->__data.__owner == 0
+[async_slam_toolbox_node-3] Unregistering sensor: Custom Described Lidar
+[waypoint_follower-9] [INFO] [1752350721.531536739] [waypoint_follower]: Cleaning up
+[waypoint_follower-9] [INFO] [1752350722.040269831] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1752350722.089526127] [waypoint_follower]: Destroying
+[collision_monitor-11] [ERROR] [1752350721.533214961] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752350721.325992 but the latest data is at time 1752350721.315443, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752350721.533317757] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[collision_monitor-11] [WARN] [1752350721.533385553] [LifecyclePublisher]: Trying to publish message on the topic '/collision_monitor_state', but the publisher is not activated
+[collision_monitor-11] [WARN] [1752350721.533406202] [LifecyclePublisher]: Trying to publish message on the topic '/cmd_vel', but the publisher is not activated
+[collision_monitor-11] [INFO] [1752350721.561557368] [collision_monitor]: Cleaning up
+[collision_monitor-11] [INFO] [1752350721.561639998] [collision_monitor]: [FootprintApproach]: Destroying Polygon
+[collision_monitor-11] [INFO] [1752350721.561668239] [collision_monitor]: [scan]: Destroying Scan
+[collision_monitor-11] [INFO] [1752350721.973277405] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[collision_monitor-11] [INFO] [1752350722.099163664] [collision_monitor]: Destroying
+[velocity_smoother-10] [INFO] [1752350721.554403442] [velocity_smoother]: Cleaning up
+[velocity_smoother-10] [INFO] [1752350721.554514165] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1752350721.748004109] [velocity_smoother]: Destroying
+[behavior_server-7] [INFO] [1752350721.554968368] [behavior_server]: Cleaning up
+[behavior_server-7] [INFO] [1752350722.109873423] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[smoother_server-5] [INFO] [1752350721.565575053] [smoother_server]: Cleaning up
+[smoother_server-5] [INFO] [1752350722.034301238] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-5] [INFO] [1752350722.183985701] [smoother_server]: Destroying
+[opennav_docking-12] [INFO] [1752350722.006434868] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[opennav_docking-12] [INFO] [1752350722.038010627] [docking_server]: Cleaning up docking_server
+[opennav_docking-12] [INFO] [1752350722.321500757] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[cmd_vel_emulator-2] Traceback (most recent call last):
+[cmd_vel_emulator-2]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/cmd_vel_emulator", line 33, in <module>
+[cmd_vel_emulator-2]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'cmd_vel_emulator')())
+[cmd_vel_emulator-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[cmd_vel_emulator-2]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/cmd_vel_emulator.py", line 187, in main
+[cmd_vel_emulator-2]     rclpy.shutdown()
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[cmd_vel_emulator-2]     _shutdown(context=context)
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[cmd_vel_emulator-2]     context.shutdown()
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[cmd_vel_emulator-2]     self.__context.shutdown()
+[cmd_vel_emulator-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[opennav_docking-12] [INFO] [1752350722.522464627] [docking_server]: Destroying
+[controller_server-4] [INFO] [1752350722.547732127] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752350722.557435720] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[planner_server-6] [INFO] [1752350722.579415775] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[ERROR] [cmd_vel_emulator-2]: process has died [pid 10820, exit code 1, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/cmd_vel_emulator --ros-args -r __node:=cmd_emulator'].
+[controller_server-4] [INFO] [1752350722.610454405] [local_costmap.local_costmap]: Destroying
+[planner_server-6] [INFO] [1752350722.611943238] [global_costmap.global_costmap]: Destroying
+[INFO] [collision_monitor-11]: process has finished cleanly [pid 10829]
+[ERROR] [motor-1]: process has died [pid 10819, exit code 1, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/motor --ros-args -r __node:=motor_controller'].
+[INFO] [smoother_server-5]: process has finished cleanly [pid 10823]
+[INFO] [waypoint_follower-9]: process has finished cleanly [pid 10827]
+[behavior_server-7] [INFO] [1752350722.655729571] [behavior_server]: Destroying
+[planner_server-6] [INFO] [1752350722.677119664] [planner_server]: Destroying
+[controller_server-4] [INFO] [1752350722.710078460] [controller_server]: Destroying
+[INFO] [async_slam_toolbox_node-3]: process has finished cleanly [pid 10821]
+[INFO] [lifecycle_manager-13]: process has finished cleanly [pid 10831]
+[INFO] [opennav_docking-12]: process has finished cleanly [pid 10830]
+[INFO] [planner_server-6]: process has finished cleanly [pid 10824]
+[INFO] [behavior_server-7]: process has finished cleanly [pid 10825]
+[INFO] [controller_server-4]: process has finished cleanly [pid 10822]
+[ERROR] [bt_navigator-8]: process has died [pid 10826, exit code -6, cmd '/opt/ros/jazzy/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator -p use_sim_time:=False --params-file /tmp/launch_params_px53_yz3 -r /tf:=tf -r /tf_static:=tf_static'].

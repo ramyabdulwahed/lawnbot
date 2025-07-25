@@ -53,7 +53,7 @@ class CmdVelEmulator(Node):
 
         # Timer to repeat motion every 0.1s (simulating continuous velocity)
         self.timer_period = 0.1  # seconds
-        self.timer = self.create_timer(self.timer_period, self.send_motor_command)
+        #self.timer = self.create_timer(self.timer_period, self.send_motor_command)
 
         # Conversion constants (adjust based on your robot’s config!)
         self.ticks_per_meter = 5435 # example: 5000 encoder ticks = 1 meter
@@ -62,7 +62,7 @@ class CmdVelEmulator(Node):
 
         #THESE VALUES ARE TO BE CHANGED
         self.wheel_radius = 0.0508  # example: 10 cm wheel radius
-        self.wheel_separation = 0.366  # example: 50 cm between wheels
+        self.wheel_separation = 0.425 #0.366  # example: 50 cm between wheels
         self.get_logger().info("CmdVel Emulator initialized")
     
     def pause_callback(self, msg):
@@ -76,6 +76,7 @@ class CmdVelEmulator(Node):
         # Save the latest velocity command from Nav2
         self.latest_linear_x = msg.linear.x
         self.latest_angular_z = msg.angular.z
+        self.send_motor_command()
 
     def send_motor_command(self):
         # Only send if there's motion
@@ -112,7 +113,7 @@ class CmdVelEmulator(Node):
 
         v_left = v - (w * self.wheel_separation / 2)  # Left wheel speed
         v_right = v + (w * self.wheel_separation / 2)  # Right wheel speed
-        self.get_logger().debug(f'Linear: {v}, Angular: {w}, Left: {v_left}, Right: {v_right}')
+####        self.get_logger().debug(f'Linear: {v}, Angular: {w}, Left: {v_left}, Right: {v_right}')
 
         # Convert linear speeds to ticks
         speed_ticks_left = int(v_left * self.ticks_per_meter)
@@ -138,7 +139,8 @@ class CmdVelEmulator(Node):
         #the below is for the old motorData format
 #->        self.motor_pub.publish(MotorData(op_code='1', position=0, speed=speed_ticks_left))  # Example of a second command
 #->        self.motor_pub.publish(MotorData(op_code='2', position=0, speed=speed_ticks_right))  # Example of a second command
-        self.get_logger().info(f'Published Left: {speed_ticks_left}, Right: {speed_ticks_right}')
+####        self.get_logger().info (f'cmd vel: linear = {v} and angular = {w}')
+####        self.get_logger().info(f'Published Left: {speed_ticks_left}, Right: {speed_ticks_right}')
 
 
 

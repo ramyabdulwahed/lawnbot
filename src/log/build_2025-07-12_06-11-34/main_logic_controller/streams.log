@@ -1,0 +1,92 @@
+[1.538s] Invoking command in '/home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/src/install/custom_explorer:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/src/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/src/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/build --no-deps symlink_data
+[2.128s] running develop
+[2.491s] running egg_info
+[2.491s] creating main_logic_controller.egg-info
+[2.525s] writing main_logic_controller.egg-info/PKG-INFO
+[2.525s] writing dependency_links to main_logic_controller.egg-info/dependency_links.txt
+[2.525s] writing entry points to main_logic_controller.egg-info/entry_points.txt
+[2.526s] writing requirements to main_logic_controller.egg-info/requires.txt
+[2.526s] writing top-level names to main_logic_controller.egg-info/top_level.txt
+[2.526s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[2.597s] reading manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[2.599s] writing manifest file 'main_logic_controller.egg-info/SOURCES.txt'
+[2.636s] running build_ext
+[2.636s] Creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/python3.12/site-packages/main-logic-controller.egg-link (link to .)
+[2.637s] Installing cmd_vel_emulator script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.638s] Installing explorer script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.638s] Installing light script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.638s] Installing main script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.638s] Installing motor script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.638s] Installing object_detector script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.639s] Installing odom_testing script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.639s] Installing path script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.639s] Installing picamera script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.639s] Installing pump script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.640s] Installing start_stop_wrapper script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.640s] Installing vid_streamer script to /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/main_logic_controller
+[2.640s] 
+[2.640s] Installed /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller
+[2.641s] running symlink_data
+[2.641s] creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/ament_index
+[2.641s] creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/ament_index/resource_index
+[2.641s] creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/ament_index/resource_index/packages
+[2.641s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/resource/main_logic_controller -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/ament_index/resource_index/packages
+[2.641s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/package.xml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller
+[2.642s] creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.642s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/launch/nav.launch.py -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.642s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/launch/sim_gazebo.launch.py -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.642s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/launch/launch_file_demo.py -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.642s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/launch/explorer.launch.py -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.642s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/launch/display.launch.py -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/launch/launch_robot.launch.py -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/launch
+[2.643s] creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/frames_2025-07-12_05.02.52.gv -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/test_org.xacro -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/robot.urdf.xacro -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/inertial_macros.xacro -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/my_robot copy 2.urdf -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.643s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/my_robotOld.urdf -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/test.xacro.save -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/my_robot copy.urdf -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/test.xacro -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/my_robot.urdf -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/testORIGNAL.xacro -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/urdf/frames_2025-07-12_05.02.52.pdf -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/urdf
+[2.644s] creating /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap1.posegraph -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/na2_params.yaml.save -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/distorted_map.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mapforzelin.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestsofar1240.posegraph -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestmap1000.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap1.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.645s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap11.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap11.data -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap1.data -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/my_controllers.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestphysicalmap.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/twist_mux_topics.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mapforzelin.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap1.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.646s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/distorted_map.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestsofar1240.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestphysicalmap.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/nav2idk_params.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestsofar1240.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mapper_params_online_async.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestsofar1240.data -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap11.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.647s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/nav2_params.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/41xxRobotRviz.rviz -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/na2_params.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestmap1000.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestsofar.pgm -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/twist_mux_joy.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/nav2_paramsJ15_3:34pm.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/nav2_paramsFIRSTVERSION.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.648s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/bestsofar.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.649s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/mymap11.posegraph -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.649s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/nav2_params_J14.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.649s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/twist_mux_locks.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.649s] symbolically linking /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/config/nav2_paramsJ15.yaml -> /home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/share/main_logic_controller/config
+[2.774s] Invoked command in '/home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller' returned '0': AMENT_PREFIX_PATH=/home/lawnbot/ROS2/lawnbot/src/install/custom_explorer:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lawnbot/ROS2/lawnbot/src/install/main_logic_controller/lib/python3.12/site-packages:/home/lawnbot/ROS2/lawnbot/src/build/custom_explorer:/home/lawnbot/ROS2/lawnbot/src/install/custom_explorer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lawnbot/ROS2/lawnbot/src/build/main_logic_controller/build --no-deps symlink_data

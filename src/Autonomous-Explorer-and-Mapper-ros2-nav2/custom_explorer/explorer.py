@@ -6,7 +6,7 @@ from nav2_msgs.action import NavigateToPose
 from rclpy.action import ActionClient
 import numpy as np
 from std_msgs.msg import Bool
-
+from std_srvs.srv import Empty
 
 class ExplorerNode(Node):
     def __init__(self):
@@ -32,6 +32,7 @@ class ExplorerNode(Node):
 
         #create a publisher to indicate exploration completion to kill slam and run navigation
         self.exploration_done = self.create_publisher(Bool, 'exploration_done', 10)
+        self.motor_stop_client = self.create_client(Empty, '/motor_stop')
 
     def map_callback(self, msg):
         self.map_data = msg
@@ -126,6 +127,7 @@ class ExplorerNode(Node):
             self.get_logger().info(f"Chosen frontier: {chosen_frontier}")
         else:
             self.get_logger().warning("No valid frontier found")
+            
 
         return chosen_frontier
 
@@ -142,9 +144,10 @@ class ExplorerNode(Node):
         frontiers = self.find_frontiers(map_array)
 
         if not frontiers:
+            self.call_motor_stop()
             self.get_logger().info("No frontiers found. Exploration complete!")
-            self.exploration_done.publish(Bool(True))
-            self.get_logger().info("Publishing exploration done signal")
+            #self.exploration_done.publish(Bool(True))
+            #self.get_logger().info("Publishing exploration done signal")
 
 
 
@@ -156,6 +159,7 @@ class ExplorerNode(Node):
         chosen_frontier = self.choose_frontier(frontiers)
 
         if not chosen_frontier:
+            self.call_motor_stop()
             self.get_logger().warning("No frontiers to explore")
             return
 

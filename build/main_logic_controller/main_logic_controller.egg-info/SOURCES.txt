@@ -9,14 +9,23 @@ setup.py
 ../../build/main_logic_controller/main_logic_controller.egg-info/top_level.txt
 ../../build/main_logic_controller/main_logic_controller.egg-info/zip-safe
 config/41xxRobotRviz.rviz
+config/bessstmapJ25.pgm
+config/bessstmapJ25.yaml
 config/bestmap1000.pgm
 config/bestmap1000.yaml
+config/bestphysicalmap.pgm
+config/bestphysicalmap.yaml
 config/bestsofar.pgm
 config/bestsofar.yaml
 config/bestsofar1240.data
 config/bestsofar1240.pgm
 config/bestsofar1240.posegraph
 config/bestsofar1240.yaml
+config/distorted_map.pgm
+config/distorted_map.yaml
+config/launchFile.output
+config/mapforzelin.pgm
+config/mapforzelin.yaml
 config/mapper_params_online_async.yaml
 config/my_controllers.yaml
 config/mymap1.data
@@ -27,8 +36,17 @@ config/mymap11.data
 config/mymap11.pgm
 config/mymap11.posegraph
 config/mymap11.yaml
+config/na2_params.yaml
+config/na2_params.yaml.save
 config/nav2_params.yaml
+config/nav2_paramsBEFOREADDISSON.yaml
 config/nav2_paramsFIRSTVERSION.yaml
+config/nav2_paramsJ15.yaml
+config/nav2_paramsJ15_3:34pm.yaml
+config/nav2_params_J14.yaml
+config/nav2idk_params.yaml
+config/ramys_map.pgm
+config/ramys_map.yaml
 config/twist_mux_joy.yaml
 config/twist_mux_locks.yaml
 config/twist_mux_topics.yaml
@@ -67,6 +85,8 @@ main_logic_controller.egg-info/requires.txt
 main_logic_controller.egg-info/top_level.txt
 main_logic_controller.egg-info/zip-safe
 resource/main_logic_controller
+urdf/frames_2025-07-12_05.02.52.gv
+urdf/frames_2025-07-12_05.02.52.pdf
 urdf/inertial_macros.xacro
 urdf/my_robot copy 2.urdf
 urdf/my_robot copy.urdf
@@ -74,3 +94,6 @@ urdf/my_robot.urdf
 urdf/my_robotOld.urdf
 urdf/robot.urdf.xacro
 urdf/test.xacro
+urdf/test.xacro.save
+urdf/testORIGNAL.xacro
+urdf/test_org.xacro

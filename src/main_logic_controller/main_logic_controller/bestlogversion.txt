@@ -1,0 +1,1348 @@
+[INFO] [launch]: All log files can be found below /home/lawnbot/.ros/log/2025-07-12-21-52-02-836202-lawnbot-pi-7146
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [motor-1]: process started with pid [7166]
+[INFO] [cmd_vel_emulator-2]: process started with pid [7167]
+[INFO] [async_slam_toolbox_node-3]: process started with pid [7168]
+[INFO] [controller_server-4]: process started with pid [7169]
+[INFO] [smoother_server-5]: process started with pid [7170]
+[INFO] [planner_server-6]: process started with pid [7171]
+[INFO] [behavior_server-7]: process started with pid [7172]
+[INFO] [bt_navigator-8]: process started with pid [7173]
+[INFO] [waypoint_follower-9]: process started with pid [7174]
+[INFO] [velocity_smoother-10]: process started with pid [7175]
+[INFO] [collision_monitor-11]: process started with pid [7176]
+[INFO] [opennav_docking-12]: process started with pid [7177]
+[INFO] [lifecycle_manager-13]: process started with pid [7178]
+[INFO] [robot_state_publisher-14]: process started with pid [7179]
+[INFO] [map_saver_server-15]: process started with pid [7180]
+[INFO] [start_stop_wrapper-16]: process started with pid [7181]
+[robot_state_publisher-14] [INFO] [1752371524.452166936] [robot_state_publisher]: Robot initialized
+[lifecycle_manager-13] [INFO] [1752371524.548126935] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-13] [INFO] [1752371524.706723435] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[velocity_smoother-10] [INFO] [1752371524.761671565] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[async_slam_toolbox_node-3] [INFO] [1752371524.915851917] [slam_toolbox]: Node using stack size 40000000
+[map_saver_server-15] [INFO] [1752371524.922679454] [map_saver_server]: 
+[map_saver_server-15] 	map_saver_server lifecycle node launched. 
+[map_saver_server-15] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-15] [INFO] [1752371524.922889935] [map_saver_server]: Creating
+[async_slam_toolbox_node-3] [INFO] [1752371524.954910509] [slam_toolbox]: Configuring
+[collision_monitor-11] [INFO] [1752371524.955914454] [collision_monitor]: 
+[collision_monitor-11] 	collision_monitor lifecycle node launched. 
+[collision_monitor-11] 	Waiting on external lifecycle transitions to activate
+[collision_monitor-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752371524.957085991] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752371524.971608528] [planner_server]: Creating
+[bt_navigator-8] [INFO] [1752371524.989399213] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1752371525.001333565] [bt_navigator]: Creating
+[behavior_server-7] [INFO] [1752371525.019787157] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-12] [INFO] [1752371525.031131509] [docking_server]: 
+[opennav_docking-12] 	docking_server lifecycle node launched. 
+[opennav_docking-12] 	Waiting on external lifecycle transitions to activate
+[opennav_docking-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-12] [INFO] [1752371525.031435028] [docking_server]: Creating docking_server
+[waypoint_follower-9] [INFO] [1752371525.033557269] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1752371525.043341657] [waypoint_follower]: Creating
+[smoother_server-5] [INFO] [1752371525.052428324] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[async_slam_toolbox_node-3] [INFO] [1752371525.056857324] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-3] [INFO] [1752371525.069025250] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[smoother_server-5] [INFO] [1752371525.071912028] [smoother_server]: Creating smoother server
+[controller_server-4] [INFO] [1752371525.116435602] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752371525.148851750] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752371525.149943806] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1752371525.158422454] [controller_server]: Creating controller server
+[controller_server-4] [INFO] [1752371525.299521120] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1752371525.309931731] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+[async_slam_toolbox_node-3] [INFO] [1752371525.328691787] [slam_toolbox]: Activating
+[lifecycle_manager-13] [INFO] [1752371525.425995509] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-13] [INFO] [1752371525.426082898] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-4] [INFO] [1752371525.429383324] [controller_server]: Configuring controller interface
+[controller_server-4] [INFO] [1752371525.429451453] [controller_server]: getting progress checker plugins..
+[controller_server-4] [INFO] [1752371525.430895268] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1752371525.432326676] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-4] [INFO] [1752371525.432442602] [local_costmap.local_costmap]: Configuring
+[controller_server-4] [INFO] [1752371525.474355842] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-4] [INFO] [1752371525.492422713] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-4] [INFO] [1752371525.524629342] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-4] [INFO] [1752371525.524736157] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1752371525.529148657] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[async_slam_toolbox_node-3] [INFO] [1752371525.587395213] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371525.320 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371525.718114324] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371525.456 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371525.849203601] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371525.579 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371525.972302342] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371525.713 for reason 'discarding message because the queue is full'
+[motor-1] [INFO] [1752371526.073671046] [motor_controller]: Motor Controller Node called
+[controller_server-4] [INFO] [1752371526.080623342] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1752371526.082413046] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-4] [INFO] [1752371526.084490009] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1752371526.086723009] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1752371526.091811231] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-4] [INFO] [1752371526.099380972] [controller_server]: Setting transform_tolerance to 0.200000
+[async_slam_toolbox_node-3] [INFO] [1752371526.106172657] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371525.848 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371526.137945175] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-4] [INFO] [1752371526.140160731] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.140580083] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-4] [INFO] [1752371526.141281416] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.141485583] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-4] [INFO] [1752371526.141782138] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.141966694] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-4] [INFO] [1752371526.142503546] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.142709398] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-4] [INFO] [1752371526.147272916] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.147652657] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-4] [INFO] [1752371526.149893860] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.151520064] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-4] [INFO] [1752371526.153805416] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752371526.153918657] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-13] [INFO] [1752371526.184001897] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752371526.184604916] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1752371526.223930453] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1752371526.224418064] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[async_slam_toolbox_node-3] [INFO] [1752371526.241735194] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371525.971 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752371526.245569360] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1752371526.246007860] [planner_server]: Configuring
+[planner_server-6] [INFO] [1752371526.246065083] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1752371526.276179323] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1752371526.286198601] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1752371526.291669490] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1752371526.291749953] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752371526.292627453] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-6] [INFO] [1752371526.303267249] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752371526.303365786] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [INFO] [1752371526.309596509] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[async_slam_toolbox_node-3] [INFO] [1752371526.367004249] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.106 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1752371526.396927175] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-6] [INFO] [1752371526.396995342] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752371526.398348731] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-13] [INFO] [1752371526.447192064] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752371526.447930064] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1752371526.469698805] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-7] [INFO] [1752371526.472967397] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[behavior_server-7] [INFO] [1752371526.476466008] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[behavior_server-7] [INFO] [1752371526.480969175] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[behavior_server-7] [INFO] [1752371526.486807082] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[async_slam_toolbox_node-3] [INFO] [1752371526.499439638] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.242 for reason 'discarding message because the queue is full'
+[behavior_server-7] [INFO] [1752371526.505534249] [behavior_server]: Configuring spin
+[behavior_server-7] [INFO] [1752371526.530102157] [behavior_server]: Configuring backup
+[behavior_server-7] [INFO] [1752371526.547912879] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1752371526.565482971] [behavior_server]: Configuring assisted_teleop
+[behavior_server-7] [INFO] [1752371526.591373953] [behavior_server]: Configuring wait
+[lifecycle_manager-13] [INFO] [1752371526.613534323] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752371526.614006156] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-13] [INFO] [1752371526.628466305] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752371526.628965194] [collision_monitor]: Configuring
+[async_slam_toolbox_node-3] [INFO] [1752371526.635574434] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.364 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [INFO] [1752371526.650614916] [collision_monitor]: [scan]: Creating Scan
+[collision_monitor-11] [INFO] [1752371526.657827619] [collision_monitor]: [FootprintApproach]: Creating Polygon
+[collision_monitor-11] [INFO] [1752371526.658127879] [collision_monitor]: [FootprintApproach]: Polygon points are not defined. Using dynamic subscription instead.
+[collision_monitor-11] [INFO] [1752371526.662192249] [collision_monitor]: [FootprintApproach]: Making footprint subscriber on /local_costmap/published_footprint topic
+[lifecycle_manager-13] [INFO] [1752371526.694354934] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752371526.694920619] [bt_navigator]: Configuring
+[bt_navigator-8] [INFO] [1752371526.710416193] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[async_slam_toolbox_node-3] [INFO] [1752371526.759113156] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.499 for reason 'discarding message because the queue is full'
+[bt_navigator-8] [INFO] [1752371526.850322990] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[async_slam_toolbox_node-3] [INFO] [1752371526.895504712] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.635 for reason 'discarding message because the queue is full'
+[lifecycle_manager-13] [INFO] [1752371526.911219564] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752371526.911793027] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1752371526.976298916] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-13] [INFO] [1752371526.979286712] [lifecycle_manager_navigation]: [34m[1mConfiguring docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752371526.979910601] [docking_server]: Configuring docking_server
+[opennav_docking-12] [INFO] [1752371526.979975286] [docking_server]: Controller frequency set to 50.0000Hz
+[async_slam_toolbox_node-3] [INFO] [1752371527.027752064] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.757 for reason 'discarding message because the queue is full'
+[opennav_docking-12] [INFO] [1752371527.050260712] [docking_server]: Created charging dock plugin simple_charging_dock of type opennav_docking::SimpleChargingDock
+[opennav_docking-12] [WARN] [1752371527.062316564] [docking_server]: Dock database filepath nor dock parameters set. Docking actions can only be executed specifying the dock pose via the action request. Or update the dock database via the reload_database service.
+[opennav_docking-12] [INFO] [1752371527.062401545] [docking_server]: Docking Server has 1 dock types and 0 dock instances available.
+[lifecycle_manager-13] [INFO] [1752371527.068518156] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1752371527.068987082] [controller_server]: Activating
+[controller_server-4] [INFO] [1752371527.069047212] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1752371527.069062897] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1752371527.069124897] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[cmd_vel_emulator-2] [INFO] [1752371527.090670249] [cmd_emulator]: Motor stop service not available, waiting again...
+[async_slam_toolbox_node-3] [INFO] [1752371527.150352175] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371526.892 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371527.285335860] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.028 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371527.569186934] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752371527.716257804] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.150 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371527.728270674] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.285 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371527.801344897] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.716 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371527.927122563] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.718 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371528.058875896] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.801 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371528.069201470] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[cmd_vel_emulator-2] [INFO] [1752371528.092909174] [cmd_emulator]: Motor stop service not available, waiting again...
+[async_slam_toolbox_node-3] [INFO] [1752371528.194132878] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371527.924 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371528.318068378] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.059 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371528.451990618] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.194 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371528.569170915] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752371528.574830544] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.318 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371528.709821137] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.452 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371528.832797081] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.575 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371528.967800137] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.710 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371529.069132803] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752371529.090850266] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.833 for reason 'discarding message because the queue is full'
+[cmd_vel_emulator-2] [INFO] [1752371529.094657118] [cmd_emulator]: Motor stop service not available, waiting again...
+[async_slam_toolbox_node-3] [INFO] [1752371529.225864599] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371528.968 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371529.348689247] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.091 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371529.483797303] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.226 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371529.569171321] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [INFO] [1752371529.606640358] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.349 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371529.741687155] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.484 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371529.864497858] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.607 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371529.999571525] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.742 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371530.069174840] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[cmd_vel_emulator-2] [INFO] [1752371530.096575025] [cmd_emulator]: Motor stop service not available, waiting again...
+[motor-1] [INFO] [1752371530.121117840] [motor_controller]: Motor Controller Node initialized
+[async_slam_toolbox_node-3] [INFO] [1752371530.122432784] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371529.865 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [INFO] [1752371530.257565469] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371530.000 for reason 'discarding message because the queue is full'
+[cmd_vel_emulator-2] [INFO] [1752371530.347917895] [cmd_emulator]: CmdVel Emulator initialized
+[async_slam_toolbox_node-3] [INFO] [1752371530.380438951] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371530.122 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-3] [WARN] [1752371530.381038025] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (12.0 m)
+[async_slam_toolbox_node-3] Registering sensor: [Custom Described Lidar]
+[planner_server-6] [INFO] [1752371530.421449765] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 64 X 60 at 0.050000 m/pix
+[controller_server-4] [INFO] [1752371530.569335784] [local_costmap.local_costmap]: start
+[controller_server-4] [INFO] [1752371530.771939858] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371530.887842802] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752371530.887936487] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752371530.888478432] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1752371530.888538598] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371531.002893654] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752371531.002961395] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1752371531.003527691] [planner_server]: Activating
+[planner_server-6] [INFO] [1752371531.003590950] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1752371531.003611413] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1752371531.003852209] [global_costmap.global_costmap]: start
+[planner_server-6] [INFO] [1752371532.055588987] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752371532.059850838] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371532.172728838] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752371532.172816746] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752371532.173507449] [behavior_server]: Activating
+[behavior_server-7] [INFO] [1752371532.173553746] [behavior_server]: Activating spin
+[behavior_server-7] [INFO] [1752371532.173579227] [behavior_server]: Activating backup
+[behavior_server-7] [INFO] [1752371532.173598542] [behavior_server]: Activating drive_on_heading
+[behavior_server-7] [INFO] [1752371532.173617209] [behavior_server]: Activating assisted_teleop
+[behavior_server-7] [INFO] [1752371532.173634653] [behavior_server]: Activating wait
+[behavior_server-7] [INFO] [1752371532.173660172] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371532.286966172] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752371532.287051709] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752371532.287780968] [velocity_smoother]: Activating
+[velocity_smoother-10] [INFO] [1752371532.287891153] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371532.404460542] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-13] [INFO] [1752371532.404536801] [lifecycle_manager_navigation]: [34m[1mActivating collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752371532.405481320] [collision_monitor]: Activating
+[collision_monitor-11] [INFO] [1752371532.405550283] [collision_monitor]: Creating bond (collision_monitor) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371532.521220246] [lifecycle_manager_navigation]: Server collision_monitor connected with bond.
+[lifecycle_manager-13] [INFO] [1752371532.521302597] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752371532.522323709] [bt_navigator]: Activating
+[bt_navigator-8] [INFO] [1752371532.785847523] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371532.896866301] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-13] [INFO] [1752371532.896953560] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752371532.898021616] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1752371532.898090356] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371533.016172801] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-13] [INFO] [1752371533.016260319] [lifecycle_manager_navigation]: [34m[1mActivating docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752371533.017548338] [docking_server]: Activating docking_server
+[opennav_docking-12] [INFO] [1752371533.057293690] [docking_server]: Creating bond (docking_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371533.174061819] [lifecycle_manager_navigation]: Server docking_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752371533.174136597] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-13] [INFO] [1752371533.174155782] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[bt_navigator-8] [INFO] [1752371684.597826618] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (-1.03, -1.32)
+[controller_server-4] [INFO] [1752371684.619601803] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1752371684.619742266] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-4] [WARN] [1752371684.619811859] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[cmd_vel_emulator-2] [INFO] [1752371684.651387340] [cmd_emulator]: cmd vel: linear = -0.125 and angular = 0.16
+[cmd_vel_emulator-2] [INFO] [1752371684.652154414] [cmd_emulator]: Published Left: -864, Right: -494
+[cmd_vel_emulator-2] [INFO] [1752371684.700850396] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.32
+[cmd_vel_emulator-2] [INFO] [1752371684.701577933] [cmd_emulator]: Published Left: -1565, Right: -826
+[cmd_vel_emulator-2] [INFO] [1752371684.760752544] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.48
+[cmd_vel_emulator-2] [INFO] [1752371684.761507673] [cmd_emulator]: Published Left: -1750, Right: -641
+[cmd_vel_emulator-2] [INFO] [1752371684.823835266] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.64
+[cmd_vel_emulator-2] [INFO] [1752371684.824833303] [cmd_emulator]: Published Left: -1934, Right: -456
+[cmd_vel_emulator-2] [INFO] [1752371684.881241877] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371684.883133692] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371684.942026118] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371684.942921895] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371685.003655210] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371685.004512747] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371685.065579025] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371685.066426506] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371685.118155266] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371685.118974710] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371685.181012488] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371685.181881710] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371685.242341321] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8461538461538465
+[cmd_vel_emulator-2] [INFO] [1752371685.243519469] [cmd_emulator]: Published Left: -2172, Right: -218
+[cmd_vel_emulator-2] [INFO] [1752371685.304825266] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7948717948717952
+[cmd_vel_emulator-2] [INFO] [1752371685.305657932] [cmd_emulator]: Published Left: -2113, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752371685.366425210] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7948717948717952
+[cmd_vel_emulator-2] [INFO] [1752371685.367368969] [cmd_emulator]: Published Left: -2113, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752371685.428372821] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7948717948717952
+[cmd_vel_emulator-2] [INFO] [1752371685.429324136] [cmd_emulator]: Published Left: -2113, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752371685.490574562] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7948717948717952
+[cmd_vel_emulator-2] [INFO] [1752371685.491329895] [cmd_emulator]: Published Left: -2113, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752371685.551944506] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8461538461538465
+[cmd_vel_emulator-2] [INFO] [1752371685.552865062] [cmd_emulator]: Published Left: -2172, Right: -218
+[cmd_vel_emulator-2] [INFO] [1752371685.613616265] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8461538461538465
+[cmd_vel_emulator-2] [INFO] [1752371685.614401006] [cmd_emulator]: Published Left: -2172, Right: -218
+[controller_server-4] [INFO] [1752371685.670140691] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371685.676780302] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371685.677605636] [cmd_emulator]: Published Left: -2232, Right: -159
+[cmd_vel_emulator-2] [INFO] [1752371685.738547006] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371685.739274302] [cmd_emulator]: Published Left: -2232, Right: -159
+[cmd_vel_emulator-2] [INFO] [1752371685.800675710] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371685.801405932] [cmd_emulator]: Published Left: -2232, Right: -159
+[cmd_vel_emulator-2] [INFO] [1752371685.862893302] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371685.863962876] [cmd_emulator]: Published Left: -2232, Right: -159
+[cmd_vel_emulator-2] [INFO] [1752371685.925714524] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371685.926605099] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371685.986806728] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371685.987474765] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371686.049165191] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371686.050091636] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371686.111597469] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371686.112367950] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371686.174712358] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371686.175633228] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371686.235570561] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371686.236331043] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371686.298420561] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371686.299903172] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371686.361305413] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371686.362280691] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371686.422975802] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371686.425349506] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371686.484743246] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371686.485369635] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371686.546678432] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371686.547497506] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371686.619030969] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371686.619824191] [cmd_emulator]: Published Left: -1995, Right: -396
+[controller_server-4] [INFO] [1752371686.670958839] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371686.680986283] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8523076923076925
+[cmd_vel_emulator-2] [INFO] [1752371686.684023524] [cmd_emulator]: Published Left: -2180, Right: -211
+[cmd_vel_emulator-2] [INFO] [1752371686.743018691] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7948717948717952
+[cmd_vel_emulator-2] [INFO] [1752371686.744866561] [cmd_emulator]: Published Left: -2113, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752371686.804259524] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7948717948717952
+[cmd_vel_emulator-2] [INFO] [1752371686.805139098] [cmd_emulator]: Published Left: -2113, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752371686.865951691] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371686.867093931] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371686.928200431] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371686.929827765] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371686.991170524] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371686.991846320] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371687.053098394] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.053849616] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.115126098] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.115840820] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.177329135] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.178360802] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.239265579] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371687.240089672] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371687.301129246] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371687.301902394] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752371687.363315190] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.364098820] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.426013746] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.426976431] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.487679894] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.488492857] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.561517894] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.562464727] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.623949894] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.8010256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.625548561] [cmd_emulator]: Published Left: -2120, Right: -270
+[cmd_vel_emulator-2] [INFO] [1752371687.684042672] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371687.684675412] [cmd_emulator]: Published Left: -1995, Right: -396
+[controller_server-4] [INFO] [1752371687.720130116] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371687.745658931] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371687.746416468] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371687.808320079] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371687.809791023] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371687.870574986] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371687.871407671] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371687.942189338] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371687.943079708] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371688.003723060] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371688.004557783] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752371688.065993857] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371688.067032097] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752371688.128595208] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5897435897435899
+[cmd_vel_emulator-2] [INFO] [1752371688.129725227] [cmd_emulator]: Published Left: -1876, Right: -514
+[cmd_vel_emulator-2] [INFO] [1752371688.190400949] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371688.191101449] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752371688.252145727] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371688.252930301] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752371688.313836523] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371688.314540282] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371688.387079153] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371688.388477912] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371688.440369949] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371688.443514060] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371688.507454653] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371688.510626949] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371688.576661190] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371688.577871319] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752371688.633892912] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371688.634628967] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752371688.695873245] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371688.697576708] [cmd_emulator]: Published Left: -1995, Right: -396
+[controller_server-4] [INFO] [1752371688.720125338] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371688.767765838] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371688.768671504] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371688.830853708] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371688.832381949] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371688.890992375] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371688.891619875] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371688.953134263] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371688.953908930] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371689.014634300] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.5323076923076925
+[cmd_vel_emulator-2] [INFO] [1752371689.015340375] [cmd_emulator]: Published Left: -1810, Right: -580
+[cmd_vel_emulator-2] [INFO] [1752371689.078101004] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371689.078965615] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371689.139490578] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371689.140329226] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371689.211576800] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6923076923076925
+[cmd_vel_emulator-2] [INFO] [1752371689.212266819] [cmd_emulator]: Published Left: -1995, Right: -396
+[cmd_vel_emulator-2] [INFO] [1752371689.274241356] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.6410256410256412
+[cmd_vel_emulator-2] [INFO] [1752371689.275999337] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752371689.335636078] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.48102564102564116
+[cmd_vel_emulator-2] [INFO] [1752371689.336282893] [cmd_emulator]: Published Left: -1751, Right: -640
+[cmd_vel_emulator-2] [INFO] [1752371689.397924134] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371689.398825615] [cmd_emulator]: Published Left: -1699, Right: -692
+[cmd_vel_emulator-2] [INFO] [1752371689.460518522] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371689.461304874] [cmd_emulator]: Published Left: -1699, Right: -692
+[cmd_vel_emulator-2] [INFO] [1752371689.521955578] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371689.524476263] [cmd_emulator]: Published Left: -1699, Right: -692
+[cmd_vel_emulator-2] [INFO] [1752371689.585437782] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371689.586127745] [cmd_emulator]: Published Left: -1699, Right: -692
+[bt_navigator-8] [INFO] [1752371689.598418559] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371689.599132078] [bt_navigator]: Begin navigating from current location (-0.52, -0.33) to (-1.08, -1.27)
+[cmd_vel_emulator-2] [INFO] [1752371689.647600152] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371689.648405041] [cmd_emulator]: Published Left: -1699, Right: -692
+[cmd_vel_emulator-2] [INFO] [1752371689.710344985] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.38461538461538475
+[cmd_vel_emulator-2] [INFO] [1752371689.711199004] [cmd_emulator]: Published Left: -1639, Right: -751
+[controller_server-4] [INFO] [1752371689.770341522] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371689.772444930] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.38461538461538475
+[cmd_vel_emulator-2] [INFO] [1752371689.774334541] [cmd_emulator]: Published Left: -1639, Right: -751
+[cmd_vel_emulator-2] [INFO] [1752371689.835250485] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.38461538461538475
+[cmd_vel_emulator-2] [INFO] [1752371689.835920189] [cmd_emulator]: Published Left: -1639, Right: -751
+[cmd_vel_emulator-2] [INFO] [1752371689.908956874] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.22461538461538474
+[cmd_vel_emulator-2] [INFO] [1752371689.909678022] [cmd_emulator]: Published Left: -1455, Right: -936
+[cmd_vel_emulator-2] [INFO] [1752371689.961396707] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.23076923076923095
+[cmd_vel_emulator-2] [INFO] [1752371689.962664855] [cmd_emulator]: Published Left: -1462, Right: -929
+[cmd_vel_emulator-2] [INFO] [1752371690.032405152] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.07076923076923095
+[cmd_vel_emulator-2] [INFO] [1752371690.033159448] [cmd_emulator]: Published Left: -1277, Right: -1113
+[cmd_vel_emulator-2] [INFO] [1752371690.094469670] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371690.095313892] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752371690.156449540] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371690.157244596] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752371690.218796485] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371690.219598355] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752371690.280424244] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.07692307692307715
+[cmd_vel_emulator-2] [INFO] [1752371690.281335337] [cmd_emulator]: Published Left: -1284, Right: -1106
+[cmd_vel_emulator-2] [INFO] [1752371690.352889596] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371690.353623818] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752371690.414471133] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371690.415165244] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752371690.477149040] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.07692307692307715
+[cmd_vel_emulator-2] [INFO] [1752371690.478692911] [cmd_emulator]: Published Left: -1284, Right: -1106
+[cmd_vel_emulator-2] [INFO] [1752371690.538272207] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371690.539045651] [cmd_emulator]: Published Left: -1195, Right: -1195
+[cmd_vel_emulator-2] [INFO] [1752371690.610227837] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.02564102564102541
+[cmd_vel_emulator-2] [INFO] [1752371690.610919670] [cmd_emulator]: Published Left: -1166, Right: -1225
+[cmd_vel_emulator-2] [INFO] [1752371690.672131948] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371690.674567911] [cmd_emulator]: Published Left: -1195, Right: -1195
+[cmd_vel_emulator-2] [INFO] [1752371690.734728707] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371690.735543762] [cmd_emulator]: Published Left: -1195, Right: -1195
+[controller_server-4] [INFO] [1752371690.770129485] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371690.797548873] [cmd_emulator]: cmd vel: linear = -0.22 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371690.798303022] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752371690.858644707] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371690.859530485] [cmd_emulator]: Published Left: -1047, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371690.930988022] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.17948717948717924
+[cmd_vel_emulator-2] [INFO] [1752371690.931955355] [cmd_emulator]: Published Left: -988, Right: -1402
+[cmd_vel_emulator-2] [INFO] [1752371690.993326744] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.02564102564102541
+[cmd_vel_emulator-2] [INFO] [1752371690.994581929] [cmd_emulator]: Published Left: -1166, Right: -1225
+[cmd_vel_emulator-2] [INFO] [1752371691.055426484] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371691.056203262] [cmd_emulator]: Published Left: -1106, Right: -1284
+[cmd_vel_emulator-2] [INFO] [1752371691.117375614] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371691.118288910] [cmd_emulator]: Published Left: -1047, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371691.181179058] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371691.182066170] [cmd_emulator]: Published Left: -1047, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371691.251231558] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371691.251983429] [cmd_emulator]: Published Left: -1047, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371691.312575336] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.2307692307692305
+[cmd_vel_emulator-2] [INFO] [1752371691.313256632] [cmd_emulator]: Published Left: -929, Right: -1462
+[cmd_vel_emulator-2] [INFO] [1752371691.376565151] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.2307692307692305
+[cmd_vel_emulator-2] [INFO] [1752371691.377352429] [cmd_emulator]: Published Left: -929, Right: -1462
+[cmd_vel_emulator-2] [INFO] [1752371691.446934355] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.2307692307692305
+[cmd_vel_emulator-2] [INFO] [1752371691.447743169] [cmd_emulator]: Published Left: -929, Right: -1462
+[cmd_vel_emulator-2] [INFO] [1752371691.509592317] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.2307692307692305
+[cmd_vel_emulator-2] [INFO] [1752371691.510411410] [cmd_emulator]: Published Left: -929, Right: -1462
+[cmd_vel_emulator-2] [INFO] [1752371691.571383280] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.2307692307692305
+[cmd_vel_emulator-2] [INFO] [1752371691.572241891] [cmd_emulator]: Published Left: -929, Right: -1462
+[cmd_vel_emulator-2] [INFO] [1752371691.633243206] [cmd_emulator]: cmd vel: linear = -0.1968421052631579 and angular = -0.28205128205128177
+[cmd_vel_emulator-2] [INFO] [1752371691.634030614] [cmd_emulator]: Published Left: -744, Right: -1395
+[cmd_vel_emulator-2] [INFO] [1752371691.695322391] [cmd_emulator]: cmd vel: linear = -0.1968421052631579 and angular = -0.28205128205128177
+[cmd_vel_emulator-2] [INFO] [1752371691.696239003] [cmd_emulator]: Published Left: -744, Right: -1395
+[cmd_vel_emulator-2] [INFO] [1752371691.756968243] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.2307692307692305
+[cmd_vel_emulator-2] [INFO] [1752371691.757708595] [cmd_emulator]: Published Left: -677, Right: -1210
+[cmd_vel_emulator-2] [INFO] [1752371691.818942669] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.33333333333333304
+[cmd_vel_emulator-2] [INFO] [1752371691.819711521] [cmd_emulator]: Published Left: -558, Right: -1328
+[controller_server-4] [INFO] [1752371691.820140299] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371691.881009428] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.28205128205128177
+[cmd_vel_emulator-2] [INFO] [1752371691.882707928] [cmd_emulator]: Published Left: -618, Right: -1269
+[cmd_vel_emulator-2] [INFO] [1752371691.952268410] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.44205128205128175
+[cmd_vel_emulator-2] [INFO] [1752371691.953037799] [cmd_emulator]: Published Left: -433, Right: -1454
+[cmd_vel_emulator-2] [INFO] [1752371692.013922169] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371692.014566299] [cmd_emulator]: Published Left: -144, Right: -1743
+[cmd_vel_emulator-2] [INFO] [1752371692.077652113] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371692.079365113] [cmd_emulator]: Published Left: 33, Right: -1921
+[cmd_vel_emulator-2] [INFO] [1752371692.138193391] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.686153846153846
+[cmd_vel_emulator-2] [INFO] [1752371692.139565706] [cmd_emulator]: Published Left: -25, Right: -1610
+[cmd_vel_emulator-2] [INFO] [1752371692.200605391] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371692.201288002] [cmd_emulator]: Published Left: 285, Right: -1669
+[cmd_vel_emulator-2] [INFO] [1752371692.262737058] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.84
+[cmd_vel_emulator-2] [INFO] [1752371692.263595521] [cmd_emulator]: Published Left: 152, Right: -1788
+[cmd_vel_emulator-2] [INFO] [1752371692.324898039] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371692.325682910] [cmd_emulator]: Published Left: 277, Right: -1913
+[cmd_vel_emulator-2] [INFO] [1752371692.386180021] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371692.386850484] [cmd_emulator]: Published Left: 277, Right: -1913
+[cmd_vel_emulator-2] [INFO] [1752371692.448203187] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.8974358974358974
+[cmd_vel_emulator-2] [INFO] [1752371692.449079021] [cmd_emulator]: Published Left: 218, Right: -1854
+[cmd_vel_emulator-2] [INFO] [1752371692.510243224] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.7948717948717947
+[cmd_vel_emulator-2] [INFO] [1752371692.510993854] [cmd_emulator]: Published Left: 99, Right: -1736
+[cmd_vel_emulator-2] [INFO] [1752371692.582547391] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371692.583407576] [cmd_emulator]: Published Left: -18, Right: -1617
+[cmd_vel_emulator-2] [INFO] [1752371692.634286743] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.532307692307692
+[cmd_vel_emulator-2] [INFO] [1752371692.635071058] [cmd_emulator]: Published Left: -77, Right: -1307
+[cmd_vel_emulator-2] [INFO] [1752371692.698155632] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.43589743589743557
+[cmd_vel_emulator-2] [INFO] [1752371692.699151057] [cmd_emulator]: Published Left: -188, Right: -1195
+[cmd_vel_emulator-2] [INFO] [1752371692.758210483] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.33333333333333304
+[cmd_vel_emulator-2] [INFO] [1752371692.759091206] [cmd_emulator]: Published Left: -307, Right: -1077
+[controller_server-4] [INFO] [1752371692.820281020] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371692.820308965] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.33333333333333304
+[cmd_vel_emulator-2] [INFO] [1752371692.821314854] [cmd_emulator]: Published Left: -307, Right: -1077
+[cmd_vel_emulator-2] [INFO] [1752371692.884379743] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.49333333333333307
+[cmd_vel_emulator-2] [INFO] [1752371692.885176168] [cmd_emulator]: Published Left: 3, Right: -1136
+[cmd_vel_emulator-2] [INFO] [1752371692.954443946] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.6410256410256407
+[cmd_vel_emulator-2] [INFO] [1752371692.955172261] [cmd_emulator]: Published Left: 173, Right: -1306
+[cmd_vel_emulator-2] [INFO] [1752371693.016927780] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371693.017971428] [cmd_emulator]: Published Left: 107, Right: -1491
+[cmd_vel_emulator-2] [INFO] [1752371693.079363150] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371693.081083020] [cmd_emulator]: Published Left: -11, Right: -1373
+[cmd_vel_emulator-2] [INFO] [1752371693.140351372] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.4297435897435894
+[cmd_vel_emulator-2] [INFO] [1752371693.141047779] [cmd_emulator]: Published Left: -70, Right: -1062
+[cmd_vel_emulator-2] [INFO] [1752371693.202995853] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.28205128205128177
+[cmd_vel_emulator-2] [INFO] [1752371693.204037002] [cmd_emulator]: Published Left: -240, Right: -892
+[cmd_vel_emulator-2] [INFO] [1752371693.265055242] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.33333333333333304
+[cmd_vel_emulator-2] [INFO] [1752371693.265820168] [cmd_emulator]: Published Left: -307, Right: -1077
+[cmd_vel_emulator-2] [INFO] [1752371693.326555613] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.17333333333333303
+[cmd_vel_emulator-2] [INFO] [1752371693.327324242] [cmd_emulator]: Published Left: -366, Right: -766
+[cmd_vel_emulator-2] [INFO] [1752371693.388189742] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.33333333333333304
+[cmd_vel_emulator-2] [INFO] [1752371693.389702853] [cmd_emulator]: Published Left: -55, Right: -825
+[cmd_vel_emulator-2] [INFO] [1752371693.450578427] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.49333333333333307
+[cmd_vel_emulator-2] [INFO] [1752371693.451351909] [cmd_emulator]: Published Left: 3, Right: -1136
+[cmd_vel_emulator-2] [INFO] [1752371693.511904001] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.6410256410256407
+[cmd_vel_emulator-2] [INFO] [1752371693.512590594] [cmd_emulator]: Published Left: 173, Right: -1306
+[cmd_vel_emulator-2] [INFO] [1752371693.574183964] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.4810256410256407
+[cmd_vel_emulator-2] [INFO] [1752371693.576275687] [cmd_emulator]: Published Left: 115, Right: -996
+[cmd_vel_emulator-2] [INFO] [1752371693.635458779] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.3210256410256407
+[cmd_vel_emulator-2] [INFO] [1752371693.636177335] [cmd_emulator]: Published Left: -69, Right: -811
+[cmd_vel_emulator-2] [INFO] [1752371693.697912872] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.17948717948717924
+[cmd_vel_emulator-2] [INFO] [1752371693.698882872] [cmd_emulator]: Published Left: -233, Right: -647
+[cmd_vel_emulator-2] [INFO] [1752371693.760733168] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.0707692307692305
+[cmd_vel_emulator-2] [INFO] [1752371693.761484446] [cmd_emulator]: Published Left: -358, Right: -522
+[cmd_vel_emulator-2] [INFO] [1752371693.821890057] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = 0.0892307692307695
+[cmd_vel_emulator-2] [INFO] [1752371693.824062446] [cmd_emulator]: Published Left: -417, Right: -211
+[controller_server-4] [INFO] [1752371693.870125760] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371693.884194390] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371693.884934798] [cmd_emulator]: Published Left: -462, Right: -166
+[cmd_vel_emulator-2] [INFO] [1752371693.946177038] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = 0.07692307692307715
+[cmd_vel_emulator-2] [INFO] [1752371693.946981557] [cmd_emulator]: Published Left: -403, Right: -225
+[cmd_vel_emulator-2] [INFO] [1752371694.009524464] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371694.010290872] [cmd_emulator]: Published Left: -314, Right: -314
+[cmd_vel_emulator-2] [INFO] [1752371694.070833205] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = 0.16
+[cmd_vel_emulator-2] [INFO] [1752371694.071639464] [cmd_emulator]: Published Left: -625, Right: -255
+[cmd_vel_emulator-2] [INFO] [1752371694.132415316] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371694.133315964] [cmd_emulator]: Published Left: -314, Right: -314
+[cmd_vel_emulator-2] [INFO] [1752371694.193834723] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371694.194677779] [cmd_emulator]: Published Left: -351, Right: -529
+[cmd_vel_emulator-2] [INFO] [1752371694.255922242] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.23692307692307668
+[cmd_vel_emulator-2] [INFO] [1752371694.256716242] [cmd_emulator]: Published Left: -41, Right: -588
+[cmd_vel_emulator-2] [INFO] [1752371694.317909482] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.3969230769230767
+[cmd_vel_emulator-2] [INFO] [1752371694.318688705] [cmd_emulator]: Published Left: 143, Right: -773
+[cmd_vel_emulator-2] [INFO] [1752371694.380893853] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -0.5569230769230767
+[cmd_vel_emulator-2] [INFO] [1752371694.382664760] [cmd_emulator]: Published Left: 454, Right: -832
+[cmd_vel_emulator-2] [INFO] [1752371694.441954168] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -0.7169230769230768
+[cmd_vel_emulator-2] [INFO] [1752371694.442939482] [cmd_emulator]: Published Left: 639, Right: -1016
+[cmd_vel_emulator-2] [INFO] [1752371694.503739853] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371694.504905853] [cmd_emulator]: Published Left: 966, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371694.565955538] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371694.566836001] [cmd_emulator]: Published Left: 840, Right: -1469
+[bt_navigator-8] [INFO] [1752371694.598394371] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371694.598980501] [bt_navigator]: Begin navigating from current location (-0.84, -0.99) to (-0.93, -1.47)
+[cmd_vel_emulator-2] [INFO] [1752371694.630060204] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371694.631499649] [cmd_emulator]: Published Left: 840, Right: -1469
+[cmd_vel_emulator-2] [INFO] [1752371694.691257482] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371694.691875964] [cmd_emulator]: Published Left: 781, Right: -1410
+[cmd_vel_emulator-2] [INFO] [1752371694.753396001] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371694.754185816] [cmd_emulator]: Published Left: 662, Right: -1291
+[cmd_vel_emulator-2] [INFO] [1752371694.815108408] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371694.815795315] [cmd_emulator]: Published Left: 966, Right: -1343
+[controller_server-4] [INFO] [1752371694.830894167] [controller_server]: Reached the goal!
+[bt_navigator-8] [INFO] [1752371694.858346815] [bt_navigator]: Goal succeeded
+[cmd_vel_emulator-2] [INFO] [1752371694.876750797] [cmd_emulator]: cmd vel: linear = 0.0 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371694.877434778] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752371694.939257001] [cmd_emulator]: cmd vel: linear = 0.0 and angular = -0.84
+[cmd_vel_emulator-2] [INFO] [1752371694.939991612] [cmd_emulator]: Published Left: 970, Right: -970
+[cmd_vel_emulator-2] [INFO] [1752371695.000803871] [cmd_emulator]: cmd vel: linear = 0.0 and angular = -0.6799999999999999
+[cmd_vel_emulator-2] [INFO] [1752371695.001514852] [cmd_emulator]: Published Left: 785, Right: -785
+[cmd_vel_emulator-2] [INFO] [1752371695.072875667] [cmd_emulator]: cmd vel: linear = 0.0 and angular = -0.3599999999999999
+[cmd_vel_emulator-2] [INFO] [1752371695.073794334] [cmd_emulator]: Published Left: 415, Right: -415
+[cmd_vel_emulator-2] [INFO] [1752371695.125827445] [cmd_emulator]: cmd vel: linear = 0.0 and angular = -0.19999999999999987
+[cmd_vel_emulator-2] [INFO] [1752371695.126558667] [cmd_emulator]: Published Left: 230, Right: -230
+[cmd_vel_emulator-2] [INFO] [1752371695.187558075] [cmd_emulator]: cmd vel: linear = 0.0 and angular = -0.03999999999999987
+[cmd_vel_emulator-2] [INFO] [1752371695.188419278] [cmd_emulator]: Published Left: 46, Right: -46
+[bt_navigator-8] [INFO] [1752371699.596917350] [bt_navigator]: Begin navigating from current location (-0.86, -0.99) to (-1.13, -1.22)
+[controller_server-4] [INFO] [1752371699.608310739] [controller_server]: Received a goal, begin computing control effort.
+[cmd_vel_emulator-2] [INFO] [1752371699.681066424] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.16
+[cmd_vel_emulator-2] [INFO] [1752371699.681947276] [cmd_emulator]: Published Left: -184, Right: 184
+[cmd_vel_emulator-2] [INFO] [1752371699.741211776] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371699.742069146] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371699.792809998] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371699.793529498] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371699.854854942] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371699.855579035] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371699.916709646] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371699.917579442] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371699.979010998] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371699.979713664] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.040209257] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.040950942] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.101710609] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.102657701] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.164045164] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.165164035] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.225243220] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.225884053] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.286941164] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.287770683] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.350571738] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.351328071] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.411584127] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.412307331] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.473627145] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.475699979] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.535362275] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.536069368] [cmd_emulator]: Published Left: -207, Right: 207
+[cmd_vel_emulator-2] [INFO] [1752371700.598193460] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.17948717948717968
+[cmd_vel_emulator-2] [INFO] [1752371700.599012071] [cmd_emulator]: Published Left: -207, Right: 207
+[controller_server-4] [INFO] [1752371700.659731793] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371700.659989701] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371700.660937219] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752371700.722255775] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371700.723911849] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752371700.774609849] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371700.775442164] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752371700.836269719] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371700.837065738] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752371700.898047553] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371700.898869127] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752371700.960349960] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371700.961217182] [cmd_emulator]: Published Left: -148, Right: 148
+[controller_server-4] [INFO] [1752371701.022633460] [controller_server]: Reached the goal!
+[cmd_vel_emulator-2] [INFO] [1752371701.024200219] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371701.024941923] [cmd_emulator]: Published Left: -148, Right: 148
+[bt_navigator-8] [INFO] [1752371701.047320145] [bt_navigator]: Goal succeeded
+[cmd_vel_emulator-2] [INFO] [1752371701.084030515] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.12820512820512842
+[cmd_vel_emulator-2] [INFO] [1752371701.084739664] [cmd_emulator]: Published Left: -148, Right: 148
+[bt_navigator-8] [INFO] [1752371704.596252736] [bt_navigator]: Begin navigating from current location (-0.86, -0.99) to (-0.83, -1.62)
+[controller_server-4] [INFO] [1752371704.599174199] [controller_server]: Received a goal, begin computing control effort.
+[cmd_vel_emulator-2] [INFO] [1752371704.691526606] [cmd_emulator]: cmd vel: linear = 0.125 and angular = -0.16
+[cmd_vel_emulator-2] [INFO] [1752371704.692262939] [cmd_emulator]: Published Left: 864, Right: 494
+[cmd_vel_emulator-2] [INFO] [1752371704.753214143] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.32
+[cmd_vel_emulator-2] [INFO] [1752371704.754043069] [cmd_emulator]: Published Left: 1439, Right: 700
+[cmd_vel_emulator-2] [INFO] [1752371704.814497680] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.48
+[cmd_vel_emulator-2] [INFO] [1752371704.815149272] [cmd_emulator]: Published Left: 1624, Right: 515
+[cmd_vel_emulator-2] [INFO] [1752371704.876517495] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.64
+[cmd_vel_emulator-2] [INFO] [1752371704.877341921] [cmd_emulator]: Published Left: 1808, Right: 330
+[cmd_vel_emulator-2] [INFO] [1752371704.938792421] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.8
+[cmd_vel_emulator-2] [INFO] [1752371704.939521550] [cmd_emulator]: Published Left: 1993, Right: 145
+[cmd_vel_emulator-2] [INFO] [1752371705.000208809] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.9600000000000001
+[cmd_vel_emulator-2] [INFO] [1752371705.001057050] [cmd_emulator]: Published Left: 2178, Right: -38
+[cmd_vel_emulator-2] [INFO] [1752371705.062173291] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.063126976] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.124466661] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.125244809] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.176448143] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.177264365] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.239007846] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.239804939] [cmd_emulator]: Published Left: 2350, Right: 40
+[cmd_vel_emulator-2] [INFO] [1752371705.300205272] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.300990624] [cmd_emulator]: Published Left: 2350, Right: 40
+[cmd_vel_emulator-2] [INFO] [1752371705.362261457] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.363810717] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.425573994] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.426572105] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.485666642] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.486371661] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.547776383] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.548605476] [cmd_emulator]: Published Left: 2224, Right: -85
+[cmd_vel_emulator-2] [INFO] [1752371705.611373253] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.612304661] [cmd_emulator]: Published Left: 2350, Right: 40
+[controller_server-4] [INFO] [1752371705.649450550] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371705.672908994] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371705.673702624] [cmd_emulator]: Published Left: 2350, Right: 40
+[cmd_vel_emulator-2] [INFO] [1752371705.734951828] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371705.735698179] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371705.786269105] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371705.787345216] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371705.849118105] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371705.849930550] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371705.910523920] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371705.911386142] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371705.972172161] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371705.972964105] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371706.035129827] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371706.035857309] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371706.086512809] [cmd_emulator]: cmd vel: linear = 0.21999999999999995 and angular = -0.9487179487179487
+[cmd_vel_emulator-2] [INFO] [1752371706.087336550] [cmd_emulator]: Published Left: 2291, Right: 99
+[cmd_vel_emulator-2] [INFO] [1752371706.149790735] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371706.150585957] [cmd_emulator]: Published Left: 2047, Right: 92
+[cmd_vel_emulator-2] [INFO] [1752371706.210967086] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371706.211847383] [cmd_emulator]: Published Left: 2047, Right: 92
+[cmd_vel_emulator-2] [INFO] [1752371706.272179438] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371706.272923957] [cmd_emulator]: Published Left: 2047, Right: 92
+[cmd_vel_emulator-2] [INFO] [1752371706.334021883] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371706.334817216] [cmd_emulator]: Published Left: 2047, Right: 92
+[cmd_vel_emulator-2] [INFO] [1752371706.397067438] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371706.397989994] [cmd_emulator]: Published Left: 2047, Right: 92
+[cmd_vel_emulator-2] [INFO] [1752371706.448699660] [cmd_emulator]: cmd vel: linear = 0.19684210526315785 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371706.449575438] [cmd_emulator]: Published Left: 2047, Right: 92
+[cmd_vel_emulator-2] [INFO] [1752371706.510889660] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.7948717948717947
+[cmd_vel_emulator-2] [INFO] [1752371706.512090012] [cmd_emulator]: Published Left: 1736, Right: -99
+[cmd_vel_emulator-2] [INFO] [1752371706.572180253] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.7948717948717947
+[cmd_vel_emulator-2] [INFO] [1752371706.572985142] [cmd_emulator]: Published Left: 1736, Right: -99
+[cmd_vel_emulator-2] [INFO] [1752371706.634397420] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.7948717948717947
+[cmd_vel_emulator-2] [INFO] [1752371706.635211845] [cmd_emulator]: Published Left: 1736, Right: -99
+[controller_server-4] [INFO] [1752371706.649449901] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371706.697353123] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.7435897435897434
+[cmd_vel_emulator-2] [INFO] [1752371706.698234697] [cmd_emulator]: Published Left: 1676, Right: -40
+[cmd_vel_emulator-2] [INFO] [1752371706.760989753] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371706.761901216] [cmd_emulator]: Published Left: 1617, Right: 18
+[cmd_vel_emulator-2] [INFO] [1752371706.821997623] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371706.823373012] [cmd_emulator]: Published Left: 1617, Right: 18
+[cmd_vel_emulator-2] [INFO] [1752371706.873605790] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371706.874512012] [cmd_emulator]: Published Left: 1617, Right: 18
+[cmd_vel_emulator-2] [INFO] [1752371706.935357456] [cmd_emulator]: cmd vel: linear = 0.15052631578947365 and angular = -0.6923076923076921
+[cmd_vel_emulator-2] [INFO] [1752371706.936131179] [cmd_emulator]: Published Left: 1617, Right: 18
+[cmd_vel_emulator-2] [INFO] [1752371706.998111623] [cmd_emulator]: cmd vel: linear = 0.12736842105263155 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371706.998883938] [cmd_emulator]: Published Left: 1373, Right: 11
+[cmd_vel_emulator-2] [INFO] [1752371707.060164197] [cmd_emulator]: cmd vel: linear = 0.12736842105263155 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371707.061805753] [cmd_emulator]: Published Left: 1373, Right: 11
+[cmd_vel_emulator-2] [INFO] [1752371707.122067290] [cmd_emulator]: cmd vel: linear = 0.12736842105263155 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371707.122882882] [cmd_emulator]: Published Left: 1373, Right: 11
+[cmd_vel_emulator-2] [INFO] [1752371707.183792123] [cmd_emulator]: cmd vel: linear = 0.12736842105263155 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371707.184413178] [cmd_emulator]: Published Left: 1373, Right: 11
+[cmd_vel_emulator-2] [INFO] [1752371707.235745327] [cmd_emulator]: cmd vel: linear = 0.12736842105263155 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371707.236520641] [cmd_emulator]: Published Left: 1373, Right: 11
+[cmd_vel_emulator-2] [INFO] [1752371707.297993141] [cmd_emulator]: cmd vel: linear = 0.12736842105263155 and angular = -0.5897435897435894
+[cmd_vel_emulator-2] [INFO] [1752371707.298703938] [cmd_emulator]: Published Left: 1373, Right: 11
+[cmd_vel_emulator-2] [INFO] [1752371707.359884919] [cmd_emulator]: cmd vel: linear = 0.10421052631578945 and angular = -0.48717948717948684
+[cmd_vel_emulator-2] [INFO] [1752371707.360630993] [cmd_emulator]: Published Left: 1129, Right: 3
+[cmd_vel_emulator-2] [INFO] [1752371707.421858234] [cmd_emulator]: cmd vel: linear = 0.10421052631578945 and angular = -0.48717948717948684
+[cmd_vel_emulator-2] [INFO] [1752371707.423003604] [cmd_emulator]: Published Left: 1129, Right: 3
+[cmd_vel_emulator-2] [INFO] [1752371707.483468401] [cmd_emulator]: cmd vel: linear = 0.10421052631578945 and angular = -0.48717948717948684
+[cmd_vel_emulator-2] [INFO] [1752371707.484213160] [cmd_emulator]: Published Left: 1129, Right: 3
+[cmd_vel_emulator-2] [INFO] [1752371707.535350530] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = -0.5384615384615381
+[cmd_vel_emulator-2] [INFO] [1752371707.536094715] [cmd_emulator]: Published Left: 1062, Right: -181
+[cmd_vel_emulator-2] [INFO] [1752371707.598301567] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = -0.5384615384615381
+[cmd_vel_emulator-2] [INFO] [1752371707.599181086] [cmd_emulator]: Published Left: 1062, Right: -181
+[cmd_vel_emulator-2] [INFO] [1752371707.662147863] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = -0.5384615384615381
+[cmd_vel_emulator-2] [INFO] [1752371707.663320104] [cmd_emulator]: Published Left: 1062, Right: -181
+[controller_server-4] [INFO] [1752371707.699453141] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371707.722592234] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = -0.48717948717948684
+[cmd_vel_emulator-2] [INFO] [1752371707.723424178] [cmd_emulator]: Published Left: 877, Right: -248
+[cmd_vel_emulator-2] [INFO] [1752371707.784195808] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = -0.48717948717948684
+[cmd_vel_emulator-2] [INFO] [1752371707.784799456] [cmd_emulator]: Published Left: 877, Right: -248
+[cmd_vel_emulator-2] [INFO] [1752371707.846456326] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = -0.32717948717948686
+[cmd_vel_emulator-2] [INFO] [1752371707.847372437] [cmd_emulator]: Published Left: 692, Right: -63
+[cmd_vel_emulator-2] [INFO] [1752371707.910173919] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = -0.12205128205128177
+[cmd_vel_emulator-2] [INFO] [1752371707.910937697] [cmd_emulator]: Published Left: 455, Right: 173
+[cmd_vel_emulator-2] [INFO] [1752371707.970783178] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = 0.037948717948718236
+[cmd_vel_emulator-2] [INFO] [1752371707.971578660] [cmd_emulator]: Published Left: 270, Right: 358
+[cmd_vel_emulator-2] [INFO] [1752371708.022731345] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = 0.19794871794871824
+[cmd_vel_emulator-2] [INFO] [1752371708.024366067] [cmd_emulator]: Published Left: 86, Right: 543
+[cmd_vel_emulator-2] [INFO] [1752371708.083910141] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = 0.35794871794871824
+[cmd_vel_emulator-2] [INFO] [1752371708.084582567] [cmd_emulator]: Published Left: -98, Right: 728
+[cmd_vel_emulator-2] [INFO] [1752371708.145780196] [cmd_emulator]: cmd vel: linear = 0.057894736842105235 and angular = 0.5179487179487182
+[cmd_vel_emulator-2] [INFO] [1752371708.146541567] [cmd_emulator]: Published Left: -283, Right: 912
+[cmd_vel_emulator-2] [INFO] [1752371708.208234382] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.8010256410256412
+[cmd_vel_emulator-2] [INFO] [1752371708.210221345] [cmd_emulator]: Published Left: -484, Right: 1365
+[cmd_vel_emulator-2] [INFO] [1752371708.270228604] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371708.271034993] [cmd_emulator]: Published Left: -595, Right: 1477
+[cmd_vel_emulator-2] [INFO] [1752371708.332127363] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.8461538461538465
+[cmd_vel_emulator-2] [INFO] [1752371708.332848104] [cmd_emulator]: Published Left: -536, Right: 1417
+[cmd_vel_emulator-2] [INFO] [1752371708.394941400] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.8461538461538465
+[cmd_vel_emulator-2] [INFO] [1752371708.396872696] [cmd_emulator]: Published Left: -536, Right: 1417
+[cmd_vel_emulator-2] [INFO] [1752371708.456087844] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371708.456976456] [cmd_emulator]: Published Left: -595, Right: 1477
+[cmd_vel_emulator-2] [INFO] [1752371708.519170067] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.8974358974358978
+[cmd_vel_emulator-2] [INFO] [1752371708.519808437] [cmd_emulator]: Published Left: -595, Right: 1477
+[cmd_vel_emulator-2] [INFO] [1752371708.580036826] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371708.580879733] [cmd_emulator]: Published Left: -418, Right: 1299
+[cmd_vel_emulator-2] [INFO] [1752371708.641972492] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371708.643099029] [cmd_emulator]: Published Left: -418, Right: 1299
+[controller_server-4] [INFO] [1752371708.699448474] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371708.704149529] [cmd_emulator]: cmd vel: linear = 0.03473684210526313 and angular = 0.7374358974358978
+[cmd_vel_emulator-2] [INFO] [1752371708.705161474] [cmd_emulator]: Published Left: -662, Right: 1040
+[cmd_vel_emulator-2] [INFO] [1752371708.765625270] [cmd_emulator]: cmd vel: linear = 0.08105263157894735 and angular = 0.7435897435897438
+[cmd_vel_emulator-2] [INFO] [1752371708.766374289] [cmd_emulator]: Published Left: -418, Right: 1299
+[cmd_vel_emulator-2] [INFO] [1752371708.828036992] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.5835897435897438
+[cmd_vel_emulator-2] [INFO] [1752371708.828813752] [cmd_emulator]: Published Left: -674, Right: 674
+[cmd_vel_emulator-2] [INFO] [1752371708.890529344] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.5384615384615385
+[cmd_vel_emulator-2] [INFO] [1752371708.891276140] [cmd_emulator]: Published Left: -621, Right: 621
+[cmd_vel_emulator-2] [INFO] [1752371708.952273955] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371708.953139529] [cmd_emulator]: Published Left: -562, Right: 562
+[cmd_vel_emulator-2] [INFO] [1752371709.013955733] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.4871794871794873
+[cmd_vel_emulator-2] [INFO] [1752371709.014766937] [cmd_emulator]: Published Left: -562, Right: 562
+[cmd_vel_emulator-2] [INFO] [1752371709.075963900] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371709.076714622] [cmd_emulator]: Published Left: -503, Right: 503
+[cmd_vel_emulator-2] [INFO] [1752371709.138685751] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371709.139575825] [cmd_emulator]: Published Left: -503, Right: 503
+[cmd_vel_emulator-2] [INFO] [1752371709.200078900] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.435897435897436
+[cmd_vel_emulator-2] [INFO] [1752371709.200853992] [cmd_emulator]: Published Left: -503, Right: 503
+[cmd_vel_emulator-2] [INFO] [1752371709.252268529] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.38461538461538475
+[cmd_vel_emulator-2] [INFO] [1752371709.253124937] [cmd_emulator]: Published Left: -444, Right: 444
+[cmd_vel_emulator-2] [INFO] [1752371709.313680566] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.38461538461538475
+[cmd_vel_emulator-2] [INFO] [1752371709.314321196] [cmd_emulator]: Published Left: -444, Right: 444
+[cmd_vel_emulator-2] [INFO] [1752371709.375543455] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.3333333333333335
+[cmd_vel_emulator-2] [INFO] [1752371709.376404436] [cmd_emulator]: Published Left: -384, Right: 384
+[cmd_vel_emulator-2] [INFO] [1752371709.437519714] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.3333333333333335
+[cmd_vel_emulator-2] [INFO] [1752371709.438519733] [cmd_emulator]: Published Left: -384, Right: 384
+[cmd_vel_emulator-2] [INFO] [1752371709.499227733] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.3333333333333335
+[cmd_vel_emulator-2] [INFO] [1752371709.500208251] [cmd_emulator]: Published Left: -384, Right: 384
+[cmd_vel_emulator-2] [INFO] [1752371709.561025918] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.2820512820512822
+[cmd_vel_emulator-2] [INFO] [1752371709.561791733] [cmd_emulator]: Published Left: -325, Right: 325
+[bt_navigator-8] [INFO] [1752371709.597830418] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371709.598209621] [bt_navigator]: Begin navigating from current location (-0.62, -1.34) to (-1.08, -1.22)
+[cmd_vel_emulator-2] [INFO] [1752371709.622812140] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.2820512820512822
+[cmd_vel_emulator-2] [INFO] [1752371709.624004973] [cmd_emulator]: Published Left: -325, Right: 325
+[cmd_vel_emulator-2] [INFO] [1752371709.684439714] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.2820512820512822
+[cmd_vel_emulator-2] [INFO] [1752371709.685123529] [cmd_emulator]: Published Left: -325, Right: 325
+[cmd_vel_emulator-2] [INFO] [1752371709.746881881] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.2820512820512822
+[cmd_vel_emulator-2] [INFO] [1752371709.747727714] [cmd_emulator]: Published Left: -325, Right: 325
+[controller_server-4] [INFO] [1752371709.749430436] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371709.809071807] [cmd_emulator]: cmd vel: linear = 0.0 and angular = 0.2820512820512822
+[cmd_vel_emulator-2] [INFO] [1752371709.811117621] [cmd_emulator]: Published Left: -325, Right: 325
+[cmd_vel_emulator-2] [INFO] [1752371709.871101751] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = 0.12205128205128221
+[cmd_vel_emulator-2] [INFO] [1752371709.871726603] [cmd_emulator]: Published Left: -581, Right: -299
+[cmd_vel_emulator-2] [INFO] [1752371709.932826306] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.03794871794871779
+[cmd_vel_emulator-2] [INFO] [1752371709.933527862] [cmd_emulator]: Published Left: -396, Right: -484
+[cmd_vel_emulator-2] [INFO] [1752371709.984556325] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.1979487179487178
+[cmd_vel_emulator-2] [INFO] [1752371709.985288806] [cmd_emulator]: Published Left: -211, Right: -669
+[cmd_vel_emulator-2] [INFO] [1752371710.046726955] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.3579487179487178
+[cmd_vel_emulator-2] [INFO] [1752371710.047621714] [cmd_emulator]: Published Left: -27, Right: -853
+[cmd_vel_emulator-2] [INFO] [1752371710.120455917] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.6779487179487178
+[cmd_vel_emulator-2] [INFO] [1752371710.121143862] [cmd_emulator]: Published Left: 342, Right: -1223
+[cmd_vel_emulator-2] [INFO] [1752371710.172459899] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.8379487179487178
+[cmd_vel_emulator-2] [INFO] [1752371710.173244084] [cmd_emulator]: Published Left: 527, Right: -1408
+[cmd_vel_emulator-2] [INFO] [1752371710.234451491] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.9979487179487179
+[cmd_vel_emulator-2] [INFO] [1752371710.235222214] [cmd_emulator]: Published Left: 712, Right: -1593
+[cmd_vel_emulator-2] [INFO] [1752371710.296971640] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371710.297869288] [cmd_emulator]: Published Left: 714, Right: -1595
+[cmd_vel_emulator-2] [INFO] [1752371710.368696825] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371710.369523677] [cmd_emulator]: Published Left: 662, Right: -1291
+[cmd_vel_emulator-2] [INFO] [1752371710.430925158] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371710.431623214] [cmd_emulator]: Published Left: 662, Right: -1291
+[cmd_vel_emulator-2] [INFO] [1752371710.492539677] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371710.493255325] [cmd_emulator]: Published Left: 662, Right: -1291
+[cmd_vel_emulator-2] [INFO] [1752371710.555239121] [cmd_emulator]: cmd vel: linear = -0.0578947368421053 and angular = -0.84
+[cmd_vel_emulator-2] [INFO] [1752371710.556085139] [cmd_emulator]: Published Left: 655, Right: -1284
+[cmd_vel_emulator-2] [INFO] [1752371710.607547991] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.8974358974358974
+[cmd_vel_emulator-2] [INFO] [1752371710.608413288] [cmd_emulator]: Published Left: 595, Right: -1477
+[cmd_vel_emulator-2] [INFO] [1752371710.679272973] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.846153846153846
+[cmd_vel_emulator-2] [INFO] [1752371710.680103473] [cmd_emulator]: Published Left: 536, Right: -1417
+[cmd_vel_emulator-2] [INFO] [1752371710.731928306] [cmd_emulator]: cmd vel: linear = -0.1968421052631579 and angular = -0.686153846153846
+[cmd_vel_emulator-2] [INFO] [1752371710.732674362] [cmd_emulator]: Published Left: -277, Right: -1862
+[controller_server-4] [INFO] [1752371710.749451287] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371710.804346732] [cmd_emulator]: cmd vel: linear = -0.1968421052631579 and angular = -0.526153846153846
+[cmd_vel_emulator-2] [INFO] [1752371710.806143362] [cmd_emulator]: Published Left: -462, Right: -1677
+[cmd_vel_emulator-2] [INFO] [1752371710.866005343] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.20615384615384594
+[cmd_vel_emulator-2] [INFO] [1752371710.866779084] [cmd_emulator]: Published Left: -705, Right: -1182
+[cmd_vel_emulator-2] [INFO] [1752371710.927818269] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.046153846153845934
+[cmd_vel_emulator-2] [INFO] [1752371710.928667398] [cmd_emulator]: Published Left: -890, Right: -997
+[cmd_vel_emulator-2] [INFO] [1752371710.989803806] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.02564102564102541
+[cmd_vel_emulator-2] [INFO] [1752371710.990504954] [cmd_emulator]: Published Left: -914, Right: -973
+[cmd_vel_emulator-2] [INFO] [1752371711.051523139] [cmd_emulator]: cmd vel: linear = -0.1968421052631579 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371711.052646787] [cmd_emulator]: Published Left: -980, Right: -1158
+[cmd_vel_emulator-2] [INFO] [1752371711.113346935] [cmd_emulator]: cmd vel: linear = -0.22 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371711.114047398] [cmd_emulator]: Published Left: -1047, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371711.175683121] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371711.176564972] [cmd_emulator]: Published Left: -855, Right: -1032
+[cmd_vel_emulator-2] [INFO] [1752371711.238370695] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371711.239357565] [cmd_emulator]: Published Left: -855, Right: -1032
+[cmd_vel_emulator-2] [INFO] [1752371711.300889009] [cmd_emulator]: cmd vel: linear = -0.1968421052631579 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371711.301688398] [cmd_emulator]: Published Left: -1069, Right: -1069
+[cmd_vel_emulator-2] [INFO] [1752371711.372746991] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371711.373576620] [cmd_emulator]: Published Left: -973, Right: -914
+[cmd_vel_emulator-2] [INFO] [1752371711.435004806] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371711.435772250] [cmd_emulator]: Published Left: -795, Right: -1092
+[cmd_vel_emulator-2] [INFO] [1752371711.497446009] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371711.498501343] [cmd_emulator]: Published Left: -795, Right: -1092
+[cmd_vel_emulator-2] [INFO] [1752371711.559032731] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371711.559861787] [cmd_emulator]: Published Left: -603, Right: -781
+[cmd_vel_emulator-2] [INFO] [1752371711.621039972] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371711.622088731] [cmd_emulator]: Published Left: -544, Right: -840
+[cmd_vel_emulator-2] [INFO] [1752371711.683014620] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371711.683732120] [cmd_emulator]: Published Left: -544, Right: -840
+[cmd_vel_emulator-2] [INFO] [1752371711.745021879] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.02564102564102541
+[cmd_vel_emulator-2] [INFO] [1752371711.745765472] [cmd_emulator]: Published Left: -410, Right: -470
+[controller_server-4] [INFO] [1752371711.799451028] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371711.808044231] [cmd_emulator]: cmd vel: linear = -0.1736842105263158 and angular = -0.12820512820512797
+[cmd_vel_emulator-2] [INFO] [1752371711.809953620] [cmd_emulator]: Published Left: -795, Right: -1092
+[cmd_vel_emulator-2] [INFO] [1752371711.868602361] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371711.869374787] [cmd_emulator]: Published Left: -729, Right: -906
+[cmd_vel_emulator-2] [INFO] [1752371711.931122620] [cmd_emulator]: cmd vel: linear = -0.1505263157894737 and angular = -0.07692307692307669
+[cmd_vel_emulator-2] [INFO] [1752371711.931867879] [cmd_emulator]: Published Left: -729, Right: -906
+[controller_server-4] [ERROR] [1752371711.964925935] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371711.965035935] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752371711.965640398] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[cmd_vel_emulator-2] [INFO] [1752371711.992716935] [cmd_emulator]: cmd vel: linear = -0.1273684210526316 and angular = 0.07692307692307716
+[cmd_vel_emulator-2] [INFO] [1752371711.993446361] [cmd_emulator]: Published Left: -781, Right: -603
+[cmd_vel_emulator-2] [INFO] [1752371712.117284250] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.02564102564102541
+[cmd_vel_emulator-2] [INFO] [1752371712.118098601] [cmd_emulator]: Published Left: -536, Right: -595
+[cmd_vel_emulator-2] [INFO] [1752371712.180151601] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = -0.02564102564102541
+[cmd_vel_emulator-2] [INFO] [1752371712.180991157] [cmd_emulator]: Published Left: -536, Right: -595
+[cmd_vel_emulator-2] [INFO] [1752371712.242862620] [cmd_emulator]: cmd vel: linear = -0.1042105263157895 and angular = 0.02564102564102587
+[cmd_vel_emulator-2] [INFO] [1752371712.243634861] [cmd_emulator]: Published Left: -595, Right: -536
+[cmd_vel_emulator-2] [INFO] [1752371712.303981712] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -0.288205128205128
+[cmd_vel_emulator-2] [INFO] [1752371712.304813601] [cmd_emulator]: Published Left: 144, Right: -521
+[cmd_vel_emulator-2] [INFO] [1752371712.365531453] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = -0.128205128205128
+[cmd_vel_emulator-2] [INFO] [1752371712.366263194] [cmd_emulator]: Published Left: -292, Right: -588
+[cmd_vel_emulator-2] [INFO] [1752371712.428024564] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = 0.025641025641025855
+[cmd_vel_emulator-2] [INFO] [1752371712.428910805] [cmd_emulator]: Published Left: -470, Right: -410
+[cmd_vel_emulator-2] [INFO] [1752371712.490850898] [cmd_emulator]: cmd vel: linear = -0.0810526315789474 and angular = 0.0
+[cmd_vel_emulator-2] [INFO] [1752371712.491558879] [cmd_emulator]: Published Left: -440, Right: -440
+[cmd_vel_emulator-2] [INFO] [1752371712.552634509] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -0.16
+[cmd_vel_emulator-2] [INFO] [1752371712.553574194] [cmd_emulator]: Published Left: -4, Right: -373
+[cmd_vel_emulator-2] [INFO] [1752371712.614297527] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -0.48
+[cmd_vel_emulator-2] [INFO] [1752371712.615108046] [cmd_emulator]: Published Left: 491, Right: -617
+[cmd_vel_emulator-2] [INFO] [1752371712.676898897] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -0.64
+[cmd_vel_emulator-2] [INFO] [1752371712.677705731] [cmd_emulator]: Published Left: 676, Right: -802
+[cmd_vel_emulator-2] [INFO] [1752371712.738500749] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -0.8
+[cmd_vel_emulator-2] [INFO] [1752371712.739335471] [cmd_emulator]: Published Left: 861, Right: -986
+[controller_server-4] [INFO] [1752371712.799451768] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752371712.800625564] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -0.8974358974358974
+[cmd_vel_emulator-2] [INFO] [1752371712.801392823] [cmd_emulator]: Published Left: 973, Right: -1099
+[cmd_vel_emulator-2] [INFO] [1752371712.862443564] [cmd_emulator]: cmd vel: linear = -0.03473684210526319 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371712.863433360] [cmd_emulator]: Published Left: 966, Right: -1343
+[cmd_vel_emulator-2] [INFO] [1752371712.924928490] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371712.925623101] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371712.986802379] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371712.987610897] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.049431619] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.050290175] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.111448119] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.112171305] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.174191656] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.175113101] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.246103156] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.246904397] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.308529953] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.309293453] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.370729767] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.371570656] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.432282304] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.433061008] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.493952638] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.494838138] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.556478378] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.557625915] [cmd_emulator]: Published Left: 1092, Right: -1217
+[cmd_vel_emulator-2] [INFO] [1752371713.617412675] [cmd_emulator]: cmd vel: linear = -0.011578947368421084 and angular = -1.0
+[cmd_vel_emulator-2] [INFO] [1752371713.618225452] [cmd_emulator]: Published Left: 1092, Right: -1217
+[collision_monitor-11] [INFO] [1752371713.677141526] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[controller_server-4] [INFO] [1752371713.849451989] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752371714.417077470] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371714.417164711] [DWBLocalPlanner]: 0.41: BaseObstacle/Trajectory Goes Off Grid.
+[controller_server-4] [ERROR] [1752371714.417182878] [DWBLocalPlanner]: 0.59: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752371714.417917970] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[bt_navigator-8] [INFO] [1752371714.597785915] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371714.598464804] [bt_navigator]: Begin navigating from current location (-0.99, -0.27) to (-1.08, -0.17)
+[controller_server-4] [INFO] [1752371714.849445489] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752371715.515234007] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371715.515312970] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371715.515330396] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371715.515913359] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371715.563421859] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371715.563555859] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371715.563585044] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371715.564187359] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [INFO] [1752371715.899526173] [controller_server]: Passing new path to controller.
+[planner_server-6] [INFO] [1752371716.004165155] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 64 X 78 at 0.050000 m/pix
+[controller_server-4] [ERROR] [1752371716.162665062] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371716.162739710] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371716.162770155] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371716.163345506] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [INFO] [1752371716.899485673] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752371716.963913821] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371716.963985913] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371716.963999469] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371716.964584654] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371717.713420154] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371717.713495969] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371717.713511487] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371717.714125691] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371717.763114709] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371717.763185617] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371717.763202302] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371717.763799839] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [INFO] [1752371717.949452154] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752371718.762937820] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.763021857] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371718.763039190] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371718.763618394] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.813222820] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.813294820] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371718.813310672] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371718.813981746] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.863609653] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.863706246] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371718.863722783] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371718.864287634] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.913325227] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.913390060] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371718.913405301] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371718.914011153] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [INFO] [1752371718.949448801] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752371718.963862079] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371718.963933690] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371718.963947301] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371718.964511375] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[collision_monitor-11] [INFO] [1752371718.975570375] [collision_monitor]: Robot to continue normal operation
+[controller_server-4] [ERROR] [1752371719.013688783] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371719.013764783] [DWBLocalPlanner]: 0.05: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [ERROR] [1752371719.013785986] [DWBLocalPlanner]: 0.95: RotateToGoal/Nonrotation command near goal.
+[controller_server-4] [WARN] [1752371719.014381783] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752371719.014481005] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1752371719.014609616] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752371719.027176449] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752371719.029113579] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1752371719.195514375] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 6.0168 Hz.
+[collision_monitor-11] [INFO] [1752371719.324484764] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[bt_navigator-8] [INFO] [1752371719.618020949] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371719.621396986] [bt_navigator]: Begin navigating from current location (-0.78, 0.08) to (-1.08, -2.80)
+[planner_server-6] [WARN] [1752371719.947856060] [planner_server]: GridBased plugin failed to plan from (-0.75, 0.09) to (-1.08, -2.80): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371719.947955041] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752371719.967945652] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1752371720.016776189] [planner_server]: GridBased plugin failed to plan from (-0.75, 0.09) to (-1.08, -2.80): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371720.016862245] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-4] [WARN] [1752371720.045521578] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 21.1434 Hz.
+[controller_server-4] [INFO] [1752371720.045607449] [controller_server]: Cancellation was successful. Stopping the robot.
+[controller_server-4] [INFO] [1752371720.045627912] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[controller_server-4] [INFO] [1752371720.048024541] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1752371720.049019856] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[collision_monitor-11] [INFO] [1752371720.196539949] [collision_monitor]: Robot to continue normal operation
+[planner_server-6] [WARN] [1752371721.012650707] [planner_server]: GridBased plugin failed to plan from (-0.66, 0.10) to (-1.08, -2.80): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371721.012733874] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752371721.024519226] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1752371722.005909114] [planner_server]: GridBased plugin failed to plan from (-0.58, 0.06) to (-1.08, -2.80): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371722.005990077] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371722.019894021] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1752371722.020155429] [behavior_server]: Turning 1.57 for spin behavior.
+[collision_monitor-11] [INFO] [1752371722.068962059] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[behavior_server-7] [WARN] [1752371722.123036021] [behavior_server]: Collision Ahead - Exiting Spin
+[behavior_server-7] [WARN] [1752371722.123102114] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1752371722.123128725] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371722.139425577] [behavior_server]: Running wait
+[collision_monitor-11] [ERROR] [1752371722.395490429] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371722.189042 but the latest data is at time 1752371722.183181, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752371722.395590484] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[async_slam_toolbox_node-3] [INFO] [1752371722.474450780] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.217 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [ERROR] [1752371722.599105929] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371722.395949 but the latest data is at time 1752371722.183181, when looking up transform from frame [odom] to frame [base_link]
+[async_slam_toolbox_node-3] [INFO] [1752371722.608968373] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.351 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371722.651110614] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.217 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371722.651110817] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.217 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371722.731252225] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.474 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371722.773997003] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.351 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371722.775268965] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.351 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[collision_monitor-11] [ERROR] [1752371722.802907410] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371722.599569 but the latest data is at time 1752371722.183181, when looking up transform from frame [odom] to frame [base_link]
+[async_slam_toolbox_node-3] [INFO] [1752371722.867559595] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.609 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371722.908824984] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.474 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371722.908830743] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.474 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.001701910] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.731 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [ERROR] [1752371723.005795521] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371722.217025 but the latest data is at time 1752371722.183181, when looking up transform from frame [laser_frame] to frame [odom]
+[controller_server-4] [INFO] [1752371723.031331613] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.609 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371723.031410206] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.609 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.124937743] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.867 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371723.167117817] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.731 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371723.167502280] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.731 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[collision_monitor-11] [ERROR] [1752371723.210018113] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371722.350729 but the latest data is at time 1752371722.292739, when looking up transform from frame [laser_frame] to frame [odom]
+[async_slam_toolbox_node-3] [INFO] [1752371723.259498058] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.002 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1752371723.301975243] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.867 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1752371723.302015521] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371722.867 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.383195928] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.125 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [ERROR] [1752371723.413179761] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371722.473542 but the latest data is at time 1752371722.292739, when looking up transform from frame [laser_frame] to frame [odom]
+[controller_server-4] [INFO] [1752371723.425415132] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.002 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371723.426516484] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.002 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.517359076] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.260 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1752371723.559802224] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.125 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1752371723.559869558] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.125 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.640288835] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.383 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371723.683274946] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.260 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371723.683401613] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.260 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.775536298] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.518 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371723.818009539] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.383 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371723.818139724] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.383 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371723.910471483] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.641 for reason 'discarding message because the queue is full'
+[controller_server-4] [INFO] [1752371723.940488928] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.518 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371723.940578298] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.518 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371724.033245983] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.776 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1752371724.075636187] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.641 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1752371724.075712557] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.641 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371724.169034502] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.911 for reason 'discarding message because the queue is full'
+[motor-1] [INFO] [1752371724.188599779] [motor_controller]: Stopping motors
+[controller_server-4] [INFO] [1752371724.211438298] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.776 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752371724.214647557] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.776 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[async_slam_toolbox_node-3] [INFO] [1752371724.292353242] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752371724.033 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1752371724.333469539] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371723.911 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[bt_navigator-8] [INFO] [1752371724.608887168] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371724.609229020] [bt_navigator]: Begin navigating from current location (-0.53, 0.02) to (-1.08, -2.70)
+[behavior_server-7] [INFO] [1752371727.139717389] [behavior_server]: wait completed successfully
+[planner_server-6] [WARN] [1752371727.159683778] [planner_server]: GridBased plugin failed to plan from (-0.50, -0.20) to (-1.08, -2.70): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371727.159764130] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752371727.169315667] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1752371728.010957833] [planner_server]: GridBased plugin failed to plan from (-0.54, -0.26) to (-1.08, -2.70): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371728.011034092] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371728.029544777] [behavior_server]: Running backup
+[behavior_server-7] [WARN] [1752371728.029988907] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[behavior_server-7] [WARN] [1752371728.030036092] [behavior_server]: backup failed
+[behavior_server-7] [WARN] [1752371728.030060777] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752371728.049055296] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1752371728.049958296] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[collision_monitor-11] [INFO] [1752371728.078887036] [collision_monitor]: Robot to continue normal operation
+[planner_server-6] [WARN] [1752371729.011440388] [planner_server]: GridBased plugin failed to plan from (-0.62, -0.31) to (-1.08, -2.70): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371729.011513721] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752371729.029210906] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-8] [INFO] [1752371729.609430721] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371729.610265887] [bt_navigator]: Begin navigating from current location (-0.67, -0.33) to (-1.18, -2.45)
+[planner_server-6] [WARN] [1752371730.010563683] [planner_server]: GridBased plugin failed to plan from (-0.72, -0.32) to (-1.08, -2.70): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371730.010645943] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371730.029669628] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1752371730.029805739] [behavior_server]: Turning 1.57 for spin behavior.
+[collision_monitor-11] [INFO] [1752371730.048565498] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[behavior_server-7] [WARN] [1752371730.230184943] [behavior_server]: Collision Ahead - Exiting Spin
+[behavior_server-7] [WARN] [1752371730.230241424] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1752371730.230262313] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371730.249428387] [behavior_server]: Running wait
+[collision_monitor-11] [INFO] [1752371730.451467794] [collision_monitor]: Robot to continue normal operation
+[bt_navigator-8] [INFO] [1752371734.610522588] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752371734.611635477] [bt_navigator]: Begin navigating from current location (-0.83, 0.04) to (-1.08, -2.60)
+[behavior_server-7] [INFO] [1752371735.249674403] [behavior_server]: wait completed successfully
+[planner_server-6] [WARN] [1752371735.269667791] [planner_server]: GridBased plugin failed to plan from (-0.78, 0.08) to (-1.08, -2.60): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371735.269732810] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752371735.279201365] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [INFO] [1752371735.874682958] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371724.033 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [WARN] [1752371736.010954828] [planner_server]: GridBased plugin failed to plan from (-0.71, 0.10) to (-1.08, -2.60): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371736.011031902] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371736.029454050] [behavior_server]: Running backup
+[behavior_server-7] [WARN] [1752371736.029737198] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[behavior_server-7] [WARN] [1752371736.029798087] [behavior_server]: backup failed
+[behavior_server-7] [WARN] [1752371736.029819087] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752371736.049014180] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1752371736.049868606] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1752371737.011273383] [planner_server]: GridBased plugin failed to plan from (-0.61, 0.08) to (-1.08, -2.60): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371737.011358661] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752371737.029206790] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1752371738.010683030] [planner_server]: GridBased plugin failed to plan from (-0.53, 0.03) to (-1.08, -2.60): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752371738.010776993] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752371738.029537530] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1752371738.029658882] [behavior_server]: Turning 1.57 for spin behavior.
+[collision_monitor-11] [INFO] [1752371738.089035345] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [launch.user]: Caught Ctrl+C, shutting down lawnbot gracefully!
+[map_saver_server-15] [INFO] [1752371739.425817456] [rclcpp]: signal_handler(signum=2)
+[map_saver_server-15] [INFO] [1752371739.426344344] [map_saver_server]: Running Nav2 LifecycleNode rcl preshutdown (map_saver_server)
+[map_saver_server-15] [INFO] [1752371739.426435937] [map_saver_server]: Destroying bond (map_saver_server) to lifecycle manager.
+[robot_state_publisher-14] [INFO] [1752371739.425817326] [rclcpp]: signal_handler(signum=2)
+[async_slam_toolbox_node-3] [INFO] [1752371739.425856400] [rclcpp]: signal_handler(signum=2)
+[opennav_docking-12] [INFO] [1752371739.425900585] [rclcpp]: signal_handler(signum=2)
+[opennav_docking-12] [INFO] [1752371739.426018474] [docking_server]: Running Nav2 LifecycleNode rcl preshutdown (docking_server)
+[opennav_docking-12] [INFO] [1752371739.426152956] [docking_server]: Deactivating docking_server
+[collision_monitor-11] [INFO] [1752371739.425905344] [rclcpp]: signal_handler(signum=2)
+[collision_monitor-11] [INFO] [1752371739.426842159] [collision_monitor]: Running Nav2 LifecycleNode rcl preshutdown (collision_monitor)
+[collision_monitor-11] [INFO] [1752371739.426963789] [collision_monitor]: Deactivating
+[collision_monitor-11] [INFO] [1752371739.427005807] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[controller_server-4] [INFO] [1752371739.425956937] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1752371739.426044233] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-4] [INFO] [1752371739.426153956] [controller_server]: Deactivating
+[controller_server-4] [INFO] [1752371739.426228696] [local_costmap.local_costmap]: Deactivating
+[velocity_smoother-10] [INFO] [1752371739.426079919] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1752371739.426204307] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-10] [INFO] [1752371739.426318530] [velocity_smoother]: Deactivating
+[velocity_smoother-10] [INFO] [1752371739.426361307] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[motor-1] [INFO] [1752371739.427741900] [motor_controller]: Caught Ctrl+C, shutting down...
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[smoother_server-5] [INFO] [1752371739.428674974] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1752371739.428883696] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-5] [INFO] [1752371739.429035437] [smoother_server]: Deactivating
+[smoother_server-5] [INFO] [1752371739.429078678] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-5] [INFO] [1752371739.439687326] [smoother_server]: Cleaning up
+[waypoint_follower-9] [INFO] [1752371739.429217437] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1752371739.429379530] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-9] [INFO] [1752371739.429492252] [waypoint_follower]: Deactivating
+[waypoint_follower-9] [INFO] [1752371739.429548456] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1752371739.450100585] [waypoint_follower]: Cleaning up
+[waypoint_follower-9] [INFO] [1752371739.746350178] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[start_stop_wrapper-16] Traceback (most recent call last):
+[start_stop_wrapper-16]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/start_stop_wrapper", line 33, in <module>
+[start_stop_wrapper-16]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'start_stop_wrapper')())
+[start_stop_wrapper-16]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/start_stop_wrapper.py", line 47, in main
+[start_stop_wrapper-16]     rclpy.spin(node)
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[start_stop_wrapper-16]     executor.spin_once()
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[start_stop_wrapper-16]     self._spin_once_impl(timeout_sec)
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 811, in _spin_once_impl
+[start_stop_wrapper-16]     handler, entity, node = self.wait_for_ready_callbacks(
+[start_stop_wrapper-16]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in wait_for_ready_callbacks
+[start_stop_wrapper-16]     return next(self._cb_iter)
+[start_stop_wrapper-16]            ^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+[start_stop_wrapper-16]     wait_set.wait(timeout_nsec)
+[start_stop_wrapper-16] KeyboardInterrupt
+[bt_navigator-8] [INFO] [1752371739.429880122] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1752371739.430030622] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-8] [INFO] [1752371739.430156493] [bt_navigator]: Deactivating
+[bt_navigator-8] [WARN] [1752371739.430195030] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[bt_navigator-8] [ERROR] [1752371739.461028678] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for spin in node halt!
+[bt_navigator-8] [WARN] [1752371739.461747567] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-8] [INFO] [1752371739.472208159] [bt_navigator]: Goal canceled
+[bt_navigator-8] [WARN] [1752371739.472296993] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[bt_navigator-8] [INFO] [1752371739.475581122] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-8] [INFO] [1752371739.506275048] [bt_navigator]: Cleaning up
+[bt_navigator-8] Fatal glibc error: pthread_mutex_lock.c:94 (___pthread_mutex_lock): assertion failed: mutex->__data.__owner == 0
+[planner_server-6] [INFO] [1752371739.431400030] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1752371739.431517604] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-6] [INFO] [1752371739.431656956] [planner_server]: Deactivating
+[planner_server-6] [INFO] [1752371739.431728085] [global_costmap.global_costmap]: Deactivating
+[planner_server-6] [INFO] [1752371739.822815603] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752371739.374 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[lifecycle_manager-13] [INFO] [1752371739.431845252] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-13] [INFO] [1752371739.434714974] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-13] [INFO] [1752371739.434852419] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[behavior_server-7] [INFO] [1752371739.432259270] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1752371739.432437604] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-7] [INFO] [1752371739.432550715] [behavior_server]: Deactivating
+[behavior_server-7] [WARN] [1752371739.432590567] [behavior_server]: [spin] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[behavior_server-7] [INFO] [1752371739.531967215] [behavior_server]: Canceling spin
+[behavior_server-7] [WARN] [1752371739.532083437] [LifecyclePublisher]: Trying to publish message on the topic '/cmd_vel_nav', but the publisher is not activated
+[behavior_server-7] [INFO] [1752371739.532101789] [behavior_server]: [spin] [ActionServer] Client requested to cancel the goal. Cancelling.
+[behavior_server-7] [INFO] [1752371739.532698400] [behavior_server]: [spin] [ActionServer] Waiting for async process to finish.
+[behavior_server-7] [WARN] [1752371739.533081881] [behavior_server]: [spin] [ActionServer] Stopping the thread per request.
+[behavior_server-7] [INFO] [1752371739.537559418] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-7] [INFO] [1752371739.558162141] [behavior_server]: Cleaning up
+[behavior_server-7] [INFO] [1752371739.924227992] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[map_saver_server-15] [INFO] [1752371739.467166974] [map_saver_server]: Destroying
+[velocity_smoother-10] [INFO] [1752371739.469631419] [velocity_smoother]: Cleaning up
+[velocity_smoother-10] [INFO] [1752371739.469726437] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1752371739.605672715] [velocity_smoother]: Destroying
+[async_slam_toolbox_node-3] Unregistering sensor: Custom Described Lidar
+[collision_monitor-11] [INFO] [1752371739.527492067] [collision_monitor]: Cleaning up
+[collision_monitor-11] [INFO] [1752371739.527721900] [collision_monitor]: [FootprintApproach]: Destroying Polygon
+[collision_monitor-11] [ERROR] [1752371739.591010900] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752371739.385816 but the latest data is at time 1752371739.376265, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [INFO] [1752371739.591124437] [collision_monitor]: [scan]: Destroying Scan
+[controller_server-4] [INFO] [1752371739.577677863] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1752371739.608213474] [controller_server]: Cleaning up
+[controller_server-4] [INFO] [1752371739.608667289] [local_costmap.local_costmap]: Cleaning up
+[opennav_docking-12] [INFO] [1752371739.812579715] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[opennav_docking-12] [INFO] [1752371739.833245474] [docking_server]: Cleaning up docking_server
+[smoother_server-5] [INFO] [1752371739.947852196] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[cmd_vel_emulator-2] Traceback (most recent call last):
+[cmd_vel_emulator-2]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/cmd_vel_emulator", line 33, in <module>
+[cmd_vel_emulator-2]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'cmd_vel_emulator')())
+[cmd_vel_emulator-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[cmd_vel_emulator-2]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/cmd_vel_emulator.py", line 189, in main
+[cmd_vel_emulator-2]     rclpy.shutdown()
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[cmd_vel_emulator-2]     _shutdown(context=context)
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[cmd_vel_emulator-2]     context.shutdown()
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[cmd_vel_emulator-2]     self.__context.shutdown()
+[cmd_vel_emulator-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[waypoint_follower-9] [INFO] [1752371740.004860585] [waypoint_follower]: Destroying
+[planner_server-6] [INFO] [1752371740.005248529] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752371740.005323900] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[smoother_server-5] [INFO] [1752371740.037333733] [smoother_server]: Destroying
+[planner_server-6] [INFO] [1752371740.039909363] [planner_server]: Cleaning up
+[INFO] [map_saver_server-15]: process has finished cleanly [pid 7180]
+[opennav_docking-12] [INFO] [1752371740.148899085] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[INFO] [robot_state_publisher-14]: process has finished cleanly [pid 7179]
+[ERROR] [start_stop_wrapper-16]: process has died [pid 7181, exit code -2, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/start_stop_wrapper --ros-args -r __node:=start_stop_wrapper'].
+[INFO] [velocity_smoother-10]: process has finished cleanly [pid 7175]
+[opennav_docking-12] [INFO] [1752371740.264203474] [docking_server]: Destroying
+[planner_server-6] [INFO] [1752371740.270334029] [global_costmap.global_costmap]: Cleaning up
+[planner_server-6] [INFO] [1752371740.306187622] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752371740.306367455] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[controller_server-4] [INFO] [1752371740.319106603] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752371740.328881418] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[behavior_server-7] [INFO] [1752371740.329118399] [behavior_server]: Destroying
+[ERROR] [cmd_vel_emulator-2]: process has died [pid 7167, exit code 1, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/cmd_vel_emulator --ros-args -r __node:=cmd_emulator'].
+[controller_server-4] [INFO] [1752371740.345357899] [local_costmap.local_costmap]: Destroying
+[INFO] [smoother_server-5]: process has finished cleanly [pid 7170]
+[controller_server-4] [INFO] [1752371740.402054103] [controller_server]: Destroying
+[INFO] [waypoint_follower-9]: process has finished cleanly [pid 7174]
+[planner_server-6] [INFO] [1752371740.412900288] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [async_slam_toolbox_node-3]: process has finished cleanly [pid 7168]
+[planner_server-6] [INFO] [1752371740.424699381] [global_costmap.global_costmap]: Destroying
+[motor-1] [INFO] [1752371740.440811992] [motor_controller]: Stopping motors
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[motor-1] [INFO] [1752371740.441989196] [motor_controller]: Stopped and closed serial connection
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[planner_server-6] [INFO] [1752371740.444930214] [planner_server]: Destroying
+[INFO] [opennav_docking-12]: process has finished cleanly [pid 7177]
+[INFO] [lifecycle_manager-13]: process has finished cleanly [pid 7178]
+[motor-1] Traceback (most recent call last):
+[motor-1]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/motor", line 33, in <module>
+[motor-1]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'motor')())
+[motor-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[motor-1]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/motor_controller.py", line 400, in main
+[motor-1]     rclpy.shutdown()
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[motor-1]     _shutdown(context=context)
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[motor-1]     context.shutdown()
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[motor-1]     self.__context.shutdown()
+[motor-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[INFO] [behavior_server-7]: process has finished cleanly [pid 7172]
+[INFO] [controller_server-4]: process has finished cleanly [pid 7169]
+[INFO] [planner_server-6]: process has finished cleanly [pid 7171]
+[ERROR] [motor-1]: process has died [pid 7166, exit code 1, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/motor --ros-args -r __node:=motor_controller'].
+[ERROR] [bt_navigator-8]: process has died [pid 7173, exit code -6, cmd '/opt/ros/jazzy/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator -p use_sim_time:=False --params-file /tmp/launch_params_r4510li0 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [collision_monitor-11]: process has died [pid 7176, exit code -11, cmd '/opt/ros/jazzy/lib/nav2_collision_monitor/collision_monitor --ros-args --log-level info --ros-args -r __node:=collision_monitor -p use_sim_time:=False --params-file /tmp/launch_params_r4510li0 -r /tf:=tf -r /tf_static:=tf_static'].

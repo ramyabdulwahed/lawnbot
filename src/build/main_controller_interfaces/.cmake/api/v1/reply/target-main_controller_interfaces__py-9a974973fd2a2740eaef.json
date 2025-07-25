@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/main_controller_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "main_controller_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "main_controller_interfaces__py::@aa0af9b570114dbdb085",
+	"name" : "main_controller_interfaces__py",
+	"paths" : 
+	{
+		"build" : "main_controller_interfaces__py",
+		"source" : "/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/main_controller_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/main_controller_interfaces__py/CMakeFiles/main_controller_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/main_controller_interfaces__py/CMakeFiles/main_controller_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/rosidl_generator_py/main_controller_interfaces/_main_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

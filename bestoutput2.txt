@@ -1,0 +1,1136 @@
+[INFO] [launch]: All log files can be found below /home/lawnbot/.ros/log/2025-07-12-17-50-27-393576-lawnbot-pi-6534
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [motor-1]: process started with pid [6554]
+[INFO] [cmd_vel_emulator-2]: process started with pid [6555]
+[INFO] [async_slam_toolbox_node-3]: process started with pid [6556]
+[INFO] [controller_server-4]: process started with pid [6557]
+[INFO] [smoother_server-5]: process started with pid [6558]
+[INFO] [planner_server-6]: process started with pid [6559]
+[INFO] [behavior_server-7]: process started with pid [6560]
+[INFO] [bt_navigator-8]: process started with pid [6561]
+[INFO] [waypoint_follower-9]: process started with pid [6562]
+[INFO] [velocity_smoother-10]: process started with pid [6563]
+[INFO] [collision_monitor-11]: process started with pid [6564]
+[INFO] [opennav_docking-12]: process started with pid [6565]
+[INFO] [lifecycle_manager-13]: process started with pid [6566]
+[INFO] [robot_state_publisher-14]: process started with pid [6567]
+[INFO] [map_saver_server-15]: process started with pid [6568]
+[INFO] [start_stop_wrapper-16]: process started with pid [6569]
+[map_saver_server-15] [INFO] [1752357028.745533745] [map_saver_server]: 
+[map_saver_server-15] 	map_saver_server lifecycle node launched. 
+[map_saver_server-15] 	Waiting on external lifecycle transitions to activate
+[map_saver_server-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_saver_server-15] [INFO] [1752357028.745825541] [map_saver_server]: Creating
+[opennav_docking-12] [INFO] [1752357028.831642875] [docking_server]: 
+[opennav_docking-12] 	docking_server lifecycle node launched. 
+[opennav_docking-12] 	Waiting on external lifecycle transitions to activate
+[opennav_docking-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-12] [INFO] [1752357028.831882838] [docking_server]: Creating docking_server
+[velocity_smoother-10] [INFO] [1752357029.077031782] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-13] [INFO] [1752357029.382503967] [lifecycle_manager_navigation]: Creating
+[behavior_server-7] [INFO] [1752357029.406617763] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[async_slam_toolbox_node-3] [INFO] [1752357029.412992041] [slam_toolbox]: Node using stack size 40000000
+[planner_server-6] [INFO] [1752357029.438629393] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-13] [INFO] [1752357029.446477282] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-6] [INFO] [1752357029.451145930] [planner_server]: Creating
+[collision_monitor-11] [INFO] [1752357029.466733485] [collision_monitor]: 
+[collision_monitor-11] 	collision_monitor lifecycle node launched. 
+[collision_monitor-11] 	Waiting on external lifecycle transitions to activate
+[collision_monitor-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1752357029.492305226] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1752357029.493869819] [waypoint_follower]: Creating
+[robot_state_publisher-14] [INFO] [1752357029.502999652] [robot_state_publisher]: Robot initialized
+[async_slam_toolbox_node-3] [INFO] [1752357029.512121893] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-3] [INFO] [1752357029.545783559] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-3] [INFO] [1752357029.556192837] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[planner_server-6] [INFO] [1752357029.566764782] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1752357029.567798059] [global_costmap.global_costmap]: Creating Costmap
+[smoother_server-5] [INFO] [1752357029.628365078] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-5] [INFO] [1752357029.683345337] [smoother_server]: Creating smoother server
+[bt_navigator-8] [INFO] [1752357030.031391133] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1752357030.062667707] [bt_navigator]: Creating
+[controller_server-4] [INFO] [1752357030.194494726] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1752357030.216095374] [controller_server]: Creating controller server
+[INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.
+[async_slam_toolbox_node-3] [INFO] [1752357030.328383948] [slam_toolbox]: Activating
+[lifecycle_manager-13] [INFO] [1752357030.352428652] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-13] [INFO] [1752357030.352535633] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-4] [INFO] [1752357030.398096485] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1752357030.399900078] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1752357030.402222355] [controller_server]: Configuring controller interface
+[controller_server-4] [INFO] [1752357030.402293818] [controller_server]: getting progress checker plugins..
+[controller_server-4] [INFO] [1752357030.402485040] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1752357030.403597874] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-4] [INFO] [1752357030.403722726] [local_costmap.local_costmap]: Configuring
+[controller_server-4] [INFO] [1752357030.429545948] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-4] [INFO] [1752357030.441598689] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-4] [INFO] [1752357030.451089633] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-4] [INFO] [1752357030.451186059] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1752357030.453759059] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1752357030.583117170] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1752357030.587005077] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-4] [INFO] [1752357030.588108688] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1752357030.588463114] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1752357030.598588707] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-4] [INFO] [1752357030.599545374] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-4] [INFO] [1752357030.623288392] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-4] [INFO] [1752357030.627006448] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.627274466] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-4] [INFO] [1752357030.627694281] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.627860226] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-4] [INFO] [1752357030.628114577] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.628256318] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-4] [INFO] [1752357030.628705726] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.628846022] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-4] [INFO] [1752357030.631062318] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.631217077] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-4] [INFO] [1752357030.631485929] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.631643300] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-4] [INFO] [1752357030.631895688] [controller_server]: Critic plugin initialized
+[controller_server-4] [INFO] [1752357030.631945448] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-13] [INFO] [1752357030.656294818] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752357030.656772948] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1752357030.696748892] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1752357030.698632559] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-13] [INFO] [1752357030.719609003] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1752357030.720045429] [planner_server]: Configuring
+[planner_server-6] [INFO] [1752357030.720105281] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1752357030.740207892] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1752357030.746774466] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1752357030.752171522] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1752357030.752230744] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752357030.753254466] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-6] [INFO] [1752357030.761589855] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1752357030.761659207] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [INFO] [1752357030.762795503] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-6] [INFO] [1752357030.825853966] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-6] [INFO] [1752357030.825938411] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752357030.827384577] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-13] [INFO] [1752357030.860628762] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752357030.861110188] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1752357030.880559799] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-7] [INFO] [1752357030.882871707] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[behavior_server-7] [INFO] [1752357030.885081448] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[behavior_server-7] [INFO] [1752357030.887096818] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[behavior_server-7] [INFO] [1752357030.890980781] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-7] [INFO] [1752357030.920930225] [behavior_server]: Configuring spin
+[behavior_server-7] [INFO] [1752357030.957610670] [behavior_server]: Configuring backup
+[cmd_vel_emulator-2] [INFO] [1752357030.981617725] [cmd_emulator]: Motor stop service not available, waiting again...
+[behavior_server-7] [INFO] [1752357031.020197373] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1752357031.086069244] [behavior_server]: Configuring assisted_teleop
+[motor-1] [INFO] [1752357031.096778707] [motor_controller]: Motor Controller Node called
+[behavior_server-7] [INFO] [1752357031.125477281] [behavior_server]: Configuring wait
+[lifecycle_manager-13] [INFO] [1752357031.147519151] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752357031.148478318] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-13] [INFO] [1752357031.166348392] [lifecycle_manager_navigation]: [34m[1mConfiguring collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752357031.166822577] [collision_monitor]: Configuring
+[collision_monitor-11] [INFO] [1752357031.189711299] [collision_monitor]: [scan]: Creating Scan
+[collision_monitor-11] [INFO] [1752357031.196993466] [collision_monitor]: [FootprintApproach]: Creating Polygon
+[collision_monitor-11] [INFO] [1752357031.197243929] [collision_monitor]: [FootprintApproach]: Polygon points are not defined. Using dynamic subscription instead.
+[collision_monitor-11] [INFO] [1752357031.200155114] [collision_monitor]: [FootprintApproach]: Making footprint subscriber on /local_costmap/published_footprint topic
+[lifecycle_manager-13] [INFO] [1752357031.227459077] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752357031.228078781] [bt_navigator]: Configuring
+[bt_navigator-8] [INFO] [1752357031.248188262] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[bt_navigator-8] [INFO] [1752357031.409997077] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[lifecycle_manager-13] [INFO] [1752357031.473450614] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752357031.477642892] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1752357031.559608058] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-13] [INFO] [1752357031.566711688] [lifecycle_manager_navigation]: [34m[1mConfiguring docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752357031.568863614] [docking_server]: Configuring docking_server
+[opennav_docking-12] [INFO] [1752357031.569168355] [docking_server]: Controller frequency set to 50.0000Hz
+[opennav_docking-12] [INFO] [1752357031.638873632] [docking_server]: Created charging dock plugin simple_charging_dock of type opennav_docking::SimpleChargingDock
+[opennav_docking-12] [WARN] [1752357031.653729836] [docking_server]: Dock database filepath nor dock parameters set. Docking actions can only be executed specifying the dock pose via the action request. Or update the dock database via the reload_database service.
+[opennav_docking-12] [INFO] [1752357031.653806355] [docking_server]: Docking Server has 1 dock types and 0 dock instances available.
+[lifecycle_manager-13] [INFO] [1752357031.672897929] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1752357031.673910929] [controller_server]: Activating
+[controller_server-4] [INFO] [1752357031.673993632] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1752357031.674014780] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1752357031.674104262] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[cmd_vel_emulator-2] [INFO] [1752357031.986036243] [cmd_emulator]: Motor stop service not available, waiting again...
+[controller_server-4] [INFO] [1752357032.174160188] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-4] [INFO] [1752357032.674147113] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[cmd_vel_emulator-2] [INFO] [1752357032.997087576] [cmd_emulator]: Motor stop service not available, waiting again...
+[controller_server-4] [INFO] [1752357033.174932039] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[motor-1] [INFO] [1752357033.335857520] [motor_controller]: Motor Controller Node initialized
+[cmd_vel_emulator-2] [INFO] [1752357033.498847242] [cmd_emulator]: CmdVel Emulator initialized
+[controller_server-4] [INFO] [1752357033.674351446] [local_costmap.local_costmap]: start
+[controller_server-4] [INFO] [1752357033.877649631] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357033.992022946] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752357033.992102742] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1752357033.992649668] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1752357033.992711872] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357034.115745001] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752357034.115823742] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1752357034.116334464] [planner_server]: Activating
+[planner_server-6] [INFO] [1752357034.116403816] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1752357034.116425705] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1752357034.116497538] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357034.616566686] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357035.116551556] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357035.616549630] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357036.116545907] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357036.616553777] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357037.116554333] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357037.617634129] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357038.116550665] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357038.616553054] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357039.116548998] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357039.616547479] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357040.116547924] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357040.616544905] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357041.116550738] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357041.616554404] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357042.116551145] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357042.616548348] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357043.116550551] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357043.616552607] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357044.116510866] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357044.616547254] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357045.116538143] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357045.616550365] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357046.116545939] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357046.617406364] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357047.117226993] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357047.616743604] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-6] [INFO] [1752357048.116543419] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-3] [WARN] [1752357048.600031881] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (12.0 m)
+[async_slam_toolbox_node-3] Registering sensor: [Custom Described Lidar]
+[planner_server-6] [INFO] [1752357048.616690141] [global_costmap.global_costmap]: start
+[planner_server-6] [WARN] [1752357049.617134825] [global_costmap.global_costmap]: Sensor origin at (-0.06, -0.00) is out of map bounds (0.00, 0.00) to (4.98, 4.98). The costmap cannot raytrace for it.
+[planner_server-6] [INFO] [1752357049.619710399] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752357049.623971899] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357049.739590566] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752357049.739667899] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1752357049.740319788] [behavior_server]: Activating
+[behavior_server-7] [INFO] [1752357049.740373677] [behavior_server]: Activating spin
+[behavior_server-7] [INFO] [1752357049.740398955] [behavior_server]: Activating backup
+[behavior_server-7] [INFO] [1752357049.740418177] [behavior_server]: Activating drive_on_heading
+[behavior_server-7] [INFO] [1752357049.740440696] [behavior_server]: Activating assisted_teleop
+[behavior_server-7] [INFO] [1752357049.740463788] [behavior_server]: Activating wait
+[behavior_server-7] [INFO] [1752357049.740489547] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357049.855636177] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752357049.855722603] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1752357049.856504696] [velocity_smoother]: Activating
+[velocity_smoother-10] [INFO] [1752357049.856616121] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357049.971421140] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-13] [INFO] [1752357049.971500844] [lifecycle_manager_navigation]: [34m[1mActivating collision_monitor[0m[0m
+[collision_monitor-11] [INFO] [1752357049.972451733] [collision_monitor]: Activating
+[collision_monitor-11] [INFO] [1752357049.972532177] [collision_monitor]: Creating bond (collision_monitor) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357050.088877769] [lifecycle_manager_navigation]: Server collision_monitor connected with bond.
+[lifecycle_manager-13] [INFO] [1752357050.088964251] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1752357050.090168344] [bt_navigator]: Activating
+[bt_navigator-8] [INFO] [1752357050.367842103] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[planner_server-6] [INFO] [1752357050.392092917] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 62 X 40 at 0.050000 m/pix
+[lifecycle_manager-13] [INFO] [1752357050.485653084] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-13] [INFO] [1752357050.485732603] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1752357050.487120473] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1752357050.487212454] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357050.605440547] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-13] [INFO] [1752357050.605524899] [lifecycle_manager_navigation]: [34m[1mActivating docking_server[0m[0m
+[opennav_docking-12] [INFO] [1752357050.606979454] [docking_server]: Activating docking_server
+[opennav_docking-12] [INFO] [1752357050.655031269] [docking_server]: Creating bond (docking_server) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357050.772413028] [lifecycle_manager_navigation]: Server docking_server connected with bond.
+[lifecycle_manager-13] [INFO] [1752357050.772495917] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-13] [INFO] [1752357050.772521473] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[bt_navigator-8] [INFO] [1752357098.121594833] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (-1.22, -0.91)
+[controller_server-4] [INFO] [1752357098.143150556] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1752357098.143231482] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-4] [WARN] [1752357098.143262704] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[cmd_vel_emulator-2] [INFO] [1752357098.399307778] [cmd_emulator]: Published Left: -864, Right: -494
+[cmd_vel_emulator-2] [INFO] [1752357098.499249278] [cmd_emulator]: Published Left: -864, Right: -494
+[cmd_vel_emulator-2] [INFO] [1752357098.599321259] [cmd_emulator]: Published Left: -1750, Right: -641
+[cmd_vel_emulator-2] [INFO] [1752357098.699221981] [cmd_emulator]: Published Left: -1750, Right: -641
+[motor-1] [INFO] [1752357098.726727315] [motor_controller]: Sending to serial: 1,S-864, 2,S-494
+[cmd_vel_emulator-2] [INFO] [1752357098.799434240] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752357098.899258055] [cmd_emulator]: Published Left: -1758, Right: -633
+[motor-1] [INFO] [1752357098.930050000] [motor_controller]: Sending to serial: 1,S-864, 2,S-494
+[cmd_vel_emulator-2] [INFO] [1752357098.999277722] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752357099.099287370] [cmd_emulator]: Published Left: -1758, Right: -633
+[motor-1] [INFO] [1752357099.133600962] [motor_controller]: Sending to serial: 1,S-1750, 2,S-641
+[controller_server-4] [INFO] [1752357099.193598907] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357099.199312407] [cmd_emulator]: Published Left: -1758, Right: -633
+[cmd_vel_emulator-2] [INFO] [1752357099.299264314] [cmd_emulator]: Published Left: -1758, Right: -633
+[motor-1] [INFO] [1752357099.338401925] [motor_controller]: Sending to serial: 1,S-1750, 2,S-641
+[cmd_vel_emulator-2] [INFO] [1752357099.399262592] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752357099.499216314] [cmd_emulator]: Published Left: -2054, Right: -336
+[motor-1] [INFO] [1752357099.542053721] [motor_controller]: Sending to serial: 1,S-1758, 2,S-633
+[cmd_vel_emulator-2] [INFO] [1752357099.599318907] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752357099.699269666] [cmd_emulator]: Published Left: -1936, Right: -455
+[motor-1] [INFO] [1752357099.745300684] [motor_controller]: Sending to serial: 1,S-1758, 2,S-633
+[cmd_vel_emulator-2] [INFO] [1752357099.799280962] [cmd_emulator]: Published Left: -1936, Right: -455
+[cmd_vel_emulator-2] [INFO] [1752357099.899223443] [cmd_emulator]: Published Left: -1936, Right: -455
+[motor-1] [INFO] [1752357099.949619721] [motor_controller]: Sending to serial: 1,S-1758, 2,S-633
+[cmd_vel_emulator-2] [INFO] [1752357099.999320517] [cmd_emulator]: Published Left: -2054, Right: -336
+[cmd_vel_emulator-2] [INFO] [1752357100.099400092] [cmd_emulator]: Published Left: -2054, Right: -336
+[motor-1] [INFO] [1752357100.154392869] [motor_controller]: Sending to serial: 1,S-1758, 2,S-633
+[controller_server-4] [INFO] [1752357100.193587054] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357100.199304314] [cmd_emulator]: Published Left: -1876, Right: -514
+[cmd_vel_emulator-2] [INFO] [1752357100.299233628] [cmd_emulator]: Published Left: -1876, Right: -514
+[motor-1] [INFO] [1752357100.357553258] [motor_controller]: Sending to serial: 1,S-2054, 2,S-336
+[cmd_vel_emulator-2] [INFO] [1752357100.399242314] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752357100.499194147] [cmd_emulator]: Published Left: -1817, Right: -573
+[motor-1] [INFO] [1752357100.560779999] [motor_controller]: Sending to serial: 1,S-1936, 2,S-455
+[cmd_vel_emulator-2] [INFO] [1752357100.599313480] [cmd_emulator]: Published Left: -1699, Right: -692
+[cmd_vel_emulator-2] [INFO] [1752357100.699258147] [cmd_emulator]: Published Left: -1699, Right: -692
+[motor-1] [INFO] [1752357100.763726517] [motor_controller]: Sending to serial: 1,S-1936, 2,S-455
+[cmd_vel_emulator-2] [INFO] [1752357100.799262295] [cmd_emulator]: Published Left: -1817, Right: -573
+[cmd_vel_emulator-2] [INFO] [1752357100.899173054] [cmd_emulator]: Published Left: -1817, Right: -573
+[motor-1] [INFO] [1752357100.967145554] [motor_controller]: Sending to serial: 1,S-2054, 2,S-336
+[cmd_vel_emulator-2] [INFO] [1752357100.999233017] [cmd_emulator]: Published Left: -1521, Right: -869
+[cmd_vel_emulator-2] [INFO] [1752357101.099209850] [cmd_emulator]: Published Left: -1521, Right: -869
+[motor-1] [INFO] [1752357101.170347943] [motor_controller]: Sending to serial: 1,S-1876, 2,S-514
+[cmd_vel_emulator-2] [INFO] [1752357101.199524720] [cmd_emulator]: Published Left: -782, Right: -1609
+[controller_server-4] [INFO] [1752357101.243648480] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357101.299206350] [cmd_emulator]: Published Left: -782, Right: -1609
+[motor-1] [INFO] [1752357101.374104924] [motor_controller]: Sending to serial: 1,S-1817, 2,S-573
+[cmd_vel_emulator-2] [INFO] [1752357101.399630054] [cmd_emulator]: Published Left: -1343, Right: -1047
+[cmd_vel_emulator-2] [INFO] [1752357101.499214905] [cmd_emulator]: Published Left: -1343, Right: -1047
+[motor-1] [INFO] [1752357101.577886905] [motor_controller]: Sending to serial: 1,S-1699, 2,S-692
+[cmd_vel_emulator-2] [INFO] [1752357101.599307035] [cmd_emulator]: Published Left: -929, Right: -1462
+[cmd_vel_emulator-2] [INFO] [1752357101.699221202] [cmd_emulator]: Published Left: -929, Right: -1462
+[motor-1] [INFO] [1752357101.781135553] [motor_controller]: Sending to serial: 1,S-1817, 2,S-573
+[cmd_vel_emulator-2] [INFO] [1752357101.799283998] [cmd_emulator]: Published Left: -455, Right: -1936
+[cmd_vel_emulator-2] [INFO] [1752357101.899240350] [cmd_emulator]: Published Left: -455, Right: -1936
+[motor-1] [INFO] [1752357101.984182942] [motor_controller]: Sending to serial: 1,S-1521, 2,S-869
+[cmd_vel_emulator-2] [INFO] [1752357101.999271868] [cmd_emulator]: Published Left: -1194, Right: -1196
+[cmd_vel_emulator-2] [INFO] [1752357102.099213887] [cmd_emulator]: Published Left: -1194, Right: -1196
+[motor-1] [INFO] [1752357102.188224387] [motor_controller]: Sending to serial: 1,S-782, 2,S-1609
+[cmd_vel_emulator-2] [INFO] [1752357102.199218498] [cmd_emulator]: Published Left: -1194, Right: -1196
+[controller_server-4] [INFO] [1752357102.243599257] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357102.299206035] [cmd_emulator]: Published Left: -1225, Right: -1166
+[motor-1] [INFO] [1752357102.392424868] [motor_controller]: Sending to serial: 1,S-1343, 2,S-1047
+[cmd_vel_emulator-2] [INFO] [1752357102.399377979] [cmd_emulator]: Published Left: -1225, Right: -1166
+[cmd_vel_emulator-2] [INFO] [1752357102.499215164] [cmd_emulator]: Published Left: -1343, Right: -1047
+[motor-1] [INFO] [1752357102.596288923] [motor_controller]: Sending to serial: 1,S-929, 2,S-1462
+[cmd_vel_emulator-2] [INFO] [1752357102.600061757] [cmd_emulator]: Published Left: -1343, Right: -1047
+[cmd_vel_emulator-2] [INFO] [1752357102.699371516] [cmd_emulator]: Published Left: -1462, Right: -929
+[motor-1] [INFO] [1752357102.799950923] [motor_controller]: Sending to serial: 1,S-455, 2,S-1936
+[cmd_vel_emulator-2] [INFO] [1752357102.801037405] [cmd_emulator]: Published Left: -1462, Right: -929
+[cmd_vel_emulator-2] [INFO] [1752357102.899275627] [cmd_emulator]: Published Left: -1639, Right: -751
+[cmd_vel_emulator-2] [INFO] [1752357102.999221164] [cmd_emulator]: Published Left: -1639, Right: -751
+[motor-1] [INFO] [1752357103.005429071] [motor_controller]: Sending to serial: 1,S-1194, 2,S-1196
+[cmd_vel_emulator-2] [INFO] [1752357103.099317386] [cmd_emulator]: Published Left: -1328, Right: -558
+[bt_navigator-8] [INFO] [1752357103.132120571] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357103.132558182] [bt_navigator]: Begin navigating from current location (-0.65, -0.24) to (-1.22, -0.86)
+[cmd_vel_emulator-2] [INFO] [1752357103.199271386] [cmd_emulator]: Published Left: -1328, Right: -558
+[motor-1] [INFO] [1752357103.208623571] [motor_controller]: Sending to serial: 1,S-1225, 2,S-1166
+[controller_server-4] [INFO] [1752357103.293597997] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357103.299309478] [cmd_emulator]: Published Left: -1328, Right: -558
+[cmd_vel_emulator-2] [INFO] [1752357103.399261275] [cmd_emulator]: Published Left: -1328, Right: -558
+[motor-1] [INFO] [1752357103.412361849] [motor_controller]: Sending to serial: 1,S-1343, 2,S-1047
+[cmd_vel_emulator-2] [INFO] [1752357103.499186145] [cmd_emulator]: Published Left: -1432, Right: 48
+[cmd_vel_emulator-2] [INFO] [1752357103.599382608] [cmd_emulator]: Published Left: -1432, Right: 48
+[motor-1] [INFO] [1752357103.615355775] [motor_controller]: Sending to serial: 1,S-1462, 2,S-929
+[cmd_vel_emulator-2] [INFO] [1752357103.699222978] [cmd_emulator]: Published Left: -2165, Right: 25
+[cmd_vel_emulator-2] [INFO] [1752357103.799228793] [cmd_emulator]: Published Left: -2165, Right: 25
+[motor-1] [INFO] [1752357103.818069978] [motor_controller]: Sending to serial: 1,S-1639, 2,S-751
+[cmd_vel_emulator-2] [INFO] [1752357103.899268552] [cmd_emulator]: Published Left: -1536, Right: 655
+[cmd_vel_emulator-2] [INFO] [1752357103.999290237] [cmd_emulator]: Published Left: -1536, Right: 655
+[motor-1] [INFO] [1752357104.020882182] [motor_controller]: Sending to serial: 1,S-1328, 2,S-558
+[cmd_vel_emulator-2] [INFO] [1752357104.099297608] [cmd_emulator]: Published Left: -541, Right: 541
+[cmd_vel_emulator-2] [INFO] [1752357104.199281071] [cmd_emulator]: Published Left: -541, Right: 541
+[motor-1] [INFO] [1752357104.224272126] [motor_controller]: Sending to serial: 1,S-1328, 2,S-558
+[controller_server-4] [INFO] [1752357104.293674052] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357104.299165552] [cmd_emulator]: Published Left: -99, Right: -277
+[cmd_vel_emulator-2] [INFO] [1752357104.399258885] [cmd_emulator]: Published Left: -99, Right: -277
+[motor-1] [INFO] [1752357104.427504589] [motor_controller]: Sending to serial: 1,S-1432, 2,S48
+[cmd_vel_emulator-2] [INFO] [1752357104.499221015] [cmd_emulator]: Published Left: 88, Right: -88
+[cmd_vel_emulator-2] [INFO] [1752357104.599284200] [cmd_emulator]: Published Left: 88, Right: -88
+[motor-1] [INFO] [1752357104.630610552] [motor_controller]: Sending to serial: 1,S-2165, 2,S25
+[cmd_vel_emulator-2] [INFO] [1752357104.699273052] [cmd_emulator]: Published Left: 25, Right: -151
+[cmd_vel_emulator-2] [INFO] [1752357104.799204144] [cmd_emulator]: Published Left: 25, Right: -151
+[motor-1] [INFO] [1752357104.834101126] [motor_controller]: Sending to serial: 1,S-1536, 2,S655
+[cmd_vel_emulator-2] [INFO] [1752357104.899762033] [cmd_emulator]: Published Left: 388, Right: -262
+[cmd_vel_emulator-2] [INFO] [1752357104.999226996] [cmd_emulator]: Published Left: 388, Right: -262
+[motor-1] [INFO] [1752357105.039444496] [motor_controller]: Sending to serial: 1,S-541, 2,S541
+[cmd_vel_emulator-2] [INFO] [1752357105.099207255] [cmd_emulator]: Published Left: 1064, Right: -1064
+[cmd_vel_emulator-2] [INFO] [1752357105.199321940] [cmd_emulator]: Published Left: 1064, Right: -1064
+[motor-1] [INFO] [1752357105.243203625] [motor_controller]: Sending to serial: 1,S-99, 2,S-277
+[cmd_vel_emulator-2] [INFO] [1752357105.299196625] [cmd_emulator]: Published Left: 541, Right: -541
+[controller_server-4] [INFO] [1752357105.343571051] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357105.399471922] [cmd_emulator]: Published Left: 541, Right: -541
+[motor-1] [INFO] [1752357105.446587088] [motor_controller]: Sending to serial: 1,S88, 2,S-88
+[cmd_vel_emulator-2] [INFO] [1752357105.499209385] [cmd_emulator]: Published Left: -197, Right: 197
+[cmd_vel_emulator-2] [INFO] [1752357105.599286903] [cmd_emulator]: Published Left: -197, Right: 197
+[motor-1] [INFO] [1752357105.649909736] [motor_controller]: Sending to serial: 1,S25, 2,S-151
+[cmd_vel_emulator-2] [INFO] [1752357105.699224810] [cmd_emulator]: Published Left: 173, Right: 707
+[cmd_vel_emulator-2] [INFO] [1752357105.799199458] [cmd_emulator]: Published Left: 173, Right: 707
+[motor-1] [INFO] [1752357105.854979958] [motor_controller]: Sending to serial: 1,S388, 2,S-262
+[cmd_vel_emulator-2] [INFO] [1752357105.899245347] [cmd_emulator]: Published Left: -699, Right: 573
+[cmd_vel_emulator-2] [INFO] [1752357105.999285107] [cmd_emulator]: Published Left: -699, Right: 573
+[motor-1] [INFO] [1752357106.059511477] [motor_controller]: Sending to serial: 1,S1064, 2,S-1064
+[cmd_vel_emulator-2] [INFO] [1752357106.099206625] [cmd_emulator]: Published Left: -1003, Right: 122
+[cmd_vel_emulator-2] [INFO] [1752357106.199228421] [cmd_emulator]: Published Left: -1003, Right: 122
+[motor-1] [INFO] [1752357106.262441680] [motor_controller]: Sending to serial: 1,S541, 2,S-541
+[cmd_vel_emulator-2] [INFO] [1752357106.299292254] [cmd_emulator]: Published Left: -1536, Right: 655
+[controller_server-4] [INFO] [1752357106.343597143] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357106.399289495] [cmd_emulator]: Published Left: -1536, Right: 655
+[motor-1] [INFO] [1752357106.465638347] [motor_controller]: Sending to serial: 1,S-197, 2,S197
+[cmd_vel_emulator-2] [INFO] [1752357106.499281217] [cmd_emulator]: Published Left: -1121, Right: 240
+[cmd_vel_emulator-2] [INFO] [1752357106.599363439] [cmd_emulator]: Published Left: -1121, Right: 240
+[motor-1] [INFO] [1752357106.668906569] [motor_controller]: Sending to serial: 1,S173, 2,S707
+[cmd_vel_emulator-2] [INFO] [1752357106.699198569] [cmd_emulator]: Published Left: -315, Right: -62
+[cmd_vel_emulator-2] [INFO] [1752357106.799369495] [cmd_emulator]: Published Left: -315, Right: -62
+[motor-1] [INFO] [1752357106.872103902] [motor_controller]: Sending to serial: 1,S-699, 2,S573
+[cmd_vel_emulator-2] [INFO] [1752357106.899209236] [cmd_emulator]: Published Left: 1052, Right: -171
+[cmd_vel_emulator-2] [INFO] [1752357106.999289087] [cmd_emulator]: Published Left: 1052, Right: -171
+[motor-1] [INFO] [1752357107.076410032] [motor_controller]: Sending to serial: 1,S-1003, 2,S122
+[cmd_vel_emulator-2] [INFO] [1752357107.099173680] [cmd_emulator]: Published Left: 1154, Right: -1154
+[cmd_vel_emulator-2] [INFO] [1752357107.199412217] [cmd_emulator]: Published Left: 1154, Right: -1154
+[motor-1] [INFO] [1752357107.279986439] [motor_controller]: Sending to serial: 1,S-1536, 2,S655
+[cmd_vel_emulator-2] [INFO] [1752357107.299251254] [cmd_emulator]: Published Left: 415, Right: -415
+[controller_server-4] [INFO] [1752357107.393594180] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357107.399331920] [cmd_emulator]: Published Left: 415, Right: -415
+[motor-1] [INFO] [1752357107.483234846] [motor_controller]: Sending to serial: 1,S-1121, 2,S240
+[cmd_vel_emulator-2] [INFO] [1752357107.499360772] [cmd_emulator]: Published Left: -29, Right: 29
+[cmd_vel_emulator-2] [INFO] [1752357107.599432476] [cmd_emulator]: Published Left: -29, Right: 29
+[motor-1] [INFO] [1752357107.686837828] [motor_controller]: Sending to serial: 1,S-315, 2,S-62
+[cmd_vel_emulator-2] [INFO] [1752357107.699180606] [cmd_emulator]: Published Left: -654, Right: -226
+[cmd_vel_emulator-2] [INFO] [1752357107.799221346] [cmd_emulator]: Published Left: -654, Right: -226
+[motor-1] [INFO] [1752357107.890331328] [motor_controller]: Sending to serial: 1,S1052, 2,S-171
+[cmd_vel_emulator-2] [INFO] [1752357107.899128791] [cmd_emulator]: Published Left: -646, Right: 521
+[cmd_vel_emulator-2] [INFO] [1752357107.999242216] [cmd_emulator]: Published Left: -646, Right: 521
+[motor-1] [INFO] [1752357108.095382365] [motor_controller]: Sending to serial: 1,S1154, 2,S-1154
+[cmd_vel_emulator-2] [INFO] [1752357108.099852327] [cmd_emulator]: Published Left: -558, Right: 684
+[bt_navigator-8] [INFO] [1752357108.132113790] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357108.132642642] [bt_navigator]: Begin navigating from current location (-0.93, -0.53) to (-1.32, -0.16)
+[cmd_vel_emulator-2] [INFO] [1752357108.199266420] [cmd_emulator]: Published Left: -558, Right: 684
+[cmd_vel_emulator-2] [INFO] [1752357108.299402050] [cmd_emulator]: Published Left: -558, Right: 684
+[motor-1] [INFO] [1752357108.300051476] [motor_controller]: Sending to serial: 1,S415, 2,S-415
+[controller_server-4] [INFO] [1752357108.393594494] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357108.399325401] [cmd_emulator]: Published Left: -918, Right: 918
+[cmd_vel_emulator-2] [INFO] [1752357108.499196735] [cmd_emulator]: Published Left: -918, Right: 918
+[motor-1] [INFO] [1752357108.503934587] [motor_controller]: Sending to serial: 1,S-29, 2,S29
+[cmd_vel_emulator-2] [INFO] [1752357108.599262198] [cmd_emulator]: Published Left: -363, Right: 363
+[cmd_vel_emulator-2] [INFO] [1752357108.699246197] [cmd_emulator]: Published Left: -363, Right: 363
+[motor-1] [INFO] [1752357108.708405827] [motor_controller]: Sending to serial: 1,S-654, 2,S-226
+[cmd_vel_emulator-2] [INFO] [1752357108.799186994] [cmd_emulator]: Published Left: 62, Right: 62
+[cmd_vel_emulator-2] [INFO] [1752357108.899189827] [cmd_emulator]: Published Left: 62, Right: 62
+[motor-1] [INFO] [1752357108.912013234] [motor_controller]: Sending to serial: 1,S-646, 2,S521
+[collision_monitor-11] [INFO] [1752357108.914947771] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[cmd_vel_emulator-2] [INFO] [1752357108.999180494] [cmd_emulator]: Published Left: 139, Right: -506
+[cmd_vel_emulator-2] [INFO] [1752357109.099228142] [cmd_emulator]: Published Left: 139, Right: -506
+[motor-1] [INFO] [1752357109.114824642] [motor_controller]: Sending to serial: 1,S-558, 2,S684
+[collision_monitor-11] [INFO] [1752357109.119363901] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752357109.199272493] [cmd_emulator]: Published Left: -184, Right: 184
+[cmd_vel_emulator-2] [INFO] [1752357109.299257308] [cmd_emulator]: Published Left: -184, Right: 184
+[motor-1] [INFO] [1752357109.317507364] [motor_controller]: Sending to serial: 1,S-918, 2,S918
+[controller_server-4] [INFO] [1752357109.393599067] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357109.399278827] [cmd_emulator]: Published Left: -148, Right: 148
+[cmd_vel_emulator-2] [INFO] [1752357109.499248160] [cmd_emulator]: Published Left: -148, Right: 148
+[motor-1] [INFO] [1752357109.520455345] [motor_controller]: Sending to serial: 1,S-363, 2,S363
+[cmd_vel_emulator-2] [INFO] [1752357109.599730215] [cmd_emulator]: Published Left: 144, Right: -270
+[cmd_vel_emulator-2] [INFO] [1752357109.699273419] [cmd_emulator]: Published Left: 144, Right: -270
+[motor-1] [INFO] [1752357109.723627864] [motor_controller]: Sending to serial: 1,S62, 2,S62
+[cmd_vel_emulator-2] [INFO] [1752357109.799301660] [cmd_emulator]: Published Left: 344, Right: 285
+[cmd_vel_emulator-2] [INFO] [1752357109.899207938] [cmd_emulator]: Published Left: 344, Right: 285
+[motor-1] [INFO] [1752357109.926592438] [motor_controller]: Sending to serial: 1,S139, 2,S-506
+[cmd_vel_emulator-2] [INFO] [1752357109.999243271] [cmd_emulator]: Published Left: 188, Right: 188
+[cmd_vel_emulator-2] [INFO] [1752357110.099271308] [cmd_emulator]: Published Left: 188, Right: 188
+[motor-1] [INFO] [1752357110.129731641] [motor_controller]: Sending to serial: 1,S-184, 2,S184
+[cmd_vel_emulator-2] [INFO] [1752357110.199316956] [cmd_emulator]: Published Left: 62, Right: 62
+[cmd_vel_emulator-2] [INFO] [1752357110.299262382] [cmd_emulator]: Published Left: 62, Right: 62
+[motor-1] [INFO] [1752357110.333031530] [motor_controller]: Sending to serial: 1,S-148, 2,S148
+[cmd_vel_emulator-2] [INFO] [1752357110.399602419] [cmd_emulator]: Published Left: 470, Right: 410
+[controller_server-4] [INFO] [1752357110.443595048] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357110.499212974] [cmd_emulator]: Published Left: 470, Right: 410
+[motor-1] [INFO] [1752357110.538111270] [motor_controller]: Sending to serial: 1,S144, 2,S-270
+[cmd_vel_emulator-2] [INFO] [1752357110.599315807] [cmd_emulator]: Published Left: 655, Right: 477
+[cmd_vel_emulator-2] [INFO] [1752357110.699241826] [cmd_emulator]: Published Left: 655, Right: 477
+[motor-1] [INFO] [1752357110.741854715] [motor_controller]: Sending to serial: 1,S344, 2,S285
+[cmd_vel_emulator-2] [INFO] [1752357110.799498215] [cmd_emulator]: Published Left: 655, Right: 477
+[cmd_vel_emulator-2] [INFO] [1752357110.899188122] [cmd_emulator]: Published Left: 655, Right: 477
+[motor-1] [INFO] [1752357110.946355492] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[cmd_vel_emulator-2] [INFO] [1752357110.999297011] [cmd_emulator]: Published Left: 892, Right: 240
+[cmd_vel_emulator-2] [INFO] [1752357111.099188770] [cmd_emulator]: Published Left: 892, Right: 240
+[motor-1] [INFO] [1752357111.149424696] [motor_controller]: Sending to serial: 1,S62, 2,S62
+[collision_monitor-11] [ERROR] [1752357111.151272270] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752357110.947679 but the latest data is at time 1752357110.944441, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752357111.151477659] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[motor-1] [INFO] [1752357111.353806344] [motor_controller]: Sending to serial: 1,S62, 2,S62
+[collision_monitor-11] [INFO] [1752357111.355860140] [collision_monitor]: Robot to continue normal operation
+[cmd_vel_emulator-2] [INFO] [1752357111.399388751] [cmd_emulator]: Published Left: 655, Right: 477
+[controller_server-4] [INFO] [1752357111.443596029] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357111.499224029] [cmd_emulator]: Published Left: 655, Right: 477
+[motor-1] [INFO] [1752357111.557751270] [motor_controller]: Sending to serial: 1,S470, 2,S410
+[cmd_vel_emulator-2] [INFO] [1752357111.599279492] [cmd_emulator]: Published Left: 588, Right: 292
+[cmd_vel_emulator-2] [INFO] [1752357111.699216325] [cmd_emulator]: Published Left: 588, Right: 292
+[motor-1] [INFO] [1752357111.761273029] [motor_controller]: Sending to serial: 1,S655, 2,S477
+[cmd_vel_emulator-2] [INFO] [1752357111.799196640] [cmd_emulator]: Published Left: 588, Right: 292
+[cmd_vel_emulator-2] [INFO] [1752357111.899305862] [cmd_emulator]: Published Left: 588, Right: 292
+[motor-1] [INFO] [1752357111.965345955] [motor_controller]: Sending to serial: 1,S655, 2,S477
+[cmd_vel_emulator-2] [INFO] [1752357111.999271455] [cmd_emulator]: Published Left: 588, Right: 292
+[cmd_vel_emulator-2] [INFO] [1752357112.099305195] [cmd_emulator]: Published Left: 588, Right: 292
+[motor-1] [INFO] [1752357112.168244973] [motor_controller]: Sending to serial: 1,S892, 2,S240
+[cmd_vel_emulator-2] [INFO] [1752357112.199294344] [cmd_emulator]: Published Left: 588, Right: 292
+[cmd_vel_emulator-2] [INFO] [1752357112.299170177] [cmd_emulator]: Published Left: 588, Right: 292
+[motor-1] [INFO] [1752357112.371345677] [motor_controller]: Sending to serial: 1,S655, 2,S477
+[cmd_vel_emulator-2] [INFO] [1752357112.399213695] [cmd_emulator]: Published Left: 588, Right: 292
+[controller_server-4] [INFO] [1752357112.493592566] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357112.499196806] [cmd_emulator]: Published Left: 588, Right: 292
+[motor-1] [INFO] [1752357112.575205899] [motor_controller]: Sending to serial: 1,S588, 2,S292
+[cmd_vel_emulator-2] [INFO] [1752357112.599339362] [cmd_emulator]: Published Left: 336, Right: 40
+[cmd_vel_emulator-2] [INFO] [1752357112.699670954] [cmd_emulator]: Published Left: 336, Right: 40
+[motor-1] [INFO] [1752357112.778466769] [motor_controller]: Sending to serial: 1,S588, 2,S292
+[cmd_vel_emulator-2] [INFO] [1752357112.799178899] [cmd_emulator]: Published Left: 336, Right: 40
+[cmd_vel_emulator-2] [INFO] [1752357112.899193751] [cmd_emulator]: Published Left: 336, Right: 40
+[motor-1] [INFO] [1752357112.981609991] [motor_controller]: Sending to serial: 1,S588, 2,S292
+[cmd_vel_emulator-2] [INFO] [1752357112.999269788] [cmd_emulator]: Published Left: -266, Right: 266
+[cmd_vel_emulator-2] [INFO] [1752357113.099306343] [cmd_emulator]: Published Left: -266, Right: 266
+[bt_navigator-8] [INFO] [1752357113.122121065] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357113.122396491] [bt_navigator]: Begin navigating from current location (-0.94, -0.40) to (0.18, -1.06)
+[motor-1] [INFO] [1752357113.184963732] [motor_controller]: Sending to serial: 1,S588, 2,S292
+[cmd_vel_emulator-2] [INFO] [1752357113.199144361] [cmd_emulator]: Published Left: 188, Right: 188
+[cmd_vel_emulator-2] [INFO] [1752357113.299181843] [cmd_emulator]: Published Left: 188, Right: 188
+[motor-1] [INFO] [1752357113.389625306] [motor_controller]: Sending to serial: 1,S588, 2,S292
+[cmd_vel_emulator-2] [INFO] [1752357113.399363621] [cmd_emulator]: Published Left: 188, Right: 188
+[controller_server-4] [INFO] [1752357113.493594065] [controller_server]: Passing new path to controller.
+[cmd_vel_emulator-2] [INFO] [1752357113.499196287] [cmd_emulator]: Published Left: 188, Right: 188
+[motor-1] [INFO] [1752357113.593816361] [motor_controller]: Sending to serial: 1,S336, 2,S40
+[cmd_vel_emulator-2] [INFO] [1752357113.599158880] [cmd_emulator]: Published Left: 188, Right: 188
+[cmd_vel_emulator-2] [INFO] [1752357113.699239639] [cmd_emulator]: Published Left: 166, Right: 211
+[motor-1] [INFO] [1752357113.798478565] [motor_controller]: Sending to serial: 1,S336, 2,S40
+[cmd_vel_emulator-2] [INFO] [1752357113.799714843] [cmd_emulator]: Published Left: 166, Right: 211
+[cmd_vel_emulator-2] [INFO] [1752357113.899246491] [cmd_emulator]: Published Left: 529, Right: 100
+[cmd_vel_emulator-2] [INFO] [1752357113.999275287] [cmd_emulator]: Published Left: 529, Right: 100
+[motor-1] [INFO] [1752357114.002560917] [motor_controller]: Sending to serial: 1,S-266, 2,S266
+[cmd_vel_emulator-2] [INFO] [1752357114.099203454] [cmd_emulator]: Published Left: 1453, Right: -823
+[cmd_vel_emulator-2] [INFO] [1752357114.199274009] [cmd_emulator]: Published Left: 1453, Right: -823
+[motor-1] [INFO] [1752357114.205819157] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[collision_monitor-11] [INFO] [1752357114.208210694] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[cmd_vel_emulator-2] [INFO] [1752357114.299236046] [cmd_emulator]: Published Left: 111, Right: -80
+[cmd_vel_emulator-2] [INFO] [1752357114.399275231] [cmd_emulator]: Published Left: 111, Right: -80
+[motor-1] [INFO] [1752357114.410384287] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[controller_server-4] [INFO] [1752357114.543603250] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752357114.613421398] [motor_controller]: Sending to serial: 1,S188, 2,S188
+[motor-1] [INFO] [1752357114.816287379] [motor_controller]: Sending to serial: 1,S166, 2,S211
+[cmd_vel_emulator-2] [INFO] [1752357114.899483620] [cmd_emulator]: Published Left: -198, Right: -598
+[cmd_vel_emulator-2] [INFO] [1752357114.999201768] [cmd_emulator]: Published Left: -198, Right: -598
+[motor-1] [INFO] [1752357115.019062712] [motor_controller]: Sending to serial: 1,S166, 2,S211
+[motor-1] [INFO] [1752357115.221676749] [motor_controller]: Sending to serial: 1,S529, 2,S100
+[controller_server-4] [ERROR] [1752357115.293725657] [controller_server]: Failed to make progress
+[controller_server-4] [WARN] [1752357115.293937101] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752357115.312357397] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1752357115.313643249] [controller_server]: Received a goal, begin computing control effort.
+[motor-1] [INFO] [1752357115.424717342] [motor_controller]: Sending to serial: 1,S529, 2,S100
+[controller_server-4] [WARN] [1752357115.497505360] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 5.4458 Hz.
+[controller_server-4] [INFO] [1752357115.561753193] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752357115.627797860] [motor_controller]: Sending to serial: 1,S1453, 2,S-823
+[motor-1] [INFO] [1752357115.831177156] [motor_controller]: Sending to serial: 1,S1453, 2,S-823
+[motor-1] [INFO] [1752357116.034733119] [motor_controller]: Sending to serial: 1,S111, 2,S-80
+[motor-1] [INFO] [1752357116.238093026] [motor_controller]: Sending to serial: 1,S111, 2,S-80
+[motor-1] [INFO] [1752357116.441956174] [motor_controller]: Sending to serial: 1,S-198, 2,S-598
+[controller_server-4] [INFO] [1752357116.597582934] [controller_server]: Passing new path to controller.
+[motor-1] [INFO] [1752357116.645245211] [motor_controller]: Sending to serial: 1,S-198, 2,S-598
+[controller_server-4] [INFO] [1752357117.597608488] [controller_server]: Passing new path to controller.
+[controller_server-4] [ERROR] [1752357117.913588266] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357117.913701785] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752357117.914277229] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357117.964348562] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357117.964427210] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752357117.965145155] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357118.013765951] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357118.013862118] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752357118.014412507] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357118.065515710] [DWBLocalPlanner]: No valid trajectories out of 860! 
+[controller_server-4] [ERROR] [1752357118.065583359] [DWBLocalPlanner]: 1.00: BaseObstacle/Trajectory Hits Obstacle.
+[controller_server-4] [WARN] [1752357118.066150859] [controller_server]: Could not find a legal trajectory: No valid trajectories out of 860! 
+[bt_navigator-8] [INFO] [1752357118.122417673] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357118.122691451] [bt_navigator]: Begin navigating from current location (-0.98, -0.32) to (0.23, -1.11)
+[collision_monitor-11] [INFO] [1752357118.265379210] [collision_monitor]: Robot to continue normal operation
+[collision_monitor-11] [INFO] [1752357118.468630136] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[controller_server-4] [INFO] [1752357118.647583988] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1752357119.647587765] [controller_server]: Passing new path to controller.
+[planner_server-6] [WARN] [1752357120.632717116] [planner_server]: GridBased plugin failed to plan from (-1.14, -0.39) to (0.23, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357120.632803579] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752357120.652331061] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[collision_monitor-11] [ERROR] [1752357121.101235598] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752357120.900817 but the latest data is at time 1752357120.891357, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752357121.104031190] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[controller_server-4] [WARN] [1752357121.122015246] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 5.7795 Hz.
+[collision_monitor-11] [INFO] [1752357121.320252542] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[planner_server-6] [WARN] [1752357121.626644431] [planner_server]: GridBased plugin failed to plan from (-1.21, -0.40) to (0.23, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357121.626747745] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-8] [ERROR] [1752357121.663548190] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[controller_server-4] [INFO] [1752357121.665131931] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1752357121.666122060] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-4] [INFO] [1752357121.672179875] [controller_server]: Cancellation was successful. Stopping the robot.
+[controller_server-4] [INFO] [1752357121.672261968] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[collision_monitor-11] [ERROR] [1752357121.921928579] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752357121.719176 but the latest data is at time 1752357121.717221, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752357121.922025301] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[collision_monitor-11] [ERROR] [1752357122.126612486] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752357121.922755 but the latest data is at time 1752357121.920774, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [INFO] [1752357122.147513375] [collision_monitor]: Robot to continue normal operation
+[motor-1] [INFO] [1752357122.541288208] [motor_controller]: Stopping motors
+[collision_monitor-11] [ERROR] [1752357122.553140911] [getTransform]: Failed to get "laser_frame"->"base_link" frame transform: Lookup would require extrapolation into the future.  Requested time 1752357122.350116 but the latest data is at time 1752357122.339049, when looking up transform from frame [odom] to frame [base_link]
+[collision_monitor-11] [WARN] [1752357122.553246245] [collision_monitor]: Robot to stop due to invalid source. Either due to data not published yet, or to lack of new data received within the sensor timeout, or if impossible to transform data to base frame
+[planner_server-6] [WARN] [1752357122.617470837] [planner_server]: GridBased plugin failed to plan from (-1.26, -0.39) to (0.23, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357122.617540763] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752357122.628509800] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[async_slam_toolbox_node-3] [INFO] [1752357122.696257430] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1752357122.576 for reason 'discarding message because the queue is full'
+[collision_monitor-11] [INFO] [1752357122.753298097] [collision_monitor]: Robot to continue normal operation
+[bt_navigator-8] [INFO] [1752357123.128159578] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357123.128490948] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.23, -1.06)
+[planner_server-6] [WARN] [1752357123.620145152] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.23, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357123.620213800] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752357123.639091263] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1752357123.639518670] [behavior_server]: Turning 1.57 for spin behavior.
+[collision_monitor-11] [INFO] [1752357123.758344114] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[bt_navigator-8] [INFO] [1752357128.128004038] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357128.128270001] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.78, -1.11)
+[bt_navigator-8] [INFO] [1752357133.127998850] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357133.128307794] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.78, -1.06)
+[behavior_server-7] [WARN] [1752357133.639758405] [behavior_server]: Exceeded time allowance before reaching the Spin goal - Exiting Spin
+[behavior_server-7] [WARN] [1752357133.639823405] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1752357133.639850997] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752357133.658786516] [behavior_server]: Running wait
+[collision_monitor-11] [INFO] [1752357134.271089886] [collision_monitor]: Robot to continue normal operation
+[bt_navigator-8] [INFO] [1752357138.128015773] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357138.128326736] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.83, -1.11)
+[behavior_server-7] [INFO] [1752357138.659054069] [behavior_server]: wait completed successfully
+[planner_server-6] [ERROR] [1752357138.678705346] [planner_server]: worldToMap failed: mx,my: 62,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678818087] [planner_server]: worldToMap failed: mx,my: 63,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678844346] [planner_server]: worldToMap failed: mx,my: 62,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678864476] [planner_server]: worldToMap failed: mx,my: 63,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678888198] [planner_server]: worldToMap failed: mx,my: 62,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678907569] [planner_server]: worldToMap failed: mx,my: 63,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678948124] [planner_server]: worldToMap failed: mx,my: 62,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678970680] [planner_server]: worldToMap failed: mx,my: 63,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.678993031] [planner_server]: worldToMap failed: mx,my: 62,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679014643] [planner_server]: worldToMap failed: mx,my: 63,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679036939] [planner_server]: worldToMap failed: mx,my: 62,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679057254] [planner_server]: worldToMap failed: mx,my: 63,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679078828] [planner_server]: worldToMap failed: mx,my: 62,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679116050] [planner_server]: worldToMap failed: mx,my: 63,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679139846] [planner_server]: worldToMap failed: mx,my: 62,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679157439] [planner_server]: worldToMap failed: mx,my: 63,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679178569] [planner_server]: worldToMap failed: mx,my: 62,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679197531] [planner_server]: worldToMap failed: mx,my: 63,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679218365] [planner_server]: worldToMap failed: mx,my: 62,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679239383] [planner_server]: worldToMap failed: mx,my: 63,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679260180] [planner_server]: worldToMap failed: mx,my: 62,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679282661] [planner_server]: worldToMap failed: mx,my: 63,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679308439] [planner_server]: worldToMap failed: mx,my: 62,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679331383] [planner_server]: worldToMap failed: mx,my: 63,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679352457] [planner_server]: worldToMap failed: mx,my: 62,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679370939] [planner_server]: worldToMap failed: mx,my: 63,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679390402] [planner_server]: worldToMap failed: mx,my: 62,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679407920] [planner_server]: worldToMap failed: mx,my: 63,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679429180] [planner_server]: worldToMap failed: mx,my: 62,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679447976] [planner_server]: worldToMap failed: mx,my: 63,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679468957] [planner_server]: worldToMap failed: mx,my: 62,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679486735] [planner_server]: worldToMap failed: mx,my: 63,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679507291] [planner_server]: worldToMap failed: mx,my: 62,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679524735] [planner_server]: worldToMap failed: mx,my: 63,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679543976] [planner_server]: worldToMap failed: mx,my: 62,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679561494] [planner_server]: worldToMap failed: mx,my: 63,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679580754] [planner_server]: worldToMap failed: mx,my: 62,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679597328] [planner_server]: worldToMap failed: mx,my: 63,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679617346] [planner_server]: worldToMap failed: mx,my: 62,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679635254] [planner_server]: worldToMap failed: mx,my: 63,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679656254] [planner_server]: worldToMap failed: mx,my: 62,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357138.679673846] [planner_server]: worldToMap failed: mx,my: 63,20, size_x,size_y: 62,40
+[planner_server-6] [WARN] [1752357138.679741402] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.83, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357138.679767791] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752357138.698440957] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [ERROR] [1752357139.619641698] [planner_server]: worldToMap failed: mx,my: 62,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619767216] [planner_server]: worldToMap failed: mx,my: 63,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619796512] [planner_server]: worldToMap failed: mx,my: 62,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619818049] [planner_server]: worldToMap failed: mx,my: 63,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619842068] [planner_server]: worldToMap failed: mx,my: 62,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619863049] [planner_server]: worldToMap failed: mx,my: 63,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619886679] [planner_server]: worldToMap failed: mx,my: 62,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619955124] [planner_server]: worldToMap failed: mx,my: 63,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.619988624] [planner_server]: worldToMap failed: mx,my: 62,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620008290] [planner_server]: worldToMap failed: mx,my: 63,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620029938] [planner_server]: worldToMap failed: mx,my: 62,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620047920] [planner_server]: worldToMap failed: mx,my: 63,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620068994] [planner_server]: worldToMap failed: mx,my: 62,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620086679] [planner_server]: worldToMap failed: mx,my: 63,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620107809] [planner_server]: worldToMap failed: mx,my: 62,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620125790] [planner_server]: worldToMap failed: mx,my: 63,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620146772] [planner_server]: worldToMap failed: mx,my: 62,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620164716] [planner_server]: worldToMap failed: mx,my: 63,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620185346] [planner_server]: worldToMap failed: mx,my: 62,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620204105] [planner_server]: worldToMap failed: mx,my: 63,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620225364] [planner_server]: worldToMap failed: mx,my: 62,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620243309] [planner_server]: worldToMap failed: mx,my: 63,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620263938] [planner_server]: worldToMap failed: mx,my: 62,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620282753] [planner_server]: worldToMap failed: mx,my: 63,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620303846] [planner_server]: worldToMap failed: mx,my: 62,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620322142] [planner_server]: worldToMap failed: mx,my: 63,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620342586] [planner_server]: worldToMap failed: mx,my: 62,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620360235] [planner_server]: worldToMap failed: mx,my: 63,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620381012] [planner_server]: worldToMap failed: mx,my: 62,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620399512] [planner_server]: worldToMap failed: mx,my: 63,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620419698] [planner_server]: worldToMap failed: mx,my: 62,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620437309] [planner_server]: worldToMap failed: mx,my: 63,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620457420] [planner_server]: worldToMap failed: mx,my: 62,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620474920] [planner_server]: worldToMap failed: mx,my: 63,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620494772] [planner_server]: worldToMap failed: mx,my: 62,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620512809] [planner_server]: worldToMap failed: mx,my: 63,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620533753] [planner_server]: worldToMap failed: mx,my: 62,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620552161] [planner_server]: worldToMap failed: mx,my: 63,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620572475] [planner_server]: worldToMap failed: mx,my: 62,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620590364] [planner_server]: worldToMap failed: mx,my: 63,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620611161] [planner_server]: worldToMap failed: mx,my: 62,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357139.620628512] [planner_server]: worldToMap failed: mx,my: 63,20, size_x,size_y: 62,40
+[planner_server-6] [WARN] [1752357139.620695438] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.83, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357139.620719012] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752357139.638830235] [behavior_server]: Running backup
+[behavior_server-7] [WARN] [1752357139.639344568] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[behavior_server-7] [WARN] [1752357139.639397975] [behavior_server]: backup failed
+[behavior_server-7] [WARN] [1752357139.639420716] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1752357139.658210809] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1752357139.658995401] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [ERROR] [1752357140.620195271] [planner_server]: worldToMap failed: mx,my: 62,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620316512] [planner_server]: worldToMap failed: mx,my: 63,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620342178] [planner_server]: worldToMap failed: mx,my: 62,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620361586] [planner_server]: worldToMap failed: mx,my: 63,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620381549] [planner_server]: worldToMap failed: mx,my: 62,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620399678] [planner_server]: worldToMap failed: mx,my: 63,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620419956] [planner_server]: worldToMap failed: mx,my: 62,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620437808] [planner_server]: worldToMap failed: mx,my: 63,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620458197] [planner_server]: worldToMap failed: mx,my: 62,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620476160] [planner_server]: worldToMap failed: mx,my: 63,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620496234] [planner_server]: worldToMap failed: mx,my: 62,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620514067] [planner_server]: worldToMap failed: mx,my: 63,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620533956] [planner_server]: worldToMap failed: mx,my: 62,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620554438] [planner_server]: worldToMap failed: mx,my: 63,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620581141] [planner_server]: worldToMap failed: mx,my: 62,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620599419] [planner_server]: worldToMap failed: mx,my: 63,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620619660] [planner_server]: worldToMap failed: mx,my: 62,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620637308] [planner_server]: worldToMap failed: mx,my: 63,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620657901] [planner_server]: worldToMap failed: mx,my: 62,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620676716] [planner_server]: worldToMap failed: mx,my: 63,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620697864] [planner_server]: worldToMap failed: mx,my: 62,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620715401] [planner_server]: worldToMap failed: mx,my: 63,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620735308] [planner_server]: worldToMap failed: mx,my: 62,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620752660] [planner_server]: worldToMap failed: mx,my: 63,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620772364] [planner_server]: worldToMap failed: mx,my: 62,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620789641] [planner_server]: worldToMap failed: mx,my: 63,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620809697] [planner_server]: worldToMap failed: mx,my: 62,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620826993] [planner_server]: worldToMap failed: mx,my: 63,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620847271] [planner_server]: worldToMap failed: mx,my: 62,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620865178] [planner_server]: worldToMap failed: mx,my: 63,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620885067] [planner_server]: worldToMap failed: mx,my: 62,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620902216] [planner_server]: worldToMap failed: mx,my: 63,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620947956] [planner_server]: worldToMap failed: mx,my: 62,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620971697] [planner_server]: worldToMap failed: mx,my: 63,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.620994049] [planner_server]: worldToMap failed: mx,my: 62,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621018271] [planner_server]: worldToMap failed: mx,my: 63,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621038919] [planner_server]: worldToMap failed: mx,my: 62,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621068456] [planner_server]: worldToMap failed: mx,my: 63,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621091882] [planner_server]: worldToMap failed: mx,my: 62,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621110512] [planner_server]: worldToMap failed: mx,my: 63,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621132197] [planner_server]: worldToMap failed: mx,my: 62,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357140.621161753] [planner_server]: worldToMap failed: mx,my: 63,20, size_x,size_y: 62,40
+[planner_server-6] [WARN] [1752357140.621229160] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.83, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357140.621253938] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752357140.638319456] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [ERROR] [1752357141.619488678] [planner_server]: worldToMap failed: mx,my: 62,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619579789] [planner_server]: worldToMap failed: mx,my: 63,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619602511] [planner_server]: worldToMap failed: mx,my: 62,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619621456] [planner_server]: worldToMap failed: mx,my: 63,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619641659] [planner_server]: worldToMap failed: mx,my: 62,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619659641] [planner_server]: worldToMap failed: mx,my: 63,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619679363] [planner_server]: worldToMap failed: mx,my: 62,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619696178] [planner_server]: worldToMap failed: mx,my: 63,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619718567] [planner_server]: worldToMap failed: mx,my: 62,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619735715] [planner_server]: worldToMap failed: mx,my: 63,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619755456] [planner_server]: worldToMap failed: mx,my: 62,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619774233] [planner_server]: worldToMap failed: mx,my: 63,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619793363] [planner_server]: worldToMap failed: mx,my: 62,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619809845] [planner_server]: worldToMap failed: mx,my: 63,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619837252] [planner_server]: worldToMap failed: mx,my: 62,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619856437] [planner_server]: worldToMap failed: mx,my: 63,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619875400] [planner_server]: worldToMap failed: mx,my: 62,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619891863] [planner_server]: worldToMap failed: mx,my: 63,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619910956] [planner_server]: worldToMap failed: mx,my: 62,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619950622] [planner_server]: worldToMap failed: mx,my: 63,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619971067] [planner_server]: worldToMap failed: mx,my: 62,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.619987622] [planner_server]: worldToMap failed: mx,my: 63,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620006919] [planner_server]: worldToMap failed: mx,my: 62,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620043308] [planner_server]: worldToMap failed: mx,my: 63,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620064030] [planner_server]: worldToMap failed: mx,my: 62,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620082252] [planner_server]: worldToMap failed: mx,my: 63,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620101308] [planner_server]: worldToMap failed: mx,my: 62,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620118456] [planner_server]: worldToMap failed: mx,my: 63,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620140252] [planner_server]: worldToMap failed: mx,my: 62,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620158067] [planner_server]: worldToMap failed: mx,my: 63,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620177382] [planner_server]: worldToMap failed: mx,my: 62,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620194937] [planner_server]: worldToMap failed: mx,my: 63,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620213696] [planner_server]: worldToMap failed: mx,my: 62,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620230974] [planner_server]: worldToMap failed: mx,my: 63,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620250400] [planner_server]: worldToMap failed: mx,my: 62,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620285085] [planner_server]: worldToMap failed: mx,my: 63,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620305159] [planner_server]: worldToMap failed: mx,my: 62,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620322085] [planner_server]: worldToMap failed: mx,my: 63,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620341974] [planner_server]: worldToMap failed: mx,my: 62,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620362919] [planner_server]: worldToMap failed: mx,my: 63,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620383141] [planner_server]: worldToMap failed: mx,my: 62,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357141.620401289] [planner_server]: worldToMap failed: mx,my: 63,20, size_x,size_y: 62,40
+[planner_server-6] [WARN] [1752357141.620464567] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.83, -1.11): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357141.620488548] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752357141.638700863] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1752357141.638823289] [behavior_server]: Turning 1.57 for spin behavior.
+[collision_monitor-11] [INFO] [1752357141.748094678] [collision_monitor]: Robot to approach for 1.200000 seconds away from collision
+[bt_navigator-8] [INFO] [1752357143.127999547] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357143.128277677] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.88, -1.11)
+[bt_navigator-8] [INFO] [1752357148.128000063] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357148.128277878] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.88, -1.06)
+[behavior_server-7] [WARN] [1752357151.639024709] [behavior_server]: Exceeded time allowance before reaching the Spin goal - Exiting Spin
+[behavior_server-7] [WARN] [1752357151.639098135] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1752357151.639123894] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1752357151.658396172] [behavior_server]: Running wait
+[collision_monitor-11] [INFO] [1752357152.254057949] [collision_monitor]: Robot to continue normal operation
+[bt_navigator-8] [INFO] [1752357153.128017671] [bt_navigator]: Received goal preemption request
+[bt_navigator-8] [INFO] [1752357153.128363486] [bt_navigator]: Begin navigating from current location (-1.28, -0.39) to (0.88, -1.01)
+[behavior_server-7] [INFO] [1752357156.658634391] [behavior_server]: wait completed successfully
+[planner_server-6] [ERROR] [1752357156.678635410] [planner_server]: worldToMap failed: mx,my: 62,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678734113] [planner_server]: worldToMap failed: mx,my: 63,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678760280] [planner_server]: worldToMap failed: mx,my: 64,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678783336] [planner_server]: worldToMap failed: mx,my: 62,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678802650] [planner_server]: worldToMap failed: mx,my: 63,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678821984] [planner_server]: worldToMap failed: mx,my: 64,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678846095] [planner_server]: worldToMap failed: mx,my: 62,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678866076] [planner_server]: worldToMap failed: mx,my: 63,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678885317] [planner_server]: worldToMap failed: mx,my: 64,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678913113] [planner_server]: worldToMap failed: mx,my: 62,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678955058] [planner_server]: worldToMap failed: mx,my: 63,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.678976521] [planner_server]: worldToMap failed: mx,my: 64,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679000391] [planner_server]: worldToMap failed: mx,my: 62,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679030039] [planner_server]: worldToMap failed: mx,my: 63,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679061058] [planner_server]: worldToMap failed: mx,my: 64,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679086299] [planner_server]: worldToMap failed: mx,my: 62,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679107428] [planner_server]: worldToMap failed: mx,my: 63,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679128595] [planner_server]: worldToMap failed: mx,my: 64,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679153761] [planner_server]: worldToMap failed: mx,my: 62,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679175650] [planner_server]: worldToMap failed: mx,my: 63,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679202576] [planner_server]: worldToMap failed: mx,my: 64,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679228706] [planner_server]: worldToMap failed: mx,my: 62,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679250095] [planner_server]: worldToMap failed: mx,my: 63,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679271632] [planner_server]: worldToMap failed: mx,my: 64,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679297354] [planner_server]: worldToMap failed: mx,my: 62,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679319595] [planner_server]: worldToMap failed: mx,my: 63,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679341780] [planner_server]: worldToMap failed: mx,my: 64,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679366465] [planner_server]: worldToMap failed: mx,my: 62,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679387002] [planner_server]: worldToMap failed: mx,my: 63,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679408799] [planner_server]: worldToMap failed: mx,my: 64,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679433428] [planner_server]: worldToMap failed: mx,my: 62,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679478187] [planner_server]: worldToMap failed: mx,my: 63,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679499336] [planner_server]: worldToMap failed: mx,my: 64,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679518502] [planner_server]: worldToMap failed: mx,my: 62,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679536280] [planner_server]: worldToMap failed: mx,my: 63,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679554558] [planner_server]: worldToMap failed: mx,my: 64,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679577021] [planner_server]: worldToMap failed: mx,my: 62,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679596280] [planner_server]: worldToMap failed: mx,my: 63,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679616206] [planner_server]: worldToMap failed: mx,my: 64,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679639039] [planner_server]: worldToMap failed: mx,my: 62,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679656410] [planner_server]: worldToMap failed: mx,my: 63,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679673428] [planner_server]: worldToMap failed: mx,my: 64,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679693669] [planner_server]: worldToMap failed: mx,my: 62,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679710928] [planner_server]: worldToMap failed: mx,my: 63,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679729817] [planner_server]: worldToMap failed: mx,my: 64,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679751206] [planner_server]: worldToMap failed: mx,my: 62,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679770224] [planner_server]: worldToMap failed: mx,my: 63,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679789113] [planner_server]: worldToMap failed: mx,my: 64,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679812132] [planner_server]: worldToMap failed: mx,my: 62,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679833058] [planner_server]: worldToMap failed: mx,my: 63,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679851632] [planner_server]: worldToMap failed: mx,my: 64,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679870595] [planner_server]: worldToMap failed: mx,my: 62,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679887354] [planner_server]: worldToMap failed: mx,my: 63,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679905317] [planner_server]: worldToMap failed: mx,my: 64,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679946076] [planner_server]: worldToMap failed: mx,my: 62,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679966428] [planner_server]: worldToMap failed: mx,my: 63,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.679983169] [planner_server]: worldToMap failed: mx,my: 64,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680004447] [planner_server]: worldToMap failed: mx,my: 62,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680021539] [planner_server]: worldToMap failed: mx,my: 63,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680038724] [planner_server]: worldToMap failed: mx,my: 64,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680057724] [planner_server]: worldToMap failed: mx,my: 62,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680074743] [planner_server]: worldToMap failed: mx,my: 63,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680091280] [planner_server]: worldToMap failed: mx,my: 64,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680110410] [planner_server]: worldToMap failed: mx,my: 62,21, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680127836] [planner_server]: worldToMap failed: mx,my: 63,21, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680145132] [planner_server]: worldToMap failed: mx,my: 64,21, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680164410] [planner_server]: worldToMap failed: mx,my: 62,22, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680181132] [planner_server]: worldToMap failed: mx,my: 63,22, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357156.680197817] [planner_server]: worldToMap failed: mx,my: 64,22, size_x,size_y: 62,40
+[planner_server-6] [WARN] [1752357156.680263799] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.88, -1.01): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357156.680291910] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-6] [INFO] [1752357156.698356373] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [launch.user]: Caught Ctrl+C, shutting down lawnbot gracefully!
+[map_saver_server-15] [INFO] [1752357156.729836521] [rclcpp]: signal_handler(signum=2)
+[map_saver_server-15] [INFO] [1752357156.731167428] [map_saver_server]: Running Nav2 LifecycleNode rcl preshutdown (map_saver_server)
+[map_saver_server-15] [INFO] [1752357156.731269447] [map_saver_server]: Destroying bond (map_saver_server) to lifecycle manager.
+[INFO] [robot_state_publisher-14]: process has finished cleanly [pid 6567]
+[INFO] [map_saver_server-15]: process has finished cleanly [pid 6568]
+[INFO] [velocity_smoother-10]: process has finished cleanly [pid 6563]
+[ERROR] [start_stop_wrapper-16]: process has died [pid 6569, exit code -2, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/start_stop_wrapper --ros-args -r __node:=start_stop_wrapper'].
+[ERROR] [cmd_vel_emulator-2]: process has died [pid 6555, exit code 1, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/cmd_vel_emulator --ros-args -r __node:=cmd_emulator'].
+[robot_state_publisher-14] [INFO] [1752357156.729836761] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1752357156.729862817] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1752357156.732179502] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-8] [INFO] [1752357156.732310873] [bt_navigator]: Deactivating
+[bt_navigator-8] [WARN] [1752357156.732351224] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[collision_monitor-11] [INFO] [1752357156.729883836] [rclcpp]: signal_handler(signum=2)
+[collision_monitor-11] [INFO] [1752357156.737055613] [collision_monitor]: Running Nav2 LifecycleNode rcl preshutdown (collision_monitor)
+[collision_monitor-11] [INFO] [1752357156.737191539] [collision_monitor]: Deactivating
+[collision_monitor-11] [INFO] [1752357156.737233706] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[lifecycle_manager-13] [INFO] [1752357156.729942650] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-13] [INFO] [1752357156.731866650] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-13] [INFO] [1752357156.731986891] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[opennav_docking-12] [INFO] [1752357156.729944095] [rclcpp]: signal_handler(signum=2)
+[opennav_docking-12] [INFO] [1752357156.733058873] [docking_server]: Running Nav2 LifecycleNode rcl preshutdown (docking_server)
+[opennav_docking-12] [INFO] [1752357156.733179039] [docking_server]: Deactivating docking_server
+[velocity_smoother-10] [INFO] [1752357156.729946261] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1752357156.730090354] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-10] [INFO] [1752357156.730234761] [velocity_smoother]: Deactivating
+[velocity_smoother-10] [INFO] [1752357156.730280743] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[smoother_server-5] [INFO] [1752357156.730017669] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1752357156.730151854] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-5] [INFO] [1752357156.730273002] [smoother_server]: Deactivating
+[smoother_server-5] [INFO] [1752357156.730314632] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[planner_server-6] [INFO] [1752357156.731758058] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1752357156.732122298] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-6] [INFO] [1752357156.732242910] [planner_server]: Deactivating
+[planner_server-6] [WARN] [1752357156.732279354] [planner_server]: [compute_path_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[waypoint_follower-9] [INFO] [1752357156.732473669] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1752357156.732630743] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-9] [INFO] [1752357156.732754298] [waypoint_follower]: Deactivating
+[waypoint_follower-9] [INFO] [1752357156.732813669] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[behavior_server-7] [INFO] [1752357156.732495798] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1752357156.732584317] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-7] [INFO] [1752357156.732698743] [behavior_server]: Deactivating
+[behavior_server-7] [INFO] [1752357156.732774632] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[start_stop_wrapper-16] Traceback (most recent call last):
+[start_stop_wrapper-16]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/start_stop_wrapper", line 33, in <module>
+[start_stop_wrapper-16]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'start_stop_wrapper')())
+[start_stop_wrapper-16]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/start_stop_wrapper.py", line 47, in main
+[start_stop_wrapper-16]     rclpy.spin(node)
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[start_stop_wrapper-16]     executor.spin_once()
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[start_stop_wrapper-16]     self._spin_once_impl(timeout_sec)
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 811, in _spin_once_impl
+[start_stop_wrapper-16]     handler, entity, node = self.wait_for_ready_callbacks(
+[start_stop_wrapper-16]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in wait_for_ready_callbacks
+[start_stop_wrapper-16]     return next(self._cb_iter)
+[start_stop_wrapper-16]            ^^^^^^^^^^^^^^^^^^^
+[start_stop_wrapper-16]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+[start_stop_wrapper-16]     wait_set.wait(timeout_nsec)
+[start_stop_wrapper-16] KeyboardInterrupt
+[controller_server-4] [INFO] [1752357156.735215373] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1752357156.735367391] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-4] [INFO] [1752357156.735605595] [controller_server]: Deactivating
+[controller_server-4] [INFO] [1752357156.735714836] [local_costmap.local_costmap]: Deactivating
+[motor-1] [INFO] [1752357156.737812613] [motor_controller]: Caught Ctrl+C, shutting down...
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[async_slam_toolbox_node-3] [INFO] [1752357156.738274817] [rclcpp]: signal_handler(signum=2)
+[collision_monitor-11] [INFO] [1752357156.747828576] [collision_monitor]: Cleaning up
+[collision_monitor-11] [INFO] [1752357156.747962113] [collision_monitor]: [FootprintApproach]: Destroying Polygon
+[collision_monitor-11] [INFO] [1752357156.747999928] [collision_monitor]: [scan]: Destroying Scan
+[collision_monitor-11] [INFO] [1752357157.026985317] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[collision_monitor-11] [INFO] [1752357157.143014965] [collision_monitor]: Destroying
+[smoother_server-5] [INFO] [1752357156.750851947] [smoother_server]: Cleaning up
+[smoother_server-5] [INFO] [1752357157.135268835] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-5] [INFO] [1752357157.319658094] [smoother_server]: Destroying
+[waypoint_follower-9] [INFO] [1752357156.753314169] [waypoint_follower]: Cleaning up
+[waypoint_follower-9] [INFO] [1752357157.244005057] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1752357157.266333909] [waypoint_follower]: Destroying
+[behavior_server-7] [INFO] [1752357156.753314113] [behavior_server]: Cleaning up
+[behavior_server-7] [INFO] [1752357157.273343446] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[INFO] [collision_monitor-11]: process has finished cleanly [pid 6564]
+[velocity_smoother-10] [INFO] [1752357156.760843798] [velocity_smoother]: Cleaning up
+[velocity_smoother-10] [INFO] [1752357156.760945965] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1752357156.921027909] [velocity_smoother]: Destroying
+[bt_navigator-8] [ERROR] [1752357156.773471428] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for compute_path_to_pose in node halt!
+[bt_navigator-8] [WARN] [1752357156.775912058] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-8] [INFO] [1752357156.784264187] [bt_navigator]: Goal canceled
+[bt_navigator-8] [WARN] [1752357156.784348724] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[bt_navigator-8] [INFO] [1752357156.784553039] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-8] [INFO] [1752357156.811131317] [bt_navigator]: Cleaning up
+[map_saver_server-15] [INFO] [1752357156.782856724] [map_saver_server]: Destroying
+[async_slam_toolbox_node-3] Unregistering sensor: Custom Described Lidar
+[planner_server-6] [INFO] [1752357156.832390132] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [INFO] [1752357156.932685076] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [INFO] [1752357157.032842891] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [INFO] [1752357157.133157058] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [INFO] [1752357157.178681743] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752357156.755 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752357157.233383743] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [INFO] [1752357157.233486076] [planner_server]: [compute_path_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[planner_server-6] [ERROR] [1752357157.233696650] [planner_server]: [compute_path_to_pose] [ActionServer] Action callback is still running and missed deadline to stop
+[planner_server-6] [INFO] [1752357157.318107983] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752357156.877 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752357157.333869983] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [ERROR] [1752357157.334163187] [planner_server]: [compute_path_to_pose] [ActionServer] Action callback is still running and missed deadline to stop
+[planner_server-6] [INFO] [1752357157.437952205] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [ERROR] [1752357157.438076391] [planner_server]: [compute_path_to_pose] [ActionServer] Action callback is still running and missed deadline to stop
+[planner_server-6] [INFO] [1752357157.449931854] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752357157.014 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1752357157.538229465] [planner_server]: [compute_path_to_pose] [ActionServer] Waiting for async process to finish.
+[planner_server-6] [ERROR] [1752357157.538311279] [planner_server]: [compute_path_to_pose] [ActionServer] Action callback is still running and missed deadline to stop
+[planner_server-6] [INFO] [1752357157.571430057] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752357157.149 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [ERROR] [1752357157.619591483] [planner_server]: [compute_path_to_pose] [ActionServer] Checking for cancel but current goal is not available
+[planner_server-6] [ERROR] [1752357157.619778076] [planner_server]: worldToMap failed: mx,my: 62,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619810613] [planner_server]: worldToMap failed: mx,my: 63,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619826965] [planner_server]: worldToMap failed: mx,my: 64,0, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619845372] [planner_server]: worldToMap failed: mx,my: 62,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619861168] [planner_server]: worldToMap failed: mx,my: 63,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619874039] [planner_server]: worldToMap failed: mx,my: 64,1, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619911705] [planner_server]: worldToMap failed: mx,my: 62,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619948539] [planner_server]: worldToMap failed: mx,my: 63,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619963261] [planner_server]: worldToMap failed: mx,my: 64,2, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619980909] [planner_server]: worldToMap failed: mx,my: 62,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.619995798] [planner_server]: worldToMap failed: mx,my: 63,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620011094] [planner_server]: worldToMap failed: mx,my: 64,3, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620030354] [planner_server]: worldToMap failed: mx,my: 62,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620048298] [planner_server]: worldToMap failed: mx,my: 63,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620062705] [planner_server]: worldToMap failed: mx,my: 64,4, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620078502] [planner_server]: worldToMap failed: mx,my: 62,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620091335] [planner_server]: worldToMap failed: mx,my: 63,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620104798] [planner_server]: worldToMap failed: mx,my: 64,5, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620122076] [planner_server]: worldToMap failed: mx,my: 62,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620141798] [planner_server]: worldToMap failed: mx,my: 63,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620198872] [planner_server]: worldToMap failed: mx,my: 64,6, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620223242] [planner_server]: worldToMap failed: mx,my: 62,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620241242] [planner_server]: worldToMap failed: mx,my: 63,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620255576] [planner_server]: worldToMap failed: mx,my: 64,7, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620271631] [planner_server]: worldToMap failed: mx,my: 62,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620285631] [planner_server]: worldToMap failed: mx,my: 63,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620299594] [planner_server]: worldToMap failed: mx,my: 64,8, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620314650] [planner_server]: worldToMap failed: mx,my: 62,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620328279] [planner_server]: worldToMap failed: mx,my: 63,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620342465] [planner_server]: worldToMap failed: mx,my: 64,9, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620359187] [planner_server]: worldToMap failed: mx,my: 62,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620373576] [planner_server]: worldToMap failed: mx,my: 63,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620387742] [planner_server]: worldToMap failed: mx,my: 64,10, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620403076] [planner_server]: worldToMap failed: mx,my: 62,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620417613] [planner_server]: worldToMap failed: mx,my: 63,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620431613] [planner_server]: worldToMap failed: mx,my: 64,11, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620450150] [planner_server]: worldToMap failed: mx,my: 62,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620466335] [planner_server]: worldToMap failed: mx,my: 63,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620481316] [planner_server]: worldToMap failed: mx,my: 64,12, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620501557] [planner_server]: worldToMap failed: mx,my: 62,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620517594] [planner_server]: worldToMap failed: mx,my: 63,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620535631] [planner_server]: worldToMap failed: mx,my: 64,13, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620597446] [planner_server]: worldToMap failed: mx,my: 62,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620672891] [planner_server]: worldToMap failed: mx,my: 63,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620689150] [planner_server]: worldToMap failed: mx,my: 64,14, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620706335] [planner_server]: worldToMap failed: mx,my: 62,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620745131] [planner_server]: worldToMap failed: mx,my: 63,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620763872] [planner_server]: worldToMap failed: mx,my: 64,15, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620782242] [planner_server]: worldToMap failed: mx,my: 62,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620797891] [planner_server]: worldToMap failed: mx,my: 63,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620811354] [planner_server]: worldToMap failed: mx,my: 64,16, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620828168] [planner_server]: worldToMap failed: mx,my: 62,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620845409] [planner_server]: worldToMap failed: mx,my: 63,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620860705] [planner_server]: worldToMap failed: mx,my: 64,17, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620878242] [planner_server]: worldToMap failed: mx,my: 62,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620896502] [planner_server]: worldToMap failed: mx,my: 63,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620926724] [planner_server]: worldToMap failed: mx,my: 64,18, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620957335] [planner_server]: worldToMap failed: mx,my: 62,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620974187] [planner_server]: worldToMap failed: mx,my: 63,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.620988391] [planner_server]: worldToMap failed: mx,my: 64,19, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621005409] [planner_server]: worldToMap failed: mx,my: 62,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621021909] [planner_server]: worldToMap failed: mx,my: 63,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621035983] [planner_server]: worldToMap failed: mx,my: 64,20, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621054039] [planner_server]: worldToMap failed: mx,my: 62,21, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621069354] [planner_server]: worldToMap failed: mx,my: 63,21, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621083187] [planner_server]: worldToMap failed: mx,my: 64,21, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621098816] [planner_server]: worldToMap failed: mx,my: 62,22, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621112816] [planner_server]: worldToMap failed: mx,my: 63,22, size_x,size_y: 62,40
+[planner_server-6] [ERROR] [1752357157.621125816] [planner_server]: worldToMap failed: mx,my: 64,22, size_x,size_y: 62,40
+[planner_server-6] [WARN] [1752357157.621803076] [planner_server]: GridBased plugin failed to plan from (-1.28, -0.39) to (0.88, -1.01): "Failed to create plan with tolerance of: 1.000000"
+[planner_server-6] [WARN] [1752357157.622210261] [planner_server]: [compute_path_to_pose] [ActionServer] Stopping the thread per request.
+[planner_server-6] [INFO] [1752357157.623311965] [global_costmap.global_costmap]: Deactivating
+[planner_server-6] [INFO] [1752357157.712987205] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1752357157.270 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1752357156.876673465] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1752357156.907441558] [controller_server]: Cleaning up
+[controller_server-4] [INFO] [1752357156.908015354] [local_costmap.local_costmap]: Cleaning up
+[controller_server-4] [INFO] [1752357157.718297316] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[motor-1] [INFO] [1752357156.952776132] [motor_controller]: Stopping motors
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[motor-1] [INFO] [1752357156.954296835] [motor_controller]: Stopped and closed serial connection
+[motor-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[motor-1] Traceback (most recent call last):
+[motor-1]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/motor", line 33, in <module>
+[motor-1]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'motor')())
+[motor-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[motor-1]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/motor_controller.py", line 381, in main
+[motor-1]     rclpy.shutdown()
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[motor-1]     _shutdown(context=context)
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[motor-1]     context.shutdown()
+[motor-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[motor-1]     self.__context.shutdown()
+[motor-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[opennav_docking-12] [INFO] [1752357157.069591965] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[opennav_docking-12] [INFO] [1752357157.104704465] [docking_server]: Cleaning up docking_server
+[opennav_docking-12] [INFO] [1752357157.486553909] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[opennav_docking-12] [INFO] [1752357157.687834650] [docking_server]: Destroying
+[cmd_vel_emulator-2] Traceback (most recent call last):
+[cmd_vel_emulator-2]   File "/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/cmd_vel_emulator", line 33, in <module>
+[cmd_vel_emulator-2]     sys.exit(load_entry_point('main-logic-controller', 'console_scripts', 'cmd_vel_emulator')())
+[cmd_vel_emulator-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[cmd_vel_emulator-2]   File "/home/lawnbot/ROS2/lawnbot/build/main_logic_controller/main_logic_controller/cmd_vel_emulator.py", line 187, in main
+[cmd_vel_emulator-2]     rclpy.shutdown()
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[cmd_vel_emulator-2]     _shutdown(context=context)
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[cmd_vel_emulator-2]     context.shutdown()
+[cmd_vel_emulator-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[cmd_vel_emulator-2]     self.__context.shutdown()
+[cmd_vel_emulator-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[lifecycle_manager-13] [INFO] [1752357157.763471594] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[behavior_server-7] [INFO] [1752357157.771413761] [behavior_server]: Destroying
+[controller_server-4] [INFO] [1752357157.793948446] [local_costmap.local_costmap]: Destroying
+[INFO] [smoother_server-5]: process has finished cleanly [pid 6558]
+[INFO] [waypoint_follower-9]: process has finished cleanly [pid 6562]
+[controller_server-4] [INFO] [1752357157.873340909] [controller_server]: Destroying
+[ERROR] [motor-1]: process has died [pid 6554, exit code 1, cmd '/home/lawnbot/ROS2/lawnbot/install/main_logic_controller/lib/main_logic_controller/motor --ros-args -r __node:=motor_controller'].
+[INFO] [async_slam_toolbox_node-3]: process has finished cleanly [pid 6556]
+[bt_navigator-8] [INFO] [1752357157.953699335] [bt_navigator]: Completed Cleaning up
+[bt_navigator-8] [INFO] [1752357157.953796761] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [opennav_docking-12]: process has finished cleanly [pid 6565]
+[INFO] [lifecycle_manager-13]: process has finished cleanly [pid 6566]
+[bt_navigator-8] [INFO] [1752357157.979065353] [bt_navigator]: Destroying
+[INFO] [behavior_server-7]: process has finished cleanly [pid 6560]
+[INFO] [controller_server-4]: process has finished cleanly [pid 6557]
+[INFO] [bt_navigator-8]: process has finished cleanly [pid 6561]
+[planner_server-6] [INFO] [1752357158.616977483] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752357158.617045038] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1752357158.627253242] [planner_server]: Cleaning up
+[planner_server-6] [INFO] [1752357158.637663149] [global_costmap.global_costmap]: Cleaning up
+[planner_server-6] [INFO] [1752357158.642143686] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752357158.642565149] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1752357158.653450094] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1752357158.658300945] [global_costmap.global_costmap]: Destroying
+[planner_server-6] [INFO] [1752357158.666902094] [planner_server]: Destroying
+[INFO] [planner_server-6]: process has finished cleanly [pid 6559]

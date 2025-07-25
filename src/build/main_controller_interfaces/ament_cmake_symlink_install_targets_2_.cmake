@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/rosidl_generator_py/main_controller_interfaces/main_controller_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "main_controller_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/main_controller_interfaces")

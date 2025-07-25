@@ -33,7 +33,7 @@ def generate_launch_description():
     urdf_file = os.path.join(pkg_path, 'urdf', 'my_robot.urdf')
     yaml_file = os.path.join(pkg_path, 'config', 'my_controllers.yaml')
 
-    map_path = os.path.join(pkg_path, 'config', 'bestsofar1240.yaml')
+    map_path = os.path.join(pkg_path, 'config', 'bessstmapJ25.yaml')
 
 
 
@@ -84,6 +84,11 @@ def generate_launch_description():
         }.items(),
     )
 
+
+
+    nav2_param_file = os.path.join(pkg_path, 'config', 'nav2_paramsBEFOREADDISSON.yaml')
+
+
     #############################################################
     #this will run amcl and map_server to localize the robot in the environment
     #############################################################
@@ -94,21 +99,24 @@ def generate_launch_description():
         launch_arguments={
             'use_sim_time': 'false',
             'map': map_path,
+            'params_file': nav2_param_file,
             'autostart': 'true'
         }.items(),
         #only run this if use_slam is false
         condition=UnlessCondition(use_slam)
     ) 
 
-
-    #this will run nav2 to navigate the robot in the environment and to listen to the map
+    #nav2_param_file = os.path.join(pkg_path, 'config', 'nav2_params.yaml')
+    #nav2_param_file = os.path.join(pkg_path, 'config', 'nav2_paramsBEFOREADDISSON.yaml')
+#this will run nav2 to navigate the robot in the environment and to listen to the map
     nav2_launch_file = os.path.join(nav2, 'launch', 'navigation_launch.py')
     nav2_node_for_amcl = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(nav2_launch_file),
         launch_arguments={
             'use_sim_time':'false',
             #'params_file': map_path,
-            'map_subscribe_transient_local': 'true',
+            'params_file': nav2_param_file
+#            'map_subscribe_transient_local': 'true',
         }.items(),
         condition=UnlessCondition(use_slam) #only run this if use_slam is false
     )
@@ -121,7 +129,7 @@ def generate_launch_description():
     slam_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(slam_launch_file),
         launch_arguments={
-            'params_file': slam_param_file,
+            'slam_params_file': slam_param_file,
             'use_sim_time': 'false', 
         }.items(),
         condition=IfCondition(use_slam)  #only run this if use_slam is true
@@ -130,7 +138,7 @@ def generate_launch_description():
 
     nav2_bringup = get_package_share_directory('nav2_bringup')
     nav2_launch_file = os.path.join(nav2_bringup, 'launch', 'navigation_launch.py')
-    nav2_param_file = os.path.join(pkg_path, 'config', 'nav2_params.yaml')
+    #nav2_param_file = os.path.join(pkg_path, 'config', 'nav2_params.yaml')
     nav2_launch_for_slam = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(nav2_launch_file),
         launch_arguments={
@@ -252,8 +260,8 @@ def generate_launch_description():
         Nav2_translator,  #this is the node that translates cmd_vel messages to messages that the kanga motor controller can understand
         use_slam_arg,   #this is the argument to use slam or not
         #laser_driver, 
-        nav2_amcl,  
-        nav2_node_for_amcl,  #this is the node that runs amcl and map_server
+       # nav2_amcl,  
+       # nav2_node_for_amcl,  #this is the node that runs amcl and map_server
         slam_launch,  
         nav2_launch_for_slam,  #this is the node that runs nav2 for slam
         robot_state_publisher_node,

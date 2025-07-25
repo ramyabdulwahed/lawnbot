@@ -1,0 +1,173 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   build/custom_explorer/colcon_command_prefix_setup_py.sh.env
+	modified:   build/custom_explorer/prefix_override/__pycache__/sitecustomize.cpython-312.pyc
+	modified:   build/main_controller_interfaces/colcon_command_prefix_build.sh.env
+	modified:   build/main_logic_controller/colcon_command_prefix_setup_py.sh.env
+	modified:   build/main_logic_controller/main_logic_controller.egg-info/SOURCES.txt
+	modified:   build/main_logic_controller/prefix_override/__pycache__/sitecustomize.cpython-312.pyc
+	modified:   install/main_logic_controller/share/main_logic_controller/launch/__pycache__/launch_robot.launch.cpython-312.pyc
+	modified:   install/setup.bash
+	modified:   install/setup.sh
+	modified:   install/setup.zsh
+	modified:   log/latest_build
+	modified:   src/Autonomous-Explorer-and-Mapper-ros2-nav2/custom_explorer/__pycache__/explorer.cpython-312.pyc
+	modified:   src/Autonomous-Explorer-and-Mapper-ros2-nav2/custom_explorer/explorer.py
+	modified:   src/main_logic_controller/config/mapper_params_online_async.yaml
+	modified:   src/main_logic_controller/config/nav2_params.yaml
+	modified:   src/main_logic_controller/launch/launch_robot.launch.py
+	modified:   src/main_logic_controller/main_logic_controller/__pycache__/cmd_vel_emulator.cpython-312.pyc
+	modified:   src/main_logic_controller/main_logic_controller/__pycache__/motor_controller.cpython-312.pyc
+	modified:   src/main_logic_controller/main_logic_controller/__pycache__/odom_test.cpython-312.pyc
+	modified:   src/main_logic_controller/main_logic_controller/cmd_vel_emulator.py
+	modified:   src/main_logic_controller/main_logic_controller/motor_controller.py
+	modified:   src/main_logic_controller/main_logic_controller/odom_test.py
+	modified:   src/main_logic_controller/urdf/test.xacro
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bestoutput2.txt
+	bestoutput3.txt
+	bestphysicalmap.pgm
+	bestphysicalmap.yaml
+	build/main_logic_controller/config/bessstmapJ25.pgm
+	build/main_logic_controller/config/bessstmapJ25.yaml
+	build/main_logic_controller/config/bestphysicalmap.pgm
+	build/main_logic_controller/config/bestphysicalmap.yaml
+	build/main_logic_controller/config/distorted_map.pgm
+	build/main_logic_controller/config/distorted_map.yaml
+	build/main_logic_controller/config/launchFile.output
+	build/main_logic_controller/config/mapforzelin.pgm
+	build/main_logic_controller/config/mapforzelin.yaml
+	build/main_logic_controller/config/na2_params.yaml
+	build/main_logic_controller/config/na2_params.yaml.save
+	build/main_logic_controller/config/nav2_paramsBEFOREADDISSON.yaml
+	build/main_logic_controller/config/nav2_paramsJ15.yaml
+	build/main_logic_controller/config/nav2_paramsJ15_3:34pm.yaml
+	build/main_logic_controller/config/nav2_params_J14.yaml
+	build/main_logic_controller/config/nav2idk_params.yaml
+	build/main_logic_controller/config/ramys_map.pgm
+	build/main_logic_controller/config/ramys_map.yaml
+	build/main_logic_controller/urdf/frames_2025-07-12_05.02.52.gv
+	build/main_logic_controller/urdf/frames_2025-07-12_05.02.52.pdf
+	build/main_logic_controller/urdf/test.xacro.save
+	build/main_logic_controller/urdf/testORIGNAL.xacro
+	build/main_logic_controller/urdf/test_org.xacro
+	install/main_logic_controller/share/main_logic_controller/config/bessstmapJ25.pgm
+	install/main_logic_controller/share/main_logic_controller/config/bessstmapJ25.yaml
+	install/main_logic_controller/share/main_logic_controller/config/bestphysicalmap.pgm
+	install/main_logic_controller/share/main_logic_controller/config/bestphysicalmap.yaml
+	install/main_logic_controller/share/main_logic_controller/config/distorted_map.pgm
+	install/main_logic_controller/share/main_logic_controller/config/distorted_map.yaml
+	install/main_logic_controller/share/main_logic_controller/config/launchFile.output
+	install/main_logic_controller/share/main_logic_controller/config/mapforzelin.pgm
+	install/main_logic_controller/share/main_logic_controller/config/mapforzelin.yaml
+	install/main_logic_controller/share/main_logic_controller/config/na2_params.yaml
+	install/main_logic_controller/share/main_logic_controller/config/na2_params.yaml.save
+	install/main_logic_controller/share/main_logic_controller/config/nav2_paramsBEFOREADDISSON.yaml
+	install/main_logic_controller/share/main_logic_controller/config/nav2_paramsJ15.yaml
+	install/main_logic_controller/share/main_logic_controller/config/nav2_paramsJ15_3:34pm.yaml
+	install/main_logic_controller/share/main_logic_controller/config/nav2_params_J14.yaml
+	install/main_logic_controller/share/main_logic_controller/config/nav2idk_params.yaml
+	install/main_logic_controller/share/main_logic_controller/config/ramys_map.pgm
+	install/main_logic_controller/share/main_logic_controller/config/ramys_map.yaml
+	install/main_logic_controller/share/main_logic_controller/urdf/frames_2025-07-12_05.02.52.gv
+	install/main_logic_controller/share/main_logic_controller/urdf/frames_2025-07-12_05.02.52.pdf
+	install/main_logic_controller/share/main_logic_controller/urdf/test.xacro.save
+	install/main_logic_controller/share/main_logic_controller/urdf/testORIGNAL.xacro
+	install/main_logic_controller/share/main_logic_controller/urdf/test_org.xacro
+	launchFile1.output
+	log/build_2025-07-11_14-46-58/
+	log/build_2025-07-11_15-00-48/
+	log/build_2025-07-11_16-10-14/
+	log/build_2025-07-11_16-25-35/
+	log/build_2025-07-11_17-00-27/
+	log/build_2025-07-11_17-51-54/
+	log/build_2025-07-11_18-28-01/
+	log/build_2025-07-11_18-52-12/
+	log/build_2025-07-11_18-59-36/
+	log/build_2025-07-11_19-11-02/
+	log/build_2025-07-11_19-15-46/
+	log/build_2025-07-11_20-24-16/
+	log/build_2025-07-11_20-45-00/
+	log/build_2025-07-11_21-41-50/
+	log/build_2025-07-12_00-05-04/
+	log/build_2025-07-12_00-45-48/
+	log/build_2025-07-12_00-57-33/
+	log/build_2025-07-12_01-12-08/
+	log/build_2025-07-12_04-28-00/
+	log/build_2025-07-12_05-11-18/
+	log/build_2025-07-12_05-18-28/
+	log/build_2025-07-12_05-24-30/
+	log/build_2025-07-12_05-54-27/
+	log/build_2025-07-12_06-35-31/
+	log/build_2025-07-12_06-43-12/
+	log/build_2025-07-12_07-11-05/
+	log/build_2025-07-12_09-06-14/
+	log/build_2025-07-12_10-22-57/
+	log/build_2025-07-12_11-15-58/
+	log/build_2025-07-12_13-32-20/
+	log/build_2025-07-12_13-36-35/
+	log/build_2025-07-12_14-34-04/
+	log/build_2025-07-12_15-16-08/
+	log/build_2025-07-12_16-18-01/
+	log/build_2025-07-12_16-50-42/
+	log/build_2025-07-12_17-48-56/
+	log/build_2025-07-12_18-26-31/
+	log/build_2025-07-12_19-58-31/
+	log/build_2025-07-12_20-49-26/
+	log/build_2025-07-12_20-52-33/
+	log/build_2025-07-12_22-39-51/
+	log/build_2025-07-12_22-42-42/
+	log/build_2025-07-12_23-23-59/
+	log/build_2025-07-12_23-43-55/
+	log/build_2025-07-13_00-35-55/
+	log/build_2025-07-13_00-55-30/
+	outputBest.txt
+	outputBest1.txt
+	outtt.txt
+	src/Autonomous-Explorer-and-Mapper-ros2-nav2/custom_explorer/explorer.py.save
+	src/Autonomous-Explorer-and-Mapper-ros2-nav2/custom_explorer/explorer.py.save.1
+	src/build/
+	src/install/
+	src/log/
+	src/main_logic_controller/config/.launchFile.output.swp
+	src/main_logic_controller/config/.mapper_params_online_async.yaml.swp
+	src/main_logic_controller/config/bessstmapJ25.pgm
+	src/main_logic_controller/config/bessstmapJ25.yaml
+	src/main_logic_controller/config/bestphysicalmap.pgm
+	src/main_logic_controller/config/bestphysicalmap.yaml
+	src/main_logic_controller/config/build/
+	src/main_logic_controller/config/distorted_map.pgm
+	src/main_logic_controller/config/distorted_map.yaml
+	src/main_logic_controller/config/install/
+	src/main_logic_controller/config/launchFile.output
+	src/main_logic_controller/config/log/
+	src/main_logic_controller/config/mapforzelin.pgm
+	src/main_logic_controller/config/mapforzelin.yaml
+	src/main_logic_controller/config/na2_params.yaml
+	src/main_logic_controller/config/na2_params.yaml.save
+	src/main_logic_controller/config/nav2
+	src/main_logic_controller/config/nav2_paramsBEFOREADDISSON.yaml
+	src/main_logic_controller/config/nav2_paramsJ15.yaml
+	src/main_logic_controller/config/nav2_paramsJ15_3:34pm.yaml
+	src/main_logic_controller/config/nav2_params_J14.yaml
+	src/main_logic_controller/config/nav2idk_params.yaml
+	src/main_logic_controller/config/ramys_map.pgm
+	src/main_logic_controller/config/ramys_map.yaml
+	src/main_logic_controller/main_logic_controller/bestlogversion.txt
+	src/main_logic_controller/main_logic_controller/motor_controller.py.save
+	src/main_logic_controller/main_logic_controller/motor_controller.py.save.1
+	src/main_logic_controller/main_logic_controller/motor_controller.py.save.2
+	src/main_logic_controller/main_logic_controller/motor_controller.py.save.3
+	src/main_logic_controller/urdf/frames_2025-07-12_05.02.52.gv
+	src/main_logic_controller/urdf/frames_2025-07-12_05.02.52.pdf
+	src/main_logic_controller/urdf/test.xacro.save
+	src/main_logic_controller/urdf/testORIGNAL.xacro
+	src/main_logic_controller/urdf/test_org.xacro
+
+no changes added to commit (use "git add" and/or "git commit -a")

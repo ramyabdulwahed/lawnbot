@@ -1,0 +1,1 @@
+/home/lawnbot/ROS2/lawnbot/src/build/main_controller_interfaces/rosidl_generator_cpp/main_controller_interfaces/msg/detail/motor_data__traits.hpp

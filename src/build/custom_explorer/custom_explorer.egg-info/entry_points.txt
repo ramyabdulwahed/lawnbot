@@ -1,0 +1,2 @@
+[console_scripts]
+explorer = custom_explorer.explorer:main

@@ -21,9 +21,9 @@ class OdometryTester(Node):
         msg = Twist()
 
         if self.test_phase == 'forward':
-            if current_time - self.start_time < 20:  # Move forward for 5 seconds
-                msg.linear.x = 0.4  # m/s
-                #msg.angular.z = 0.3
+            if current_time - self.start_time < 10:  # Move forward for 5 seconds
+                msg.linear.x = -0.15  # m/s
+                #msg.angular.z = 0.2
                 self.publisher_.publish(msg)
             else:
                 msg.linear.x = 0.0
